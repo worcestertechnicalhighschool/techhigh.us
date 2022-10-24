@@ -3,10 +3,17 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
+<<<<<<< HEAD
 		"C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima.scss",
 		"C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_base.scss",
 		"C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
 		"C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+=======
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima/_base.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+>>>>>>> 9ae99435159cdbbebf11493946f5be5ccd7d7199
 	],
 	"sourcesContent": [
 		"@import \"minima\";\n",
