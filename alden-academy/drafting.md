@@ -1,5 +1,5 @@
 ---
-layout : page
+layout: page
 title: Drafting
 date: 2022-10-24
 ---
