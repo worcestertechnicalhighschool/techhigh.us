@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Eletrical
+title: Electrical
 date: 2022-10-25
 ---
 
