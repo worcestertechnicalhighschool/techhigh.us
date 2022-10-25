@@ -11,12 +11,12 @@ Fashion-forward, self-expressive students will thrive in our Cosmetology program
 
 ## (Image)
 #### Meet Kassandra
-Kassandra Lugo is a 2013 graduate from Worcester Technical high school’s cosmetology Program. Upon graduation Kassandra decided to go right into the work field as she currently works at Unity hair studios as a stylist.
+Kassandra Lugo is a 2013 graduate from Worcester Technical high school’s cosmetology Program. Upon graduation Kassandra decided to go right into the work field as she currently works at Unity hair studios as a stylist
 
 
 ## (Image)
 #### Meet Dennise
-Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosmetology Program. Upon graduation Dennise Decided to go right into the work field as she currently works at Jeffrey Robert Salon as a hairstylist. 
+Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosmetology Program. Upon graduation Dennise Decided to go right into the work field as she currently works at Jeffrey Robert Salon as a hairstylist
 
 
 ## Certifications
