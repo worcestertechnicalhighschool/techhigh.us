@@ -4,7 +4,7 @@ title: Transcripts
 date: 2022-10-26
 ---
 
-### Wocester Technical High School houses the transcripts from these schools
+### Worcester Technical High School houses the transcripts from these schools
 
 - Worcester Technical High School
 - Worcester Vocational High School
