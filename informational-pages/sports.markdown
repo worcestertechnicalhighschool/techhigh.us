@@ -98,7 +98,7 @@ markgrenl@worcesterschools.net
 
 # Spring Sports
 
-check out our sports programs for tge Spring season below
+check out our sports programs for the Spring season below
 
 - Baseball
 
