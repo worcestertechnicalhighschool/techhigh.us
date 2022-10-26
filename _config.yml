@@ -26,6 +26,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/techhigh.us" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Google analytics
+google_analytics: UA-83881166-1
+
+# Social media vars
 # twitter_username: jekyllrb
 twitter_username_wths: WooTechLife
 twitter_username_wps: worcesterpublic
