@@ -4,13 +4,13 @@ title: Transcripts
 date: 2022-10-26
 ---
 
-### Wocester Technical High School houses the transcripts from these schools
+### Worcester Technical High School houses the transcripts from these schools
 
 - Worcester Technical High School
 - Worcester Vocational High School
 - Girls Trade School
 - Boys Trade School
-- Worcseter Industrial Technical Institute
+- Worcester Industrial Technical Institute
 - David Hale Fanning School of Health Operations
 - Worcester City Hospital of Nursing
 
