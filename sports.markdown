@@ -1,0 +1,1 @@
+this is just filler, remeber to add bowling, ski/snowboarding, and skateboard to the list of sports (they are currently listed as clubs but theyre more like sports)

@@ -6,7 +6,7 @@ require 'date'
 
 puts "Making sure that build exists..."
 
-%x( git checkout -b build )
+%x( git checkout -b gh-pages )
 
 # This will be the folder name for this specific build in the /temp directory
 build_name = "build.techhigh.us:#{Date.today.to_time.to_i}"
@@ -25,7 +25,7 @@ Dir.mktmpdir do |dir|
     %x( git stash push -a )
 
     puts "Switching to build branch..."
-    %x( git checkout build )
+    %x( git checkout gh-pages )
 
     puts "Cleaning branch..."
     FileUtils.rm_rf Dir.glob("./*")
@@ -38,7 +38,7 @@ puts "Committing and pushing..."
 %x( git add -A )
 
 # Force push since we dont value the history of our build branch
-%x( git push origin build --force )
+%x( git push origin gh-pages --force )
 
 %x( git commit -m "Update Pages" )
 
