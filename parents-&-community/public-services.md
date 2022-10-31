@@ -4,7 +4,7 @@ title: Public Services
 date: 2022-10-26
 ---
 
-Wrocester Technical High School offers serval services to the community during school hours.
+Worcester Technical High School offers serval services to the community during school hours.
 Worcester Technical High School, 1 Officer Manny Famillia Way, MA 01605
 
 <ins>**Schools Hours of Operation**</ins>
