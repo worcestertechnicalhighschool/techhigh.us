@@ -30,6 +30,8 @@ Worcester tech offers various clubs and leadership oppurtunities for students to
 - Caring with Compassion club
 - Psychology club
 - Let Love Lead
+- Skate club
+- Anime club
 - Yearbook club
 - WooTech news club
 
