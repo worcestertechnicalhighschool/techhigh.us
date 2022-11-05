@@ -24,7 +24,7 @@
               <li><a href="{{ section.url | relative_url }}">{{ section.title | escape}}</a>
                 {% comment %} modify the file name to match the collection {% endcomment %}
                 {% assign sub = section.slug | replace: "-", "_" %}
-                <ul>
+                <ul class="subnav">
                   {% for page in site.[sub] %}
                     <li><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
                   {% endfor %}
