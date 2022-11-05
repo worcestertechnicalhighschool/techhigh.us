@@ -1,6 +1,6 @@
 ---
 title: Parents and Community
-layout: page
+layout: section
 date: 2022-11-5
 ---
 
