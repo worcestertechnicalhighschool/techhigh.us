@@ -43,13 +43,55 @@ plugins:
   - jekyll-seo-tag
 
 collections: 
-  student_life:
+  sections:
+    # Contains all the major groups of pages
     output: true
-    nice_name: "Student Life"
+    permalink: /:path/
+
+  student_life:
+    # Clubs, news, sports, etc
+    output: true
+    permalink: /student-life/:path/
+
+  parents_and_community:
+    # Alumni, announcements, etc
+    output: true
+    permalink: /parents-and-community/:path/
+  
+  public_services:
+    # Bank, restaurant, etc
+    output: true
+    permalink: /public-services/:path/
 
   technical_areas:
+    # Academies: Allied, ITBS, etc
     output: true
-    nice_name: "Technical Areas"
+    permalink: /technical-areas/:path/
+
+  academics:
+    # Academic pages: ELA, Math, etc
+    output: true
+    permalink: /academics/:path/
+  
+  learn_more:
+    # Admin, admissions, etc
+    output: true
+    permalink: /learn-more/:path/
+  
+  # Shops are in the academy collections
+  alden_academy:
+    output: true
+    permalink: /technical-areas/alden/:path/
+  allied_academy:
+    output: true
+    permalink: /technical-areas/allied/:path/
+  construction_academy:
+    output: true
+    permalink: /technical-areas/construction/:path/
+  itbs_academy:
+    output: true
+    permalink: /technical-areas/itbs/:path/
+  
     
 
 # Exclude from processing.
