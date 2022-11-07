@@ -2,12 +2,6 @@
 
   <div class="wrapper">
     
-
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
-    {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -17,23 +11,15 @@
             </svg>
           </span>
         </label>
-
         <div class="trigger">
-          <ul class="navlist-primary">
-            {% for section in site.sections %}
-              <li><a href="{{ section.url | relative_url }}">{{ section.title | escape}}</a>
-                {% comment %} modify the file name to match the collection {% endcomment %}
-                {% assign sub = section.slug | replace: "-", "_" %}
-                <ul class="subnav">
-                  {% for page in site.[sub] %}
-                    <li><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
-                  {% endfor %}
-                </ul>
-              </li>
+          <ul class="navlist-secondary">
+            {% comment %} modify the file name to match the collection {% endcomment %}
+            {% assign sub = page.slug | replace: "-", "_" %}
+            {% for page in site.[sub] %}
+              <li><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
             {% endfor %}
-          </ul>
+          </ul>  
         </div>
       </nav>
-    {%- endif -%}
   </div>
 </header>

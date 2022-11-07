@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/techhigh.us" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Google analytics
@@ -32,7 +32,7 @@ google_analytics: UA-83881166-1
 
 # Social media vars
 # twitter_username: jekyllrb
-twitter_username_wths: WooTechLife
+twitter_username_wths: wteagles
 twitter_username_wps: worcesterpublic
 # github_username:  worcestertechnicalhighschool
 
@@ -41,6 +41,58 @@ twitter_username_wps: worcesterpublic
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections: 
+  sections:
+    # Contains all the major groups of pages
+    output: true
+    permalink: /:path/
+
+  student_life:
+    # Clubs, news, sports, etc
+    output: true
+    permalink: /student-life/:path/
+
+  parents_and_community:
+    # Alumni, announcements, etc
+    output: true
+    permalink: /parents-and-community/:path/
+  
+  public_services:
+    # Bank, restaurant, etc
+    output: true
+    permalink: /public-services/:path/
+
+  technical_areas:
+    # Academies: Allied, ITBS, etc
+    output: true
+    permalink: /technical-areas/:path/
+
+  academics:
+    # Academic pages: ELA, Math, etc
+    output: true
+    permalink: /academics/:path/
+  
+  learn_more:
+    # Admin, admissions, etc
+    output: true
+    permalink: /learn-more/:path/
+  
+  # Shops are in the academy collections
+  alden_academy:
+    output: true
+    permalink: /technical-areas/alden/:path/
+  allied_academy:
+    output: true
+    permalink: /technical-areas/allied/:path/
+  construction_academy:
+    output: true
+    permalink: /technical-areas/construction/:path/
+  itbs_academy:
+    output: true
+    permalink: /technical-areas/itbs/:path/
+  
+    
 
 # Exclude from processing.
 # The following items will not be processed, by default.
