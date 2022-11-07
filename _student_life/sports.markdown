@@ -25,7 +25,7 @@ derekrobbins31@gmail.com
 Coach Hallet 
 halletp@worcesterschools.net 
 
-- Cross County
+- Cross Country
 
 Coach John Nicol  
 nicolj@worcesterschools.net   
