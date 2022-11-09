@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="post">
+
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+  
+    <div class="post-content">
+      {{ content }}
+    </div>
+    <div class="faculty-list">
+        {% for faculty in site.data.faculty %}
+            <h2>{{ faculty.department }}</h2>
+            <div class="department-members">
+                {% assign members = site.data.faculty | where:"department", faculty.department %}
+                {% for staff in members %}
+                    <img src="{{ staff.image_url }}" alt="{{ staff.name }}">
+                    <p class="name">{{ staff.name }}</p>
+                    <p class="title">{{ staff.title }}</p>
+                    <p class="email"><a href="mailto:{{ staff.email }}">{{ staff.email }}</a></p>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+  
+  </article>
+  
+
+{{ site.data.faculty }}
