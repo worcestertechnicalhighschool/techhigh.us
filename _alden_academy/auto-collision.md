@@ -9,9 +9,9 @@ Looking to get hands-on experience working on vehicles that have suffered seriou
 # Certifications
 
 - OSHA 10
+
 - Applied educational system certifications
+
 - up to 9 SP2 certifications
 
-# Contact Us
-
-<h2 align="center">Contact Us</h2>
+## Contact Us

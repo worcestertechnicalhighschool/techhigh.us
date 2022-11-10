@@ -10,6 +10,7 @@ Biotech is a rigorous program that requires students to have a strong interest i
 # Certifications
 
 - OSHA 10 Hour General Industry Healthcare
+
 - CPR/First Aid
 
-<h2 align="center">Contact Us</h2>
+## Contact Us
