@@ -9,4 +9,4 @@ Immerse yourself in a compassionate and innovative environment that fosters your
 
 - Approved Veterinary Assitant (AVA)
 
-<h2 align="center">Contact Us</h2>
+## Contact Us

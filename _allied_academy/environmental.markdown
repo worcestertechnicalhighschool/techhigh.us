@@ -10,4 +10,4 @@ Want to be on the cutting edge of science? Environmental Science is a fast-growi
 - OSHA 10
 - MA Boating Safety License
 
-<h2 align="center">Contact Us</h2>
+## Contact Us

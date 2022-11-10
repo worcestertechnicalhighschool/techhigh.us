@@ -46,4 +46,4 @@ Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosm
 - Capelli Avanti Salon
 - Supercuts
 
-<h2 align="center">Contact Us</h2>
+## Contact Us

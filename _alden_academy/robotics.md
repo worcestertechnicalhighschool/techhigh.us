@@ -14,4 +14,4 @@ Robotics and Automation technology is for those who want endless career opportun
 
 - Fanuc Robotics Certification
 
-<h2 align="center">Contact Us</h2>
+## Contact Us
