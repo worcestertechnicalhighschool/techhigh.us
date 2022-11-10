@@ -8,18 +8,18 @@ Plumbers and pipe fitters install and repair pipe systems that carry water, stea
 
 ## Where are our students now?
 
-![Blue stuff](https://images.unsplash.com/photo-1666549467789-d62b3099308e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Blue Stuff")
-### Meet(Name)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+[comment]: #  ( ![Blue stuff](https://images.unsplash.com/photo-1666549467789-d62b3099308e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Blue Stuff") 
+[//]: # ( ### Meet(Name)
 
 
-![Blue stuff](https://images.unsplash.com/photo-1666549467789-d62b3099308e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Blue Stuff")
-### Meet(Name)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+
+[//]: # (![Blue stuff](https://images.unsplash.com/photo-1666549467789-d62b3099308e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Blue Stuff")
+[//]: # (### Meet(Name)
+
 
 
 
 ## Certifications
-![Blue stuff](https://images.unsplash.com/photo-1666549467789-d62b3099308e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Blue Stuff")
+[//]: # (![Blue stuff](https://images.unsplash.com/photo-1666549467789-d62b3099308e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Blue Stuff") 
 
-<h2 align="center">Contact Us</h2>
+## Contact Us

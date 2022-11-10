@@ -13,4 +13,4 @@ Enjoy hands-on metal work? Welding is a technically skilled program full of lear
 
 - D.O.T. Bridge
 
-<h2 align="center">Contact Us</h2>
+## Contact Us

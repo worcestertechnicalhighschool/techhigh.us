@@ -14,4 +14,4 @@ Looking to get hands-on experience working on vehicles that have suffered seriou
 
 # Contact Us
 
-<h2 align="center">Contact Us</h2>
+## Contact Us

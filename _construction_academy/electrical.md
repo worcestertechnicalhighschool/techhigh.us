@@ -10,11 +10,19 @@ Students who want to be part of a constantly growing field, full of opportunitie
 ## Where are our students now?
 ### Meet David
  David Joyce is a 2012 graduate from Worcester Tech’s  Electrical program. Upon graduation David has Bachelor’s Degree in Business Management and Economics from Worcester State University Master’s in Business Administration/Management from Worcester State University. David currently works for Gaston Electrical Contractors as a project manager overseeing medium to large commercial/industrial electrical construction projects
+
 ## Certifications
 - Anyone wishing to become a licensed electrician in Massachusetts must serve an apprenticeship. 
 - The apprenticeship has hour requirements for both classroom hours and work hours.
 
-<h2 align="center">Contact Us</h2>
+## Alumni Spotlight
+
+Meet David:
+ David Joyce is a 2012 graduate from Worcester Tech’s  Electrical program. Upon graduation David has Bachelor's Degree in Business Management and Economics from Worcester State University Master's in Business Administration/Management from Worcester State University. David currently works for Gaston Electrical Contractors as a project manager overseeing medium to large commercial/industrial electrical construction projects. 
+
+
+## Contact Us
+
 - Trudeau, Jean
 Electrical Department Head
 - Alger III, Ronald
