@@ -7,7 +7,7 @@ date: 2022-10-25
 Fashion-forward, self-expressive students will thrive in our Cosmetology program. You will be taught a wide variety of skills and services that will allow you to specialize in hairdressing, esthetics (skin care), nails (manicures/pedicures), and make-up. You will get the opportunity to work on paying customers and provide services such as shampooing, hair styling, facials, hair coloring, and more. At the end of this program students have the opportunity to become licensed cosmetologists upon completion of the State Board Exam. You will be prepared for any career in the ever-expanding and ever-changing Beauty Industry.
 
 
-## Alumni Spotlight
+# Alumni Spotlight
 
 ## (Image)
 #### Meet Kassandra
@@ -19,12 +19,12 @@ Kassandra Lugo is a 2013 graduate from Worcester Technical high school’s cosme
 Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosmetology Program. Upon graduation Dennise Decided to go right into the work field as she currently works at Jeffrey Robert Salon as a hairstylist
 
 
-## Certifications
+# Certifications
 - Massachusetts State Cosmetology License
 - 1000 Hour Course Completion
 
 
-## Skills and Compentencies
+# Skills and Compentencies
 - Effective Communication Skills and positive Human Relations
 - Infection control
 - Draping, Shampooing and Scalp Massage
@@ -35,15 +35,23 @@ Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosm
 - Makeup Application
 
 
-## PARTICIPATING CO-OP AND INTERNSHIP SITES
+# PARTICIPATING CO-OP AND INTERNSHIP SITES
 - Paul Conzo’s Day Spa and Hair Salon
+
 - D'lorios
+
 - Jeffrey Roberts Salon
+
 - TuModa
+
 - Bauhaus Hair Salon
+
 - Salon 27
+
 - Amazing Style
+
 - Capelli Avanti Salon
+
 - Supercuts
 
 ## Contact Us

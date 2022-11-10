@@ -8,4 +8,12 @@ The mission of the Carpentry course is to provide a safe and reliable work envir
 
 The Carpentry Shop completes a multitude of community projects and builds brand new houses for individuals that would otherwise be unable to afford such structures. Local government and non-profit organizations benefit from the hard work of our students.
 
+# Certifications
+
+- OSHA 10 
+
+- Carpentry Proficiency Certificate
+
+- NASRCC level I and level II Certificates
+
 ## Contact Us
