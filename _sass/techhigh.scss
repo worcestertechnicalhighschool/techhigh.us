@@ -1,0 +1,45 @@
+.site-footer {
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-wths {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(23, 28, 105);
+    color: white;
+    text-align: center;
+}
+
+.wrapper-row {
+    object-fit: fill;
+}
+
+.footer-wps {
+    color: #26272b;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+}
+
+#logo {
+    height: 3in;
+    width: 3in;
+    float: left;
+    @media (max-width: 720px) {
+        height: 2in;
+        width: 2in;
+    }
+}
+
+.col {
+}
