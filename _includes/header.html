@@ -10,22 +10,34 @@
     {%- if page_paths -%}
       <nav id="site-navigation" class="main-navigation">
         <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
-
-        <div class="trigger">
           <ul id="primary-menu" class="menu">
             {% for section in site.sections %}
-              <li class="menue-item"><a href="{{ section.url | relative_url }}">{{ section.title | escape}}</a>
+              {% if page.url == section.url  %}
+                <li class="menu-item current-menu-item">
+                  <a href="{{ section.url | relative_url }}" aria-current="page">{{ section.title | escape}}</a>
+              {% else %}
+                <li class="menu-item">
+                  <a href="{{ section.url | relative_url }}">{{ section.title | escape}}</a>
+              {% endif %}
                 {% comment %} modify the file name to match the collection {% endcomment %}
                 {% assign sub = section.slug | replace: "-", "_" %}
-                <ul class="subnav">
-                  {% for page in site.[sub] %}
-                    <li><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
+                <ul class="sub-menu">
+                  {% for menu_item in site.[sub] %}
+                    {% if page.url == menu_item.url  %}
+                      <li class="menu-item current-menu-item">
+                        <a href="{{ menu_item.url | relative_url }}" 
+                           aria-current="page">{{ menu_item.title | escape }}</a>
+                      </li>
+                    {% else %}
+                      <li class="menu-item">
+                        <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
+                      </li>
+                    {% endif %}
                   {% endfor %}
                 </ul>
               </li>
             {% endfor %}
           </ul>
-        </div>
       </nav>
     {%- endif -%}
   </div>
