@@ -12,4 +12,4 @@ Looking for a growing technology field with hands-on career opportunities? Heati
 * R-410A 
 * Hours towards Massachusetts Refrigeration Technician License)
 
-# Contact Us
+<h2 align="center">Contact Us</h2>
