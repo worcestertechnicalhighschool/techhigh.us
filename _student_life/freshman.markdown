@@ -3,12 +3,12 @@ page: layout
 title: Freshmen
 date: 2022-10-26                                                                                                                                                                                                                                                                                                                            
 ---
-<p align="center"> Information, links, and resources for WTHS Freshmen</p>
+Information, links, and resources for WTHS Freshmen
 
 
-<h1 align="center">Freshmen Jumpstart</h1>
+# Freshmen Jumpstart
 
-<p align="center">Our Jumpstart program is designed to help orient new students into our school! This is a great opportunity to meet your new teachers and classmates, navigate the building, and learn about our 23 technical areas.</p>
+Our Jumpstart program is designed to help orient new students into our school! This is a great opportunity to meet your new teachers and classmates, navigate the building, and learn about our 23 technical areas.
 
 
 |   **"What is exploratory?"** |   **"What are A Week and Z Week?"**   |   **"What is related theory?"**   |   **"When do freshman get their shops?"**   |
