@@ -13,13 +13,15 @@ layout: default
     <div class="faculty-list">
         {% for faculty in site.data.faculty %}
             <h2>{{ faculty.department }}</h2>
-            <div class="department-members">
+            <div class="staff-members">
                 {% assign members = site.data.faculty | where:"department", faculty.department %}
                 {% for staff in members %}
+                <div class="staff">
                     <img src="{{ staff.image_url }}" alt="{{ staff.name }}">
                     <p class="name">{{ staff.name }}</p>
                     <p class="title">{{ staff.title }}</p>
                     <p class="email"><a href="mailto:{{ staff.email }}">{{ staff.email }}</a></p>
+                </div>
                 {% endfor %}
             </div>
         {% endfor %}
