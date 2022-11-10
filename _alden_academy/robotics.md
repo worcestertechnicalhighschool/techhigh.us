@@ -13,3 +13,5 @@ Robotics and Automation technology is for those who want endless career opportun
 - OSHA 10
 
 - Fanuc Robotics Certification
+
+<h2 align="center">Contact Us</h2>
