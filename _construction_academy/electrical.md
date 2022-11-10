@@ -14,7 +14,7 @@ Students who want to be part of a constantly growing field, full of opportunitie
 - Anyone wishing to become a licensed electrician in Massachusetts must serve an apprenticeship. 
 - The apprenticeship has hour requirements for both classroom hours and work hours.
 
-## Contact us
+<h2 align="center">Contact Us</h2>
 - Trudeau, Jean
 Electrical Department Head
 - Alger III, Ronald

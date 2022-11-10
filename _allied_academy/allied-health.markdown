@@ -13,4 +13,4 @@ Allied Health students are exposed to a wide range of real-world clinical work a
 - Home Health Aide
 - First Aid Certifications
 
-# Contact Us
+<h2 align="center">Contact Us</h2>
