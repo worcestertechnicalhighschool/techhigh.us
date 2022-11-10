@@ -13,3 +13,5 @@ Looking to get hands-on experience working on vehicles that have suffered seriou
 - up to 9 SP2 certifications
 
 # Contact Us
+
+<h2 align="center">Contact Us</h2>
