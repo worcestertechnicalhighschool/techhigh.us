@@ -1,0 +1,19 @@
+---
+layout: page
+title: Athletics 
+date: 2022-11-14
+---
+
+
+#
+| fall sports                                                                                             | Winter sports                                                                                          | Spring sports                                                                                                |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Cheer coach: Abby biernacki abbybiernacki@gmail.com                                                     | Boys basketball Coach Sean Lynch lynchse@worcesterschools.net                                          | Baseball Coach Vincent Pennell  pennellvc@worcesterschools.net                                               |
+| Football coach Derek Robbins derekrobbins31@gmail.com                                                   | Girls Basketball Coach leveillee sleveillee@ymail.com                                                  | Coach Pat Phenix  phenixp@worcesterschools.net                                                               |
+| Girls volleyball coach Hallet halletp@worcesterschools.net                                              | Indoor track Coach John Nicol nicolj@worcesterschools.net Coach Gerald Snay snayg@worcesterschools.net | Volleyball Coach Dancy  dancye@worcesterschools.net                                                          |
+| Cross country Coach John Nicol nicolj@worcesterschools.net Coach Gerald Snay snayg@worcesterschools.net | Ice hockey Coach Vaughan vaughanm@ipsma.net                                                            | Outdoor track Coach John Nicol nicolj@worcesterpublicschools.net Coach Gerald Snay snayg@worcesterschools.et |
+| Field hockey Coach Lindsay Ryan ryan.lindsayn@gmail.com                                                 | Swimming Coach Bruno tarickbruno123@gmail.com                                                          | Girls tennis Coach Anthony Camoreyt  camoreyta@worcesterschools.net                                          |
+| Boys golf Coach Tom Quinn quinnt@gmail.com                                                              | Coach Markgren markgrenl@worcesterschools.net                                                          | Girls golf Coach Meghan McDonald mcdonaldm@worcesterschools.net                                              |
+| Boys Soccer Coach Kolaco rkolaco@gmail.com                                                              |                                                                                                        | Boys Lacrosse Coach Matthew Genkos  matthewgenkos@gmail.com                                                  |
+| Girls soccer Coach John Healey healyj@worcesterschools.net                                              |                                                                                                        | Girls Lacrosse Coach Moulin  moulinn@worcesterschools.net                                                    |
+| Crew coach Granum bgranum@msn.com coach Binienda biniendama@gmail.com                                   |                                                                                                        |                                                                                                              |
