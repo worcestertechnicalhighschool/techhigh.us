@@ -1,0 +1,40 @@
+@import "techhigh/variables";
+@import "techhigh/mixins";
+.site-header {
+    background: #003865EB;
+    padding: 20px;
+    list-style-type: none;
+
+    @include aTags(white);
+    li {
+        list-style-type: none;
+        
+    }
+
+    .menu{
+        li {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+
+            li{
+                padding: 0;
+                line-height: 200%;
+                border-width: 200%;
+                a{
+                    text-align: center;
+                }
+                :hover{
+                    color: white;
+                    background: $gl-light-grey;
+                }
+            }
+        }
+            
+    }
+    .sub-menu{
+        background-color: white;
+        @include aTags($gl-dark-grey);
+    }
+    
+}
