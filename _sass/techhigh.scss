@@ -1,12 +1,20 @@
 /* Mixins
 --------------------------------------------- */
 @import "techhigh/mixins";
-/* Header
---------------------------------------------- */
-@import "techhigh/header";
-/* Footer
---------------------------------------------- */
-@import "techhigh/footer";
+
 /* Variables
 --------------------------------------------- */
 @import "techhigh/variables";
+
+/* Site Header
+--------------------------------------------- */
+@import "techhigh/header";
+
+/* Site Footer
+--------------------------------------------- */
+@import "techhigh/footer";
+
+/* Landing Components
+--------------------------------------------- */
+@import "techhigh/landing/hero";
+@import "techhigh/landing/mission";

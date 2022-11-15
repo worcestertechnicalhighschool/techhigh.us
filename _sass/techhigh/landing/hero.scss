@@ -1,0 +1,23 @@
+.landing {
+    .hero {
+        height: 525px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #FFFFFF;
+        font-family: $header_font;
+        font-weight: 600;
+        background-color: grey;
+        text-align: center;
+        h1 {
+            font-size: 62px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        p {
+            font-size: 52px;
+            margin: 0;
+        }
+    }
+}
