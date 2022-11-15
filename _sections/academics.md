@@ -4,7 +4,6 @@ layout: section
 date: 2022-11-5
 ---
 
-# Academics
 
 ## Spanish
 Students immerse themselves in the language, culture, and practices of the Spanish speaking world. Contact Yenilda Melendez melendezy@worcesterschools.net to learn more.
