@@ -1,5 +1,42 @@
 .landing {
     .mission {
-        
+        text-align: center;
+        padding: 20px;
+        h2{
+            color: black;
+            font-family: $header_font;
+            font-size: 70px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        p{
+            color: black;
+            font-family: $body_font;
+            font-size: 1.3em;
+            padding: 0 2.5vw;
+        }
+        .stats{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            column-gap: 100px;
+            font-family: $header_font;
+            font-weight: 600;
+            .stat{
+                display: auto;
+                flex-direction: column;
+                color: $gl-primary;
+                font-size: 70px;
+                font-family: $header_font;
+                p{
+                    color: $gl-primary;
+                    font-family: $body_font;
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+            }
+        }
     }
 }
