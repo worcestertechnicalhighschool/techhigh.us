@@ -1,45 +1,20 @@
-.site-footer {
-    padding:45px 0 20px;
-    font-size:15px;
-    line-height:24px;
-    color:#ffffff;
-    display: flex;
-    flex-wrap: wrap;
-}
+/* Mixins
+--------------------------------------------- */
+@import "techhigh/mixins";
 
-.footer-wths {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(23, 28, 105);
-    color: white;
-    text-align: center;
-}
+/* Variables
+--------------------------------------------- */
+@import "techhigh/variables";
 
-.wrapper-row {
-    object-fit: fill;
-}
+/* Site Header
+--------------------------------------------- */
+@import "techhigh/header";
 
-.footer-wps {
-    color: #26272b;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    margin: auto;
-    padding: 100px;
-}
+/* Site Footer
+--------------------------------------------- */
+@import "techhigh/footer";
 
-#logo {
-    height: 3in;
-    width: 3in;
-    float: left;
-    @media (max-width: 720px) {
-        height: 2in;
-        width: 2in;
-    }
-}
-
-.col {
-}
+/* Landing Components
+--------------------------------------------- */
+@import "techhigh/landing/hero";
+@import "techhigh/landing/mission";

@@ -1,5 +1,5 @@
 ---
-title: Technial Areas
+title: Technical Areas
 layout: section
 date: 2022-11-5
 ---
