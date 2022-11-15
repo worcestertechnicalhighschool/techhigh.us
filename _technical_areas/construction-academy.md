@@ -3,7 +3,6 @@ title: Coghlin Construction Academy
 layout: section
 date: 2022-11-5
 ---
-## Coghlin Construction Academy
 
 <div class="card" markdown="1">
 

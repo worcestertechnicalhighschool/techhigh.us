@@ -3,7 +3,6 @@ title: Alden Academy
 layout: section
 date: 2022-11-5
 ---
-## ALDEN DESIGN & ENGINEERING
 
 <div class="card" markdown="1">
 
