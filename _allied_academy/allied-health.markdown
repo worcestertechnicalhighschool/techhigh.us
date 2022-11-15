@@ -8,48 +8,48 @@ Immerse yourself in a caring and innovative environment in our Allied Health Pro
 Allied Health students are exposed to a wide range of real-world clinical work and have the opportunity to obtain internship experience and numerous certifications by their Senior year. Our students also have the opportunity to take what they’ve learned inside the classroom, and apply those skills nationally against other student leaders through SkillsUSA.
 
 # Certifications
-- CNA (Certified Nursing Assistant)
++ CNA (Certified Nursing Assistant)
 
-- CPR/BLS/AED
++ CPR/BLS/AED
 
-- Home Health Aide
++ Home Health Aide
 
-- First Aid Certifications
++ First Aid Certifications
 
 # Co-op Oppurtunities
-- St. Vincent Hospital Medical Center in Worcester
++ St. Vincent Hospital Medical Center in Worcester
 
-- University of Massachusetts Medical School
++ University of Massachusetts Medical School
 
-- Holy Trinity Nursing Home
++ Holy Trinity Nursing Home
 
-- Christopher House Of Worcester
++ Christopher House Of Worcester
 
-- University Commons
++ University Commons
 
-- Seven Hills Foundation and Knollwood LTC
++ Seven Hills Foundation and Knollwood LTC
 
-- St. Vincent Hospital
++ St. Vincent Hospital
 
-- UMASS Memorial Health Care System
++ UMASS Memorial Health Care System
 
-- Seven Hills Foundation
++ Seven Hills Foundation
 
 # Career Oppurtunities
 
-- Radiology technician
++ Radiology technician
 
-- Nursing office manager-
++ Nursing office manager-
 
-- Rehabilitation specialist
++ Rehabilitation specialist
 
-- Certified nursing assistant
++ Certified nursing assistant
 
-- Licensed practical nurse
++ Licensed practical nurse
 
-- Registered Nurse
++ Registered Nurse
 
-- EMT and Paramedic
++ EMT and Paramedic
 
 
 ## Contact Us
