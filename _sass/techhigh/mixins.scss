@@ -1,0 +1,5 @@
+@mixin aTags ($colorChoice) {
+    a{
+        color: $colorChoice;
+    }
+}
