@@ -7,7 +7,7 @@ date: 2022-10-26
 Worcester tech offers various clubs and leadership oppurtunities for students to excel in and out of the classroom
 
 
-- Esports 
+- ESports
 - Outdoor Club
 - Math team 
 - A/V club
@@ -31,6 +31,10 @@ Worcester tech offers various clubs and leadership oppurtunities for students to
 - Let Love Lead
 - Yearbook club
 - WooTech news club
+- Skateboard Club
+- Yearbook Club
+- News Club
+- Chess Club
 
 # Leadership
 - Student Advisory Council
