@@ -16,7 +16,7 @@ The Carpentry Shop completes a multitude of community projects and builds brand 
 
 - NASRCC level I and level II Certificates
 
-<div class="teachers" markdown="1">
+<div class="teacher_section" markdown="1">
 
 ## Contact Us
 
