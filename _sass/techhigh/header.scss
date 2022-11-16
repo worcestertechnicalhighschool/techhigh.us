@@ -4,6 +4,8 @@
     background: #003865EB;
     padding: 20px;
     list-style-type: none;
+    position: relative;
+    z-index: 100;
 
     @include aTags(white);
     li {
@@ -26,7 +28,7 @@
                 }
                 :hover{
                     color: white;
-                    background: $gl-light-grey;
+                    background: $light-grey;
                 }
             }
         }
@@ -34,7 +36,7 @@
     }
     .sub-menu{
         background-color: white;
-        @include aTags($gl-dark-grey);
+        @include aTags($dark-grey);
     }
     
 }

@@ -1,13 +1,17 @@
 .landing {
+    h2{
+       color: black;
+       font-family: $header_font; 
+       text-transform: uppercase;
+    }
+    text-align: center;
     .mission {
-        text-align: center;
+        
         padding: 20px;
+
         h2{
-            color: black;
-            font-family: $header_font;
             font-size: 70px;
             font-weight: 600;
-            text-transform: uppercase;
             margin: 0;
         }
         p{
@@ -24,14 +28,19 @@
             align-items: center;
             font-family: $header_font;
             font-weight: 600;
+            @media (max-width: 720px) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
             .stat{
                 display: flex;
                 flex-direction: column;
-                color: $gl-primary;
+                color: $primary;
                 font-size: 70px;
                 font-family: $header_font;
                 p{
-                    color: $gl-primary;
+                    color: $primary;
                     font-family: $body_font;
                     font-size: 20px;
                     font-weight: normal;
@@ -39,4 +48,19 @@
             }
         }
     }
+    .news{
+        background-color: $light-grey;
+        h2{
+            font-size: 60px;
+            font-weight: 600;
+        }
+    }
+    .learn_more{
+        background-color: $light-grey;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
