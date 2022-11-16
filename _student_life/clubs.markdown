@@ -28,12 +28,11 @@ Worcester tech offers various clubs and leadership oppurtunities for students to
 - FIT club
 - Black Student Union
 - Caring with Compassion club
+- Psychology club
 - Let Love Lead
 - Yearbook club
 - WooTech news club
 - Skateboard Club
-- Yearbook Club
-- News Club
 - Chess Club
 
 # Leadership
