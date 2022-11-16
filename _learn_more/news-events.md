@@ -22,7 +22,7 @@ June 10
 DCU Center, 10:00am
 
 # Graduation
-Juune 10
+June 10
 DCU Center, 6:00pm
 
 # Interested in applying?
@@ -30,27 +30,6 @@ DCU Center, 6:00pm
 
 # Meet Our Faculty
 [Staff Directory](https://wordpress.techhigh.us/faculty/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

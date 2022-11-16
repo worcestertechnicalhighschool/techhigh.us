@@ -156,4 +156,4 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 <details>
 <summary> Girls LACROSSE</summary>
 <p>Coach Moulin   <a href   = "moulinn@worcesterschools.net "> moulinn@worcesterschools.net  </a> </p>
-</details>  
+</details> 
