@@ -14,18 +14,18 @@
             color: black;
             font-family: $body_font;
             font-size: 1.3em;
-            padding: 0 2.5vw;
+            padding: 0 120px;
         }
         .stats{
+            padding-top: 20px;
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            column-gap: 100px;
             font-family: $header_font;
             font-weight: 600;
             .stat{
-                display: auto;
+                display: flex;
                 flex-direction: column;
                 color: $gl-primary;
                 font-size: 70px;
