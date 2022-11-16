@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FInance, Marketing, & Business Management
+title: Finance, Marketing, & Business Management
 date: 2022-10-25
 ---
 
