@@ -12,4 +12,26 @@ Looking for a growing technology field with hands-on career opportunities? Heati
 * R-410A 
 * Hours towards Massachusetts Refrigeration Technician License)
 
+<div class="teacher_section" markdown="1">
+
 ## Contact Us
+
+<div class="teacher" markdown="1">
+
+![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016885/TechHigh.us/Technical%20areas/construction/HVacr/0007_qtqrrc.jpg)
+**Baldasaro, Vincent**
+HVAC Department Head
+[baldasarov@worcesterschools.net](mailto:baldasarov@worcesterschools.net)
+
+</div>
+
+<div class="teacher" markdown="1">
+
+![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016876/TechHigh.us/Technical%20areas/construction/HVacr/0048_me8ggy.jpg)
+**Giguere, Michael**
+HVAC Instructor
+[giguerem@worcesterschools.net](mailto:giguerem@worcesterschools.net)
+
+</div>
+
+</div>
