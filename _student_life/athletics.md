@@ -80,7 +80,7 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 <details>
 <summary>Indoor Track</summary>
-<p>Coach John Nicol  <a href   = " nicolj@worcesterschools.net "> nicolj@worcesterschools.net    </a>  Coach Gerlad Snay    <a href   = "mailto: snayg@worcesterschools.net   "> snayg@worcesterschools.net </a> </p>
+<p>Coach John Nicol  <a href   = " mailto: nicolj@worcesterschools.net "> nicolj@worcesterschools.net    </a>  Coach Gerlad Snay    <a href   = "mailto: snayg@worcesterschools.net   "> snayg@worcesterschools.net </a> </p>
 </details>  
 
 
@@ -88,21 +88,21 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 <details>
 <summary> Ice Hockey</summary>
-<p>Coach Vaughan   <a href   = " vaughanm@lpsma.net "> vaughanm@lpsma.net   </a> </p>
+<p>Coach Vaughan   <a href   = " mailto: vaughanm@lpsma.net "> vaughanm@lpsma.net   </a> </p>
 </details>  
 
 
 
 <details>
 <summary> Swimming</summary>
-<p>Coach Bruno  <a href   = " tarickbruno123@gmail.com  ">  tarickbruno123@gmail.com    </a> </p>
+<p>Coach Bruno  <a href   = " mailto: tarickbruno123@gmail.com  ">  tarickbruno123@gmail.com    </a> </p>
 </details>  
 
 
 
 <details>
 <summary> Wrestling</summary>
-<p>Coach Markgren   <a href   = "markgrenl@worcesterschools.net"> markgrenl@worcesterschools.net   </a> </p>
+<p>Coach Markgren   <a href   = "mailto: markgrenl@worcesterschools.net"> markgrenl@worcesterschools.net   </a> </p>
 </details>  
 
 
@@ -112,48 +112,48 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 <details>
 <summary> Baseball</summary>
-<p>Coach Vincent Pennell   <a href   = "pennellvc@worcesterschools.net "> pennellvc@worcesterschools.net   </a> </p>
+<p>Coach Vincent Pennell   <a href   = "mailto: pennellvc@worcesterschools.net "> pennellvc@worcesterschools.net   </a> </p>
 </details>  
 
 <details>
 <summary> SoftBall </summary>
-<p>Coach  Pat Phenix     <a href   = "phenixp@worcesterschools.net "> phenixp@worcesterschools.net    </a> </p>
+<p>Coach  Pat Phenix     <a href   = "mailto: phenixp@worcesterschools.net "> phenixp@worcesterschools.net    </a> </p>
 </details>  
 
 
 <details>
 <summary> Boys VolleyBall</summary>
-<p>Coach Dancy   <a href   = " dancye@worcesterschools.net ">  dancye@worcesterschools.net  </a> </p>
+<p>Coach Dancy   <a href   = " mailto: dancye@worcesterschools.net ">  dancye@worcesterschools.net  </a> </p>
 </details>  
 
 
 
 <details>
 <summary> OutDoor Track</summary>
-<p>Coach Coach John Nicol    <a href   = "nicolj@worcesterschools.net    "> nicolj@worcesterschools.net      </a>     Coach Gerald Snay  <a href   = "snayg@worcesterschools.net "> snayg@worcesterschools.net       </a> </p>
+<p>Coach Coach John Nicol    <a href   = "mailto: nicolj@worcesterschools.net    "> nicolj@worcesterschools.net      </a>     Coach Gerald Snay  <a href   = "snayg@worcesterschools.net "> snayg@worcesterschools.net       </a> </p>
 </details>  
 
 
 
 <details>
 <summary> Girls Tennis</summary>
-<p>Coach Anthony Camoreyt  <a href   = "camoreyta@worcesterschools.net  ">camoreyta@worcesterschools.net   </a> </p>
+<p>Coach Anthony Camoreyt  <a href   = "mailto: camoreyta@worcesterschools.net  ">camoreyta@worcesterschools.net   </a> </p>
 </details>  
 
 <details>
 <summary> Girls Golf</summary>
-<p>Coach Meghan McDonald   <a href   = "mcdonaldm@worcesterschools.net "> mcdonaldm@worcesterschools.net    </a> </p>
+<p>Coach Meghan McDonald   <a href   = "mailto: mcdonaldm@worcesterschools.net "> mcdonaldm@worcesterschools.net    </a> </p>
 </details>  
 
 
 <details>
 <summary> Boys LACROSSE</summary>
-<p>Coach Matthew Genkos  <a href   = "matthewgenkos@gmail.com "> matthewgenkos@gmail.com    </a> </p>
+<p>Coach Matthew Genkos  <a href   = "mailto: matthewgenkos@gmail.com "> matthewgenkos@gmail.com    </a> </p>
 </details>  
 
 
 
 <details>
 <summary> Girls LACROSSE</summary>
-<p>Coach Moulin   <a href   = "moulinn@worcesterschools.net "> moulinn@worcesterschools.net  </a> </p>
+<p>Coach Moulin   <a href   = "mailto: moulinn@worcesterschools.net "> moulinn@worcesterschools.net  </a> </p>
 </details> 
