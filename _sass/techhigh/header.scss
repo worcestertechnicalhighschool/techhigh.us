@@ -1,8 +1,9 @@
 .site-header {
     background: $header_blue;
     .wrapper{
-        height: 76px;
+        height: $header_height;
         display: flex;
+        padding: 0 20px;
         justify-content: space-between;
         align-items: center;
     }
@@ -13,9 +14,13 @@
         font-weight: $header_bold;
         text-decoration: none;
         width: 100%;
-        a {
-            white-space: nowrap;
-
+        white-space: nowrap;
+        display: inline-block;
+        line-height: $header_height;
+        padding: 0 20px;
+        transition: $soft;
+        &:hover {
+            background-color: rgba(0,0,0,0.5);
         }
 
     }
