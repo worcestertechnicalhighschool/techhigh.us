@@ -1,5 +1,10 @@
 .site-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
     background: $header_blue;
+    top:0;
+
     .wrapper{
         height: $header_height;
         display: flex;
@@ -36,26 +41,25 @@
     }
     
     .main-navigation {
-        // position: relative;
         ul {
             transition: $soft;
-            transform: translateY(0);
+            transform: translateY(-100%);
             background-color: $white;
-            z-index: 500;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
             a {
                 color: $dark_grey;
             }
         }
         &.toggled {
             ul {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
                 transform: translateY($header_height);
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 100%;
             }
         }
     }
