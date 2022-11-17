@@ -54,4 +54,3 @@ Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosm
 
 - Supercuts
 
-## Contact Us

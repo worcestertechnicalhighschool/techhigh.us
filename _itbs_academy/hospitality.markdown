@@ -13,4 +13,3 @@ Be part of an environment that will give you the versatile skills you need to be
 * CPR/AED – choke safe
 * Mass Crowd Manager
 
-## Contact Us

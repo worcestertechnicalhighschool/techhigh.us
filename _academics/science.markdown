@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Science Department
+layout: department
+title: Science
 date: 2022-10-25
 ---
 # Courses by Year
@@ -25,4 +25,4 @@ date: 2022-10-25
 
 - No science courses for seniors
 
-## Contact Us
+

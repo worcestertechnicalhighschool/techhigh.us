@@ -12,4 +12,3 @@ Students are exposed to a wide range of real-world client based work, both in th
 Meet Aliana:  
 Aliana Nieves is a 2017 graduate of Worcester Tech Graphic communication program. Upon graduation Aliana went straight into the work field as print and marketing associate at staples and working at Minuteman Press, where they do the finishing and post press work, as well as packaging and shipping out completed jobs. 
 
-## Contact Us

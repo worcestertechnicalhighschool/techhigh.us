@@ -10,4 +10,3 @@ Enjoy creating 3D models, drawings, and sketches that will be used for manufactu
 
 - OSHA 10
 
-## Contact Us

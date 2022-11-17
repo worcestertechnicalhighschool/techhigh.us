@@ -23,4 +23,3 @@ Students who have an eye for detail, strengths in math, science, and art will fi
 
 <img style="float: right;" src="https://images.unsplash.com/photo-1648880004349-9bf1926b7556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80">
 
-## Contact Us
