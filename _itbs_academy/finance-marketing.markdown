@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
-layout: page
-title: Finance, Marketing, & Business Management
-=======
 layout: department
-title: Finance, Marketing & Business Management
->>>>>>> 3124f7992bc36b44f950a89ab4fe4bf67ef9b46a
+title: Finance, Marketing, & Business Management
 date: 2022-10-25
 ---
 
