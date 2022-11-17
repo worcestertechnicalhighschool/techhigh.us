@@ -1,16 +1,33 @@
-@import "techhigh/variables";
-@import "techhigh/mixins";
 .site-header {
-    background: #003865EB;
-    padding: 20px;
-    list-style-type: none;
-    position: relative;
-    z-index: 100;
+    background: $header_blue;
 
-    @include aTags(white);
-    li {
-        list-style-type: none;
-        
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .site-branding {
+        font-family: $header_font;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        width: 100%;
+        a {
+            white-space: nowrap;
+
+        }
+    }
+
+    a {
+        color: $white;
+    }
+
+    nav {
+        width: initial;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .menu{
