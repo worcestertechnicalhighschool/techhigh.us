@@ -5,7 +5,12 @@ $white: #ffffff;
 
 $primary: #002855;
 $secondary: #004B87;
-$dark-grey:  #333D47;
-$light-grey: #B2B4B2;
-$light-blue: #B9D9EB;
-$menu-grey: #EDEEED;
+$dark_grey:  #333D47;
+$light_grey: #B2B4B2;
+$light_blue: #B9D9EB;
+$menu_grey: #EDEEED;
+
+$soft:  all ease 0.3s;
+
+$breakpoint_standard: 450px;
+$breakpoint_desktop: 1250px;
