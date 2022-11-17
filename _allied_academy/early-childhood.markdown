@@ -1,6 +1,6 @@
 ---
-layout: page
-title:  Early Childhood Education
+layout: department
+title:  Early Childhood
 date:   2022-10-25 
 ---
 

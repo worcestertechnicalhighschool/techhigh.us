@@ -1,6 +1,6 @@
 ---
-layout: page
-title: FInance, Marketing, & Business Management
+layout: department
+title: Finance, Marketing & Business Management
 date: 2022-10-25
 ---
 

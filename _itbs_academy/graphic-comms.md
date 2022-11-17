@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Graphic Communications
+layout: department
+title: Graphic Communication
 date: 2022-10-28
 ---
 

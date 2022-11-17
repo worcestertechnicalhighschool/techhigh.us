@@ -1,6 +1,6 @@
 ---
-layout: page
-title: ISS&N
+layout: department
+title: Information Support Services & Networking
 date: 2022-10-25
 ---
 

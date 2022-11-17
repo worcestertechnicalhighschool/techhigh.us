@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Advanced Manufacturing
 date: 2022-10-24
 ---

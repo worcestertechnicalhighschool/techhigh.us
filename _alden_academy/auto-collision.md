@@ -1,5 +1,5 @@
 ---
-    layout: page
+    layout: department
     title: Auto Collision
     date: 2022-10-24
 ---

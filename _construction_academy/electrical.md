@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Electrical
 date: 2022-10-25
 ---
@@ -17,55 +17,3 @@ Meet David:
 
 
 
-## Contact Us
-
-- Trudeau, Jean
-Electrical Department Head
-- Alger III, Ronald
-Electrical Instructor
-- Capuano, Michael
-Electrical Instructor
-- Normandin, Wade
-Electrical Instructor
-
-<div class="teacher_section" markdown="1">
-
-## Contact Us
-
-<div class="teacher" markdown="1">
-
-![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016915/TechHigh.us/Technical%20areas/construction/Electrical/0155_dtzmil.jpg)
-**Trudeau, Jean**
-Electrical Department Head
-[trudeauj@worcesterschools.net](mailto:trudeauj@worcesterschools.net)
-
-</div>
-
-<div class="teacher" markdown="1">
-
-![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016902/2022/04/0002_z23sqg.jpg)
-**Alger III, Ronald**
-Electrical Instructor
-[algerrf@worcesterschools.net](mailto:algerrf@worcesterschools.net)
-
-</div>
-
-<div class="teacher" markdown="1">
-
-![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016908/TechHigh.us/Technical%20areas/construction/Electrical/0018_hivfa8.jpg)
-**Capuano, Michael**
-Electrical Instructor
-[capuanom@worcesterschools.net](mailto:capuanom@worcesterschools.net)
-
-</div>
-
-<div class="teacher" markdown="1">
-
-![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016945/TechHigh.us/Technical%20areas/construction/Electrical/0108_butg92.jpg)
-**Normandin, Wade**
-Electrical Instructor
-[normandinw@worcesterschools.net](mailto:normandinw@worcesterschools.net)
-
-</div>
-
-</div>

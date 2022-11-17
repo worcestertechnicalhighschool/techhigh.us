@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title:  Biotechnology
 date:   2022-10-24 11:30:49 -0400
 ---
@@ -12,5 +12,3 @@ Biotech is a rigorous program that requires students to have a strong interest i
 - OSHA 10 Hour General Industry Healthcare
 
 - CPR/First Aid
-
-## Contact Us

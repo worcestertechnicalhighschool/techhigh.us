@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Programming & Web Development
 date: 2022-10-25
 ---

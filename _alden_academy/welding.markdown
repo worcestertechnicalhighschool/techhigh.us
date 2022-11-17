@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Welding
 date: 2022-10-24
 permalink:
