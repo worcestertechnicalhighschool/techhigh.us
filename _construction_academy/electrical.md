@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Electrical
 date: 2022-10-25
 ---
@@ -16,13 +16,4 @@ Meet David:
  David Joyce is a 2012 graduate from Worcester Tech’s  Electrical program. Upon graduation David has Bachelor's Degree in Business Management and Economics from Worcester State University Master's in Business Administration/Management from Worcester State University. David currently works for Gaston Electrical Contractors as a project manager overseeing medium to large commercial/industrial electrical construction projects. 
 
 
-## Contact Us
 
-- Trudeau, Jean
-Electrical Department Head
-- Alger III, Ronald
-Electrical Instructor
-- Capuano, Michael
-Electrical Instructor
-- Normandin, Wade
-Electrical Instructor

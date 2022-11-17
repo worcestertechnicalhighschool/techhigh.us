@@ -1,14 +1,38 @@
-@import "techhigh/variables";
-@import "techhigh/mixins";
 .site-header {
-    background: #003865EB;
-    padding: 20px;
-    list-style-type: none;
+    background: $header_blue;
+    .wrapper{
+        height: $header_height;
+        display: flex;
+        padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-    @include aTags(white);
-    li {
-        list-style-type: none;
-        
+    .site-title {
+        font-family: $header_font;
+        font-size: 24px;
+        font-weight: $header_bold;
+        text-decoration: none;
+        width: 100%;
+        white-space: nowrap;
+        display: inline-block;
+        line-height: $header_height;
+        padding: 0 20px;
+        transition: $soft;
+        &:hover {
+            background-color: rgba(0,0,0,0.5);
+        }
+
+    }
+
+    a {
+        color: $white;
+    }
+
+    nav {
+        width: initial;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .menu{
@@ -26,7 +50,7 @@
                 }
                 :hover{
                     color: white;
-                    background: $gl-light-grey;
+                    background: $light_grey;
                 }
             }
         }
@@ -34,7 +58,19 @@
     }
     .sub-menu{
         background-color: white;
-        @include aTags($gl-dark-grey);
+        @include aTags($dark_grey);
     }
     
+}
+
+// breakpoint in Undescores commented out
+@media screen and (min-width: $breakpoint_desktop) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: flex;
+	}
 }

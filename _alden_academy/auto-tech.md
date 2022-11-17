@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Automotive Technology
 date: 2022-10-24
 ---
@@ -14,4 +14,3 @@ Students who enjoy hands-on problem-solving will value the extensive mechanical,
 
 + Snap-on Scan Tool Certification
 
-## Contact Us

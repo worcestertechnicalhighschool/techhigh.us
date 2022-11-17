@@ -1,6 +1,6 @@
 ---
-layout: page
-title: History Department
+layout: department
+title: History
 date: 2022-10-25
 ---
 
@@ -32,4 +32,3 @@ date: 2022-10-25
 
 - Elective courses in Psychology, Sociology, Legal Aspects & Personal Finance
 
-## Contact Us

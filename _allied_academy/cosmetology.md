@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Cosmetology
 date: 2022-10-25
 ---
@@ -54,4 +54,3 @@ Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosm
 
 - Supercuts
 
-## Contact Us

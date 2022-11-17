@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Carpentry
 date: 2022-10-25
 ---
@@ -16,4 +16,3 @@ The Carpentry Shop completes a multitude of community projects and builds brand 
 
 - NASRCC level I and level II Certificates
 
-## Contact Us

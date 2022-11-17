@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Robotics
+layout: department
+title: Robotics & Automation Technology
 date: 2022-10-25 
 ---
 
@@ -14,4 +14,3 @@ Robotics and Automation technology is for those who want endless career opportun
 
 - Fanuc Robotics Certification
 
-## Contact Us

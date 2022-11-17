@@ -1,6 +1,6 @@
 ---
-layout: page
-title: English Department
+layout: department
+title: English
 date: 2022-10-25
 ---
 
@@ -25,4 +25,3 @@ date: 2022-10-25
 
 - AP Literature & Composition
 
-## Contact Us

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: HVAC/R
 date: 2022-10-25
 ---
@@ -12,4 +12,3 @@ Looking for a growing technology field with hands-on career opportunities? Heati
 * R-410A 
 * Hours towards Massachusetts Refrigeration Technician License)
 
-## Contact Us

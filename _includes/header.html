@@ -1,11 +1,14 @@
-<header class="site-header" role="banner">
-
+<header id="masthead" class="site-header" role="banner">
+  
+  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign page_paths = site.header_pages | default: default_paths -%}
   <div class="wrapper">
-    
-
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+    <div class="site-branding">
+      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+        W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
+      </a>
+    </div>
 
     {%- if page_paths -%}
       <nav id="site-navigation" class="main-navigation">

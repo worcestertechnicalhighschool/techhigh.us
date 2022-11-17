@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Programming & Web Development
 date: 2022-10-25
 ---
@@ -9,4 +9,4 @@ Tech-savvy, critical thinkers, with a passion for creating technology will find 
 ## Certifications
 * OSHA 10 General Industry
 
-## Contact Us
+
