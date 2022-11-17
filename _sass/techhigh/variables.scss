@@ -1,12 +1,20 @@
 $header_font: "Oswald", Sans-serif;
-$header_light: 300;
 $header_bold: 500;
-
+$header_light: 400;
 $body_font: "Open Sans", Sans-serif;
-$body_light: 400;
 $body_bold: 700;
-
+$body_light: 500;
 $header_blue: #003865EB;
 $white: #ffffff;
 
+$primary: #002855;
+$secondary: #004B87;
+$dark_grey:  #333D47;
+$light_grey: #B2B4B2;
+$light_blue: #B9D9EB;
+$menu_grey: #EDEEED;
 
+$soft:  all ease 0.3s;
+
+$breakpoint_standard: 450px;
+$breakpoint_desktop: 1250px;
