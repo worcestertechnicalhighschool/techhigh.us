@@ -1,23 +1,23 @@
 .site-header {
     background: $header_blue;
-
-
     .wrapper{
+        height: 76px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    .site-branding {
+    .site-title {
         font-family: $header_font;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 24px;
+        font-weight: $header_bold;
         text-decoration: none;
         width: 100%;
         a {
             white-space: nowrap;
 
         }
+
     }
 
     a {
@@ -56,4 +56,16 @@
         @include aTags($dark-grey);
     }
     
+}
+
+// breakpoint in Undescores commented out
+@media screen and (min-width: $breakpoint_desktop) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: flex;
+	}
 }
