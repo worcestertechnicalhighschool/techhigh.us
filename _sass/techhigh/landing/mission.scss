@@ -1,5 +1,66 @@
 .landing {
+    h2{
+       color: black;
+       font-family: $header_font; 
+       text-transform: uppercase;
+    }
+    text-align: center;
     .mission {
         
+        padding: 20px;
+
+        h2{
+            font-size: 70px;
+            font-weight: 600;
+            margin: 0;
+        }
+        p{
+            color: black;
+            font-family: $body_font;
+            font-size: 1.3em;
+            padding: 0 120px;
+        }
+        .stats{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-family: $header_font;
+            font-weight: 600;
+            @media (max-width: 720px) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .stat{
+                display: flex;
+                flex-direction: column;
+                color: $primary;
+                font-size: 70px;
+                font-family: $header_font;
+                p{
+                    color: $primary;
+                    font-family: $body_font;
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+    .news{
+        background-color: $light-grey;
+        h2{
+            font-size: 60px;
+            font-weight: 600;
+        }
+    }
+    .learn_more{
+        background-color: $light-grey;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 }
+
