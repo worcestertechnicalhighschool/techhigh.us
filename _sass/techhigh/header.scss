@@ -1,11 +1,5 @@
 .site-header {
     background: $header_blue;
-    padding: 0 20px;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    top: 0;
-    
     .wrapper{
         height: 76px;
         display: flex;
@@ -36,8 +30,6 @@
         justify-content: flex-end;
     }
 
-
-
     .menu{
         li {
             padding: 20px;
@@ -53,7 +45,7 @@
                 }
                 :hover{
                     color: white;
-                    background: $gl-light-grey;
+                    background: $light-grey;
                 }
             }
         }
@@ -61,7 +53,7 @@
     }
     .sub-menu{
         background-color: white;
-        @include aTags($gl-dark-grey);
+        @include aTags($dark-grey);
     }
     
 }

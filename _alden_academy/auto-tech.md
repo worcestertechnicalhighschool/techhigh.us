@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Automotive Technology
 date: 2022-10-24
 ---

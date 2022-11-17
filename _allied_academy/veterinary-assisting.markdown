@@ -12,7 +12,7 @@ Immerse yourself in a compassionate and innovative environment that fosters your
 
 ![Alt text](cope.jpg)
 ## Meet Alyssa
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo..
+
 
 </div>
 
@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus 
 
 ![Alt text](cope.jpg)
 ## Meet (name)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+
 
 </div>
 

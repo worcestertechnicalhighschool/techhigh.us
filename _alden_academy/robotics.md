@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Robotics
+layout: department
+title: Robotics & Automation Technology
 date: 2022-10-25 
 ---
 

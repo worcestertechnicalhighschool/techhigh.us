@@ -14,7 +14,9 @@ layout: default
       <div class="faculty-list">
           {% for faculty in site.data.faculty %}
               <div class="staff-members">
-                {%- if faculty.department == page.title -%}
+                {% assign departe = faculty.department | remove: '"' %}
+                {% assign depart = departe | strip %}
+                {%- if depart == page.title -%}
                   <div class="staff">
                       <img src="{{ faculty.image_url }}" alt="{{ faculty.name }}">
                       <p class="name">{{ faculty.name }}</p>

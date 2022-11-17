@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Drafting
+layout: department
+title: Computer Aided Drafting
 date: 2022-10-24
 ---
 
