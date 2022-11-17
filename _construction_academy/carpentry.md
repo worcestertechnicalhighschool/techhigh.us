@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: department
 title: Carpentry
 date: 2022-10-25
 ---
@@ -16,44 +16,3 @@ The Carpentry Shop completes a multitude of community projects and builds brand 
 
 - NASRCC level I and level II Certificates
 
-<div class="teacher_section" markdown="1">
-
-## Contact Us
-
-<div class="teacher" markdown="1">
-
-![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016875/TechHigh.us/Technical%20areas/construction/Carpentry/0076_p6mfe4.jpg)
-**Lonergan, Joseph**
-Carpentry Department Head
-[lonerganj@worcesterschools.net](mailto:lonerganj@worcesterschools.net)
-
-</div>
-
-<div class="teacher" markdown="1">
-
-![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016949/TechHigh.us/Technical%20areas/construction/Carpentry/13603_mrhxfp.jpg)
-**Fairbanks, Rob**
-Carpentry Instructor
-[fairbanksr@worcesterschools.net](mailto:fairbanksr@worcesterschools.net)
-
-</div>
-
-<div class="teacher" markdown="1">
-
-![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016880/TechHigh.us/Technical%20areas/construction/Carpentry/0075_cqwh8a.jpg)
-**Letourneau, Kevin**
-Carpentry Instructor
-[letourneauk@worcesterschools.net](mailto:letourneauk@worcesterschools.net)
-
-</div>
-
-<div class="teacher" markdown="1">
-
-![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016929/TechHigh.us/Technical%20areas/construction/Carpentry/0079_ord50b.jpg)
-**Lussier, Kevin**
-Carpentry Instructor
-[lussierk@worcesterschools.net](mailto:lussierk@worcesterschools.net)
-
-</div>
-
-</div>
