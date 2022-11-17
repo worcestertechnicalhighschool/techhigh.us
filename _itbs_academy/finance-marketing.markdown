@@ -20,4 +20,3 @@ Our students have the opportunity to take what they’ve learned inside the clas
 - Chamber of Commerce
 - Worcester Art Museum
 
-## Contact Us

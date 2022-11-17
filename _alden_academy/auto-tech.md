@@ -14,4 +14,3 @@ Students who enjoy hands-on problem-solving will value the extensive mechanical,
 
 -Snap-on Scan Tool Certification
 
-## Contact Us

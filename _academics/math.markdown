@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Math Department
+layout: department
+title: Math
 date: 2022-10-25
 ---
 
@@ -38,4 +38,3 @@ date: 2022-10-25
 
 - AP Statistics
 
-## Contact Us

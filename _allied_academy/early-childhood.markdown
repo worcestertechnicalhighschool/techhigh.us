@@ -10,4 +10,3 @@ Students who have a passion for working with children will gain a hands-on exper
 - Department of Early Education and Care Certification
 - CPR and First Aid
 
-## Contact Us
