@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: student-life
 title: Special Education
 date: 2022-10-24
 ---

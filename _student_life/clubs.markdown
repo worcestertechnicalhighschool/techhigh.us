@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: student-life
 title: Clubs
 date: 2022-10-26
 ---
