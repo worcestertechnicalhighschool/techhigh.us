@@ -1,38 +1,41 @@
 ---
 layout: default
 ---
-<article class="post department">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+<div class="department">
+  <article class="post">
 
-  <div class="post-content">
-    {{ content }}
-  </div>
-  <section class="contact-us">
-    <div class="faculty-list">
-        {% for faculty in site.data.faculty %}
-            <div class="staff-members">
-              {% assign staff = faculty.department | remove: '"' %}
-              {% assign depart = staff | strip %}
-              {%- if depart == page.title -%}
-              <div class="card card--faculty">
-                <div class="staff">
-                    <img src="{{ faculty.image_url }}" alt="{{ faculty.name }}">
-                    <div class="card-content">
-                      <p class="name card-title">{{ faculty.name }}</p>
-                      <p class="title card-description">{{ faculty.title }}</p>
-                      <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
-                    </div>
-                    
-                </div>
-              </div>
-                {%- endif -%}
-            </div>
-        {% endfor %}
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+  
+    <div class="post-content">
+      {{ content }}
     </div>
-  </section>
-
-</article>
+    <section class="contact-us">
+      <div class="faculty-list">
+          {% for faculty in site.data.faculty %}
+              <div class="staff-members">
+                {% assign staff = faculty.department | remove: '"' %}
+                {% assign depart = staff | strip %}
+                {%- if depart == page.title -%}
+                <div class="card card--faculty">
+                  <div class="staff">
+                      <img src="{{ faculty.image_url }}" alt="{{ faculty.name }}">
+                      <div class="card-content">
+                        <p class="name card-title">{{ faculty.name }}</p>
+                        <p class="title card-description">{{ faculty.title }}</p>
+                        <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
+                      </div>
+                      
+                  </div>
+                </div>
+                  {%- endif -%}
+              </div>
+          {% endfor %}
+      </div>
+    </section>
+  
+  </article>
+</div>
 
