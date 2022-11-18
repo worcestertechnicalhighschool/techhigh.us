@@ -1,12 +1,15 @@
+.wrapper--site-header {
+    height: $header_height;
+    background-color: $header-blue;
+}
 .site-header {
     position: fixed;
     width: 100%;
     z-index: 1000;
     background: $header_blue;
-    top:0;
+    top: 0;
 
-    .wrapper{
-        height: $header_height;
+    .wrapper {
         display: flex;
         padding: 0 20px;
         justify-content: space-between;

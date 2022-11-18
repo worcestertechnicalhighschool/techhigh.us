@@ -1,18 +1,25 @@
+<div class="wrapper wrapper--site-header">
 <header id="masthead" class="site-header" role="banner">
-  
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
-  <div class="wrapper">
     <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
-    <div class="site-branding">
-      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
-        W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
-      </a>
+    <div class="container">
+      <div class="site-branding">
+        <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+          W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
+        </a>
+      </div>
+      <button title="Menu" class="hamburger " type="button" id="hamburger" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Navigation">
+        <span class="line-container">
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </span>
+      </button>
     </div>
-
+  
     {%- if page_paths -%}
       <nav id="site-navigation" class="main-navigation">
-        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
           <ul id="primary-menu" class="menu">
             {% for section in site.sections %}
               {% if page.url == section.url  %}
@@ -29,7 +36,7 @@
                     {% if page.url == menu_item.url  %}
                       <li class="menu-item current-menu-item">
                         <a href="{{ menu_item.url | relative_url }}" 
-                           aria-current="page">{{ menu_item.title | escape }}</a>
+                            aria-current="page">{{ menu_item.title | escape }}</a>
                       </li>
                     {% else %}
                       <li class="menu-item">
@@ -43,5 +50,5 @@
           </ul>
       </nav>
     {%- endif -%}
-  </div>
-</header>
+  </header>
+</div>

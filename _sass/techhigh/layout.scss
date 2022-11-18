@@ -1,6 +1,9 @@
-.wrapper {
-    max-width: 1980px;
+header, section, footer, aside {
+    max-width: $max-width;
     margin: 0 auto;
+}
+.wrapper, main, article {
+    width: 100%;
 }
 
 .site-main {
