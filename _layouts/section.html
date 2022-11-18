@@ -9,7 +9,10 @@ layout: default
   </header>
 
   <div class="post-content">
-    {{ content }}
+    
+    {% for page in site.alden_academy %}
+    <p> {{ page.title }} </p>
+    {% endfor %}
   </div>
 
 </article>
