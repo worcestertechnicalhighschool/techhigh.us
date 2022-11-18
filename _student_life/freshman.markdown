@@ -1,7 +1,7 @@
 ---
-page: layout
+layout: student-life
 title: Freshmen
-date: 2022-10-26                                                                                                                                                                                                                                                                                                                            
+date: 2022-10-26
 ---
 Information, links, and resources for WTHS Freshmen
 

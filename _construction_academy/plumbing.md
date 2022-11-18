@@ -8,19 +8,9 @@ Plumbers and pipe fitters install and repair pipe systems that carry water, stea
 
 ## Where are our students now?
 
-[comment]: #  ( ![Blue stuff](https://images.unsplash.com/photo-1666549467789-d62b3099308e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Blue Stuff") 
-[//]: # ( ### Meet(Name)
-
-
-
-[//]: # (![Blue stuff](https://images.unsplash.com/photo-1666549467789-d62b3099308e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Blue Stuff")
-[//]: # (### Meet(Name)
-
-
-
 
 ## Certifications
 
 + 550 hours of related theory classroom instruction 
-[//]: # (![Blue stuff](https://images.unsplash.com/photo-1666549467789-d62b3099308e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Blue Stuff") 
+
 
