@@ -58,6 +58,9 @@
     }
     
     &.card--faculty{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
         img{
             border-radius: 40px;
         }
