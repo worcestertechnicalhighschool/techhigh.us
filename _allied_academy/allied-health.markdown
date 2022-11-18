@@ -35,12 +35,8 @@ Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allie
 
 + Home Health Aide
 
-<<<<<<< HEAD
 + First Aid Certifications
-=======
-- First Aid Certifications
 ![Alt text](cope.jpg)
->>>>>>> 3124f7992bc36b44f950a89ab4fe4bf67ef9b46a
 
 # Co-op Oppurtunities
 + St. Vincent Hospital Medical Center in Worcester
@@ -75,11 +71,7 @@ Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allie
 
 + Registered Nurse
 
-<<<<<<< HEAD
 + EMT and Paramedic
 
 
 ## Contact Us
-=======
-- EMT and Paramedic
->>>>>>> 3124f7992bc36b44f950a89ab4fe4bf67ef9b46a
