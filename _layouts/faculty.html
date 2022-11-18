@@ -11,15 +11,16 @@ layout: default
       {{ content }}
     </div>
     <div class="faculty-list">
+      <section class="faculty_department">
         {% for faculty in site.data.faculty %}
-        {%- if faculty.department != lastdep -%}
-        </section>
-        {%- endif -%}
-        <section class="faculty_department">
-          <div class="staff-members">
           {%- if faculty.department != lastdep -%}
+          {%- if forloop.index0 != 0 -%}
+          </section>
+          <section class="faculty_department">
+          {%- endif -%}
           <h2> {{ faculty.department }}</h2>
           {%- endif -%}
+          <div class="staff-members">
           {% assign lastdep = faculty.department %}
           <div class="card card--faculty">
             <div class="staff">
@@ -30,7 +31,7 @@ layout: default
               </div>
             </div>
 
-          
+          </div>
         {% endfor %}
     </div>
   
