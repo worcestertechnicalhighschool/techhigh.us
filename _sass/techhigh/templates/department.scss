@@ -1,5 +1,24 @@
 .department{
-    
+    .post-title{
+        font-family: $header_font;
+        font-weight: $header_bold;
+        color: $secondary;
+        width: 200%;
+        height: 100px; 
+        background-color:white;
+        margin-left:-70px;
+        margin-right:80px;
+    }
+    color: black;
+    .post-content{
+        background-color: $primary;
+        height:500px;
+        h2{
+            color:white;
+        }
+        color: black;
+        
+    }
 }
 
 .faculty{
