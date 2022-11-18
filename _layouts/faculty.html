@@ -17,13 +17,16 @@ layout: default
           <h2> {{ faculty.department }}</h2>
           {%- endif -%}
           {% assign lastdep = faculty.department %}
+          <div class="card card--faculty">
             <div class="staff">
               <img src="{{ faculty.image_url }}" alt="{{ faculty.name }}">
-              <p class="name">{{ faculty.name }}</p>
-              <p class="title">{{ faculty.title }}</p>
-              <p class="email"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
+              <p class="name card-title">{{ faculty.name }}</p>
+              <p class="title card-description">{{ faculty.title }}</p>
+              <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
               </div>
             </div>
+          </div>
+            
         {% endfor %}
     </div>
   
