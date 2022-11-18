@@ -1,6 +1,19 @@
-.staff-members{
+.faculty-list{
     display: flex;
-    flex-direction: column;
-    background-color: $light-grey;
-    justify-content: center;
+    flex-direction: column;  
+    align-items: center;
+    
+    h2{
+        text-transform: capitalize;
+        color: $primary;
+        font-family: $header_font;
+        font-size: 2.5rem;
+    }
+    
+    .faculty_department{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }

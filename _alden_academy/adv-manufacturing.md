@@ -21,6 +21,4 @@ Students who have an eye for detail, strengths in math, science, and art will fi
 
 + AUTODESK
 
-<img style="float: right;">
-
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: student-life
 title: Athletics 
 date: 2022-11-14
 ---
