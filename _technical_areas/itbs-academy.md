@@ -3,6 +3,8 @@ title: IT and Business Services Academy
 layout: section
 date: 2022-11-5
 ---
+<<<<<<< HEAD
+=======
 <div class="card" markdown="1">
 
 ![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016893/TechHigh.us/Technical%20areas/Itbs/WebDev/juanjo-jaramillo-mZnx9429i94-unsplash-1-1536x1024_pblrz2.jpg)
@@ -57,4 +59,5 @@ desc
 
 </div>
 
+>>>>>>> 3124f7992bc36b44f950a89ab4fe4bf67ef9b46a
 

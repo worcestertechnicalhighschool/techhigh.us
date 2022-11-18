@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post faculty">
 
     <header class="post-header">
       <h1 class="post-title">{{ page.title | escape }}</h1>
@@ -11,19 +11,28 @@ layout: default
       {{ content }}
     </div>
     <div class="faculty-list">
+      <h2>{{ site.data.faculty[0].department }}</h2>
+      <section class="faculty_department">
         {% for faculty in site.data.faculty %}
-        <div class="staff-members">
           {%- if faculty.department != lastdep -%}
-          <h2> {{ faculty.department }}</h2>
+          {%- if forloop.index0 != 0 -%}
+          </section>
+          <h2>{{ faculty.department }}</h2>
+          <section class="faculty_department">
           {%- endif -%}
+          {%- endif -%}
+          <div class="staff-members">
           {% assign lastdep = faculty.department %}
+          <div class="card card--faculty">
             <div class="staff">
               <img src="{{ faculty.image_url }}" alt="{{ faculty.name }}">
-              <p class="name">{{ faculty.name }}</p>
-              <p class="title">{{ faculty.title }}</p>
-              <p class="email"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
+              <p class="name card-title">{{ faculty.name }}</p>
+              <p class="title card-description">{{ faculty.title }}</p>
+              <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
               </div>
             </div>
+
+          </div>
         {% endfor %}
     </div>
   

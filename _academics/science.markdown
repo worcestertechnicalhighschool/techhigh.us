@@ -1,5 +1,5 @@
 ---
-layout: department
+layout: academics
 title: Science
 date: 2022-10-25
 ---
