@@ -1,8 +1,26 @@
 .department{
-    
-}
-
-.faculty{
-    display: flex;
-    flex: row;
+    .post-title{
+        color: $secondary;
+        width: 200%;
+        height: 100px; 
+        background-color:white;
+        margin-left:-70px;
+        margin-right:80px;
+    }
+    color: black;
+    .tip{
+        background-color: $primary;
+        height:400px;
+        h2{
+            color:white;
+            
+        }
+        color: black;
+    }
+    .faculty-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
