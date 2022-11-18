@@ -7,7 +7,7 @@ Immerse yourself in a compassionate and innovative environment that fosters your
 
 <div class="Alumni_section" markdown="1">
 
-## Alumni Spotlight
+# Alumni Spotlight
 <div class="Alumni" markdown="1">
 
 ![Alt text](cope.jpg)
@@ -26,6 +26,6 @@ Immerse yourself in a compassionate and innovative environment that fosters your
 
 </div>
 
-## Certifications
+# Certifications
 - Approved Veterinary Assitant (AVA)
 ![Alt text](cope.jpg)
