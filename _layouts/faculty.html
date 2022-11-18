@@ -11,14 +11,15 @@ layout: default
       {{ content }}
     </div>
     <div class="faculty-list">
+      <h2>{{ site.data.faculty[0].department }}</h2>
       <section class="faculty_department">
         {% for faculty in site.data.faculty %}
           {%- if faculty.department != lastdep -%}
           {%- if forloop.index0 != 0 -%}
           </section>
+          <h2> {{ faculty.department }}</h2>
           <section class="faculty_department">
           {%- endif -%}
-          <h2> {{ faculty.department }}</h2>
           {%- endif -%}
           <div class="staff-members">
           {% assign lastdep = faculty.department %}
