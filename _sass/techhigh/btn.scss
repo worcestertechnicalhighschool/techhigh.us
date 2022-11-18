@@ -1,0 +1,29 @@
+.btn {
+    display: inline-block;
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:$soft;
+    &:visited{
+        color: white;
+    }
+}
+
+.btn--ghost {
+    background: transparent;
+    border: 5px solid $white;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    
+    &:hover {
+        color: transparent;
+        font-weight: bold;
+        font-size: 1.2rem;
+        background: $white;
+        color: $primary;
+    }
+}
