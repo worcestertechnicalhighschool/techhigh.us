@@ -8,7 +8,7 @@ Our students develop social skills by participating in many of our sports, clubs
 
 
 ### Academics
-Worcester Technical High School regards education with the uitmost importance. By equipping our students with knowledge and resouces that would help them in the classromo and workpalce.
+Worcester Technical High School regards education with the utmost importance. By equipping our students with knowledge and resources that would help them in the classroom and workplace.
 
 
 ### Athletics

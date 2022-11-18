@@ -17,6 +17,7 @@ date: 2022-10-25
 ### Juniors  
 
 - English III
+- AP Language & Composition
 
 ### Seniors  
 

@@ -4,7 +4,6 @@ title: Graphics Print Shop
 date: 2022-10-26
 ---
 
-# Graphic Communications Print Shop
 
 Today’s Graphic Communications Industry is growing rapidly as new technology is developed to keep up with the demand for high quality print. Our Graphics program is fully invested in keeping up with this trend. We offer high-end screen printing and embroidery services; traditional offset printing as well as full-color high-speed digital printing with inline finishing; wide-format banners, decals and much more. Using industry standard technology and state-of -the-art software such as Adobe Illustrator, Photoshop and InDesign, our students have the capabilities to design and produce various products for print.
 
