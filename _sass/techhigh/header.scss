@@ -6,6 +6,9 @@
 // Header-system
 .wrapper--site-header {
     background-color: $header_background;
+    position: relative;
+    box-shadow: 0 0 12px black;
+    z-index: 1000;
 }
 .site-header {
     width: 100%;
@@ -24,7 +27,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        z-index: 302;
+        z-index: 1000;
     } 
     .brand {
         padding: 0 20px;
@@ -105,7 +108,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 250;
         width: 100%;
         max-width: $max_width;
         position: absolute;
@@ -209,16 +211,13 @@
     
 @media screen and (min-width: $nav-breakpoint) {
     .site-header {
-        box-shadow: 0 0 12px black;
         .container {
-            width: calc(#{$brand_width} + #{$header_padding} *2);
             background-color: transparent;
             flex-basis: fit-content;
         }
 
         .primary-nav {
             position: relative;
-            z-index: 295;
             justify-content: flex-end;
             background-color: transparent;
             box-shadow: none;
@@ -262,7 +261,6 @@
                     position: absolute;
                     bottom:-2px;
                     left: calc(50% - 10px);
-                    z-index: 301;
                     width: 0; 
                     height: 0; 
                     border-left: 12px solid transparent;
@@ -282,114 +280,3 @@
         }//.primary-nav @media
     }//.siteheader @media
 }//@media
-
-
-
-// .wrapper--site-header {
-//     height: $header_height;
-//     background-color: $header-blue;
-// }
-// .site-header {
-//     position: fixed;
-//     width: 100%;
-//     z-index: 1000;
-//     background: $header_blue;
-//     top: 0;
-
-//     .wrapper {
-//         display: flex;
-//         padding: 0 20px;
-//         justify-content: space-between;
-//         align-items: center;
-//     }
-
-//     .site-title {
-//         font-family: $header_font;
-//         font-size: 24px;
-//         font-weight: $header_bold;
-//         text-decoration: none;
-//         width: 100%;
-//         white-space: nowrap;
-//         display: inline-block;
-//         line-height: $header_height;
-//         padding: 0 20px;
-//         transition: $soft;
-//         &:hover {
-//             background-color: rgba(0,0,0,0.5);
-//         }
-
-//     }
-
-//     a {
-//         color: $white;
-//     }
-
-    // nav {
-    //     width: initial;
-    //     display: flex;
-    //     justify-content: flex-end;
-    // }
-    
-//     .main-navigation {
-//         ul {
-//             transition: $soft;
-//             transform: translateY(-100%);
-//             background-color: $white;
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: center;
-//             align-items: center;
-//             position: absolute;
-//             left: 0;
-//             top: 0;
-//             width: 100%;
-//             a {
-//                 color: $dark_grey;
-//             }
-//         }
-//         &.toggled {
-//             ul {
-//                 transform: translateY($header_height);
-//             }
-//         }
-//     }
-
-//     // .menu{
-//     //     li {
-//     //         padding: 20px;
-//     //         display: flex;
-//     //         align-items: center;
-
-//     //         li{
-//     //             padding: 0;
-//     //             line-height: 200%;
-//     //             border-width: 200%;
-//     //             a{
-//     //                 text-align: center;
-//     //             }
-//     //             :hover{
-//     //                 color: white;
-//     //                 background: $light_grey;
-//     //             }
-//     //         }
-//     //     }
-            
-//     // }
-//     // .sub-menu{
-//     //     background-color: white;
-//     //     @include aTags($dark_grey);
-//     // }
-    
-// }
-
-// // breakpoint in Undescores commented out
-// @media screen and (min-width: $breakpoint_desktop) {
-
-// 	.menu-toggle {
-// 		display: none;
-// 	}
-
-// 	.main-navigation ul {
-// 		display: flex;
-// 	}
-// }
