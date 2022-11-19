@@ -18,7 +18,7 @@
   
     {%- if page_paths -%}
       <nav id="site-navigation" class="primary-nav mobile">
-        <ul>
+        <ul class="menu">
           {% for section in site.sections %}
             {% if page.url == section.url  %}
               <li class="menu-item current-menu-item">
@@ -29,7 +29,7 @@
             {% endif %}
               {% comment %} modify the file name to match the collection {% endcomment %}
               {% assign sub = section.slug | replace: "-", "_" %}
-              <ul class="sub-menu">
+              <ul class="submenu">
                 {% for menu_item in site.[sub] %}
                   {% if page.url == menu_item.url  %}
                     <li class="menu-item current-menu-item">
