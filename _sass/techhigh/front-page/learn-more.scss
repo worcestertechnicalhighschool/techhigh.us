@@ -2,13 +2,11 @@
     .learn_more{
         background-color: $light-grey;
         padding: 50px 0;
-        .wrapper {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            row-gap: 50px;
-        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 50px;
     }
 }
