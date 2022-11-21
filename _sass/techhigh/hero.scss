@@ -71,3 +71,16 @@
     0% {transform: scale(1);}
     100% {transform: scale(1.1);}
 }
+
+.hero-entry {
+    min-height: 60px;
+    padding: 20px 10px;
+    background-color: $dark_blue;
+    h1 {
+        margin: 0;
+        font-size: 59px;
+        text-transform: uppercase;
+        color: $white;
+        text-align: center;
+    }
+}
