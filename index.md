@@ -20,3 +20,23 @@ hero_text: "<h1>Worcester Technical High&nbsp;School</h1>
 ---
 
 ## News and Events
+
+### Year Book Night
+November 22
+Worcester Tech, 5pm-7pm
+
+### Thanksgiving Break
+November 23 - 25
+No School for Thanksgiving Break
+
+### 8th Grade Open House
+December 8
+Worcester Tech, 6pm-8pm
+
+### PAC Meeting
+December 14th
+Worcester Tech, Conference Room, 12pm-1pm
+
+### Student Council Dance
+December 16
+Worcester Tech, 6pm - 8pm

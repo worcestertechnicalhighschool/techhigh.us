@@ -4,6 +4,17 @@ header, section, footer, aside {
 }
 .wrapper, main, article {
     width: 100%;
+    max-width: 100%;
+}
+
+.wrapper--dk-blue {
+    background-color: $dark_grey;
+}
+.wrapper--dk-gray {
+    background-color: $dark_grey;
+}
+.wrapper--lt-gray {
+    background-color: $light_grey;
 }
 
 .site-main {
