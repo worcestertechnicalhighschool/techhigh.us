@@ -2,7 +2,8 @@
 layout: default
 ---
 {%- include subheader.html -%}
-<article class="post">
+<div class="academies">
+  <article class="post">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
@@ -11,8 +12,16 @@ layout: default
   <div class="post-content">
     {% assign academy_name = page.slug | replace: "-", "_" %}    
     {% for shop in site[academy_name] %}
-    <p> {{ shop.title }} </p>
+    <div class="card card--full-cover">
+      <img src="{{ shop.featured_image }}">
+      <div class="card-content">
+          <a class="btn btn--ghost" href="{{ shop.url }}"> {{ shop.title }} </a>
+      </div>
+      
+    </div>
     {% endfor %}
   </div>
 
 </article>
+</div>
+

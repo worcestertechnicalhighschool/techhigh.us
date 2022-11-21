@@ -81,16 +81,16 @@ collections:
   # Shops are in the academy collections
   alden_academy:
     output: true
-    permalink: /technical-areas/alden/:path/
+    permalink: /technical-areas/alden-academy/:path/
   allied_academy:
     output: true
-    permalink: /technical-areas/allied/:path/
+    permalink: /technical-areas/allied-academy/:path/
   construction_academy:
     output: true
-    permalink: /technical-areas/construction/:path/
+    permalink: /technical-areas/construction-academy/:path/
   itbs_academy:
     output: true
-    permalink: /technical-areas/itbs/:path/
+    permalink: /technical-areas/itbs-academy/:path/
   
     
 

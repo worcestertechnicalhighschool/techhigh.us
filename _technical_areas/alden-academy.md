@@ -1,7 +1,8 @@
 ---
 title: Alden Academy
-layout: section
+layout: academies
 date: 2022-11-5
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016836/TechHigh.us/Technical%20areas/alden/alden-1024x395-1_lyvm1b.jpg
 ---
 
 <div class="card" markdown="1">
