@@ -6,6 +6,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016855/20
 ---
 
 # Courses by Year
+<div class="courses" markdown="1">
 
 ### Freshmen
 
@@ -33,3 +34,4 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016855/20
 
 - Elective courses in Psychology, Sociology, Legal Aspects & Personal Finance
 
+</div>

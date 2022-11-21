@@ -6,10 +6,12 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016848/20
 ---
 
 # Courses by Year
+<div class="courses" markdown="1">
 
 ### Freshmen
 
 - English I
+
 
 ### Sophomores  
 
@@ -26,3 +28,4 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016848/20
 
 - AP Literature & Composition
 
+</div>

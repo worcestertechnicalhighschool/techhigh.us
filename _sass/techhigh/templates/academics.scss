@@ -14,12 +14,19 @@
     color: black;
 
     .post-content{
-        background-color: $primary;
-        height:500px;
-        h2{
+        height:auto;
+        h1{
+            text-align: center;
+        }
+        .courses{
+            background-color: $primary;
             color:white;
+            padding: 5px 10px 10px 20px;
+        }
+        h3{
         }
         color: black;
+        padding: 20px;
     }
         
 
@@ -33,11 +40,16 @@
         color: black;
     }
     .faculty-list{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        .staff-members{
-            justify-self: center;
-        }
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+        column-gap: 10%;
+
+    }
+    .contact-us{
+        max-width: 100%;
     }
     
 }

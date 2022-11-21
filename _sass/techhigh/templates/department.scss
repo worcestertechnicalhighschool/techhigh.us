@@ -15,7 +15,7 @@
 
     .post-content{
         background-color: $primary;
-        height:500px;
+        height:auto;
         h2{
             color:white;
         }
@@ -35,8 +35,11 @@
     .faculty-list{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-
+        flex-wrap:wrap;
+    }
+    .contact-us{
+        max-width: 100%;
     }
 }
