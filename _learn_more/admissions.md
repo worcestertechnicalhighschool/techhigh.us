@@ -1,7 +1,8 @@
 ---
 layout: page
 title:  Admissions
-date:   2022-10-26 
+date:   2022-10-26
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016937/2022/04/sigmund-HsTnjCVQ798-unsplash-1_maguyu.jpg
 ---
 
 ## Important Information for Students Applying for the 2022-2023 School Year
