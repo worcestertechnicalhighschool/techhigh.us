@@ -1,7 +1,8 @@
 ---
 title: IT and Business Services Academy
-layout: section
+layout: academies
 date: 2022-11-5
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668014414/2018/06/IT_wv47jm.jpg
 ---
 
 <div class="card" markdown="1">
