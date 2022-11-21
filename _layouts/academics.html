@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="department">
+<div class="academics">
   <article class="post">
 
     <header class="post-header">
@@ -14,10 +14,10 @@ layout: default
     <section class="contact-us">
       <div class="faculty-list">
           {% for faculty in site.data.faculty %}
+              {% assign staff = faculty.department | remove: '"' %}
+              {% assign depart = staff | strip %}
+              {%- if depart == page.title -%}
               <div class="staff-members">
-                {% assign staff = faculty.department | remove: '"' %}
-                {% assign depart = staff | strip %}
-                {%- if depart == page.title -%}
                 <div class="card card--faculty">
                   <div class="staff">
                       <img src="{{ faculty.image_url }}" alt="{{ faculty.name }}">
@@ -29,8 +29,8 @@ layout: default
                       
                   </div>
                 </div>
-                  {%- endif -%}
               </div>
+            {%- endif -%}
           {% endfor %}
       </div>
     </section>
