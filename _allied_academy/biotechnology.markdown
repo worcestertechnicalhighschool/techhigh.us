@@ -2,6 +2,7 @@
 layout: department
 title:  Biotechnology
 date:   2022-10-24 11:30:49 -0400
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016940/TechHigh.us/Technical%20areas/allied/Biotech/national-cancer-institute-XknuBmnjbKg-unsplash-1_rvsdy6.jpg
 ---
 Explore the sciences of life in our Biotechnology program. Immersed in industry techniques, taught by leading instructors in our state-of-the-art laboratories, students will learn how biological systems operate and how to develop innovative technologies and solutions to improve our lives.
 
