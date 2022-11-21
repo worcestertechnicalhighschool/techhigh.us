@@ -1,10 +1,11 @@
-.landing {
+.front-page {
     h2{
        color: black;
        font-family: $header_font; 
        text-transform: uppercase;
     }
     text-align: center;
+    
     .mission {
         
         padding: 20px;
@@ -48,24 +49,7 @@
             }
         }
     }
-    .news{
-        background-color: $light-grey;
-        h2{
-            font-size: 60px;
-            font-weight: 600;
-        }
-    }
-    .learn_more{
-        background-color: $light-grey;
-        padding: 50px 0;
-        .wrapper {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            row-gap: 50px;
-        }
-    }
+    
+    
 }
 

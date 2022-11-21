@@ -16,10 +16,9 @@ slides:
 
 hero_text: "<h1>Worcester Technical High&nbsp;School</h1>
             <p><em>The School That Works</em></p>"
-    
----
 
-## News and Events
+
+---
 
 ### Year Book Night
 November 22
