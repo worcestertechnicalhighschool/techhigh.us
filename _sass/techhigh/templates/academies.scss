@@ -1,0 +1,23 @@
+.academies{
+    text-align: center;
+    .post-content{
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+    .card{
+        margin: 0;
+    }
+    .card-content{
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btn--ghost {
+            font-size: 1em;
+        }
+    }
+}
