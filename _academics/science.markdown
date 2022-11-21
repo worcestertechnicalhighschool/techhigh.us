@@ -6,6 +6,8 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016854/20
 ---
 # Courses by Year
 
+<div class="courses" markdown="1">
+
 ### Freshmen
 
 - Biology I
@@ -26,4 +28,4 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016854/20
 
 - No science courses for seniors
 
-
+</div>

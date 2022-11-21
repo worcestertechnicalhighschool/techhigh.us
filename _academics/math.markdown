@@ -7,6 +7,8 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016968/20
 
 ## Courses by Year
 
+<div class="courses" markdown="1">
+
 ### Freshmen
 
 - Algebra I
@@ -39,3 +41,4 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016968/20
 
 - AP Statistics
 
+</div>
