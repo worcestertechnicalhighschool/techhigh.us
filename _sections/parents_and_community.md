@@ -2,6 +2,7 @@
 title: Parents and Community
 layout: section
 date: 2022-11-5
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016945/2022/04/jason-goodman-6awfTPLGaCE-unsplash-1-768x512_fy6fn7.jpg
 ---
 
 ## Catch Up with WooTech!
