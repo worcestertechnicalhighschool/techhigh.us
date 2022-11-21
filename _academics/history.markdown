@@ -2,9 +2,11 @@
 layout: academics
 title: History
 date: 2022-10-25
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016855/2022/03/history-image-150x150_lr0lzo.jpg
 ---
 
 # Courses by Year
+<div class="courses" markdown="1">
 
 ### Freshmen
 
@@ -32,3 +34,4 @@ date: 2022-10-25
 
 - Elective courses in Psychology, Sociology, Legal Aspects & Personal Finance
 
+</div>

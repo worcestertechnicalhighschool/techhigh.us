@@ -18,7 +18,7 @@
 --------------------------------------------- */
 @import "techhigh/footer";
 
-/* Cards
+/* Buttons
 --------------------------------------------- */
 @import "techhigh/btn";
 
@@ -26,12 +26,23 @@
 --------------------------------------------- */
 @import "techhigh/card";
 
-/* Landing Components
+/* Heros
 --------------------------------------------- */
-@import "techhigh/landing/hero";
-@import "techhigh/landing/mission";
+@import "techhigh/hero";
+
+/* Front-page Components
+--------------------------------------------- */
+@import "techhigh/front-page/mission";
+@import "techhigh/front-page/news-and-events";
+@import "techhigh/front-page/learn-more";
 
 /* Catergory Templates
 --------------------------------------------- */
 @import "techhigh/templates/department";
 @import "techhigh/templates/faculty";
+@import "techhigh/templates/academies";
+
+
+/* academics
+----------------------------------------------*/
+@import "techhigh/templates/academics";
