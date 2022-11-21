@@ -8,8 +8,8 @@ date: 2022-10-24
 
 The VOC-P Program is made for students who thrive in a hands-on work environment. They will learn functional academics, independent living, and vocational skills through supportive instruction. Special educators and/or special education assistants help the students to achieve these goals. Students are individually matched with their own personal areas of study based on their own skill development, interests, strengths, and learning needs. Eligible students who are interested in applying for VOC-P should contact the Evaluation Team Chairperson at their district high schools.
 
-# Skills + Areas of study
-```
+# Skills & Areas of study
+
 
 Self-Advocacy
 How to communicate during work or out in the community when problems arise and working on determining solutions to these problems, navigating the internet, social media in order to seek out employment opportunities
@@ -29,7 +29,7 @@ Reading a bus schedule the community, scheduling a ride with transportation such
 Budgeting/Money Management
 Identifying and counting coins and bills, comparing prices within stores, making change, using an ATM/Debit card, shopping to promote independence
 
-```
+
 
 # Application Directions:
 
