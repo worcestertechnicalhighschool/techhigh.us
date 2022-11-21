@@ -2,6 +2,7 @@
 layout: student-life
 title: Athletics 
 date: 2022-11-14
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016931/2022/04/riley-mccullough-iezcEpGuYdE-unsplash-1-768x512_pxswv8.jpg
 ---
 <style> 
     display: flex;
