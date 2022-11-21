@@ -5,7 +5,7 @@ date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016968/2022/05/math-300x147_dc8405.jpg
 ---
 
-## Courses by Year
+# Courses by Year
 
 <div class="courses" markdown="1">
 
