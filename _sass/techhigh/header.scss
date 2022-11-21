@@ -259,6 +259,7 @@
                 &::before { // triangle
                     content:'';
                     position: absolute;
+                    z-index:1;
                     bottom:-2px;
                     left: calc(50% - 10px);
                     width: 0; 
