@@ -74,14 +74,16 @@
         text-align: center;
         text-align: left;
         font-size: 25px;
+        margin: 25px 75px;
+        padding: 0 100px;
     }
     #logo {
-        height: 3in;
-        width: 3in;
+        height: auto;
+        max-width: 300px;
         float: left;
         @media (max-width: 720px) {
-            height: 2in;
-            width: 2in;
+            height: auto;
+            width: 200px;
         }
     }
 }
