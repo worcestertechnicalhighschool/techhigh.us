@@ -13,7 +13,6 @@ Allied Health students are exposed to a wide range of real-world clinical work a
 # Alumni Spotlight
 <div class="Alumni" markdown="1">
 
-![Alt text](cope.jpg)
 ## Meet Alyssa
 Alyssa Paley is a 2018 graduate from Worcester Technical High School’s Allied Health Program. After graduation, Alyssa attended Quinsigamond Community College and Worcester State University. She is now serving as a Nurse at St. Vincent Hospital in Worcester, MA.
 
@@ -21,7 +20,6 @@ Alyssa Paley is a 2018 graduate from Worcester Technical High School’s Allied 
 
 <div class="Alumni" markdown="1">
 
-![Alt text](cope.jpg)
 ## Meet Bernice
 Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allied Health program. After graduation, Bernice attended Worcester State university and plans to further her education to become a physician. 
 
@@ -36,12 +34,7 @@ Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allie
 
 + Home Health Aide
 
-<<<<<<< HEAD
 + First Aid Certifications
-=======
-- First Aid Certifications
-![Alt text](cope.jpg)
->>>>>>> 3124f7992bc36b44f950a89ab4fe4bf67ef9b46a
 
 # Co-op Oppurtunities
 + St. Vincent Hospital Medical Center in Worcester
@@ -76,11 +69,7 @@ Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allie
 
 + Registered Nurse
 
-<<<<<<< HEAD
 + EMT and Paramedic
 
 
 ## Contact Us
-=======
-- EMT and Paramedic
->>>>>>> 3124f7992bc36b44f950a89ab4fe4bf67ef9b46a
