@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Worcester Technical High School
+title: Our Mission
 date: 2022-10-28
 ---
 # The schools that works
