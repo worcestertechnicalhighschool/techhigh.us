@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: front-page
-slides: 
+hero_slides: 
   - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016973/2022/06/IMG_5222-5-scaled_mhjmva.jpg"
     alt: "Web Dev Students"
     position: "object-position: center 75%;"
@@ -17,7 +17,34 @@ slides:
 hero_text: "<h1>Worcester Technical High&nbsp;School</h1>
             <p><em>The School That Works</em></p>"
 
+slideshow:
+  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016855/2022/03/history-image-150x150_lr0lzo.jpg"
+    alt: "History"
+    position: "object-position: center;"
+    slide_title: "History"
+    slide_cta: "Learn More"
+    slide_url: "http://127.0.0.1:4000/academics/history/"
 
+  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016844/2022/03/english-image-300x123_nlgwto.jpg"
+    alt: "English Language Arts"
+    position: "object-position: center;"
+    slide_title: "English Language Arts"
+    slide_cta: "Learn More"
+    slide_url: "http://127.0.0.1:4000/academics/english/"
+
+  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016852/2022/03/math-image-150x150_psjbxx.jpg"
+    alt: "Math"
+    position: "object-position: center;"
+    slide_title: "Math"
+    slide_cta: "Learn More"
+    slide_url: "http://127.0.0.1:4000/academics/math/"
+
+  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016854/2022/03/science-image-150x150_orsj8v.jpg"
+    alt: "Science"
+    position: "object-position: center;"
+    slide_title: "Science"
+    slide_cta: "Learn More"
+    slide_url: "http://127.0.0.1:4000/academics/science/"
 ---
 
 ### Year Book Night
