@@ -2,6 +2,7 @@
 layout: page
 title: English Summer Work
 date: 2022-10-27
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016966/2022/05/English-1-150x150_e3v2tr.webp
 ---
 
 ## Grade 9
