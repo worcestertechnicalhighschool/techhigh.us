@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: front-page
-slides: 
+hero_slides: 
   - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016973/2022/06/IMG_5222-5-scaled_mhjmva.jpg"
     alt: "Web Dev Students"
     position: "object-position: center 75%;"
