@@ -1,38 +1,34 @@
-<header class="site-header" role="banner">
-
-  <div class="wrapper">
-    
-      <nav id="section-navigation" class="section-navigation">
-        <button class="menu-toggle" aria-controls="section-menu" aria-expanded="false">Menu</button>
-          <ul class="navlist-secondary">
-            {% comment %} modify the file name to match the collection {% endcomment %}
-            {% assign sub = page.slug | replace: "-", "_" %}
-            {% for menu_item in site.[sub] %}
-              {% if page.url == menu_item.url %}
-                <li class="menu-item current-menu-item">
-                  <a href="{{ menu_item.url | relative_url }}" 
-                     aria-current="page">{{ menu_item.title | escape }}</a>
-              {% else %}
-                <li class="menu-item">
-                  <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
-              {% endif %}
-                {% assign sub = menu_item.slug | replace: "-", "_" %}
-                  <ul class="sub-menu">
-                    {% for sub_menu in site.[sub] %}
-                      {% if page.url == sub_menu.url  %}
-                        <li class="menu-item current-menu-item">
-                          <a href="{{ sub_menu.url | relative_url }}" 
-                             aria-current="page">{{ sub_menu.title | escape }}</a>
-                      {% else %}
-                        <li class="menu-item">
-                          <a href="{{ sub_menu.url | relative_url }}" 
-                            >{{ sub_menu.title | escape }}</a>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
-                </li>
-            {% endfor %}
-          </ul>  
-      </nav>
-  </div>
-</header>
+<div class="wrapper">
+  
+    <nav id="section-navigation" class="section-navigation">
+        <ul class="navlist-secondary">
+          {% comment %} modify the file name to match the collection {% endcomment %}
+          {% assign sub = page.slug | replace: "-", "_" %}
+          {% for menu_item in site.[sub] %}
+            {% if page.url == menu_item.url %}
+              <li class="menu-item current-menu-item">
+                <a href="{{ menu_item.url | relative_url }}" 
+                    aria-current="page">{{ menu_item.title | escape }}</a>
+            {% else %}
+              <li class="menu-item">
+                <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
+            {% endif %}
+              {% assign sub = menu_item.slug | replace: "-", "_" %}
+                <ul class="sub-menu">
+                  {% for sub_menu in site.[sub] %}
+                    {% if page.url == sub_menu.url  %}
+                      <li class="menu-item current-menu-item">
+                        <a href="{{ sub_menu.url | relative_url }}" 
+                            aria-current="page">{{ sub_menu.title | escape }}</a>
+                    {% else %}
+                      <li class="menu-item">
+                        <a href="{{ sub_menu.url | relative_url }}" 
+                          >{{ sub_menu.title | escape }}</a>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+          {% endfor %}
+        </ul>  
+    </nav>
+</div>
