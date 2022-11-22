@@ -1,5 +1,5 @@
 ---
-layout: department
+layout: shops
 title: Interior Design & Decorating
 date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016925/2022/04/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash-1-300x300_voajjd.jpg

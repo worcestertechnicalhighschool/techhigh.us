@@ -59,6 +59,48 @@
             background-color: rgba(0,0,0,0.7);
             transition: $soft;
         }
+
+        /* This is specifically for the full-image cards on the technical areas page */
+        &.card--technical-areas{
+            margin: 0;
+            .shop-list {
+                a {
+                    display: inline-block;
+                    position: relative;
+                    color: $white;
+                    padding: 5px 10px;
+                    &::before{
+                        background-color: $primary;
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        transition: $soft;
+                        transform: scaleX(0);
+                        z-index: -1;
+                        border-radius: 15px;
+                    }
+                    &:hover {
+                        text-decoration:none;
+                    }
+                }
+                a:hover::before{
+                    transform: scaleX(100%);
+                }
+            }
+            .card-content{
+                min-height: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .btn--ghost {
+                    font-size: 1em;
+                }
+            }
+        }
     }
     
     &.card--faculty{
@@ -72,5 +114,6 @@
             font-weight: bold;
         }
     }
+    
 }
 

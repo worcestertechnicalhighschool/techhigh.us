@@ -1,5 +1,5 @@
 ---
-layout: department
+layout: shops
 title: Information Support Services & Networking
 date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016915/2022/04/umberto-jXd2FSvcRr8-unsplash-1_pibtwx.jpg

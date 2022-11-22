@@ -1,4 +1,4 @@
-.department{
+.shops{
     .post-title{
 
         font-family: $header_font;
@@ -12,19 +12,22 @@
     color: black;
 
     .post-content{
-        padding: 40px 10px;
-        margin: 0 185px;
+        
         p{
+            padding: 40px 10px;
+            margin: 0 185px;
             text-align: center;
-            font-size: 22px;
+            font-size: 22px;        padding: 40px 10px;
+        margin: 0 185px;
         }
-        h2{
-            text-transform: uppercase;
-            font-size: 45px;
+        .certifs{
             background-color: $secondary;
-        }
-        ul{
-            background-color: $secondary;
+            color: white;
+            max-width: 100%;
+            .shop-certifications{
+                padding: 0 10px;
+                margin: 0 185px;
+            }
         }
     }
         
