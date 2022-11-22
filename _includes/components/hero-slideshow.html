@@ -3,7 +3,7 @@ This component requires front matter.
 @required: "slides", "hero_text"
 @example:
     ---
-    slides: 
+    hero_slides: 
         - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016973/2022/06/IMG_5222-5-scaled_mhjmva.jpg"
         alt: "Web Dev Students"
         position: "object-position: center 75%;"
@@ -20,7 +20,7 @@ This component requires front matter.
 
 {% endcomment %}
 <section class="hero slideshow">
-    {% for slide in page.slides %}
+    {% for slide in page.hero_slides %}
     <div class="slide">
       <img 
         src="{{ slide.image }}" 
