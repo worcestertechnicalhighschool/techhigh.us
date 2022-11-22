@@ -2,7 +2,7 @@
 layout: department
 title: Culinary Arts
 date: 2022-10-24
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016894/2022/04/luisa-brimble-HvXEbkcXjSk-unsplash-1-300x200_l16sqi.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016934/2022/04/luisa-brimble-HvXEbkcXjSk-unsplash-1_mzvcgc.jpg
 ---
 
 Is food your passion? Then the Culinary Arts program is perfect for you! Our day is spent preparing food for our customers who purchase sweet and savory goods through our student run operations, in order to prepare our student chefs for the food service industry. 

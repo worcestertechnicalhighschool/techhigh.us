@@ -3,7 +3,7 @@ layout: department
 title: Welding
 date: 2022-10-24
 permalink:
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016974/2022/06/2CF7C34E-D8A1-4E93-A020-B4198E17C843-1_wfvrpl.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016972/2022/06/2CF7C34E-D8A1-4E93-A020-B4198E17C843_pilgb0.jpg
 ---
 
 
