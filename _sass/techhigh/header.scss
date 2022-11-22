@@ -41,7 +41,11 @@
         text-decoration: none;
         transition: all 0.3s ease;
         white-space: nowrap;
+        span {
+            font-size: $brand_font_size;
+            font-family: $header_font;
 
+        }
         &:hover {
         //   transform: scale(1.05);
         background-color: $hover_bg_dark;
@@ -117,7 +121,11 @@
         background-color: $header-background;
         transform: translateY(-100%);
         box-shadow: 0 0 12px black;
-
+        a {
+            font-family: $header_font;
+            font-weight: $header_extra_light;
+            text-transform: uppercase;
+        }
         &.mobile {
             transition: transform 0.3s ease;  
         }
