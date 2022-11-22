@@ -25,6 +25,7 @@ slideshow:
     slide_cta: "Learn More"
     slide_url: "http://127.0.0.1:4000/academics/history/"
 
+slideshow:
   - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016844/2022/03/english-image-300x123_nlgwto.jpg"
     alt: "English Language Arts"
     position: "object-position: center;"
@@ -32,6 +33,7 @@ slideshow:
     slide_cta: "Learn More"
     slide_url: "http://127.0.0.1:4000/academics/english/"
 
+slideshow:
   - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016852/2022/03/math-image-150x150_psjbxx.jpg"
     alt: "Math"
     position: "object-position: center;"
@@ -39,6 +41,7 @@ slideshow:
     slide_cta: "Learn More"
     slide_url: "http://127.0.0.1:4000/academics/math/"
 
+slideshow:
   - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016854/2022/03/science-image-150x150_orsj8v.jpg"
     alt: "Science"
     position: "object-position: center;"
