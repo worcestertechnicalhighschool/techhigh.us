@@ -31,12 +31,17 @@
 --------------------------------------------- */
 @import "techhigh/card";
 
+/* Slideshows
+--------------------------------------------- */
+@import "techhigh/slideshow";
+
 /* Heros
 --------------------------------------------- */
 @import "techhigh/hero";
 
 /* Front-page Components
 --------------------------------------------- */
+@import "techhigh/front-page/front-page";
 @import "techhigh/front-page/mission";
 @import "techhigh/front-page/news-and-events";
 @import "techhigh/front-page/learn-more";
