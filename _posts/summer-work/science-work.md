@@ -2,6 +2,7 @@
 layout: page
 title: Science Summer Work
 date: 2022-10-27
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016970/2022/05/Science-1024x575_zsuppb.jpg
 ---
 
 ## Grade 9
