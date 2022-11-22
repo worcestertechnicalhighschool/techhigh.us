@@ -2,16 +2,16 @@
 layout: default
 ---
 <div class="academics">
+  {%- include components/hero-entry.html -%}
   <article class="post">
-
-    {%- include components/hero-entry.html -%}
+    
     
     <div class="post-content">
       {{ content }}
     </div>
 
     {% if page.courses %}
-    <h2>Courses By Year</h2>
+    <h1>Courses By Year</h1>
       <section class="courses">
         {% for grade in page.courses %}
           <h3>{{ grade[0]}}</h3>
