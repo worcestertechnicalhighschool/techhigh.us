@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="academies">
+  <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {% assign section_name = page.slug | replace: "-", "_" %}    
+    {% for acad in site[section_name] %}
+    <div class="card card--full-cover">
+      <img src="{{ acad.featured_image }}">
+      <div class="card-content">
+          <a class="btn btn--ghost" href="{{ acad.url }}"> {{ acad.title }} </a>
+          <div class="shop-list">
+            {% assign acad_collection = acad.slug | replace: "-", "_" %}
+            {% for shop in site[acad_collection] %}
+              <a href="{{ shop.url }}">{{ shop.title }}</a> <span class="list-separator">|</span>
+            {% endfor %}
+          </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+</article>
+</div>
+

@@ -1,4 +1,7 @@
 
+.list-separator:last-child {
+    display: none;
+}
 .card{
     overflow: hidden;
     margin: auto;
@@ -42,6 +45,7 @@
                 text-transform: capitalize;
                 font-size: 1.5em;
             }
+            
         }
 
         &::before {
