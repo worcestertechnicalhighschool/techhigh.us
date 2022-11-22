@@ -2,6 +2,7 @@
 layout: page
 title: Graphics Print Shop
 date: 2022-10-26
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016923/2022/04/neven-krcmarek-V4EOZj7g1gw-unsplash-1_djzjjb.jpg
 ---
 
 
