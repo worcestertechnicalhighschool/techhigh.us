@@ -45,6 +45,35 @@ slideshow:
     slide_title: "Science"
     slide_cta: "Learn More"
     slide_url: "http://127.0.0.1:4000/academics/science/"
+
+slideshow:
+  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/alden-1024x395-1-768x296_dqoe7g.jpg"
+    alt: "Alden Design & Engineering Academy"
+    position: "object-position: center;"
+    slide_title: "Alden Design & Engineering Academy"
+    slide_cta: "Learn More"
+    slide_url: "http://127.0.0.1:4000/technical-areas/alden-academy/"
+
+  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/health-1024x682-768x512-1-300x200_sefdl4.jpg"
+    alt: "Allied Health & Human Services Academy"
+    position: "object-position: center;"
+    slide_title: "Allied Health & Human Services Academy"
+    slide_cta: "Learn More"
+    slide_url: "http://127.0.0.1:4000/technical-areas/allied-academy/"
+
+  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/solar-panels-1794467_1280-768x518-1_xggaqo.jpg"
+    alt: "Coghlin Construction Technology Academy"
+    position: "object-position: center;"
+    slide_title: "Coghlin Construction Technology Academy"
+    slide_cta: "Learn More"
+    slide_url: "http://127.0.0.1:4000/technical-areas/construction-academy/"
+
+  - image: "Information Technology & Business Services Academy"
+    alt: "Information Technology & Business Services Academy"
+    position: "object-position: center;"
+    slide_title: "Information Technology & Business Services Academy"
+    slide_cta: "Learn More"
+    slide_url: "http://127.0.0.1:4000/technical-areas/itbs-academy/"
 ---
 
 ### Year Book Night

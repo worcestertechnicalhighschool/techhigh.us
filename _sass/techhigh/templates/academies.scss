@@ -10,10 +10,22 @@
     }
     .card{
         margin: 0;
+        .shop-list {
+            text-shadow: 0 0 5px black;
+            a {
+                text-shadow: 0 0 5px black;
+                color: $white;
+                // font-weight: $body_bold;
+                &:hover {
+                    text-decoration:none;
+                }
+            }
+        }
     }
     .card-content{
-        height: 150px;
+        height: 200px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         .btn--ghost {

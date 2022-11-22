@@ -1,6 +1,6 @@
 ---
 title: Technical Areas
-layout: academies
+layout: technical-areas
 date: 2022-11-5
 ---
 

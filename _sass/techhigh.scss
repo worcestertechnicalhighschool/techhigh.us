@@ -17,6 +17,7 @@
 /* Site Header
 --------------------------------------------- */
 @import "techhigh/header";
+@import "techhigh/subheader";
 
 /* Site Footer
 --------------------------------------------- */
@@ -50,3 +51,7 @@
 /* academics
 ----------------------------------------------*/
 @import "techhigh/templates/academics";
+
+/* general_info
+----------------------------------------------*/
+@import "techhigh/templates/general_info";
