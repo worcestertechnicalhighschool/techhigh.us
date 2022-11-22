@@ -2,6 +2,7 @@
 layout: page
 title: General Advisory Board
 date: 2022-10-26
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016914/2022/04/jo-szczepanska-5aiRb5f464A-unsplash-1_gzx3yq.jpg
 ---
 
 Pursuant to Massachusetts General Law Chapter 74, Section 2, and The Vocational Technical Education Regulation 603 CMR 4.00, Worcester Technical High School appoints Program Advisory Committees for each program area under its control in addition to a General Advisory Committee.

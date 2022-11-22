@@ -12,6 +12,7 @@ courses:
     Seniors:
         - English IV (students get to select special elective topics)
         - AP Literature & Composition
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016846/2022/03/english-image-150x150_m0vj4p.jpg
+
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016848/2022/03/english-image_ms8w8a.jpg
 ---
 

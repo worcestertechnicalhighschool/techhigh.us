@@ -19,5 +19,6 @@ courses:
         - Pre-Calculus
         - AP Calculus
         - AP Statistics
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016954/2022/05/math-150x150_vnqhpe.jpg
+
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016955/2022/05/math_nz63qn.jpg
 ---
