@@ -42,13 +42,10 @@ layout: default
           <aside class="news-feed">
             {{ content }}
           </aside>
-          {% if page.featured_news %}
-            <aside>
-              <div class="slide">News</div>
-            </aside>
-          {% endif %}
+          <aside class="featured-news">
+            {%- include components/collection-carousel.html collection="featured_news" -%}
+          </aside>
         </div>
-
     </section>
   </div>
   

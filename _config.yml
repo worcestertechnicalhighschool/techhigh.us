@@ -92,6 +92,10 @@ collections:
     output: true
     permalink: /technical-areas/itbs-academy/:path/
   
+  # Featured news collection
+  featured_news:
+    output: true
+    permalink: /news/:path/
     
 
 # Exclude from processing.
