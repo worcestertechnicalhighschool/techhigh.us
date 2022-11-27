@@ -1,3 +1,8 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
 header, section, footer, aside, nav, .post-content, .post-header {
     max-width: $max-width;
     margin: 0 auto;
@@ -49,6 +54,4 @@ header, section, footer, aside, nav, .post-content, .post-header {
     }
 	
 }
-// @media screen and (min-width: 37.5em) {
 
-// }
