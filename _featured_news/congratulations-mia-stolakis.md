@@ -1,7 +1,7 @@
 ---
 title: Congratulations Mia Stolakis
 layout: default
-date: 2022-27-11
+date: 2022-11-27
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016841/2022/03/mia-233x300_inj0ka.jpg
 excerpt: Worcester Tech bowler Mia Stolakis, two-time league champion, earns scholarship to Tulane University.
 ---
