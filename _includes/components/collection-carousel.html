@@ -6,7 +6,13 @@ This component requires a collection parameter.
   {%- include components/collection-carousel.html collection="academics" -%}
 
 {% endcomment %}
+{% if include.height %}
+<div id="carousel-{{ include.collection }}" 
+  class="carousel" 
+  style="min-height: {{ include.height }}">
+{% else %}
 <div id="carousel-{{ include.collection }}" class="carousel">
+{% endif %}
   <button class="controls control-next">
     <i class="fa-solid fa-chevron-left"></i>
     <span class="screen-reader-text">Previous</span>
