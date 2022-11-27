@@ -1,35 +1,35 @@
-.wrapper--site-footer {
-    background-color: $primary;
-    position: relative;
-    box-shadow: 0 0 12px black;
-    z-index: 1000;
-}
 .site-footer {
-    @mixin footerATags {
-        color: #B2B4B2;
-            :hover{
-                color: white;
-            }
+    width: 100%;
+    max-width: 100%;
+    .container {
+        max-width: $max_width;
+        margin: 0 auto;
+    }
+    p {
+        font-size: 16px;
+        line-height:32px;
+        margin: 0;
+    }
+    small p {
+        font-size: 15px;
+        line-height: 24px;    
     }
     
-    padding:45;
-    font-size:20px;
-    line-height:24px;
-    color:#ffffff;
-    display: flex;
-    flex-wrap: wrap;
-
     .footer-wths {
-        left: 0;
-        bottom: 0;
+        padding: 20px;
         width: 100%;
         background-color: $primary;
-        color: #B2B4B2;
         text-align: center;
-        padding: 20px;
+        color:#ffffff;
+
         a {
-            @include footerATags();
+            color: $light_grey;
+            &:hover {
+                color: white;
+                text-decoration: none;
+            }
         }
+        
         .social-media-list{
             list-style-type: none;
             display: flex;
@@ -40,8 +40,8 @@
             a {
                 position: relative;
                 margin-left: 30px;
-                padding-left:20px;
-                @include footerATags();
+                padding-left: 20px;
+                
             }
             .svg-icon{
                 width: 20px;
@@ -54,36 +54,21 @@
             }
         }
     }
-    
-    .wrapper-row {
-        object-fit: fill;
-    }
-    
-    
-    
+    .footer-wps {
+        img {
+            width: auto;
+            max-height: 120px;
+            float:left;
+        }
+        a {
+            color: $dark_blue;
+            font-weight: $body_bold;
+            &:hover {
+                color: $dark_grey;
+                text-decoration: none;
+            }
+        }
+    } 
     
 }
 
-.wrapper--wps-footer{
-    background-color: white;
-    .wrapper_row {
-        color: black;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        text-align: left;
-        font-size: 25px;
-        margin: 25px 75px;
-        padding: 0 100px;
-    }
-    #logo {
-        height: auto;
-        max-width: 400px;
-        float: left;
-        @media (max-width: 720px) {
-            height: auto;
-            width: 200px;
-        }
-    }
-}
