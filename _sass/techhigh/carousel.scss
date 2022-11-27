@@ -2,7 +2,6 @@
     box-sizing: border-box;
     width: 100%;
     min-height: $min-height;
-    background-color: yellow;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -19,7 +18,6 @@
     .slide {
       width:100%;
       height: 100%;
-      background-color: red;
       position: absolute;
       left: 0;
       right: 0;
@@ -70,9 +68,20 @@
       flex-direction: column;
       color: $white;
       z-index: 10;
+      h3 {
+        font-size: 35px;
+      }
     }
     .controls {
       z-index: 10;
+      border: none;
+      background:transparent;
+      color: $indicator;
+      font-size: 24px;
+      transition: $soft;
+      &:hover {
+        color: $white;
+      }
     }
     .indicators {
       z-index: 10;
