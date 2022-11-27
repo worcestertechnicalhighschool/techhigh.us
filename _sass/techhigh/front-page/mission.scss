@@ -25,6 +25,7 @@
             padding-top: 20px;
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             font-family: $header_font;
