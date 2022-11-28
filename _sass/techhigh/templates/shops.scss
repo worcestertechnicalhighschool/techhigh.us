@@ -1,0 +1,44 @@
+.shops{
+    .post-title{
+
+        font-family: $header_font;
+        font-weight: $header_bold;
+
+        color: $secondary;
+        width: 100%;
+        background-color:white;
+        text-align: center;
+    }
+    color: black;
+
+    .post-content{
+        
+        p{
+            padding: 40px 10px;
+            margin: 0 185px;
+            text-align: center;
+            font-size: 22px;        padding: 40px 10px;
+        margin: 0 185px;
+        }
+        .certifs{
+            background-color: $secondary;
+            color: white;
+            max-width: 100%;
+            .shop-certifications{
+                padding: 0 10px;
+                margin: 0 185px;
+            }
+        }
+    }
+        
+    .faculty-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+    .contact-us{
+        max-width: 100%;
+    }
+}

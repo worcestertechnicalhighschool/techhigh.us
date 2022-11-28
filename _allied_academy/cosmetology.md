@@ -1,8 +1,11 @@
 ---
-layout: department
+layout: shops
 title: Cosmetology
 date: 2022-10-25
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016909/2022/04/maria-lupan-f6qXaAk4rOk-unsplash-1_qzseib.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016912/2022/04/maria-lupan-f6qXaAk4rOk-unsplash-1-768x512_l7w1tw.jpg
+certifications: 
+    - Massachusetts State Cosmetology License
+    - 1000 Hour Course Completion
 ---
 
 Fashion-forward, self-expressive students will thrive in our Cosmetology program. You will be taught a wide variety of skills and services that will allow you to specialize in hairdressing, esthetics (skin care), nails (manicures/pedicures), and make-up. You will get the opportunity to work on paying customers and provide services such as shampooing, hair styling, facials, hair coloring, and more. At the end of this program students have the opportunity to become licensed cosmetologists upon completion of the State Board Exam. You will be prepared for any career in the ever-expanding and ever-changing Beauty Industry.
@@ -18,12 +21,6 @@ Kassandra Lugo is a 2013 graduate from Worcester Technical high school’s cosme
 ## (Image)
 #### Meet Dennise
 Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosmetology Program. Upon graduation Dennise Decided to go right into the work field as she currently works at Jeffrey Robert Salon as a hairstylist
-
-
-# Certifications
-- Massachusetts State Cosmetology License
-- 1000 Hour Course Completion
-
 
 # Skills and Compentencies
 - Effective Communication Skills and positive Human Relations
