@@ -11,22 +11,28 @@ The VOC-P Program is made for students who thrive in a hands-on work environment
 # Skills & Areas of study
 
 
-Self-Advocacy
+**Self-Advocacy**
+
 How to communicate during work or out in the community when problems arise and working on determining solutions to these problems, navigating the internet, social media in order to seek out employment opportunities
 
-Vocational Skills
+**Vocational Skills**
+
 On the job training, work readiness, interview , resume building and job skills, safety while on the job
 
-Community Opportunities
+**Community Opportunities**
+
 Critical thinking and problem solving, working as a team, communication skills, motivation, time management
 
-Activities of daily living
+**Activities of daily living**
+
 Maintaining a safe environment, cooking, cleaning, dressing, personal hygiene
 
-Travel Training
+**Travel Training**
+
 Reading a bus schedule the community, scheduling a ride with transportation such as WRTA, Uber, Lift, etc.
 
-Budgeting/Money Management
+**Budgeting/Money Management**
+
 Identifying and counting coins and bills, comparing prices within stores, making change, using an ATM/Debit card, shopping to promote independence
 
 
