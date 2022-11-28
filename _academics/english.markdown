@@ -1,5 +1,5 @@
 ---
-layout: academics
+layout: academic-page
 title: English
 date: 2022-10-25
 courses:

@@ -1,52 +1,23 @@
 ---
 layout: default
 ---
-<div class="academics">
-  {%- include components/hero-entry.html -%}
-  <article class="post">
-    
-    
-    <div class="post-content">
-      {{ content }}
-    </div>
+{%- include subheader.html -%}
+<article class="post">
 
-    {% if page.courses %}
-    <h1>Courses By Year</h1>
-      <section class="courses">
-        {% for grade in page.courses %}
-          <h3>{{ grade[0]}}</h3>
-          <ul>
-            {% for course in grade[1] %}
-              <li>{{ course }}</li>
-            {% endfor %}
-          </ul>
-        {% endfor %}
-      </section>
-    {% endif %}
-    <section class="contact-us">
-      <div class="faculty-list">
-          {% for faculty in site.data.faculty %}
-              {% assign staff = faculty.department | remove: '"' %}
-              {% assign depart = staff | strip %}
-              {%- if depart == page.title -%}
-              <div class="staff-members">
-                <div class="card card--faculty">
-                  <div class="staff">
-                      <img src="{{ faculty.image_url }}" alt="{{ faculty.name }}">
-                      <div class="card-content">
-                        <p class="name card-title">{{ faculty.name }}</p>
-                        <p class="title card-description">{{ faculty.title }}</p>
-                        <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
-                      </div>
-                      
-                  </div>
-                </div>
-              </div>
-            {%- endif -%}
-          {% endfor %}
-      </div>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    <section class="card-container">
+      {% assign section_name = page.slug | replace: "-", "_" %}    
+      {% for sub in site[section_name] %}
+      <p>{{ sub.title }}</p>
+      {% endfor %}
     </section>
-  
-  </article>
-</div>
+    <section>
+      {{ content }}
+    </section>
+  </div>
 
+</article>

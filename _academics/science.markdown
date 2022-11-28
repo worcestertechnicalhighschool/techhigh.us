@@ -1,5 +1,5 @@
 ---
-layout: academics
+layout: academic-page
 title: Science
 date: 2022-10-25
 

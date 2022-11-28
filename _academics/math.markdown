@@ -1,5 +1,5 @@
 ---
-layout: academics
+layout: academic-page
 title: Math
 date: 2022-10-25
 courses:

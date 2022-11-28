@@ -1,8 +1,16 @@
 ---
-layout: department
+layout: shops
 title:  Allied Health
 date:   2022-10-24 11:30:49 -0400
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016865/2022/04/myriam-zilles-7V95FwS2Ss4-unsplash-1-1024x682_wj2p1p.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016946/2022/04/myriam-zilles-7V95FwS2Ss4-unsplash-1_dphljq.jpg
+certifications: 
+    - CNA (Certified Nursing Assistant)
+
+    - CPR/BLS/AED
+
+    - Home Health Aide
+
+    - First Aid Certifications
 ---
 Immerse yourself in a caring and innovative environment in our Allied Health Program. With our robust simulation-based instruction, including experience in working with mannequins, students are equipped with the theory and the skill competencies to be successful and to make an impact in the healthcare field. 
 
@@ -27,14 +35,6 @@ Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allie
 
 </div>
 
-# Certifications
-+ CNA (Certified Nursing Assistant)
-
-+ CPR/BLS/AED
-
-+ Home Health Aide
-
-+ First Aid Certifications
 
 # Co-op Oppurtunities
 + St. Vincent Hospital Medical Center in Worcester

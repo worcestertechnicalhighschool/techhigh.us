@@ -35,18 +35,18 @@ Today’s Graphic Communications Industry is growing rapidly as new technology i
 - Notepads
 - Formal Invitations with Thermpography
 
-# Bindery: 
+## Bindery: 
 - Folding
 - Cutting/Trimming
 - Perforating
 - Padding
 - Shrink Wrapping
 
-# Engraving
+## Engraving
 - Small Signs
 - Nameplates
 
-# Embroidery
+## Embroidery
 - Shirts 
 - Hats (Baseball and Beanies)
 - Jackets
