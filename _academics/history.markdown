@@ -1,5 +1,5 @@
 ---
-layout: academics
+layout: academic-page
 title: History
 date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016854/2022/03/history-image_q1ta2r.jpg
@@ -17,5 +17,7 @@ courses:
         - AP World History
         - AP Art History after school with the Worcester Art Museum 
         - Elective courses in Psychology, Sociology, Legal Aspects & Personal Finance
+
+excerpt: Students discover the physical and natural world trough observation and experiments.
 ---
 
