@@ -9,10 +9,15 @@ layout: default
   </header>
 
   <div class="post-content">
-    {% assign academy_name = page.slug | replace: "-", "_" %}    
-    {% for shop in site[academy_name] %}
-    <p> {{ shop.title }} </p>
-    {% endfor %}
+    <section>
+      {{ content }}
+    </section>
+    <section class="card-container">
+      {% assign section_name = page.slug | replace: "-", "_" %}    
+      {% for sub in site[section_name] %}
+        <p>{{ sub.title }}</p>
+      {% endfor %}
+    </section>
   </div>
 
 </article>
