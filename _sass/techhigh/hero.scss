@@ -1,14 +1,4 @@
-.slideshow {
-    transition: transform ease 0.5s;
-    position: relative;
-    .slide {
-        position: absolute;
-        width:100%;
-        height: 100%;
-        transition: transform 0.5s ease;
-        overflow: hidden;
-    }
-}
+
 .hero {
     width: 100%;
     max-width: 100%;
@@ -29,6 +19,10 @@
         font-size: 62px;
         text-transform: uppercase;
         margin: 0;
+    }
+    em {
+        font-family: $header_font;
+        font-weight: $header_light;
     }
     p {
         font-size: 52px;

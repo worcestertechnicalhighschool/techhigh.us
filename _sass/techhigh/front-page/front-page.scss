@@ -1,0 +1,15 @@
+.front-page {
+    h2{
+        font-size: 70px;
+        font-weight: $header_bold;
+        margin: 0;
+    }
+    .academics, .technical-academies {
+        margin-bottom: 40px;
+        h2 {
+            font-size: 36px;
+            color: $dark_blue;
+            margin: 20px auto;
+        }
+    }
+}

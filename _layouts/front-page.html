@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="front-page">
-  {%- include components/hero-slideshow.html -%}
+  {%- include components/hero-carousel.html -%}
   
   <section class="mission">
     <div class="wrapper">
@@ -42,13 +42,10 @@ layout: default
           <aside class="news-feed">
             {{ content }}
           </aside>
-          {% if page.featured_news %}
-            <aside>
-              <div class="slide">News</div>
-            </aside>
-          {% endif %}
+          <aside class="featured-news">
+            {%- include components/collection-carousel.html collection="featured_news" height="500px" -%}
+          </aside>
         </div>
-
     </section>
   </div>
   
@@ -80,7 +77,16 @@ layout: default
       </div>
       
       
-      
     </section>
   </div>
+  <section class="academics">
+    <h2>Academics</h2>
+    {%- include components/collection-carousel.html collection="academics" -%}
+  </section>
+  
+  <section class="technical-academies">
+    <h2>Technical Academies</h2>
+    {%- include components/collection-carousel.html collection="technical_areas" -%}
+    
+  </section>
 </article><!-- /.landing -->

@@ -1,6 +1,14 @@
-header, section, footer, aside, nav {
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header, section, footer, aside, nav, .post-content, .post-header {
     max-width: $max-width;
     margin: 0 auto;
+}
+.post-content, .post-header {
+    padding: 0 20px;
 }
 .wrapper, main, article {
     width: 100%;
@@ -46,6 +54,4 @@ header, section, footer, aside, nav {
     }
 	
 }
-// @media screen and (min-width: 37.5em) {
 
-// }

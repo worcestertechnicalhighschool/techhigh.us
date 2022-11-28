@@ -1,0 +1,42 @@
+{% comment %}
+This component requires a collection parameter. 
+@required: collection to render
+@example_usage:
+  
+  {%- include components/collection-carousel.html collection="academics" -%}
+
+{% endcomment %}
+{% if include.height %}
+<div id="carousel-{{ include.collection }}" 
+  class="carousel" 
+  style="min-height: {{ include.height }}">
+{% else %}
+<div id="carousel-{{ include.collection }}" class="carousel">
+{% endif %}
+  <button class="controls control-next">
+    <i class="fa-solid fa-chevron-left"></i>
+    <span class="screen-reader-text">Previous</span>
+  </button>
+  <ol class="indicators"></ol>
+  <div class="slide-container">
+    {% assign slides = site.[include.collection] %}
+    {% for slide in slides %}
+      <div class="slide">
+        <img 
+          src="{{ slide.featured_image }}" 
+          alt="{{ slide.title }}"
+          style="{{ slide.position }}">
+
+        <div class="caption">
+          <h3>{{ slide.title }}</h3>
+          <a href="{{ slide.url }}" class="btn btn--ghost">Learn More</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <button class="controls control-prev">
+    <i class="fa-solid fa-chevron-right"></i>
+    <span class="screen-reader-text">Next</span>
+  </button>
+  
+</div>

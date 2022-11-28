@@ -6,9 +6,18 @@
         }
         .news__body {
             display: flex;
+            justify-content: center;
+            aside {
+                margin: 0 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 50%;
+            }
         }
 
         .news-feed {
+            padding-top:20px;
             h3:first-child {
                 border-top: 3px solid $dark_blue;
                 padding-top: 20px;
@@ -29,6 +38,11 @@
                 border-bottom: 3px solid $dark_blue;
 
             }
+        }
+
+        .featured-news {
+            width: 50%;
+            height: 600px;
         }
 
     }

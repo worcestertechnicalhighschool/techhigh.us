@@ -19,16 +19,18 @@ This component requires front matter.
     ---
 
 {% endcomment %}
-<section class="hero slideshow">
+<div id="carousel-hero" class="carousel hero" >
+  <div class="slide-container">
     {% for slide in page.hero_slides %}
-    <div class="slide">
-      <img 
-        src="{{ slide.image }}" 
-        alt="{{ slide.alt }}"
-        style="{{ slide.position }}">
-    </div>
+      <div class="slide">
+        <img 
+          src="{{ slide.image }}" 
+          alt="{{ slide.alt }}"
+          style="{{ slide.position }}">
+      </div>
     {% endfor %}
-    <div class="hero-text">
-      {{ page.hero_text }}
-    </div>
-  </section>
+  </div>
+  <div class="caption hero-text">
+    {{ page.hero_text }}
+  </div>
+</div>
