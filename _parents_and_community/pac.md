@@ -35,7 +35,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016921/20
     </tr>
     <tr> 
         <th> Ms. Fabienne Charlemagne </th>
-        <th> Parent </th
+        <th> Parent </th>
     </tr>
     <tr> 
         <th> Karen Chevalier </th>
@@ -96,7 +96,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016921/20
 <details>
 <summary>Meeting Dates</summary>
 <br>
-<p style="color:red;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+<p style="color:red;"> To Be Determined </p>
 </details>
 
 
