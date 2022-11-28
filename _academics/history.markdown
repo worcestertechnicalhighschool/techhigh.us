@@ -11,7 +11,7 @@ courses:
         - AP US History
         - AP Art History after school with the Worcester Art Museum 
     Juniors:
-        - No history course junior year. Students can opt to take AP Art History after school with the Worcester Art Museum
+        - No history courses for juniors. Students can opt to take AP Art History after school with the Worcester Art Museum
     Seniors:
         - World History
         - AP World History
