@@ -6,29 +6,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 35px;
+        flex-basis: 25%;
     }
-    .card{
-        margin: 0;
-        .shop-list {
-            text-shadow: 0 0 5px black;
-            a {
-                text-shadow: 0 0 5px black;
-                color: $white;
-                // font-weight: $body_bold;
-                &:hover {
-                    text-decoration:none;
-                }
-            }
-        }
-    }
-    .card-content{
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        .btn--ghost {
-            font-size: 1em;
-        }
-    }
+    
 }

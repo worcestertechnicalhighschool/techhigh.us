@@ -1,5 +1,5 @@
 ---
-layout: department
+layout: shops
 title:  Early Childhood
 date:   2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016878/2022/04/sigmund-TJxotQTUr8o-unsplash-1-1024x736_mpnkjz.jpg

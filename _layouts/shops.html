@@ -1,12 +1,24 @@
 ---
 layout: default
 ---
-<article class="post department">
+<article class="post shops">
 
   {%- include components/hero-entry.html -%}
-
+<div class="wrapper">
   <div class="post-content">
     {{ content }}
+    {% if page.certifications %}
+      <section class="certifs">
+        <div class="shop-certifications">
+          <h2>Certifications</h2>
+          <ul>
+            {% for item in page.certifications %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    {% endif %}
   </div>
   <section class="contact-us">
     <div class="faculty-list">
@@ -31,6 +43,8 @@ layout: default
         {% endfor %}
     </div>
   </section>
+</div>
+  
 
 </article>
 
