@@ -2,7 +2,7 @@
 layout: shops
 title: Graphic Communication
 date: 2022-10-28
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016923/2022/04/neven-krcmarek-V4EOZj7g1gw-unsplash-1_djzjjb.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016940/2022/04/neven-krcmarek-V4EOZj7g1gw-unsplash-1-1024x683_uqekp0.jpg
 ---
 
 Graphic Communications is an exciting and multifaceted industry. With coursework taught by industry experienced instructors, and hands-on application in our state-of-the-art computer lab using up to date software such as Adobe Illustrator and Photoshop, students are fostered in a learning environment that empowers them to be strategic and creative thinkers. 
