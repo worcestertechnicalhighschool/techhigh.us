@@ -12,7 +12,7 @@ Students who want to be part of a constantly growing field, full of opportunitie
 
 # Alumni Spotlight
 
-Meet David:
+## Meet David
  David Joyce is a 2012 graduate from Worcester Tech’s  Electrical program. Upon graduation David has Bachelor's Degree in Business Management and Economics from Worcester State University Master's in Business Administration/Management from Worcester State University. David currently works for Gaston Electrical Contractors as a project manager overseeing medium to large commercial/industrial electrical construction projects. 
 
 

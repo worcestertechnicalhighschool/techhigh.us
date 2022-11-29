@@ -36,7 +36,6 @@ Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allie
 </div>
 
 
-
 # Co-op Opportunities
 - St. Vincent Hospital Medical Center in Worcester
 
@@ -71,5 +70,3 @@ Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allie
 - Registered Nurse
 
 - EMT and Paramedic
-
-
