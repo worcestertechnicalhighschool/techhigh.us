@@ -9,19 +9,19 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016968/20
 
 <div class="courses" markdown="1">
 
-### Freshmen
+## Freshmen
 
 - Algebra I
 
 - Geometry
 
-### Sophmores
+## Sophmores
 
 - Algebra II
 
 - Geometry
 
-### Juniors
+## Juniors
 
 - Algebra II
 
@@ -29,7 +29,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016968/20
 
 - Pre-Calculus
 
-### Seniors
+## Seniors
 
 - Financial Literacy
 
