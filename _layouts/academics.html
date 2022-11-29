@@ -2,22 +2,27 @@
 layout: default
 ---
 {%- include subheader.html -%}
-<article class="post">
+<div class="academies">
+<article class="post cards">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content">
-    <section class="card-container">
-      {% assign section_name = page.slug | replace: "-", "_" %}    
-      {% for sub in site[section_name] %}
-      <p>{{ sub.title }}</p>
+    {% assign section_name = page.slug | replace: "-", "_" %}    
+    {% for sub in site[section_name] %}
+    <div class="card card--full-cover card--academics">
+      <img src="{{ sub.featured_image }}">
+      <div class="card-content">
+        <a class="btn btn--click" href="{{ sub.url }}"> {{ sub.title }} </a>
+      </div>
+    </div>
       {% endfor %}
-    </section>
     <section>
       {{ content }}
     </section>
   </div>
 
 </article>
+</div>
