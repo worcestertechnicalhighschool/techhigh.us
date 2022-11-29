@@ -22,7 +22,7 @@ Kassandra Lugo is a 2013 graduate from Worcester Technical high school’s cosme
 #### Meet Dennise
 Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosmetology Program. Upon graduation Dennise Decided to go right into the work field as she currently works at Jeffrey Robert Salon as a hairstylist
 
-# Skills and Compentencies
+# Skills and Competencies
 - Effective Communication Skills and positive Human Relations
 - Infection control
 - Draping, Shampooing and Scalp Massage
@@ -33,7 +33,7 @@ Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosm
 - Makeup Application
 
 
-# PARTICIPATING CO-OP AND INTERNSHIP SITES
+# Participating Co-Op and Internship Sites
 - Paul Conzo’s Day Spa and Hair Salon
 - D'lorios
 - Jeffrey Roberts Salon
