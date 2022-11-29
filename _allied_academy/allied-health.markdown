@@ -18,17 +18,17 @@ Allied Health students are exposed to a wide range of real-world clinical work a
 
 <div class="Alumni_section" markdown="1">
 
-# Alumni Spotlight
+# <center><strong>Alumni Spotlight</strong></center>
 <div class="Alumni" markdown="1">
 
-## Meet Alyssa
+## <center><strong>Meet Alyssa
 Alyssa Paley is a 2018 graduate from Worcester Technical High School’s Allied Health Program. After graduation, Alyssa attended Quinsigamond Community College and Worcester State University. She is now serving as a Nurse at St. Vincent Hospital in Worcester, MA.
 
 </div>
 
 <div class="Alumni" markdown="1">
 
-## Meet Bernice
+## <center><strong>Meet Bernice</strong></center>
 Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allied Health program. After graduation, Bernice attended Worcester State university and plans to further her education to become a physician. 
 
 </div>
@@ -36,40 +36,40 @@ Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allie
 </div>
 
 
-# Co-op Oppurtunities
-+ St. Vincent Hospital Medical Center in Worcester
+# <center><strong>Co-op Opportunities</strong></center>
+* St. Vincent Hospital Medical Center in Worcester
 
-+ University of Massachusetts Medical School
+* University of Massachusetts Medical School
 
-+ Holy Trinity Nursing Home
+* Holy Trinity Nursing Home
 
-+ Christopher House Of Worcester
+* Christopher House Of Worcester
 
-+ University Commons
+* University Commons
 
-+ Seven Hills Foundation and Knollwood LTC
+* Seven Hills Foundation and Knollwood LTC
 
-+ St. Vincent Hospital
+* St. Vincent Hospital
 
-+ UMASS Memorial Health Care System
+* UMASS Memorial Health Care System
 
-+ Seven Hills Foundation
+* Seven Hills Foundation
 
-# Career Oppurtunities
+# <center><strong>Career Opportunities</strong></center>
 
-+ Radiology technician
+* Radiology technician
 
-+ Nursing office manager-
+* Nursing office manager
 
-+ Rehabilitation specialist
+* Rehabilitation specialist
 
-+ Certified nursing assistant
+* Certified nursing assistant
 
-+ Licensed practical nurse
+* Licensed practical nurse
 
-+ Registered Nurse
+* Registered Nurse
 
-+ EMT and Paramedic
+* EMT and Paramedic
 
 
 ## Contact Us
