@@ -36,24 +36,40 @@ Bernice Mensah is a 2018 graduate from Worcester Technical high school’s Allie
 </div>
 
 
-# Co-op Oppurtunities
-+ St. Vincent Hospital Medical Center in Worcester
-+ University of Massachusetts Medical School
-+ Holy Trinity Nursing Home
-+ Christopher House Of Worcester
-+ University Commons
-+ Seven Hills Foundation and Knollwood LTC
-+ St. Vincent Hospital
-+ UMASS Memorial Health Care System
-+ Seven Hills Foundation
 
-# Career Oppurtunities
-+ Radiology technician
-+ Nursing office manager
-+ Rehabilitation specialist
-+ Certified nursing assistant
-+ Licensed practical nurse
-+ Registered Nurse
-+ EMT and Paramedic
+# Co-op Opportunities
+- St. Vincent Hospital Medical Center in Worcester
 
-## Contact Us
+- University of Massachusetts Medical School
+
+- Holy Trinity Nursing Home
+
+- Christopher House Of Worcester
+
+- University Commons
+
+- Seven Hills Foundation and Knollwood LTC
+
+- St. Vincent Hospital
+
+- UMASS Memorial Health Care System
+
+- Seven Hills Foundation
+
+# Career Opportunities
+
+- Radiology technician
+
+- Nursing office manager
+
+- Rehabilitation specialist
+
+- Certified nursing assistant
+
+- Licensed practical nurse
+
+- Registered Nurse
+
+- EMT and Paramedic
+
+
