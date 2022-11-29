@@ -35,20 +35,12 @@ Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosm
 
 # PARTICIPATING CO-OP AND INTERNSHIP SITES
 - Paul Conzo’s Day Spa and Hair Salon
-
 - D'lorios
-
 - Jeffrey Roberts Salon
-
 - TuModa
-
 - Bauhaus Hair Salon
-
 - Salon 27
-
 - Amazing Style
-
 - Capelli Avanti Salon
-
 - Supercuts
 
