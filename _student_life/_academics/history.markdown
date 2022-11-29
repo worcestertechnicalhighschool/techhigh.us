@@ -8,11 +8,11 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016855/20
 # Courses by Year
 <div class="courses" markdown="1">
 
-### Freshmen
+## Freshmen
 
 - World History
 
-### Sophomores
+## Sophomores
 
 - US History
 
@@ -20,11 +20,11 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016855/20
 
 - AP Art History after school with the Worcester Art Museum 
 
-### Juniors
+## Juniors
 
 - No history course junior year. Students can opt to take AP Art History after school with the Worcester Art Museum
 
-### Seniors
+## Seniors
 
 - World History
 

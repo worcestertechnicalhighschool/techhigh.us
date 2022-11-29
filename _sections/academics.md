@@ -32,9 +32,3 @@ There are a number of Advanced Placement courses available for students who wish
 ## Dual Enrollment
 Students have the opportunity to enroll in courses taught by professors from Worcester State University & Quinsigamond Community College to earn college credits. Contact Erin Macaruso macarusoe@worcesterschools.net to learn more about the course offerings.
 
-<details>
-
-
-    ## Dual Enrollment
-    Students have the opportunity to enroll in courses taught by professors from Worcester State University & Quinsigamond Community College to earn college credits. Contact Erin Macaruso macarusoe@worcesterschools.net to learn more about the course offerings.
-</details>
