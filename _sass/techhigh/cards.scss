@@ -101,6 +101,7 @@
                 }
             }
         }
+
     }
     
     &.card--faculty{
@@ -114,6 +115,18 @@
             font-weight: bold;
         }
     }
-    
+
+    &.card--academics{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .card-content{
+            min-height:200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }
 
