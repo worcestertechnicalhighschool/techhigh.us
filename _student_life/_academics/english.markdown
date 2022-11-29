@@ -8,21 +8,21 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016848/20
 # Courses by Year
 <div class="courses" markdown="1">
 
-### Freshmen
+## Freshmen
 
 - English I
 
 
-### Sophomores  
+## Sophomores  
 
 - English II
 
-### Juniors  
+## Juniors  
 
 - English III
 - AP Language & Composition
 
-### Seniors  
+## Seniors  
 
 - English IV (students get to select special elective topics)
 

@@ -148,13 +148,13 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 
 <details>
-<summary> Boys LACROSSE</summary>
+<summary> Boys Lacrosse</summary>
 <p>Coach Matthew Genkos  <a href   = "mailto: matthewgenkos@gmail.com "> matthewgenkos@gmail.com    </a> </p>
 </details>  
 
 
 
 <details>
-<summary> Girls LACROSSE</summary>
+<summary> Girls Lacrosse</summary>
 <p>Coach Moulin   <a href   = "mailto: moulinn@worcesterschools.net "> moulinn@worcesterschools.net  </a> </p>
 </details> 
