@@ -29,6 +29,9 @@
 }
 
 .btn--click {
-    color: gray;
-    background-color: rebeccapurple;
+    border: 2px solid $dark_grey;
+    color: $dark_grey;
+    &:visited{
+        color: $dark_grey;
+    }
 }
