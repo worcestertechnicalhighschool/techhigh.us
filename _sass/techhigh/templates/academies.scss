@@ -6,8 +6,10 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 35px;
         flex-basis: 25%;
+        &.cards {
+            gap: 20px;
+        }
     }
     
 }
