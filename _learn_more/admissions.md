@@ -25,41 +25,41 @@ We are not currently accepting transfers into the Class of 2023. If you would li
 # Admission Clerk  
 Tamara Blend  
 
-belandt@worcesterschools.net  
+[belandt@worcesterschools.net](mailto:belandt@worcesterschools.net)  
 
 # Guidance Department Head  
 Heather Courtney  
 
-courtneyh@worcesterschools.net  
+[courtneyh@worcesterschools.net](mailto:courtneyh@worcesterschools.net)  
 
 # Director, Career Technical Education  
 Dr. Patricia Suomala  
  
-suomalap@worcesterschools.net 
+[suomalap@worcesterschools.net](mailto:suomalap@worcesterschools.net) 
 
 # Principal 
 Drew Weymouth 
 
-weymouthdg@worcesterschools.net
+[weymouthdg@worcesterschools.net](mailto:weymouthdg@worcesterschools.net)
 
 ## ACADEMY CONTACTS  
   
 # Alden Design & Engineering  
 Brian Potter  
 
-potterb@worcesterschools.net  
+[potterb@worcesterschools.net](mailto:potterb@worcesterschools.net)  
 
 # Coghlin Construction  
 Michelle Phenix  
 
-phenixm@worcesterschools.net  
+[phenixm@worcesterschools.net](mailto:phenixm@worcesterschools.net)  
 
 # Allied Health & Human Services  
 Stephanie Stockwell  
   
-stockwell@worcesterschools.net  
+[stockwell@worcesterschools.net](mailto:stockwell@worcesterschools.net)  
 
 # IT & Business Services  
 Kim Smaltz  
 
-smaltz@worcesterschools.net  
+[smaltz@worcesterschools.net](mailto:smaltz@worcesterschools.net)  
