@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bank
-date: 11/30/2022
+date: 2022-11-30
 ---
 
 The Worcester Credit Union at Worcester Tech offers:
