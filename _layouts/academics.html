@@ -1,11 +1,19 @@
 ---
 layout: default
 ---
+<article class="post {{ page-slug }}">
+
+  {%- include components/hero-entry.html -%}
+
+  <div class="post-content">
+  </div>
+
+</article>
+
 <div class="academies">
 <article class="post cards">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content">
@@ -26,42 +34,59 @@ layout: default
       {{ content }}
     </section>
 
-    <section>
+    <section class="details">
+      
       <details>
         <summary>Spanish</summary>
-        <p>Students immerse themselves in the language, culture, and practices of the Spanish speaking world. Contact Yenilda Melendez melendezy@worcesterschools.net to learn more.</p>
+        <p>Students immerse themselves in the language, culture, and practices of the Spanish speaking world. Contact Yenilda Melendez <a>melendezy@worcesterschools.net</a> to learn more.</p>
       </details>
 
       <details>
         <summary>Physical Education/Health</summary>
-        <p>Students engage in exercise and mindfulness activities to encourage physical, social, and mental health in students’ daily lives. Contact John Healey healeyj@worcesterschools.net to learn more.
-          <summary>Grade 9</summary> 
-PE I - team sport oriented and fitness related activities<br>
-Health I – introduction to health and wellness, communication skills, decision making strategies, alcohol and drugs, sexuality education
-<summary>Grade 10</summary> 
-PE II – team sports and general fitness concepts
-<summary> Grade 11</summary>
-PE III – team sports, individual lifetime sports, introduction to the weight room and its uses<br>
-Health II – lifetime wellness, consumer health, environmental health, sex education, preventative lifetime health skills
-<summary>Grade 12</summary> 
-PE IV – lifetime fitness and sporting activities, how to design a personal wellness and workout plan<br>
-Health II – lifetime wellness, consumer health, environmental health, sex education, preventative lifetime health skills
-        </p>
+          <p>Students engage in exercise and mindfulness activities to encourage physical, social, and mental health in students’ daily lives. Contact John Healey <a>healeyj@worcesterschools.net</a> to learn more.
+          
+          <ul>
+            <li> Grade 9
+              <ul class="dot">
+                <li>PE I - team sport oriented and fitness related activities</li>
+                <li>Health I – introduction to health and wellness, communication skills, decision making strategies, alcohol and drugs, sexuality education</li>
+              </ul>
+            </li>
+              
+              <li>Grade 10
+                <ul class="dot">
+                  <li>PE II – team sports and general fitness concepts</li>
+                </ul>
+              </li> 
+
+              <li> Grade 11
+                <ul class="dot">
+                  <li>PE III – team sports, individual lifetime sports, introduction to the weight room and its uses<br></li>
+                  <li>Health II – lifetime wellness, consumer health, environmental health, sex education, preventative lifetime health skills</li>
+                </ul>
+              </li>
+
+              <li>Grade 12
+                <ul class="dot">
+                  <li>PE IV – lifetime fitness and sporting activities, how to design a personal wellness and workout plan<br></li>
+                  <li>Health II – lifetime wellness, consumer health, environmental health, sex education, preventative lifetime health skills</ul></li>
+              </li>
+          </ul>
       </details>
 
       <details>
         <summary>AVID</summary>
-        <p>Students have the opportunity to take this career/college preparatory course that will help students develop the skills and behaviors necessary for success. Contact Elizabeth Ward warde@worcesterschools.net to learn more.<p>
+        <p>Students have the opportunity to take this career/college preparatory course that will help students develop the skills and behaviors necessary for success. Contact Elizabeth Ward <a>warde@worcesterschools.net</a> to learn more.<p>
       </details>
 
       <details>
         <summary>Advanced Placement</summary>
-        <p>There are a number of Advanced Placement courses available for students who wish to take more academically challenging courses to earn potential college credits. Contact Alison Audet audeta@worcesterschools.net to learn more about the course offerings.</p>
+        <p>There are a number of Advanced Placement courses available for students who wish to take more academically challenging courses to earn potential college credits. Contact Alison Audet <a>audeta@worcesterschools.net</a> to learn more about the course offerings.</p>
       </details>
 
       <details>
         <summary>Dual Enrollment</summary>
-        <p>Students have the opportunity to enroll in courses taught by professors from Worcester State University & Quinsigamond Community College to earn college credits. Contact Erin Macaruso macarusoe@worcesterschools.net to learn more about the course offerings.</p>
+        <p>Students have the opportunity to enroll in courses taught by professors from Worcester State University & Quinsigamond Community College to earn college credits. Contact Erin Macaruso <a>>macarusoe@worcesterschools.net</a to learn more about the course offerings.</p>
       </details>
 
 
