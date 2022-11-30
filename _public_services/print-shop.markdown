@@ -53,9 +53,11 @@ Today’s Graphic Communications Industry is growing rapidly as new technology i
 
 ## Hours & Contact Information
 
-Client Service Hours: Monday-Friday 7:30 am-1:00 pm
+Client Service Hours: 
+Monday-Friday 7:30 am-1:00 pm
 
-Appointments are available by request: Monday-Friday: 9:30 am-10:30 am & 11:30 am-12:30 pm.
+Appointments are available by request: 
+Monday-Friday: 9:30 am-10:30 am & 11:30 am-12:30 pm.
 
 *For more information, please call; 508-799-1942
 
