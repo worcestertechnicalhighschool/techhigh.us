@@ -36,4 +36,4 @@ Worcester Technical High School is committed to helping students gain access to 
 
 
 ### Student Job Board
-Employers submit job forms for students to apply for through public posts on the home page.
+Employers submit job forms for students to apply for through public posts on the home page. You can visit it [here](https://jobs.techhigh.us/).

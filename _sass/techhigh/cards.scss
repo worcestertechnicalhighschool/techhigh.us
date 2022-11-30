@@ -23,6 +23,7 @@
             object-fit: cover;
             object-position: center center;
             transition: $soft;
+            
         }
         &:hover {
             img {
@@ -63,6 +64,11 @@
         /* This is specifically for the full-image cards on the technical areas page */
         &.card--technical-areas{
             margin: 0;
+            max-width: 550px;
+            height: 370px;
+            padding: 50px;
+            
+
             .shop-list {
                 a {
                     display: inline-block;
@@ -119,8 +125,9 @@
 
     &.card--academics{
         display: flex;
+        margin: 0 10px;
         flex-direction: column;
-        max-width: 250px;
+        max-width: 265px;
         min-height: 450px;
         background-color: $lighter_grey;
         padding: 0;
@@ -136,7 +143,7 @@
         }
 
         .image-container {
-            width: 250px;
+            width: 265px;
             height: 200px;
             overflow: hidden;
             position: relative;
@@ -180,6 +187,14 @@
                 margin: 0 auto;
             }
         }
+    }
+    &.card--academy {
+        height: 270px;
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 0 5px 10px;
     }
 }
 
