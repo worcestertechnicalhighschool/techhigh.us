@@ -78,4 +78,4 @@ Wax/Lip.............................$3.00
 Facials.............................$13.00  
 Make-up.............................$10.00  
 
-All prices subject to increase based on density and length of hair
+**_All prices subject to increase based on density and length of hair_**
