@@ -67,6 +67,7 @@
             max-width: 550px;
             height: 370px;
             padding: 50px;
+            
 
             .shop-list {
                 a {
@@ -186,6 +187,14 @@
                 margin: 0 auto;
             }
         }
+    }
+    &.card--academy {
+        height: 270px;
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 0 5px 10px;
     }
 }
 

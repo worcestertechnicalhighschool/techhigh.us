@@ -15,12 +15,14 @@ layout: default
       <img src="{{ acad.featured_image }}">
       <div class="card-content">
           <a class="btn btn--ghost" href="{{ acad.url }}"> {{ acad.title }} </a>
+          {% if page.slug == "technical-areas" %}
           <div class="shop-list">
             {% assign acad_collection = acad.slug | replace: "-", "_" %}
             {% for shop in site[acad_collection] %}
               <a href="{{ shop.url }}">{{ shop.title }}</a> <span class="list-separator">|</span>
             {% endfor %}
           </div>
+          {% endif %}
       </div>
     </div>
     {% endfor %}
