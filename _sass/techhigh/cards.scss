@@ -2,15 +2,31 @@
 .list-separator:last-child {
     display: none;
 }
+
+// Card Layout
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    flex-grow: 3;
+
+    &.cards {
+        // gap: 20px;
+    }
+}
+
 .card{
     overflow: hidden;
-    margin: 0 auto;
+    // margin: 0 auto;
     position: relative;
     z-index: 1;
     width: 100%;
     height: auto;
     max-width: 450px;
-    
+    margin: 20px;
+
     &.card--full-cover {
         padding: 50px;
         img{
@@ -63,7 +79,7 @@
 
         /* This is specifically for the full-image cards on the technical areas page */
         &.card--technical-areas{
-            margin: 0;
+            // margin: 0;
             max-width: 550px;
             height: 370px;
             padding: 50px;
@@ -125,7 +141,7 @@
 
     &.card--academics{
         display: flex;
-        margin: 0 10px;
+        // margin: 0 10px;
         flex-direction: column;
         max-width: 265px;
         min-height: 450px;
@@ -194,8 +210,9 @@
         width: 430px;
         display: flex;
         flex-direction: column;
-        align-content: center;
-        margin: 0 5px 10px;
+        align-items: center;
+        justify-content: center;
+        // margin: 0 5px 10px;
     }
 }
 
