@@ -17,19 +17,21 @@ layout: default
   </header>
 
   <div class="post-content">
-    {% assign section_name = page.slug | replace: "-", "_" %}    
-    {% for sub in site[section_name] %}
-    <div class="card card--academics">
-      <div class="image-container">
-        <img src="{{ sub.featured_image }}">
-      </div>
-      <div class="card-content">
-        <h2>{{ sub.title }}</h2>
-        <p>{{ sub.excerpt }}</p>
-        <a class="btn btn--click" href="{{ sub.url }}">Learn More</a>
-      </div>
-    </div>
+    <section class="card-container">
+      {% assign section_name = page.slug | replace: "-", "_" %}    
+      {% for sub in site[section_name] %}
+        <div class="card card--academics">
+          <div class="image-container">
+            <img src="{{ sub.featured_image }}">
+          </div>
+          <div class="card-content">
+            <h2>{{ sub.title }}</h2>
+            <p>{{ sub.excerpt }}</p>
+            <a class="btn btn--click" href="{{ sub.url }}">Learn More</a>
+          </div>
+        </div>
       {% endfor %}
+    </section>
     <section>
       {{ content }}
     </section>

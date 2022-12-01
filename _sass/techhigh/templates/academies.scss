@@ -2,14 +2,6 @@
     //text-align: center;
     .post-content{
         margin: 30px auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-basis: 25%;
-        flex-grow: 3;
-        &.cards {
-            gap: 20px;
-        }
+        
     }
 }
