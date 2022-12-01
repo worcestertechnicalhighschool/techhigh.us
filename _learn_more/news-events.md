@@ -30,7 +30,7 @@ DCU Center, 6:00pm
 [Admissions](https://techhigh.go2cte.com/)
 
 # Meet Our Faculty
-[Staff Directory](https://wordpress.techhigh.us/faculty/)
+[Staff Directory](/learn-more/faculty/)
 
 
 

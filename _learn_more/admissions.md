@@ -5,6 +5,10 @@ date:   2022-10-26
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016937/2022/04/sigmund-HsTnjCVQ798-unsplash-1_maguyu.jpg
 ---
 
+8th grade students residing in Worcester, MA are welcome to apply to Worcester Technical High School. Application information for the Class of 2027 will be available in October 2022. 
+
+ [Application Portal](https://techhigh.go2cte.com)
+
 ## Important Information for Students Applying for the 2022-2023 School Year
 
 # Class of 2026  
