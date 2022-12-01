@@ -10,16 +10,21 @@ layout: default
   </header>
 
   <div class="post-content">
-    {% assign academy_name = page.slug | replace: "-", "_" %}    
-    {% for shop in site[academy_name] %}
-    <div class="card card--full-cover card--academy">
-      <img src="{{ shop.featured_image }} ">
-      <div class="card-content">
-          <a class="btn btn--ghost" href="{{ shop.url }}"> {{ shop.title }} </a>
+
+    <section class="card-container">
+      {% assign academy_name = page.slug | replace: "-", "_" %}    
+      {% for shop in site[academy_name] %}
+      <div class="card card--full-cover card--academy">
+        <img src="{{ shop.featured_image }} ">
+        <div class="card-content">
+            <a class="btn btn--ghost" href="{{ shop.url }}"> {{ shop.title }} </a>
+        </div>
+        
       </div>
-      
-    </div>
-    {% endfor %}
+      {% endfor %}
+    </section>
+
+
   </div>
 
 </article>
