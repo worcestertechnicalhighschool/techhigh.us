@@ -25,8 +25,8 @@ layout: default
           {% assign lastdep = faculty.department %}
           <div class="card card--faculty">
             <div class="staff">
-              <img src="{{ faculty.image_url }}" alt='{{ faculty.name }}'>
-              <p class="name card-title">{{ faculty.name | replace_first: " ", ", " }}</p>
+              <img src="{{ faculty.image_url }}" alt='{{ faculty.first_name }} {{faculty.last_name}}'>
+              <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p>
               <p class="title card-description">{{ faculty.title }}</p>
               <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
               </div>

@@ -29,9 +29,9 @@ layout: default
               {%- if depart == page.title -%}
               <div class="card card--faculty">
                 <div class="staff">
-                    <img src="{{ faculty.image_url }}" alt="{{ faculty.name }}">
+                    <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{ faculty.last_name }}">
                     <div class="card-content">
-                      <p class="name card-title">{{ faculty.name | replace_first: " ", ", " }}</p>
+                      <p class="name card-title">{{ faculty.name }} {{ faculty.last_name }}</p>
                       <p class="title card-description">{{ faculty.title }}</p>
                       <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
                     </div>
