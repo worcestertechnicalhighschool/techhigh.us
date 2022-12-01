@@ -11,21 +11,17 @@
     flex-wrap: wrap;
     flex-basis: 25%;
     flex-grow: 3;
-
-    &.cards {
-        // gap: 20px;
-    }
+    
 }
 
 .card{
     overflow: hidden;
-    // margin: 0 auto;
+    margin: 0 auto;
     position: relative;
     z-index: 1;
     width: 100%;
     height: auto;
     max-width: 450px;
-    margin: 20px;
 
     &.card--full-cover {
         padding: 50px;
@@ -207,12 +203,12 @@
     }
     &.card--academy {
         height: 270px;
-        width: 430px;
+        width: 410px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        // margin: 0 5px 10px;
+        margin: 10px;
     }
 }
 
