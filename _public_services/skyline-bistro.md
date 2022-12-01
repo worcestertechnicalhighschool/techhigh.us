@@ -13,10 +13,9 @@ date: 2022-10-26
 | **Soup du Jour** | **$3.25** |  **$3.95** | 
 | **New England Clam Chowder** | **$4.00** | **$5.25** | 
 *A combination of fresh Maine clams, sweet dairy cream, onion and potatoes make this a true New England favorite*|
-
-|Crock of French Onion Soup Gratinee| $4.75 |
-|:---|---:|
-|*Caramelized sweet onions blended with our own chicken and beef stock with a hint of sherry wine topped with cheese crouton and mounds of bubbly cheese.*|      
+| **Crock of French Onion Soup Gratinee** | **$4.75** |  |
+|*Caramelized sweet onions blended with our own chicken and beef stock with a hint of sherry wine topped with cheese crouton and mounds of bubbly cheese.*|
+     
 
 | *Salads* | *Price* | 
 |:--------| -----:|
