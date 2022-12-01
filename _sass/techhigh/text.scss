@@ -6,10 +6,18 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $header_bold;
 }
 
-h1 {
-    text-align: center;
-}
+
+
+ th {
+    text-align: left;
+    font-size:x-large;
+    color:#002855;
+    font-family: "Oswald", Sans-serif;
+    font-size: 32px;
+  }
+
 
 h1.post-title {
     font-size: 42px;
 }
+

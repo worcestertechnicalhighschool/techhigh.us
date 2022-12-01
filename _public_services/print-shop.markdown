@@ -10,46 +10,34 @@ Today’s Graphic Communications Industry is growing rapidly as new technology i
 
 *Our full service print shop includes, but is not limited to the following:*
 
-## Graphic Design
-- Logo Design
-- Business Cards
-- Brochures
-- Flyers/Posters
-- Wedding Invitations
 
-## Wide-Format Printing
-- Vinyl Banners (Grommets optional)
-- Decals
-- Stickers
+|  Graphic Design | Offset Printing (high volume) |  
+|-----------------|------------------------------|
+| Logo Design | Envelopes |
+|Business Cards | Business Cards | 
+| Brochures | Notepads |
+| Flyers/ Posters | Formal Invitations with Thermpography |
 
-## Digital Printing (short-run, on demand)
-- Full Color
-- Booklets
+| Wide-Format Printing | Bindery |
+|----------------------|---------|
+|Vinyl Banners (Grommets optional)| Folding |
+| Decals | Cutting/Trimming |
+| Stickers | Perforating |
+| | Padding |
+| | Shrink Wrapping |
 
-## Screen Printing
-- T-shirts and other apparel
+| Digital Printing (short-run, on demand) | Engraving |
+|-----------------------------------------|-----------|
+| Full Color | Small Signs |
+| Booklets | Nameplates |
 
-## Offset Printing (high volume):
-- Envelopes
-- Business Cards
-- Notepads
-- Formal Invitations with Thermpography
+| Screen Printing | Embroidery |
+|-----------------|------------|
+| T-Shirts and other apparel | Shirts |
+| | Hats(Basebal & Beanies) |
+| | Jackets |
 
-## Bindery: 
-- Folding
-- Cutting/Trimming
-- Perforating
-- Padding
-- Shrink Wrapping
 
-## Engraving
-- Small Signs
-- Nameplates
-
-## Embroidery
-- Shirts 
-- Hats (Baseball and Beanies)
-- Jackets
 
 ## Hours & Contact Information
 
