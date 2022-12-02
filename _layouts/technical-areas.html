@@ -12,10 +12,12 @@ layout: default
     <section class="card-container">
       {% assign section_name = page.slug | replace: "-", "_" %}    
       {% for acad in site[section_name] %}
-      <div class="card card--academics card card--technical-areas">
-        <img src="{{ acad.featured_image }}">
+      <div class="card card--academics">
+        <div class="image-container">
+          <img src="{{ acad.featured_image }}">
+        </div>
         <div class="card-content">
-            <a class="btn btn--ghost" href="{{ acad.url }}"> {{ acad.title }} </a>
+            <a class="btn btn--click" href="{{ acad.url }}"> {{ acad.title }} </a>
             <div class="shop-list">
               {% assign acad_collection = acad.slug | replace: "-", "_" %}
               {% for shop in site[acad_collection] %}
