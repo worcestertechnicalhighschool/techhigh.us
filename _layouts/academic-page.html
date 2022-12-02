@@ -6,10 +6,6 @@ layout: default
   <article class="post">
     
     
-    <div class="post-content">
-      {{ content }}
-    </div>
-
     {% if page.courses %}
     <h1>Courses By Year</h1>
       <section class="courses">
@@ -22,32 +18,34 @@ layout: default
           </ul>
         {% endfor %}
       </section>
+
     {% endif %}
-    <section class="contact-us">
-      <div class="faculty-list">
-        {% for faculty in site.data.faculty %}
-        {% assign staff = faculty.department | remove: '"' %}
-        {% assign depart = staff | strip %}
-        {%- if depart == page.title -%}
-        <div class="card-content">
-          <div class="staff-members">
+
+  <div class="post-content">
+      {{ content }}
+      <section class="contact-us">
+        <div class="faculty-list">
+          <section class="card-container">
+            {% for faculty in site.data.faculty %}
+            {% assign staff = faculty.department | remove: '"' %}
+            {% assign depart = staff | strip %}
+            {%- if depart == page.title -%}
+              <div class="staff-members">
                 <div class="card card--faculty">
                   <div class="staff">
                       <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{faculty.last_name}}">
-                      <div class="card-content">
-                        <p class="name card-title">{{ faculty.first_name }} {{ last_name }}</p>
-                        <p class="title card-description">{{ faculty.title }}</p>
-                        <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
-                      </div>
-                      
+                    <div class="card-content">
+                      <p class="name card-title">{{ faculty.first_name }} {{ last_name }}</p>
+                      <p class="title card-description">{{ faculty.title }}</p>
+                      <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
+                    </div>                        
                   </div>
                 </div>
               </div>
-            {%- endif -%}
-          {% endfor %}
-      </div>
-    </section>
-  
+                {%- endif -%}
+              {% endfor %}
+            </div>
+          </section>
   </article>
 </div>
 
