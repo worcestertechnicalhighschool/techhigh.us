@@ -12,21 +12,17 @@
     color: black;
 
     .post-content{
-        
+        width: 100%;
         p{
-            padding: 40px 10px;
-            margin: 0 185px;
             text-align: center;
-            font-size: 22px;        padding: 40px 10px;
-        margin: 0 185px;
+            font-size: 22px;
         }
         .certifs{
             background-color: $secondary;
+            width: 100%;
             color: white;
-            max-width: 100%;
             .shop-certifications{
                 padding: 0 10px;
-                margin: 0 185px;
             }
         }
     }
