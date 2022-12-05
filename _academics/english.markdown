@@ -3,7 +3,8 @@ layout: academic-page
 title: English
 date: 2022-10-25
 courses:
-    Freshmen: English I
+    Freshmen: 
+        - English I
     Sophomores:
         - English II
     Juniors:
