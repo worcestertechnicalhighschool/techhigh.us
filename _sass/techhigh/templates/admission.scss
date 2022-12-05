@@ -1,0 +1,19 @@
+.admissions{
+    text-align: center;
+    h2{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        .items{
+            flex-basis: 50%;
+            h1{
+                color: $primary;
+            }
+        }
+    }
+}
