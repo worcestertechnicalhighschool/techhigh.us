@@ -35,4 +35,22 @@
     &:visited{
         color: $dark_grey;
     }
+
+    &:hover{
+        background: $dark_grey;
+        color: $white;
+    }
+}
+
+.btn--cta {
+    border: 2px solid $primary;
+    color: $primary;
+    &:visited{
+        color: $primary;
+    }
+
+    &:hover{
+        background: $primary;
+        color: $white;
+    }
 }
