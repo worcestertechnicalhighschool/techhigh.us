@@ -1,10 +1,10 @@
 department,first_name,last_name,title,image_url,email
-Administration,Drew,Weymouth,Principal,https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/school-logo-150x150_ze3jhk.png,dweymouth@worcesterschools.net
 Administration,Michelle,Phenix,"Assistant Principal, Coghlin Construction Academy",https://wordpress.techhigh.us/wp-content/uploads/2022/04/0124.jpg,phenixm@worcesterschools.net
 Administration,Brian,Potter,"Assistant Principal, Alden Design and Engineering Academy ",https://wordpress.techhigh.us/wp-content/uploads/2022/04/0129.jpg,potterb@worcesterschools.net
 Administration,Kim,Smaltz ,"Assistant Principal, IT & Business Services Academy ",https://wordpress.techhigh.us/wp-content/uploads/2022/04/0140-1.jpg,smaltzk@worcesterschools.net
 Administration,Stephanie,Stockwell,"Assistant Principal, Allied Health and Human Services Academy ",https://wordpress.techhigh.us/wp-content/uploads/2022/04/0145.jpg,stockwells@worcesterschools.net
 Administration,Patricia,Suomala,Director of Career and Technical Education ,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0147.jpg,suomalap@worcesterschools.net
+Administration,Drew,Weymouth,Principal,https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/school-logo-150x150_ze3jhk.png,dweymouth@worcesterschools.net
 Administration Support,Laura,Alejandro,Head Clerk,,adamsl@worcesterschools.net
 Administration Support,Jorolyn (Jill),Murphy,Head Clerk Confidential ,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0104.jpg,murphyj@worcesterschools.net
 Administration Support ,Carol,Needham,Admission Office Clerk,https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/school-logo-150x150_ze3jhk.png,needhamc@worcesterschools.net
@@ -21,7 +21,7 @@ Allied Health,Christine,Buckley,Shop Instructor,https://res.cloudinary.com/dxm7y
 Allied Health,Kayla,Baez,Shop Instructor,https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/school-logo-150x150_ze3jhk.png,baezk@worcesterschools.net
 Auto Collision,Steven,Stefanik,Department Head,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0143.jpg,stefaniks@worcesterschools.net
 Auto Collision,Jay,Hanratty,Shop Instructor,https://wordpress.techhigh.us/wp-content/uploads/2022/05/10138.jpg,hanrattyj@worcesterschools.net
-Auto Collision,Steven,Desgroseilliers,Shop Instructor,https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/school-logo-150x150_ze3jhk.png,desgroseillierss@worcesterschools.net
+Auto Collision,Steven,Desgroseilliers,Shop Instructor,https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/school-logo-150x150_ze3jhk.png,peckhamd@worcesterschools.net
 Auto Technology,Ronald,Alger Jr. ,Department Head,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0003.jpg,algerr@worcesterschools.net
 Auto Technology,Dan,Peckham,Shop Instructor,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0117.jpg,peckhamd@worcesterschools.net
 Auto Technology,Dennis,Staples,Shop instructor,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0141-1.jpg,staplesd@worcesterschools.net
@@ -96,7 +96,7 @@ History,William,Packard,Teacher,https://wordpress.techhigh.us/wp-content/uploads
 History,Nicholas,Petkauskos,Teacher,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0120.jpg,petkauskosn@worcesterschools.net
 History,Joseph,Yvanauskas,Teacher,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0164.jpg,yvanauskasj@worcesterschools.net
 History,John,Roach,Teacher,https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/school-logo-150x150_ze3jhk.png,roachjm@worcesterschools.net 
-History,Mark,Clemente,Teacher,https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/school-logo-150x150_ze3jhk.png,clementem@worcesterschools.net
+History,Mark,Clemente,Teacher ,https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016834/2022/02/school-logo-150x150_ze3jhk.png,clementem@worcesterschools.net
 Hospitality Management,Douglas,Lemire,Shop Instructor ,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0074.jpg,lemired@worcesterschools.net
 Hospitality Management,Tabitha,Rennie,Shop Instructor,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0132.jpg,renniet@worcesterschools.net
 Hospitality Mangement,Donna,Scola,Department Head,https://wordpress.techhigh.us/wp-content/uploads/2022/04/0137.jpg,scolad@worcesterschools.net
