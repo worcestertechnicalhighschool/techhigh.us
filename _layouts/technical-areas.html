@@ -17,13 +17,18 @@ layout: default
           <img src="{{ acad.featured_image }}">
         </div>
         <div class="card-content">
-            <a class="btn btn--click" href="{{ acad.url }}"> {{ acad.title }} </a>
+          <h2>{{ acad.title }}</h2>
             <div class="shop-list">
               {% assign acad_collection = acad.slug | replace: "-", "_" %}
               {% for shop in site[acad_collection] %}
-                <a href="{{ shop.url }}">{{ shop.title }}</a> <span class="list-separator">|</span>
+                  <div>
+                  <a class="shop-links" href="{{ shop.url }}">{{ shop.title }}</a> 
+                  </div>
+                  
               {% endfor %}
+              
             </div>
+            <a class="btn btn--click" href="{{ acad.url }}">Learn More</a>
         </div>
       </div>
       {% endfor %}
