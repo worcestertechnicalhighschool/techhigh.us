@@ -5,7 +5,8 @@ date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016854/2022/03/history-image_q1ta2r.jpg
 
 courses:
-    Freshmen: World History
+    Freshmen: 
+        - World History
     Sophomores:
         - US History
         - AP US History
