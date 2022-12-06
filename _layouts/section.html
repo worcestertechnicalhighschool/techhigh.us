@@ -14,7 +14,7 @@ layout: default
       {% assign section_name = page.slug | replace: "-", "_" %}    
       {% for sub in site[section_name] %}
       <div class="card card--full-cover card--academy">
-        <img src="{{ sub.featured_image }} ">
+        <img src="{{ sub.featured_image }}" style="{{ sub.position }}">
         <div class="card-content">
             <a class="btn btn--ghost" href="{{ sub.url }}"> {{ sub.title }} </a>
         </div>
