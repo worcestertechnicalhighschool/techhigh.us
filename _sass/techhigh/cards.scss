@@ -105,6 +105,11 @@
         .card-title{
             font-weight: bold;
         }
+        .staff img {
+            width: 240px;
+            height: 320px;
+            object-fit: cover;
+        }
     }
 
     &.card--academics{
