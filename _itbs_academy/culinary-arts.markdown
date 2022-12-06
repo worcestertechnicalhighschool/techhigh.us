@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Culinary Arts
 date: 2022-10-24
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016894/2022/04/luisa-brimble-HvXEbkcXjSk-unsplash-1-300x200_l16sqi.jpg

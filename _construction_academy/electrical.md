@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Electrical
 date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016860/2022/04/troy-bridges-kXC6XhVL1e4-unsplash-1_dxqsut.jpg

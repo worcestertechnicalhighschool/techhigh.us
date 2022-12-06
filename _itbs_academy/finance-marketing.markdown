@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Finance, Marketing, & Business Management
 date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016905/2022/04/kanchanara-5hcV51EeeWc-unsplash-1-768x511_fwwdam.jpg

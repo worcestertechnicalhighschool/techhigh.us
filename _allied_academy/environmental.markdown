@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title:  Environmental Tech
 date:   2022-10-24 11:30:49 -0400
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016866/2022/04/chuttersnap-UmncJq4KPcA-unsplash-1-1536x1026_n3nh9i.jpg
