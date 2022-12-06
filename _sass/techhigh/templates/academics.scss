@@ -1,27 +1,15 @@
 .academics{
-    .post-title{
 
-        font-family: $header_font;
-        font-weight: $header_bold;
-
-        color: $secondary;
-        width: 100%;
-        height: 100px; 
-        background-color:white;
-        margin-left:-70px;
-        margin-right:80px;
-    }
     color: black;
-
     .post{
         height:auto;
         h1{
             text-align: center;
         }
         .courses{
-            background-color: $primary;
+            background-color: $secondary;
             color:white;
-            padding: 5px 10px 10px 20px;
+            padding: 5px 25px;
             border-radius: 30px;
         }
         h3{

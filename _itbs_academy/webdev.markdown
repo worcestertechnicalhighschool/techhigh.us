@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Programming & Web Development
 date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016933/2022/04/markus-spiske-hbb6GkG6p9M-unsplash-1-1536x1024_gtrnm7.jpg

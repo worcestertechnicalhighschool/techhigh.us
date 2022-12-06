@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Plumbing
 date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016919/2022/04/sigmund-4CNNH2KEjhc-unsplash-1-768x576_rcfiyx.jpg

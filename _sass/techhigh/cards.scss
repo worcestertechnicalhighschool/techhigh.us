@@ -204,7 +204,7 @@
     }
     &.card--academy {
         height: 270px;
-        width: 410px;
+        max-width: 410px;
         display: flex;
         flex-direction: column;
         align-items: center;
