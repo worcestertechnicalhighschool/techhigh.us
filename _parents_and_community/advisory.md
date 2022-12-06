@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pac
 title: General Advisory Board
 date: 2022-10-26
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016914/2022/04/jo-szczepanska-5aiRb5f464A-unsplash-1_gzx3yq.jpg
