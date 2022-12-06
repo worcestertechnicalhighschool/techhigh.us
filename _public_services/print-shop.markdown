@@ -10,34 +10,49 @@ Today’s Graphic Communications Industry is growing rapidly as new technology i
 
 *Our full service print shop includes, but is not limited to the following:*
 
+<div class="col-2" markdown="1">
 
-|  Graphic Design | Offset Printing (high volume) |  
-|-----------------|------------------------------|
-| Logo Design | Envelopes |
-|Business Cards | Business Cards | 
-| Brochures | Notepads |
-| Flyers/ Posters | Formal Invitations with Thermpography |
+# Graphic Design 
+- Logo Design
+- Business Cards
+- Brochures
+- Flyers/ Posters
 
-| Wide-Format Printing | Bindery |
-|----------------------|---------|
-|Vinyl Banners (Grommets optional)| Folding |
-| Decals | Cutting/Trimming |
-| Stickers | Perforating |
-| | Padding |
-| | Shrink Wrapping |
+# Engraving
+- Small Signs
+- Nameplates
 
-| Digital Printing (short-run, on demand) | Engraving |
-|-----------------------------------------|-----------|
-| Full Color | Small Signs |
-| Booklets | Nameplates |
+# Wide-Format Printing
+- Vinyl Banners (Grommets optional)
+- Decals
+- Stickers 
 
-| Screen Printing | Embroidery |
-|-----------------|------------|
-| T-Shirts and other apparel | Shirts |
-| | Hats(Basebal & Beanies) |
-| | Jackets |
+# Digital Printing (short-run, on demand)
+- Full Color
+- Booklets
 
+# Bindery
+- Folding
+- Cutting/Trimming
+- Perforating
+- Padding
+- Shrink Wrapping
 
+# Offset Printing (high volume)
+- Envelopes
+- Business Cards
+- Notepads
+- Formal Invitations with Thermpography
+
+# Screen Printing
+- T-Shirts and other apparel
+
+# Embroidery
+- Shirts
+- Hats(Basebal & Beanies)
+- Jackets
+
+</div>
 
 ## Hours & Contact Information
 
