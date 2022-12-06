@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pac
 title: Night Life
 date: 11/10/2022
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670330100/2022/02/Teacher-teaching-students_wcvwbw.jpg

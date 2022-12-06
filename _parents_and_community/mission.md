@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pac
 title: Our Mission
 date: 2022-10-28
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670329428/2022/03/Missions_s4ahc8.jpg

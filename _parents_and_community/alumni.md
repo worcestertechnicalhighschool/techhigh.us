@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pac
 title: Alumni
 date: 2022-12-1
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670264954/2022/01/Worcester_Tech_2017_Alumnis_eqcrpn.jpg
