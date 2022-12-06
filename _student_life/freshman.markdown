@@ -2,6 +2,7 @@
 layout: student-life
 title: Freshmen
 date: 2022-10-26
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670340712/2022/01/Freshman_d0styc.jpg
 ---
 Information, links, and resources for WTHS Freshmen
 
