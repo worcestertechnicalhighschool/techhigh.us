@@ -1,28 +1,40 @@
 ---
 layout: default
 ---
-<div class="academics">
+
+<div class="departments">
   {%- include components/hero-entry.html -%}
   <article class="post">
-    
-    
-    {% if page.courses %}
-    <h1>Courses By Year</h1>
-      <section class="courses">
-        {% for grade in page.courses %}
-          <h3>{{ grade[0]}}</h3>
-          <ul>
-            {% for course in grade[1] %}
-              <li>{{ course }}</li>
-            {% endfor %}
-          </ul>
-        {% endfor %}
-      </section>
+    <div class="post-content">
+        {{ content }}
+        <!-- If statements that will print courses if academic or certs if shop page-->
+        {% if page.certifications %}
+        <section class="certifs">
+          <div class="shop-certifications">
+            <h2>Certifications</h2>
+            <ul>
+              {% for item in page.certifications %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </section>
 
-    {% endif %}
-
-  <div class="post-content">
-      {{ content }}
+      <!-- academics department-->
+      {% elsif page.courses %}
+      <h1>Courses By Year</h1>
+        <section class="courses">
+          {% for grade in page.courses %}
+            <h3>{{ grade[0]}}</h3>
+            <ul>
+              {% for course in grade[1] %}
+                <li>{{ course }}</li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </section>
+      {% endif %}
+    
       <section class="contact-us">
         <div class="faculty-list">
           <section class="card-container">
@@ -44,8 +56,9 @@ layout: default
               </div>
                 {%- endif -%}
               {% endfor %}
-            </div>
-          </section>
+          </div>
+      </section>
+      
   </article>
 </div>
 

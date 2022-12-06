@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Hotel Management
 date: 2022-10-25
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016888/2022/04/drew-beamer-uVqyiiauv6Q-unsplash-1-1024x683_ip3aju.jpg

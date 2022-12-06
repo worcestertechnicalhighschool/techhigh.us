@@ -1,0 +1,14 @@
+.departments{
+    color: white;
+    h1, p{
+        text-align: center;
+        color: black;
+    }
+    .certifs, .courses{
+        background-color: $primary;
+        padding: 10px 25px;
+        ul{
+            padding-left: 0;
+        }
+    }
+}

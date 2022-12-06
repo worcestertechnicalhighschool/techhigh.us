@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Computer Aided Drafting
 date: 2022-10-24
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016908/TechHigh.us/Technical%20areas/alden/drafting/lucas-kepner-Yn8D5B8C-eY-unsplash-1-1024x689_ziuqrd.jpg

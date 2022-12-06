@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title:  Allied Health
 date:   2022-10-24 11:30:49 -0400
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016946/2022/04/myriam-zilles-7V95FwS2Ss4-unsplash-1_dphljq.jpg
