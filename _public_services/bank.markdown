@@ -2,7 +2,7 @@
 layout: page
 title: Bank
 date: 2022-11-30
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016833/2022/01/wths-home-1024x560_jycwgy.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670348611/2022/01/piggy-bank-2889046_1920_fcsfby.jpg
 ---
 
 The Worcester Credit Union at Worcester Tech offers:
