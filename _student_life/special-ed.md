@@ -2,7 +2,7 @@
 layout: student-life
 title: Special Education
 date: 2022-10-24
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670340964/2022/01/Special_Education_i0hgyn.png
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670346314/2022/01/software-development-4165307_1920_wnxahp.jpg
 ---
 
 # Voc-P Program

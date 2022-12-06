@@ -2,7 +2,7 @@
 layout: student-life
 title: Clubs
 date: 2022-10-26
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670340390/2022/01/Worcester_Tech_Logo_x9llgy.webp
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670346228/2022/01/music-2805506_mun7ok.jpg
 ---
 
 <div class="club_list" markdown="1">
