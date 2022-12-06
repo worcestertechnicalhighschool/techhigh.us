@@ -2,7 +2,8 @@
 layout: pac
 title: Our Mission
 date: 2022-10-28
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670346314/2022/01/software-development-4165307_1920_wnxahp.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016891/2022/04/c88f76e0-1499-4954-920b-faac2e8cc48b-LOC_Tech_Principal.jpg_tn7jgz.jpg
+position: "object-position: center 25%;"
 ---
 # The schools that works
 
