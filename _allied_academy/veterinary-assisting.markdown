@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title:  Veterinary Assisting
 date:   2022-10-24 11:30:49 -0400
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016974/2022/06/67141F0D-BAD8-4095-85B0-3D1D1CA0FC2B-12_nnusaz.jpg

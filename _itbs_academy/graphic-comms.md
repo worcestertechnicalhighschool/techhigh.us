@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Graphic Communication
 date: 2022-10-28
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016940/2022/04/neven-krcmarek-V4EOZj7g1gw-unsplash-1-1024x683_uqekp0.jpg

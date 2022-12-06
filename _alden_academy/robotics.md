@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Robotics & Automation Technology
 date: 2022-10-24
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016860/2022/04/finn-whelen-A7658fvN2cU-unsplash-1-1536x1024_tdp2nu.jpg

@@ -1,5 +1,5 @@
 ---
-layout: shops
+layout: department-pages
 title: Advanced Manufacturing
 date: 2022-10-24
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016931/2022/04/minku-kang-aCniNTiIFd8-unsplash-2-1-1536x1023_uf3p7w.jpg
