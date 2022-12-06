@@ -12,42 +12,42 @@ Today’s Graphic Communications Industry is growing rapidly as new technology i
 
 <div class="col-2" markdown="1">
 
-# Graphic Design 
+## Graphic Design 
 - Logo Design
 - Business Cards
 - Brochures
 - Flyers/ Posters
 
-# Engraving
+## Engraving
 - Small Signs
 - Nameplates
 
-# Wide-Format Printing
+## Wide-Format Printing
 - Vinyl Banners (Grommets optional)
 - Decals
 - Stickers 
 
-# Digital Printing (short-run, on demand)
+## Digital Printing (short-run, on demand)
 - Full Color
 - Booklets
 
-# Bindery
+## Bindery
 - Folding
 - Cutting/Trimming
 - Perforating
 - Padding
 - Shrink Wrapping
 
-# Offset Printing (high volume)
+## Offset Printing (high volume)
 - Envelopes
 - Business Cards
 - Notepads
 - Formal Invitations with Thermpography
 
-# Screen Printing
+## Screen Printing
 - T-Shirts and other apparel
 
-# Embroidery
+## Embroidery
 - Shirts
 - Hats(Basebal & Beanies)
 - Jackets
