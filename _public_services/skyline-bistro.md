@@ -2,6 +2,7 @@
 layout: page
 title: Skyline Bistro Menu
 date: 2022-10-26
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016939/2022/04/drew-beamer-uVqyiiauv6Q-unsplash-1_wjelnh.jpg
 ---
 
 # Open Tuesday - Friday Hours: 10:30 AM - 12:15 PM 
