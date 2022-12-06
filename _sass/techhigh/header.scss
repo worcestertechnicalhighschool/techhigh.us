@@ -167,6 +167,7 @@
 
             li {
                 // max-width: 200px;
+                flex-basis: 0;
                 flex-basis: fit-content;
             }
             a {
@@ -221,6 +222,7 @@
     .site-header {
         .container {
             background-color: transparent;
+            flex-basis: 0;
             flex-basis: fit-content;
         }
 

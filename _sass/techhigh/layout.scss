@@ -39,6 +39,12 @@ header, section, footer, aside, nav, .post-content, .post-header {
     word-wrap: normal !important;
 }
 
+.col-2{
+    ul {
+        margin: initial;
+    }
+}
+
 @media screen and (min-width: $breakpoint_standard) {
 	
     .lg {
@@ -50,5 +56,12 @@ header, section, footer, aside, nav, .post-content, .post-header {
         margin: initial;
     }
 	
+    .col-2{
+        columns: 2;
+        ul {
+            margin: initial;
+        }
+    }
 }
+
 

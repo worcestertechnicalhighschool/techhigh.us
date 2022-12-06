@@ -77,14 +77,6 @@ slideshows:
       slide_url: "http://127.0.0.1:4000/technical-areas/itbs-academy/"
 ---
 
-### Year Book Night
-November 22
-Worcester Tech, 5pm-7pm
-
-### Thanksgiving Break
-November 23 - 25
-No School for Thanksgiving Break
-
 ### 8th Grade Open House
 December 8
 Worcester Tech, 6pm-8pm
@@ -96,3 +88,6 @@ Worcester Tech, Conference Room, 12pm-1pm
 ### Student Council Dance
 December 16
 Worcester Tech, 6pm - 8pm
+
+### Holiday Vacation
+December 23 - January 3, No school for students
