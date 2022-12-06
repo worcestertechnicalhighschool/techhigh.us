@@ -58,6 +58,20 @@ header, section, footer, aside, nav, .post-content, .post-header {
 	
     .col-2{
         columns: 2;
+        table {
+            width: 100%;
+            tr{
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+                margin:0;
+                padding: 0;
+                td:nth-child(2){
+                    display: block;
+                    width: 100%;
+                    border-bottom: 3px black dotted;
+                }
+            }
+        }          
         ul {
             margin: initial;
         }
