@@ -43,6 +43,8 @@ If you would like to get on our wait list, please complete the application proce
 </div>
 </div>
 
+<!--
+
 ## ADMISSION CONTACTS  
 
 <div class="container" markdown="1">
@@ -118,3 +120,5 @@ Kim Smaltz
 
 </div>
 </div>
+
+-->

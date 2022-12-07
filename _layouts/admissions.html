@@ -10,6 +10,56 @@ layout: default
         <a target="_blank" class="btn btn--cta" href="https://techhigh.go2cte.com">Application Portal <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         {{ content }}
     </section>
-
+    <section class="Admissions-contact">
+        <h2>ADMISSION CONTACTS</h2>
+        <div class="faculty-list">
+            <section class="container">
+            {% for faculty in site.data.faculty %}
+            {% assign staff = faculty.title | remove: '"' %}
+            {% assign depart = staff | strip %}
+            {%- if depart == "Admission Office Clerk" or depart == "Department Head - VocP Guidance" or depart == "Director of Career and Technical Education" or depart == "Principal"-%}
+              <div class="items staff-members">
+                <div class="card card--faculty">
+                  <div class="staff">
+                      <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{faculty.last_name}}">
+                    <div class="card-content">
+                      <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p>
+                      <p class="title card-description">{{ faculty.title }}</p>
+                      <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
+                    </div>                        
+                  </div>
+                </div>
+              </div>
+                {%- endif -%}
+              {% endfor %}
+          </section>
+        </div>
+      </section>
+    <section class="Academy-contact">
+        <h2>ACADEMY CONTACTS</h2>
+        <div class="faculty-list">
+            <section class="container">
+            {% for faculty in site.data.faculty %}
+            {% assign staff = faculty.title | remove: '"' %}
+            {% assign depart = staff | strip %}
+            {% assign departe = depart | split: ',' %}
+            {%- if departe[0] == "Assistant Principal"-%}
+              <div class="items staff-members">
+                <div class="card card--faculty">
+                  <div class="staff">
+                      <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{faculty.last_name}}">
+                    <div class="card-content">
+                      <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p>
+                      <p class="title card-description">{{ faculty.title }}</p>
+                      <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
+                    </div>                        
+                  </div>
+                </div>
+              </div>
+                {%- endif -%}
+              {% endfor %}
+          </section>
+        </div>
+      </section>
     </article>
 </div>
