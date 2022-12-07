@@ -7,6 +7,9 @@ header, section, footer, aside, nav, .post-content, .post-header {
     max-width: $max-width;
     margin: 0 auto;
 }
+section{
+    padding: 0 20px;
+}
 .wrapper, main, article {
     width: 100%;
     max-width: 100%;
@@ -80,8 +83,9 @@ header, section, footer, aside, nav, .post-content, .post-header {
 }
 
 .post-content{
-    p, section:not(.contact-us, .courses, .contact-us, .card-container, .certifs, .courses){
-        padding: 0 20px;
+    // set padding on all pages except those that don't need it or already have it.
+    p, table, details, section:not(.contact-us, .courses, .contact-us, .card-container, .certifs, .courses, .faculty_department){
+        //padding: 0 20px;
     }
     ul{
         padding-left: 0;

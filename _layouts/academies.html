@@ -9,9 +9,8 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
-  <div class="post-content">
 
-    <section class="card-container">
+    <section class="card-container post-content">
       {% assign academy_name = page.slug | replace: "-", "_" %}    
       {% for shop in site[academy_name] %}
       <div class="card card--full-cover card--academy">
@@ -24,8 +23,6 @@ layout: default
       {% endfor %}
     </section>
 
-
-  </div>
 
 </article>
 </div>
