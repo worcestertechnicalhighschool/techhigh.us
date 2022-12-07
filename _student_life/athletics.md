@@ -34,7 +34,7 @@ Coach Hallet  [mailto: halletp@worcesterschools.net](halletp@worcesterschools.ne
 
 
 ## Cross country
-Coach john Nicol [mailto:  nicolj@worcesterschools.net](nicolj@worcesterschools.net) Coach Gerald Snay [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
+Coach john Nicol [mailto:  nicolj@worcesterschools.net](nicolj@worcesterschools.net) </a> Coach Gerald Snay [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
 
 
 ## Field Hockey
@@ -46,7 +46,7 @@ Coach Tom Quinn [mailto: quinnt@worcesterschools.net](quinnt@worcesterschools.ne
 
 
 ## Girls Soccer
-Coach Granum   [mailto: bgranum@msn.com](bgranum@msn.com) Coach Binienda [mailto: biniendama@worcesterschools.net](biniendama@worcesterschools.net)
+Coach Granum   [mailto: bgranum@msn.com](bgranum@msn.com) </a> Coach Binienda [mailto: biniendama@worcesterschools.net](biniendama@worcesterschools.net)
 
 
 
@@ -71,7 +71,7 @@ Coach Leveille  [mailto: sleveillee@ymail.com](sleveillee@ymail.com)
 
 
 ## Indoor Track
-Coach John Nicol  [mailto: nicolj@worcesterschools.net](nicolj@worcesterschools.net) Coach Gerlad Snay    [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
+Coach John Nicol  [mailto: nicolj@worcesterschools.net](nicolj@worcesterschools.net) </a> Coach Gerlad Snay [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
 
 
 
@@ -114,7 +114,7 @@ Coach Dancy   [mailto: dancye@worcesterschools.net](dancye@worcesterschools.net)
 
 
 ## OutDoor Track
-Coach Coach John Nicol    [mailto: nicolj@worcesterschools.net](nicolj@worcesterschools.net) Coach Gerald Snay  [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
+Coach Coach John Nicol    [mailto: nicolj@worcesterschools.net](nicolj@worcesterschools.net) </a> Coach Gerald Snay [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
 
 
 
