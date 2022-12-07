@@ -2,7 +2,7 @@
 layout: student-life
 title: Freshmen
 date: 2022-10-26
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670346105/2022/01/people-2557396_1920_mrtvn3.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016925/2022/04/jeswin-thomas-tJUjeaNIOZs-unsplash-1-1_yviu0z.jpg
 ---
 Information, links, and resources for WTHS Freshmen
 
