@@ -26,6 +26,22 @@ header, section, footer, aside, nav, .post-content, .post-header {
     margin-top: 0;
 }
 
+.pricetable {
+    width: 100%;
+    padding: 10px;
+    tr{
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        margin:0;
+        padding: 0;
+        td:nth-child(2){
+            display: block;
+            width: 100%;
+            border-bottom: 3px black dotted;
+        }
+    }
+}          
+
 .lg {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
@@ -58,20 +74,6 @@ header, section, footer, aside, nav, .post-content, .post-header {
 	
     .col-2{
         columns: 2;
-        table {
-            width: 100%;
-            tr{
-                display: grid;
-                grid-template-columns: auto 1fr auto;
-                margin:0;
-                padding: 0;
-                td:nth-child(2){
-                    display: block;
-                    width: 100%;
-                    border-bottom: 3px black dotted;
-                }
-            }
-        }          
         ul {
             margin: initial;
         }
