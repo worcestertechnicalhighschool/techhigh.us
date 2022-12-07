@@ -81,3 +81,11 @@ header, section, footer, aside, nav, .post-content, .post-header {
 
 }
 
+.post-content{
+    p, section:not(.contact-us, .courses, .contact-us, .card-container, .certifs, .courses){
+        padding: 0 20px;
+    }
+    ul{
+        padding-left: 0;
+    }
+}
