@@ -1,5 +1,5 @@
 ---
-layout: pac
+layout: page
 title: Transcripts
 date: 2022-10-26
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016920/2022/04/northfolk-Ok76F6yW2iA-unsplash-1_x9ziry.jpg
