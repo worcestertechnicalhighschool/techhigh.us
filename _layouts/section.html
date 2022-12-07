@@ -8,7 +8,7 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
-  <div class="post-content">
+
     
     <section class="card-container">
       {% assign section_name = page.slug | replace: "-", "_" %}    
@@ -25,8 +25,7 @@ layout: default
         <!-- <p>{{ sub.title }}</p> -->
       {% endfor %}
     </section>
-    <section>
+    <section class="post-content">
       {{ content }}
     </section> 
-  </div>
 </article>

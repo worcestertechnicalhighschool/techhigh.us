@@ -13,7 +13,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016931/20
 
 Whether you like to swing a bat, break a sweat on the basketball court, or cheer our athletes on to victory, students have the opportunity to learn skills and techniques that translate to what they learn in the classroom – leadership, teamwork, respect, dedication, mental and physical toughness on and off the playing field.
 
-# Fall Sports
+## Fall Sports
 
 <details>
 <summary> Cheer</summary>
@@ -36,8 +36,8 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 
 <details>
-<summary>Cross country </summary>
-<p>Coach john Nicol <a href   = "mailto:  nicolj@worcesterschools.net "> nicolj@worcesterschools.net   </a>         Coach Gerald Snay <a href   = "mailto: snayg@worcesterschools.net  "> snayg@worcesterschools.net    </a></p>
+<summary>Cross Country </summary>
+<p>Coach John Nicol <a href   = "mailto:  nicolj@worcesterschools.net "> nicolj@worcesterschools.net   </a>         Coach Gerald Snay <a href   = "mailto: snayg@worcesterschools.net  "> snayg@worcesterschools.net    </a></p>
 </details>
 
 <details>
@@ -64,7 +64,7 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 <p>Coach Kolaco   <a href   = "mailto: rkolaco@gmail.com "> rkolaco@gmail.com   </a> </p>
 </details>  
 
-# Winter Sports
+## Winter Sports
 
 <details>
 <summary> Boys Basketball</summary>
@@ -107,7 +107,7 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 </details>  
 
 
-# Spring Sports
+## Spring Sports
 
 
 

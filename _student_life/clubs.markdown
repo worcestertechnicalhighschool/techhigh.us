@@ -42,14 +42,14 @@ Worcester tech offers various clubs and leadership oppurtunities for students to
 
 
 
-# Leadership
+## Leadership
 - Student Advisory Council
 - Student representative to Worcester School Comittee 
 - Superintendent's Advisory Comittee
 - Class Officer Positions 
 - E-team
 
-# Organizations
+## Organizations
 
 - DECA
 - SkillsUSA
