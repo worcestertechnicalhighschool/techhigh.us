@@ -2,7 +2,7 @@
 layout: student-life
 title: Clubs
 date: 2022-10-26
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670346228/2022/01/music-2805506_mun7ok.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016920/2022/04/lucas-santos-XIIsv6AshJY-unsplash-1_y4jl6o.jpg
 ---
 
 <div class="club_list" markdown="1">

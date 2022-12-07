@@ -2,7 +2,7 @@
 layout: student-life
 title: Special Education
 date: 2022-10-24
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670346314/2022/01/software-development-4165307_1920_wnxahp.jpg
+featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016850/2022/03/Israel_Goldstein_Youth_Village_students_13-1_rpoyzn.jpg
 ---
 
 # Voc-P Program

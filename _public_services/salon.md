@@ -7,7 +7,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016943/Te
 
 ## Cosmetology Price List
 
-<div class="col-2" markdown="1">
+<div class="col-2 pricetable" markdown="1">
 
 ## Highlighting & Foils
 
