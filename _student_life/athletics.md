@@ -13,7 +13,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016931/20
 
 Whether you like to swing a bat, break a sweat on the basketball court, or cheer our athletes on to victory, students have the opportunity to learn skills and techniques that translate to what they learn in the classroom – leadership, teamwork, respect, dedication, mental and physical toughness on and off the playing field.
 
-# Fall Sports
+## Fall Sports
 
 <div class ="col-2" markdown="1">
 
@@ -27,9 +27,6 @@ Coach Derek Robbins  [mailto: derekrobbins31@gmail.com](derekrobbins31@gmail.com
 
 ## Girls Volleyball
 Coach Hallet  [mailto: halletp@worcesterschools.net](halletp@worcesterschools.net)
-
-
-
 
 
 
@@ -61,7 +58,7 @@ Coach Binienda [mailto: biniendama@worcesterschools.net](biniendama@worcestersch
 Coach Kolaco   [mailto: rkolaco@gmail.com](rkolaco@gmail.com)
 
 
-# Winter Sports
+## Winter Sports
 
 ## Boys Basketball
 Coach Sean Lynch   [mailto: lynchse@worcesterschools.net](lynchse@worcesterschools.net)
@@ -100,7 +97,7 @@ Coach Markgren   [mailto: markgrenl@worcesterschools.net](markgrenl@worcestersch
 
 
 
-# Spring Sports
+## Spring Sports
 
 
 

@@ -1,5 +1,5 @@
 ---
-layout: pac
+layout: page
 title: Night Life
 date: 11/10/2022
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670346666/2022/01/time-5193038_1920_jaml9z.jpg

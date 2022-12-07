@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<article class="post {{ page-slug }}">
+<article class="post {{ page.slug }}">
 
   {%- include components/hero-entry.html -%}
 
-  <div class="post-content news">
+  <section class="post-content news">
     <div class="news__body">
       <aside class="news-feed">
         {{ content }}
@@ -14,6 +14,6 @@ layout: default
         {%- include components/collection-carousel.html collection="featured_news" height="500px" -%}
       </aside>
     </div>
-  </div>
+  </section>
 
 </article>

@@ -1,5 +1,5 @@
 ---
-layout: pac
+layout: page
 title: Our Mission
 date: 2022-10-28
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016891/2022/04/c88f76e0-1499-4954-920b-faac2e8cc48b-LOC_Tech_Principal.jpg_tn7jgz.jpg

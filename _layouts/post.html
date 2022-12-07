@@ -15,9 +15,9 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <section class="post-content e-content" itemprop="articleBody">
     {{ content }}
-  </div>
+  </section>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
