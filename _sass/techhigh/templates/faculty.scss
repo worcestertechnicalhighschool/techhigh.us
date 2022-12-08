@@ -1,7 +1,8 @@
 .faculty-list{
     display: flex;
-    flex-direction: column;  
+    flex-direction: row;  
     align-items: center;
+    column-gap: 10%;
     
     h2{
         text-transform: capitalize;
@@ -12,7 +13,6 @@
     
     .faculty_department{
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
