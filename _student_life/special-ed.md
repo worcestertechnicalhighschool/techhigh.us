@@ -52,32 +52,32 @@ Identifying and counting coins and bills, comparing prices within stores, making
 - [VOC-P Student Checklist](/assets/documents/voc-p-app-student-checklist.pdf)
 
 ### English
-- [English VOC-P Brochure](https://www.techhigh.us/wp-content/uploads/2021/04/voc-p-brochure-english.pdf)
-- [English VOC-P Application](https://www.techhigh.us/wp-content/uploads/2021/04/voc-p-app-english.pdf)
+- [English VOC-P Brochure](/assets/documents/voc-p-brochure-english.pdf)
+- [English VOC-P Application](/assets/documents/voc-p-app-english.pdf)
 
 ### Spanish
-- [Spanish VOC-P Brochure](http://techhigh.us/wp-content/uploads/2021/04/voc-p-brochure-spanish.pdf)
-- [Spanish VOC-P Application](http://techhigh.us/wp-content/uploads/2021/04/voc-p-app-spanish.pdf) 
+- [Spanish VOC-P Brochure](/assets/documents/voc-p-brochure-spanish.pdf)
+- [Spanish VOC-P Application](/assets/documents/voc-p-app-spanish.pdf)
 
 ### Nepali
-- [Nepali VOC-P Brochure](http://techhigh.us/wp-content/uploads/2021/04/voc-p-brochure-nepali.pdf)
-- [Nepali VOC-P Application](http://techhigh.us/wp-content/uploads/2021/04/voc-p-app-nepali.pdf) 
+- [Nepali VOC-P Brochure](/assets/documents/voc-p-brochure-nepali.pdf)
+- [Nepali VOC-P Application](/assets/documents/voc-p-app-nepali.pdf)
 
 ### Twi
-- [Twi VOC-P Brochure](http://techhigh.us/wp-content/uploads/2021/04/voc-p-brochure-twi.pdf)
-- [Twi VOC-P Application](http://techhigh.us/wp-content/uploads/2021/04/voc-p-app-twi.pdf) 
+- [Twi VOC-P Brochure](/assets/documents/voc-p-brochure-twi.pdf)
+- [Twi VOC-P Application](/assets/documents/voc-p-app-twi.pdf)
 
 ### Portuguese
-- [Portuguese VOC-P Brochure](http://techhigh.us/wp-content/uploads/2021/04/voc-p-brochure-portuguese.pdf)
-- [Portuguese VOC-P Application](http://techhigh.us/wp-content/uploads/2021/04/voc-p-app-portuguese.pdf)
+- [Portuguese VOC-P Brochure](/assets/documents/voc-p-brochure-portuguese.pdf)
+- [Portuguese VOC-P Application](/assets/documents/voc-p-app-portuguese.pdf)
 
 ### Albanian
-- [Albanian VOC-P Brochure](http://techhigh.us/wp-content/uploads/2021/04/voc-p-brochure-albanian.pdf)
-- [Albanian VOC-P Application](http://techhigh.us/wp-content/uploads/2021/04/voc-p-app-albanian.pdf) 
+- [Albanian VOC-P Brochure](/assets/documents/voc-p-brochure-albanian.pdf)
+- [Albanian VOC-P Application](/assets/documents/voc-p-app-albanian.pdf) 
 
 ### Vietnamese
-- [Vietnamese VOC-P Brochure](http://techhigh.us/wp-content/uploads/2021/04/voc-p-brochure-vietnamese.pdf)
-- [Vietnamese VOC-P Application](http://techhigh.us/wp-content/uploads/2021/04/voc-p-app-vietnamese.pdf)
+- [Vietnamese VOC-P Brochure](/assets/documents/voc-p-brochure-vietnamese.pdf)
+- [Vietnamese VOC-P Application](/assets/documents/voc-p-app-vietnamese.pdf)
 
 
 # VOC-P Target Population
