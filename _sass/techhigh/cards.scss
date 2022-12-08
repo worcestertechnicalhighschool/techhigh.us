@@ -24,7 +24,7 @@
     max-width: 450px;
 
     &.card--full-cover {
-        padding: 50px;
+        padding: 50px 20px;
         img{
             position: absolute;
             z-index: 1;
@@ -95,7 +95,7 @@
     }
     
     &.card--faculty{
-        padding: 50px;
+        padding: 50px 20px;
         text-align: center;
         display: flex;
         flex-direction: row;

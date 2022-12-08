@@ -43,3 +43,6 @@ $slide-transition: ease 0.5s all;
 $min-height: 400px;
 $overlay: rgba(0,0,0,0.5);
 $indicator: rgba(100%,100%,100%,0.6);
+
+// Entry Header **READ: https://css-tricks.com/snippets/css/fluid-typography/
+$entry-header-size: calc(48px + (72 - 48) * ((100vw - 300px) / (1400 - 300)));
