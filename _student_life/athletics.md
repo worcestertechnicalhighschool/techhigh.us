@@ -116,7 +116,7 @@ Coach Dancy   [mailto: dancye@worcesterschools.net](dancye@worcesterschools.net)
 
 
 
-## OutDoor Track
+## Outdoor Track
 Coach Coach John Nicol    [mailto: nicolj@worcesterschools.net](nicolj@worcesterschools.net)
  
 Coach Gerald Snay [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
