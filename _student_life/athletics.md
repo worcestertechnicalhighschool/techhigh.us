@@ -30,7 +30,7 @@ Coach Hallet  [mailto: halletp@worcesterschools.net](halletp@worcesterschools.ne
 
 
 
-## Cross country
+## Cross Country
 Coach john Nicol [mailto:  nicolj@worcesterschools.net](nicolj@worcesterschools.net)
 
 Coach Gerald Snay [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
@@ -105,12 +105,12 @@ Coach Markgren   [mailto: markgrenl@worcesterschools.net](markgrenl@worcestersch
 Coach Vincent Pennell   [mailto: pennellvc@worcesterschools.net](pennellvc@worcesterschools.net)
 
 
-## SoftBall
+## Softball
 Coach  Pat Phenix     [mailto: phenixp@worcesterschools.net](phenixp@worcesterschools.net)
 
 
 
-## Boys VolleyBall
+## Boys Volleyball
 Coach Dancy   [mailto: dancye@worcesterschools.net](dancye@worcesterschools.net)
 
 

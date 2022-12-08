@@ -61,7 +61,11 @@ section{
 .col-2{
     ul {
         margin: initial;
+        padding: 0 20px;
     }
+}
+ul{
+    padding-left: 0;
 }
 
 @media screen and (min-width: $breakpoint_standard) {
@@ -82,14 +86,4 @@ section{
         }
     }
 
-}
-
-.post-content{
-    // set padding on all pages except those that don't need it or already have it.
-    p, table, details, section:not(.contact-us, .courses, .contact-us, .card-container, .certifs, .courses, .faculty_department){
-        //padding: 0 20px;
-    }
-    ul{
-        padding-left: 0;
-    }
 }
