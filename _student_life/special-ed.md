@@ -49,7 +49,7 @@ Identifying and counting coins and bills, comparing prices within stores, making
 ## Application Document
 
 ### Student Check list
-- [VOC-P Student Checklist](http://techhigh.us/wp-content/uploads/2021/04/voc-p-app-student-checklist.pdf)
+- [VOC-P Student Checklist](/assets/documents/voc-p-app-student-checklist.pdf)
 
 ### English
 - [English VOC-P Brochure](https://www.techhigh.us/wp-content/uploads/2021/04/voc-p-brochure-english.pdf)
