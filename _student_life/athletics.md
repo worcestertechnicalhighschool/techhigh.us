@@ -15,46 +15,39 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 ### Cheer 
 - Coach Abby Biernacki
-- [mailto: abbybiernacki@gmail.com](abbybiernacki@gmail.com)
-
+- [abbybiernacki@gmail.com](mailto: abbybiernacki@gmail.com)
 
 ### Football
 - Coach Derek Robbins
-- [mailto: derekrobbins31@gmail.com](derekrobbins31@gmail.com)
-
+- [derekrobbins31@gmail.com](mailto: derekrobbins31@gmail.com)
 
 ### Girls Volleyball
 - Coach Hallet
-- [mailto: halletp@worcesterschools.net](halletp@worcesterschools.net)
+- [halletp@worcesterschools.net](mailto: halletp@worcesterschools.net)
 
 ### Cross Country
 - Coach john Nicol
-- [mailto:  nicolj@worcesterschools.net](nicolj@worcesterschools.net)
-
+- [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
 - Coach Gerald Snay<br>
-- [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
-
+- [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
 
 ### Field Hockey
 - Coach lindsay Ryan
-- [mailto: ryan.lindsayn@gmail.com](ryan.lindsayn@gmail.com)
-
+- [ryan.lindsayn@gmail.com](mailto: ryan.lindsayn@gmail.com)
 
 ### Boys Golf
 - Coach Tom Quinn
-- [mailto: quinnt@worcesterschools.net](quinnt@worcesterschools.net)
-
+- [quinnt@worcesterschools.net](mailto: quinnt@worcesterschools.net)
 
 ### Girls Soccer
 - Coach Granum
-- [mailto: bgranum@msn.com](bgranum@msn.com)
-
+- [bgranum@msn.com](mailto: bgranum@msn.com)
 - Coach Binienda
-- [mailto: biniendama@worcesterschools.net](biniendama@worcesterschools.net)
+- [biniendama@worcesterschools.net](mailto: biniendama@worcesterschools.net)
 
 ### Crew
 - Coach Kolaco
-- [mailto: rkolaco@gmail.com](rkolaco@gmail.com)
+- [rkolaco@gmail.com](mailto: rkolaco@gmail.com)
 
 </div>
 
@@ -64,30 +57,29 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 ### Boys Basketball
 - Coach Sean Lynch
-- [mailto: lynchse@worcesterschools.net](lynchse@worcesterschools.net)
+- [lynchse@worcesterschools.net](mailto: lynchse@worcesterschools.net)
 
 ### Girls Basketball
 - Coach Leveille
-- [mailto: sleveillee@ymail.com](sleveillee@ymail.com)
+- [sleveillee@ymail.com](mailto: sleveillee@ymail.com)
 
 ### Indoor Track
 - Coach John Nicol
-- [mailto: nicolj@worcesterschools.net](nicolj@worcesterschools.net)
-
+- [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
 - Coach Gerlad Snay
-- [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
+- [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
 
 ### Ice Hockey
 - Coach Vaughan
-- [mailto: vaughanm@lpsma.net](vaughanm@lpsma.net)
+- [vaughanm@lpsma.net](mailto: vaughanm@lpsma.net)
 
 ### Swimming
 - Coach Bruno
-- [mailto: tarickbruno123@gmail.com](tarickbruno123@gmail.com)
+- [tarickbruno123@gmail.com](mailto: tarickbruno123@gmail.com)
 
 ### Wrestling
 - Coach Markgren
-- [mailto: markgrenl@worcesterschools.net](markgrenl@worcesterschools.net)
+- [markgrenl@worcesterschools.net](mailto: markgrenl@worcesterschools.net)
 
 </div>
 
@@ -97,37 +89,36 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 ### Baseball
 - Coach Vincent Pennell
-- [mailto: pennellvc@worcesterschools.net](pennellvc@worcesterschools.net)
+- [pennellvc@worcesterschools.net](mailto: pennellvc@worcesterschools.net)
 
 ### Softball
 - Coach Pat Phenix
-- [mailto: phenixp@worcesterschools.net](phenixp@worcesterschools.net)
+- [phenixp@worcesterschools.net](mailto: phenixp@worcesterschools.net)
 
 ### Boys Volleyball
 - Coach Dancy
-- [mailto: dancye@worcesterschools.net](dancye@worcesterschools.net)
+- [dancye@worcesterschools.net](mailto: dancye@worcesterschools.net)
 
 ### Outdoor Track
 - Coach Coach John Nicol
-- [mailto: nicolj@worcesterschools.net](nicolj@worcesterschools.net)
- 
+- [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
 - Coach Gerald Snay
-- [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
+- [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
 
 ### Girls Tennis
 - Coach Anthony Camoreyt
-- [mailto: camoreyta@worcesterschools.net](camoreyta@worcesterschools.net)
+- [camoreyta@worcesterschools.net](mailto: camoreyta@worcesterschools.net)
 
 ### Girls Golf
 - Coach Meghan McDonald
-- [mailto: mcdonaldm@worcesterschools.net](mcdonaldm@worcesterschools.net)
+- [mcdonaldm@worcesterschools.net](mailto: mcdonaldm@worcesterschools.net)
 
 ### Boys Lacrosse
 - Coach Matthew Genkos
-- [mailto: matthewgenkos@gmail.com](matthewgenkos@gmail.com)
+- [matthewgenkos@gmail.com](mailto: matthewgenkos@gmail.com)
 
 ### Girls Lacrosse
 - Coach Moulin
-- [mailto: moulinn@worcesterschools.net](moulinn@worcesterschools.net)
+- [moulinn@worcesterschools.net](mailto: moulinn@worcesterschools.net)
 
 <div>
