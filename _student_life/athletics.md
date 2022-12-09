@@ -17,11 +17,9 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 - Coach Abby Biernacki
 - [mailto: abbybiernacki@gmail.com](abbybiernacki@gmail.com)
 
-
 ### Football
 - Coach Derek Robbins
 - [mailto: derekrobbins31@gmail.com](derekrobbins31@gmail.com)
-
 
 ### Girls Volleyball
 - Coach Hallet
@@ -30,25 +28,20 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 ### Cross Country
 - Coach john Nicol
 - [mailto:  nicolj@worcesterschools.net](nicolj@worcesterschools.net)
-
 - Coach Gerald Snay<br>
 - [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
-
 
 ### Field Hockey
 - Coach lindsay Ryan
 - [mailto: ryan.lindsayn@gmail.com](ryan.lindsayn@gmail.com)
 
-
 ### Boys Golf
 - Coach Tom Quinn
 - [mailto: quinnt@worcesterschools.net](quinnt@worcesterschools.net)
 
-
 ### Girls Soccer
 - Coach Granum
 - [mailto: bgranum@msn.com](bgranum@msn.com)
-
 - Coach Binienda
 - [mailto: biniendama@worcesterschools.net](biniendama@worcesterschools.net)
 
@@ -73,7 +66,6 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 ### Indoor Track
 - Coach John Nicol
 - [mailto: nicolj@worcesterschools.net](nicolj@worcesterschools.net)
-
 - Coach Gerlad Snay
 - [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
 
@@ -110,7 +102,6 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 ### Outdoor Track
 - Coach Coach John Nicol
 - [mailto: nicolj@worcesterschools.net](nicolj@worcesterschools.net)
- 
 - Coach Gerald Snay
 - [mailto: snayg@worcesterschools.net](snayg@worcesterschools.net)
 
