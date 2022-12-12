@@ -11,4 +11,21 @@
             padding: 0;
         }
     }
+    .alumn-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        img{
+            max-height: 275px;
+            max-width: 293px;
+            margin-top: 50px;
+        }
+        
+        .alumn-content{
+            display: flex;
+            max-width: 500px;
+            max-height: 200px;
+            flex-direction: column;
+        }
+    }
 }
