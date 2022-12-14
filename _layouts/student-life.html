@@ -1,15 +1,35 @@
 ---
 layout: default
 ---
+<article class="post {{ page-slug }}">
+
+  {%- include components/hero-entry.html -%}
+
+  <div class="post-content">
+  </div>
+
+</article>
+
 <div class="student_life">
     <article class="post">
 
     <header class="post-header">
-      <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
 
-    <section class="post-content">
-        {{ content }}
+    <section class="card-container post-content">
+      {% assign section_name = page.slug | replace: "-", "_" %}    
+      {% for sub in site[section_name] %}
+        <div class="card card--student-life">
+          <div class="image-container">
+            <img src="{{ sub.featured_image }}">
+          </div>
+          <div class="card-content">
+            <a href="{{ sub.url }}">
+            <h2>{{ sub.title }}</h2></a>
+            <p>{{ sub.excerpt }}</p>
+          </div>
+        </div>
+      {% endfor %}
     </section>
     </article>
 </div>
