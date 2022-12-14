@@ -11,7 +11,7 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 ## Fall Sports
 
-<div class="col-2" style="text-align: center;" markdown="1">
+<div class="col-3" style="text-align: center;" markdown="1">
 
 ### Cheer 
 - Coach Abby Biernacki
@@ -53,7 +53,7 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 ## Winter Sports
 
-<div class="col-2" style="text-align: center;" markdown="1">
+<div class="col-3" style="text-align: center;" markdown="1">
 
 ### Boys Basketball
 - Coach Sean Lynch
@@ -85,7 +85,7 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 ## Spring Sports
 
-<div class="col-2" style="text-align: center;" markdown="1">
+<div class="col-3" style="text-align: center;" markdown="1">
 
 ### Baseball
 - Coach Vincent Pennell
