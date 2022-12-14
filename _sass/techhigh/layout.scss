@@ -68,23 +68,6 @@ ul{
     padding-left: 0;
 }
 
-.athletics {
-    h2 {
-        font-size: 48px;
-    }
-    h3 {
-        font-size: 36px;
-        margin-bottom:10px;
-    }
-    ul {
-        list-style-type: none;
-        break-inside: avoid;
-        a {
-            display: inline-block;
-            margin-bottom: 10px;
-        }
-    }
-}
 
 @media screen and (min-width: $breakpoint_standard) {
 	
@@ -99,6 +82,13 @@ ul{
 	
     .col-2{
         columns: 2;
+        ul {
+            margin: initial;
+        }
+    }
+
+    .col-3{
+        columns: 3;
         ul {
             margin: initial;
         }
