@@ -12,7 +12,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 ## Fall Sports
 
-<div class="col-2" style="text-align: center;" markdown="1">
+<div class="col-3" style="text-align: center;" markdown="1">
 
 ### Cheer 
 - Coach Abby Biernacki
@@ -54,7 +54,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 ## Winter Sports
 
-<div class="col-2" style="text-align: center;" markdown="1">
+<div class="col-3" style="text-align: center;" markdown="1">
 
 ### Boys Basketball
 - Coach Sean Lynch
@@ -86,7 +86,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 ## Spring Sports
 
-<div class="col-2" style="text-align: center;" markdown="1">
+<div class="col-3" style="text-align: center;" markdown="1">
 
 ### Baseball
 - Coach Vincent Pennell

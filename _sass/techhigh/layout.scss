@@ -68,6 +68,7 @@ ul{
     padding-left: 0;
 }
 
+
 @media screen and (min-width: $breakpoint_standard) {
 	
     .lg {
@@ -81,6 +82,13 @@ ul{
 	
     .col-2{
         columns: 2;
+        ul {
+            margin: initial;
+        }
+    }
+
+    .col-3{
+        columns: 3;
         ul {
             margin: initial;
         }

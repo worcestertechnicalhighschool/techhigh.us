@@ -22,7 +22,7 @@ Applications will close on Thursday March 31, 2022
 <div class="items" markdown="1">
 
 # Class of 2025  
-We are not currently accepting applications for the Class 2025  
+We are not currently accepting applications for the Class of 2025  
 
 </div>
 <div class="items" markdown="1">
