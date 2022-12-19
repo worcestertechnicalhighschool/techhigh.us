@@ -7,6 +7,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670348611/20
 
 The Worcester Credit Union at Worcester Tech offers:
 
+- test
 - Deposits
 - Withdrawals
 - Wire Transfers
