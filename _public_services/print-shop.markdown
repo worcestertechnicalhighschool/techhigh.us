@@ -42,14 +42,14 @@ Today’s Graphic Communications Industry is growing rapidly as new technology i
 - Envelopes
 - Business Cards
 - Notepads
-- Formal Invitations with Thermpography
+- Formal Invitations with Thermography
 
 ## Screen Printing
 - T-Shirts and other apparel
 
 ## Embroidery
 - Shirts
-- Hats(Basebal & Beanies)
+- Hats(Baseball & Beanies)
 - Jackets
 
 </div>
