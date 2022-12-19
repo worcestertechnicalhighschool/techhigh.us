@@ -1,0 +1,20 @@
+.athletics {
+    h2 {
+        font-size: 48px;
+    }
+    h3 {
+        font-size: 36px;
+        margin-bottom:10px;
+        break-after: avoid;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        break-inside: avoid;
+        a {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    }
+}

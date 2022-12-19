@@ -3,15 +3,16 @@ layout: page
 title: Athletics 
 date: 2022-11-14
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016931/2022/04/riley-mccullough-iezcEpGuYdE-unsplash-1-768x512_pxswv8.jpg
+
+excerpt: Students have the opportunity to learn skills and techniques that translate to what they learn in the classroom – leadership, teamwork, respect, dedication, mental and physical toughness on and off the playing field.
 ---
 
 
 
-Whether you like to swing a bat, break a sweat on the basketball court, or cheer our athletes on to victory, students have the opportunity to learn skills and techniques that translate to what they learn in the classroom – leadership, teamwork, respect, dedication, mental and physical toughness on and off the playing field.
 
 ## Fall Sports
 
-<div class="col-2" style="text-align: center;" markdown="1">
+<div class="col-3" style="text-align: center;" markdown="1">
 
 ### Cheer 
 - Coach Abby Biernacki
@@ -53,7 +54,7 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 ## Winter Sports
 
-<div class="col-2" style="text-align: center;" markdown="1">
+<div class="col-3" style="text-align: center;" markdown="1">
 
 ### Boys Basketball
 - Coach Sean Lynch
@@ -85,7 +86,7 @@ Whether you like to swing a bat, break a sweat on the basketball court, or cheer
 
 ## Spring Sports
 
-<div class="col-2" style="text-align: center;" markdown="1">
+<div class="col-3" style="text-align: center;" markdown="1">
 
 ### Baseball
 - Coach Vincent Pennell
