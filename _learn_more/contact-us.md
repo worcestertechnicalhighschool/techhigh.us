@@ -7,7 +7,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016844/20
 
 ## Contact Us
 
-One Officer Manny Familia Way, Worcester, MA 01605
+1 Officer Manny Familia Way, Worcester, MA 01605
 
 Office Hours: 7:00-3:00 Class Hours: 7:20-1:43
 
