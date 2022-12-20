@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: public-services
 title: Skyline Bistro Menu
 date: 2022-10-26
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016939/2022/04/drew-beamer-uVqyiiauv6Q-unsplash-1_wjelnh.jpg
