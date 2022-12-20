@@ -9,7 +9,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 <div class="club_list" markdown="1">
 
-Worcester tech offers various clubs and leadership oppurtunities for students to excel in and out of the classroom
+Worcester tech offers various clubs and leadership opportunities for students to excel in and out of the classroom
 
 
 - ESports
@@ -46,8 +46,8 @@ Worcester tech offers various clubs and leadership oppurtunities for students to
 
 ## Leadership
 - Student Advisory Council
-- Student representative to Worcester School Comittee 
-- Superintendent's Advisory Comittee
+- Student representative to Worcester School Committee 
+- Superintendent's Advisory Committee
 - Class Officer Positions 
 - E-team
 

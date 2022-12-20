@@ -34,11 +34,11 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016939/20
 |*Sandwiches and Wraps* | *Price* |
 |:-------------------- | -----: |
 | **Chicken Pesto Panini**| **$8.95** |
-|*Grilled chicken breast, roasted red pepper, spinach, provolone, tomto, red onion and pesto aioli on pressed sourdough* |
+|*Grilled chicken breast, roasted red pepper, spinach, provolone, tomato, red onion and pesto aioli on pressed sourdough* |
 | **Tuna Salad Sandwich** | **$7.25** | 
 |*We use solid white albacore tuna packed in water. It’s blended with minced celery, lemon juice, a hint of onion, and lightly dressed with mayonnaise. Served on your choice of bread with lettuce and ripe tomatoes.*|
 | **Classic Reuben** | **$8.25** |  
-|*Mounds of hot lean corned beef topped with sawerkraut and melted Swiss cheese on grilled marble rye bread with Thousand Island dressing.*|
+|*Mounds of hot lean corned beef topped with sauerkraut and melted Swiss cheese on grilled marble rye bread with Thousand Island dressing.*|
 | **Turkey and Bacon Wrap** | **$7.95** | 
 |*We took all the ingredients of a Turkey Club – roasted turkey breast, warm smoky bacon, crisp lettuce, ripe tomatoes, mayonnaise and rolled them up in a grilled low carb whole wheat tortilla*|
 

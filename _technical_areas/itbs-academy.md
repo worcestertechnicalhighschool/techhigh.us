@@ -26,7 +26,7 @@ desc
 <div class="card" markdown="1">
 
 ![Alt text](https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016946/TechHigh.us/Technical%20areas/Itbs/Graphics/wengang-zhai-qspcUHykVNk-unsplash-1_lszenf.jpg)
-### Graphic Communnications
+### Graphic Communications
 desc
 [Learn more](../itbs/graphic-comms/){: .btn}
 
