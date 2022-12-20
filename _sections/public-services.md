@@ -4,7 +4,7 @@ layout: section
 date: 2022-11-5
 ---
 
-Worcester Technical High School offers serveral servies to the community during school hours.
+Worcester Technical High School offers several services to the community during school hours.
 
 Worcester Technical High School, 1 Officer Manny Familia Way, MA 01605
 
