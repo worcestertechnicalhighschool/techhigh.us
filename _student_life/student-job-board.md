@@ -6,3 +6,5 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1671024746/Te
 
 excerpt: Employers submit job forms for students to apply for through public posts on the home page.
 ---
+
+For student work opportunities, please visit our [Job Board](https://jobs.techhigh.us)!
