@@ -17,6 +17,7 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016939/20
 | **Crock of French Onion Soup Gratinee** | **$4.75** |||
 |*Caramelized sweet onions blended with our own chicken and beef stock with a hint of sherry wine topped with cheese crouton and mounds of bubbly cheese.*|
      
+<div class="wrapper wrapper--lt-gray" markdown="1">
 
 | *Salads* | *Price* | 
 |:--------| -----:|
@@ -29,7 +30,9 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016939/20
 | **Seasonal Spinach Salad** | **$6.95** | 
 *Please ask your server for today's selection.*|
 
-<div align="center" > Add chicken to any salad for $3.00  </div>
+</div>
+
+<p> Add chicken to any salad for $3.00  </p>
 
 |*Sandwiches and Wraps* | *Price* |
 |:-------------------- | -----: |
@@ -42,6 +45,8 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016939/20
 | **Turkey and Bacon Wrap** | **$7.95** | 
 |*We took all the ingredients of a Turkey Club – roasted turkey breast, warm smoky bacon, crisp lettuce, ripe tomatoes, mayonnaise and rolled them up in a grilled low carb whole wheat tortilla*|
 
+<div class="wrapper wrapper--lt-gray" markdown="1">
+
 |*Black Angus Burgers*| | *Price* |
 |:------------------ | -----: | ---:|
 | **Classic Burger** | **$7.95** | **w/cheese $8.50** | 
@@ -52,6 +57,8 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016939/20
 |*A half-pound of fresh choice ground beef is grilled with jalapeno peppers, topped with pepper jack cheese, crisp lettuce, and ripe tomatoes and served on a toasted roll with out chipotle dressing.* | 
 | **Veggie Burger** | | **$6.95** | 
 |*Southwest black bean veggie burger topped with guacamole, crispy lettuce and ripe tomatoes on a roll.* |
+
+</div>
 
 <div align="center" > All burgers, sandwiches and wraps are served with French fries, coleslaw and a half-sour pickle <br> Gluten-free bread available upon request </div><br>
 
