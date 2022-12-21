@@ -8,8 +8,10 @@ layout: default
     <div class="post-content">
       {{ content }}
     </div>
-  
+    
+    {% if page.external %}
+    <div class="external-links">
+        <a target="_blank" class="btn btn--cta" href="{{page.external}}">{{ page.title }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div> 
+    {% endif %}
 </article>
-<div class="external-links">
-    <a target="_blank" class="btn btn--cta" href="{{page.external}}">{{ page.title }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-</div> 
