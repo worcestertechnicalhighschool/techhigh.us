@@ -24,3 +24,8 @@ featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016921/20
 - Tom Quinn	Guidance
 - Lynn Wanjiku - Student
 - Jocelyn Coughlin - Teacher
+
+### Contact US
+
+
+Drew weymouth | Principal                    Michelle Phenix_ Assistantnt Principal                    Allison audet| MCAS Specialist
