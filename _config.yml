@@ -96,6 +96,10 @@ collections:
   featured_news:
     output: true
     permalink: /news/:path/
+
+  pages:
+    output: true
+    permalink: :path/
     
 
 # Exclude from processing.
