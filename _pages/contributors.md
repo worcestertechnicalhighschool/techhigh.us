@@ -1,5 +1,5 @@
 ---
-layout: about-this-site
+layout: contributors
 title: About this site 
 date: 2022-12-21
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016931/2022/04/riley-mccullough-iezcEpGuYdE-unsplash-1-768x512_pxswv8.jpg
@@ -25,3 +25,6 @@ In September of 2017-2018 school year, Anthony Le, Jeffery Neal, and Mariah Dona
 ![2018 Custom Techhigh Theme](https://res.cloudinary.com/dxm7ycyxz/image/upload/c_scale,w_768/v1671643200/TechHigh.us/about/techhigh-2018_quype6.jpg)
 
 This Wordpress theme is built with the mobile-first Bootstrap CSS framework and customized to look and feel like a modern, professional website. The information hierarchy utilizes categories to present the most relevant information to our visitors.
+
+## Latest Version
+In 2022 we created a collaborative partnership between students in Programming and Web Development and Finance and Marketing. Through this partnership we rebuild techhigh.us with all new content, code, and workflow processes. This site is now build using Jekyll and is hosted on GitHub Pages. Students meet on Monday for our weekly production meeting. Features and content are discussed and assigned to students. Thursday is our regular build day where we push new versions of our code. Check back often to see our changes!

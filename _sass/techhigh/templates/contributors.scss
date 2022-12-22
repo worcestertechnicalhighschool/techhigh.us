@@ -1,0 +1,70 @@
+.contributors {
+    h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+    .post-content img {
+        display: block;
+        margin: 0 auto;
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+    }
+    .team {
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-wrap:wrap;
+        position: relative;
+        &::before{
+            content:'';
+            position: absolute;
+            left:50%;
+            top:0;
+            width:100vw;
+            height:100%;
+            background-color: $light_grey;
+            z-index: -1;
+            transform: translate(-50%, 0);
+        }
+        li{
+            width: 140px;
+            height: 140px;
+            overflow: hidden;
+            margin: 10px;
+            border-radius: 50%;
+            position: relative;
+        }
+        .avatar {
+            position: absolute;
+            left:0;
+            top:0;
+            width:100%;
+            height:100%;
+            display: block;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 40, 85,0);
+            z-index:5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgba(255,255,255,0);
+            transition: $soft;
+            p {
+                margin:0;
+                text-align: center;
+                width:100%;
+            }
+        }
+        a:hover .caption{
+            background-color: rgba(0, 40, 85, 0.8);
+            color: rgba(255,255,255,1);
+        }
+    }
+}
