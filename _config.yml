@@ -103,6 +103,10 @@ collections:
   pages:
     output: true
     permalink: :path/
+
+  summer_work:
+    output: true
+    permalink: /summer-work/:path/
     
 
 # Exclude from processing.

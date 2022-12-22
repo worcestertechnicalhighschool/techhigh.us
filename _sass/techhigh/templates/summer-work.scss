@@ -1,0 +1,12 @@
+.summer-work{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: $primary;
+    color: $white;
+    word-wrap: break-word;
+    list-style-type: none;
+}
