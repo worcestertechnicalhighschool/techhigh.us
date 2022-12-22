@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post {{ page.slug }}">
+    {%- include components/hero-entry.html -%}
+    
+    <section>
+      {% if site.data.contributors %}
+        <h2>Contributors</h2>
+        <ul class="team">
+          {% for c in site.data.contributors %}
+          <li>
+            <a target="_blank" href="{{c.html_url}}" title="@{{c.login}} with {{c.contributions}} contributions">
+              <img class="avatar" src="{{c.avatar_url}}" alt="{{c.login}} avatar">
+              <div class="caption">
+                <p>@{{ c.login }}<br>with {{ c.contributions }} contributions</p>
+              </div>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </section>
+  <section class="post-content">
+    {{ content }}
+  </section>
+
+</article>
