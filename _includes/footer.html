@@ -1,15 +1,36 @@
 <footer id="colophon" class="site-footer">
   <div class="footer-wths">
     <div class="container">
-      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}</p>
-      {%- include social.html -%}
-      <small>
-        <p>This site is designed and maintained by students in <a href="/technical-areas/itbs/webdev/">Programming and Web Development</a> | Read the story behind this design.</p>
+      <div class="info">
         <p>
-          <a href="mailto:{{ site.email }}">Contact us with your Comments, Questions, and Suggestions.</a> | 
-          <a href="mailto:{{ site.email }}">This Website's Privacy Policy</a></p>
+          1 Officer Manny Familia Way, Worcester, MA 01605
+        </p>
+        <p>
+          Office Hours: 7:00-3:00
+        </p>
+        <p>
+          Class Hours: 7:20-1:43
+        </p>
+        <p>
+          Main Office: (508) 799-1940
+        </p>
+        <p>
+          Fax: (508) 799-1933 
+        </p>
+      </div>
+      <small>
+          <div class="info info--center">
+          <p>This site is designed and maintained by students in <a href="/technical-areas/itbs/webdev/">Programming and Web Development</a></p>
+          <p>Read the story behind this design.</p>
+          <p><a href="mailto:{{ site.email }}">Contact us with your Comments, Questions, and Suggestions.</a></p>
+          <p><a href="mailto:{{ site.email }}">This Website's Privacy Policy</a></p>
+        </div>
       </small>
-    </div>
+        <div>
+          {%- include social.html -%}
+        </div>
+      </div>
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}</p>
   </div>
   <div class="footer-wps">
     <div class="container">
@@ -19,26 +40,7 @@
         The Worcester Public Schools provides equal access to employment and the full range of general, occupational and vocational education programs. 
         For more information relating to Equal Opportunity/Affirmative Action contact the Human Resource Manager, 20 Irving Street, Worcester, MA 01609, 508-799-3020. 
       </p>
-      <div class="info">
-          <p>
-            1 Officer Manny Familia Way, Worcester, MA 01605
-          </p>
-          <p>
-            Office Hours: 7:00-3:00
-          </p>
-          <p>
 
-            Class Hours: 7:20-1:43
-          </p>
-          <p>
-
-            Main Office: (508) 799-1940
-          </p>
-          <p>
-
-            Fax: (508) 799-1933 
-          </p>
-      </div>
     </div>
   </div>
 </footer>
