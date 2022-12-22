@@ -29,21 +29,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-83881166-1
 
 # Social media vars
-# twitter_username: jekyllrb
 twitter_username_wths: wteagles
 twitter_username_wps: worcesterpublic
-# github_username:  worcestertechnicalhighschool
+instagram_username: wteagles
 
 # Build settings
 # theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-githubcontributions:
-  username: jeffhow # Github username
-  page_limit: 3 # Number of pages of data to grab from Github
-  cache: 300 # Number of seconds to cache the data file
 
 collections: 
   sections:
