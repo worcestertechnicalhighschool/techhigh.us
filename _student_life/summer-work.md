@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Summer Work 
 date: 2022-11-14
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1671024766/TechHigh.us/Student%20Life/Summer_Work_bejfw8.jpg
