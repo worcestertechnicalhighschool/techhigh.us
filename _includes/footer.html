@@ -8,19 +8,15 @@
           width="150">
         <div>
           <h1>Worcester Technical High&nbsp;School</h1> 
-          <address>
-            1 Officer Manny Familia Way &bullet;
+          <p><address>
+            1 Officer Manny Familia Way <span class="show-md">&bullet;</span>
             Worcester,&nbsp;MA&nbsp;01605<br>
-            Office Hours: 7:00-3:00 &bullet;
+            Office Hours: 7:00-3:00 <span class="show-md">&bullet;</span>
             Class&nbsp;Hours:&nbsp;7:20-1:43<br>
-            Main Office: (508) 799-1940 &bullet;
+            Main Office: (508) 799-1940 <span class="show-md">&bullet;</span>
             Fax:&nbsp;(508)&nbsp;799-1933 
-          </address>
+          </address></p>
         </div>
-      </div>
-      <div class="social-nav">
-        <h2>Follow Us</h2>
-        {%- include social.html -%}
       </div>
       <div class="about-nav">
         <h2>About</h2>
@@ -30,14 +26,18 @@
           <li><a href="/privacy-policy">Privacy Policy</a></li>
         </ul>
       </div>
-      
+      <div class="social-nav">
+        <h2>Follow Us</h2>
+        {%- include social.html -%}
+      </div>
+    </div>
+    
       <p><em>This site is designed and maintained by students in 
         <a href="/technical-areas/itbs-academy/finance-marketing/">Finance, Marketing, and Business Management</a> 
         and 
         <a href="/technical-areas/itbs-academy/webdev/">Programming and Web Development</a>
       </em></p>
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}</p>
-    </div>
   </div>
   <div class="footer-wps">
     <div class="container">

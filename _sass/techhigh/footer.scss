@@ -1,6 +1,7 @@
 .site-footer {
     width: 100%;
     max-width: 100%;
+    margin-top: 50px;
     .container {
         max-width: $max_width;
         margin: 0 auto;
@@ -8,12 +9,9 @@
     p {
         font-size: 16px;
         line-height:32px;
-        margin: 0;
+        margin: 20px 0 0 0;
     }
-    small p {
-        font-size: 15px;
-        line-height: 24px;    
-    }
+  
     
     
     .footer-wths {
@@ -21,35 +19,33 @@
         width: 100%;
         background-color: $primary;
         color: $white;
+        text-align: center;
         h1, h2 {
             color: $white;
             margin: 0;
         }
-
-        .container{
-
-            .info{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                padding: 20px;
-                text-align: center;
-                img{
-                    max-width: 200px;
-                    height: auto;
-                    width:100%;
-                    display: block;
-                    margin: 0 auto;
-                }
-                p{
-                    font-size: 24px;
-                    font-family: $header-font;
-                }
-            }
-            
+        h2 {
+            border-top: $footer-divider;
+            margin-top: 20px;
+            padding-top: 10px;
         }
+
+
+        .school-info{
+            
+            img{
+                max-width: 150px;
+                height: auto;
+                width:100%;
+                display: block;
+                margin: 0 auto;
+            }
+            p{
+                font-size: 24px;
+                font-family: $header-font;
+            }
+        }
+            
         p{
             text-align: center;
         }
@@ -75,12 +71,30 @@
 
             a {
                 display: inline-block;
-            }
-            
-            
+                font-size: 32px;
+                padding: 5px 10px;
+            }            
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        li {
+            padding:0;
+            margin: 0;
+            text-align: center;
         }
     }
     .footer-wps {
+        position: relative;
+        &::before {
+            position: absolute;
+            content:'';
+            width:100%;
+            height:100%;
+            background-color: rgba(0,0,0,0.3);
+        }
         .container{
             
             padding: 20px;
@@ -92,6 +106,9 @@
             }
             p{
                 text-align: justify;
+                position: relative;
+                z-index: 5;
+                color: #121212;
             }
             a {
                 color: $dark_blue;
@@ -106,12 +123,40 @@
     
 }
 
-@media screen and (min-width: $breakpoint_standard) {
-    .footer-wps {
-        .container{
-            img {
-                float: left;
+@media screen and (min-width: $footer_medium) {
+    .site-footer {
+
+        .footer-wths {
+            .container {
+                display: flex;
+                justify-content: center;
+            }
+            h2 {
+                border-top: none;
+                text-align: left;
+            }
+            .about-nav, .social-nav {
+                border-left: $footer-divider;
+                margin-left: 50px;
+                padding-left: 50px;
+                padding-top: 50px;
+            }
+            .social-media-list {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            li {
+                text-align: left;
+            }
+        }
+        .footer-wps {
+            .container{
+                img {
+                    float: left;
+                }
             }
         }
     }
 }
+
+

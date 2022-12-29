@@ -17,11 +17,15 @@ $lighter_grey: #e4e3e3;
 $dark_blue: $primary;
 $light_blue: #B9D9EB;
 $menu_grey: #EDEEED;
+$footer-divider-color: rgba(255,255,255,0.5);
+$footer-divider: $footer-divider-color 1px solid;
 
 $soft:  all ease 0.3s;
 $max_width: 1400px;
 
+// Breakpoints
 $breakpoint_standard: 450px;
+$footer_medium: 760px;
 $breakpoint_desktop: 1280px;
 $nav_breakpoint: $breakpoint_desktop;
 
