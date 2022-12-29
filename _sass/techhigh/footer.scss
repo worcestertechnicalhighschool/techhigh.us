@@ -17,41 +17,42 @@
     
     
     .footer-wths {
-        .container{
-            display: flex;
-            flex-direction: row;
-            .info{
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 20px;
-                img{
-                    max-width: 50px;
-                    max-height: 50px;
-                    border-radius: 100%;
-                    align-self: center;
-                }
-            }
-            .info--center{
-                align-items: center;
-            }
-            .social-media-list{
-                display: flex;
-                flex-direction: column;
-                align-items: flex-end;
-                padding: 20px;
-            }
-        }
-        p{
-            text-align: center;
-        }
         padding: 20px;
         width: 100%;
         background-color: $primary;
         color:#ffffff;
+
+        .container{
+
+            .info{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                text-align: center;
+                img{
+                    max-width: 200px;
+                    height: auto;
+                    width:100%;
+                    display: block;
+                    margin: 0 auto;
+                }
+                p{
+                    font-size: 24px;
+                    font-family: $header-font;
+                }
+            }
+            
+        }
+        p{
+            text-align: center;
+        }
         
         a {
             color: $light_grey;
+
             &:hover {
                 color: white;
                 text-decoration: none;
@@ -61,35 +62,32 @@
         .social-media-list{
             list-style-type: none;
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             padding: 0px;
             margin: 0px;
+            width:100%;
+
             a {
-                position: relative;
-                margin-left: 30px;
-                padding-left: 20px;
-                
+                display: inline-block;
             }
-            .svg-icon{
-                width: 20px;
-                height: 20px;
-                padding: 0px;
-                position: absolute;
-                left:0;
-                top: 3px;
-                filter: invert(1);
-            }
+            
+            
         }
     }
     .footer-wps {
         .container{
-            display: flex;
-            flex-direction: row;
+            
             padding: 20px;
             img {
                 width: auto;
                 max-height: 200px;
+                display: block;
+                margin: 0 auto;
+            }
+            p{
+                text-align: justify;
             }
             a {
                 color: $dark_blue;
@@ -104,3 +102,12 @@
     
 }
 
+@media screen and (min-width: $breakpoint_standard) {
+    .footer-wps {
+        .container{
+            img {
+                float: left;
+            }
+        }
+    }
+}

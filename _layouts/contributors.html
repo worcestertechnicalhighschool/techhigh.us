@@ -3,9 +3,12 @@ layout: default
 ---
 <article class="post {{ page.slug }}">
     {%- include components/hero-entry.html -%}
+    <section class="post-content">
+      {{ content }}
+    </section>
     
-    <section>
-      {% if site.data.contributors %}
+    {% if site.data.contributors %}
+    <section class="full-grey">
         <h2>Contributors</h2>
         <ul class="team">
           {% for c in site.data.contributors %}
@@ -19,10 +22,8 @@ layout: default
           </li>
           {% endfor %}
         </ul>
+      </section>
       {% endif %}
-    </section>
-  <section class="post-content">
-    {{ content }}
-  </section>
+  
 
 </article>
