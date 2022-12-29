@@ -22,6 +22,6 @@ courses:
 
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016948/2022/05/mathematics_image-scaled_r2ijo9.jpg
 
-excerpt: Students excel in problem solving and critical thinking through various mathematical practices.
+description: Students excel in problem solving and critical thinking through various mathematical practices.
 ---
 

@@ -19,10 +19,10 @@
   {%- endif -%}
   {%- if site.twitter_username -%}
     <li><a 
-      title="{{ site.twitter_username_wths| cgi_escape | escape }}" 
-      href="https://www.twitter.com/{{ site.twitter_username_wths| cgi_escape | escape }}">
+      title="{{ site.twitter_username| cgi_escape | escape }}" 
+      href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
       <i class="fa-brands fa-square-twitter"></i>
-      <span class="username screen-reader-text">{{ site.twitter_username_wths}}
+      <span class="username screen-reader-text">{{ site.twitter_username}}
       </span></a></li>
   {%- endif -%}
   {%- if site.youtube_username -%}
@@ -37,9 +37,15 @@
     <li><a 
       title="{{ site.linkedin_username| cgi_escape | escape }}" 
       href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
-      
+      <i class="fa-brands fa-linkedin"></i>
       <span class="username screen-reader-text">{{ site.linkedin_username| escape }}
       </span></a></li>
   {%- endif -%}
-  {%- if site.github_username -%}<li><a title="{{ site.github_username| cgi_escape | escape }}" href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a></li>{%- endif -%}
+  {%- if site.github_username -%}
+    <li><a 
+      title="{{ site.github_username| cgi_escape | escape }}" 
+      href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+      <i class="fa-brands fa-github"></i>
+      <span class="username screen-reader-text">{{ site.github_username| escape }}</span></a></li>
+  {%- endif -%}
 </ul>

@@ -16,7 +16,7 @@ courses:
         - No science courses for seniors
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016850/2022/03/science-image_xgshcl.jpg
 
-excerpt: Students dive into the English language through reading, writing, and theory.
+description: Students dive into the English language through reading, writing, and theory.
 
 ---
 

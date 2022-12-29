@@ -20,7 +20,11 @@
         padding: 20px;
         width: 100%;
         background-color: $primary;
-        color:#ffffff;
+        color: $white;
+        h1, h2 {
+            color: $white;
+            margin: 0;
+        }
 
         .container{
 

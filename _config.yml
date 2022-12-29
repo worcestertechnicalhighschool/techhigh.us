@@ -24,12 +24,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Worcester Technical High School is a Chapter 74 Vocational School in Central Massachusetts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+lang: "en"
 
 # Google analytics
 google_analytics: UA-83881166-1
 
 # Social media vars
-twitter_username: wteagles
+twitter_username: "wteagles"
 instagram_username: wteagles
 facebook_username: WTHSeagles
 github_username:  worcestertechnicalhighschool
