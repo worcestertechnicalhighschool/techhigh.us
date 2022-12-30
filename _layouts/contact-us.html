@@ -8,6 +8,14 @@ layout: default
   <div class="post-content contact">
     {{ content }}
     <section>
+      <div class="contact-modal" id="contact-modal">
+        <div class="message">
+            <p>
+                Thank you for your message.<br/>We will get in touch with you shortly.
+            </p>
+            <button id="contact-modal-close">Close</button>
+        </div>
+      </div>
       <form aria-label="Contact Form" action="" method="POST" id="contact-form">
         <label for="name" id="name-label">Name</label>
         <input type="text" name="name" id="name" required>

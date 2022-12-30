@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: public-services
 title: Salon
 date: 2022-10-26
 featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016943/TechHigh.us/Technical%20areas/allied/Cosmo/raphael-lovaski-pxax5WuM7eY-unsplash-1_wqeizz.jpg

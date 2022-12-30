@@ -17,19 +17,20 @@ layout: default
     <header class="post-header">
     </header>
 
-    <section class="card-container post-content">
+    <section class="card-container post-content" >
       {% assign section_name = page.slug | replace: "-", "_" %}    
       {% for sub in site[section_name] %}
-        <div class="card card--student-life">
+      <a href="{{ sub.url }}">
+        <div class="card card--student-life" >
           <div class="image-container">
             <img src="{{ sub.featured_image }}">
           </div>
           <div class="card-content">
-            <a href="{{ sub.url }}">
-            <h2>{{ sub.title }}</h2></a>
+            <h2>{{ sub.title }}</h2>
             <p>{{ sub.excerpt }}</p>
           </div>
         </div>
+      </a>
       {% endfor %}
     </section>
     </article>

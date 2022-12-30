@@ -13,15 +13,20 @@ $primary: #002855;
 $secondary: #004B87;
 $dark_grey:  #333D47;
 $light_grey: #B2B4B2;
+$dark_grey_50: rgba(51, 61, 71, 0.5);
 $lighter_grey: #e4e3e3;
 $dark_blue: $primary;
 $light_blue: #B9D9EB;
 $menu_grey: #EDEEED;
+$footer-divider-color: rgba(255,255,255,0.5);
+$footer-divider: $footer-divider-color 1px solid;
 
 $soft:  all ease 0.3s;
 $max_width: 1400px;
 
+// Breakpoints
 $breakpoint_standard: 450px;
+$footer_medium: 760px;
 $breakpoint_desktop: 1280px;
 $nav_breakpoint: $breakpoint_desktop;
 
@@ -41,7 +46,7 @@ $hero_overlay:rgba(20, 71, 113,0.5);
 // carousel vars
 $slide-transition: ease 0.5s all; 
 $min-height: 400px;
-$overlay: rgba(0,0,0,0.5);
+$overlay: rgba(0,0,0,0.3);
 $indicator: rgba(100%,100%,100%,0.6);
 
 // Entry Header **READ: https://css-tricks.com/snippets/css/fluid-typography/

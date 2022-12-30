@@ -6,7 +6,7 @@ date: 2022-10-26
 
 Effective date: October 16, 2018
 
-Worcester Public Schools ("us", "we", or "our") operates the https://worcesterschools.org website (the "Service").
+Worcester Technical High School ("us", "we", or "our") operates the https://techhigh.us website (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for Worcester Public Schools is managed through Free Privacy Policy.
 
@@ -119,4 +119,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 ## Contact Us
 If you have any questions about this Privacy Policy, please contact us:
 
-- By phone number: 508-799-3115
+- By phone number: 508-799-1940
