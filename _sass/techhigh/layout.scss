@@ -67,10 +67,20 @@ section{
 ul{
     padding-left: 0;
 }
+.full-grey {
+    width:100%;
+    max-width: 100%;
+    background-color: $light_grey;
+}
+.show-md {
+    display: none;
+}
 
 
 @media screen and (min-width: $breakpoint_standard) {
-	
+    .show-md {
+        display: initial;
+    }
     .lg {
         position: relative !important;
         height: initial;

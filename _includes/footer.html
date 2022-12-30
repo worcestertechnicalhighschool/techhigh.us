@@ -1,35 +1,42 @@
 <footer id="colophon" class="site-footer">
   <div class="footer-wths">
     <div class="container">
-      <div class="info">
-        <p>
-          1 Officer Manny Familia Way, Worcester, MA 01605
-        </p>
-        <p>
-          Office Hours: 7:00-3:00
-        </p>
-        <p>
-          Class Hours: 7:20-1:43
-        </p>
-        <p>
-          Main Office: (508) 799-1940
-        </p>
-        <p>
-          Fax: (508) 799-1933 
-        </p>
-      </div>
-      <small>
-          <div class="info info--center">
-          <p>This site is designed and maintained by students in <a href="/technical-areas/itbs/webdev/">Programming and Web Development</a></p>
-          <p>Read the story behind this design.</p>
-          <p><a href="mailto:{{ site.email }}">Contact us with your Comments, Questions, and Suggestions.</a></p>
-          <p><a href="mailto:{{ site.email }}">This Website's Privacy Policy</a></p>
-        </div>
-      </small>
+      <div class="school-info">
+        <img 
+          src="https://res.cloudinary.com/dxm7ycyxz/image/upload/v1671839128/TechHigh.us/logos/worcester-tech-eagles_znezev.svg" 
+          alt="Worcester Tech Eagles, EST 1908"
+          width="150">
         <div>
-          {%- include social.html -%}
+          <h1>Worcester Technical High&nbsp;School</h1> 
+          <p><address>
+            1 Officer Manny Familia Way <span class="show-md">&bullet;</span>
+            Worcester,&nbsp;MA&nbsp;01605<br>
+            Office Hours: 7:00-3:00 <span class="show-md">&bullet;</span>
+            Class&nbsp;Hours:&nbsp;7:20-1:43<br>
+            Main Office: (508) 799-1940 <span class="show-md">&bullet;</span>
+            Fax:&nbsp;(508)&nbsp;799-1933 
+          </address></p>
         </div>
       </div>
+      <div class="about-nav">
+        <h2>About</h2>
+        <ul>
+          <li><a href="/contributors/" title="Read the story behind this site">Contributors</a></li>
+          <li><a href="/learn-more/contact-us/">Contact Us</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="social-nav">
+        <h2>Follow Us</h2>
+        {%- include social.html -%}
+      </div>
+    </div>
+    
+      <p><em>This site is designed and maintained by students in 
+        <a href="/technical-areas/itbs-academy/finance-marketing/">Finance, Marketing, and Business Management</a> 
+        and 
+        <a href="/technical-areas/itbs-academy/webdev/">Programming and Web Development</a>
+      </em></p>
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}</p>
   </div>
   <div class="footer-wps">

@@ -36,11 +36,31 @@ layout: default
   </section>
   
   <div class="wrapper wrapper--lt-gray">
-    <section class="news">
+    <section class="news events">
         <h2>News and Events</h2>
         <div class="news__body">
           <aside class="news-feed">
-            {{ content }}
+            {% if site.data.events %}
+              {%- for e in site.data.events -%}
+              
+                {% if forloop.index0 > 3 %}
+                  {% break %}
+                {% endif %}
+            
+                <div class="event">
+                  <div class="date-icon">
+                    <div class="month">{{ e.month }}</div>
+                    <div class="day">{{ e.day }}</div>
+                  </div>
+                  <div class="event-details">
+                    <h3 id="{{ e.event }}">{{ e.event }}</h3>
+                    <p>{{ e.location }}, {{ e.date }}{%- if e.time -%}, {{ e.time }}{%- endif -%}</p>
+                  </div>
+                </div>
+              {%- endfor -%}
+
+            {% endif %}
+            <p class="events-cta"><a href="/learn-more/events/">View all events</a></p>
           </aside>
           <aside class="featured-news">
             {%- include components/collection-carousel.html collection="featured_news" height="500px" -%}

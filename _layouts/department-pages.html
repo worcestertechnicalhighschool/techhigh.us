@@ -3,14 +3,18 @@ layout: default
 ---
 
 <div class="departments">
+
   {%- include components/hero-entry.html -%}
+
   <article class="post">
     <section class="post-content">
         {{ content }}
-      {% if page.alumni %}
+    </section>
+
+    {% if page.alumni %}
       <section class="alumni-spotlight">
         <div class="spotlight-header">
-          <h1>Alumni Spotlight</h1>
+          <h2>Alumni Spotlight</h2>
         </div>
         <div class="alumn-container">
           {% for info in page.alumni %}
@@ -25,60 +29,64 @@ layout: default
           {% endfor %}
         </div>
       </section>
-      {% endif %} 
-    </section>
+    {% endif %} 
       
-        <!-- If statements that will print courses if academic or certs if shop page-->
-        {% if page.certifications %}
-        <section class="certifs">
-          <div class="shop-certifications">
-            <h3>Certifications</h3>
-            <ul>
-              {% for item in page.certifications %}
-              <li>{{ item }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        </section>
+    <!-- If statements that will print courses if academic or certs if shop page-->
+    {% if page.certifications %}
+      <section class="shop-certifications">
+        <h2>Certifications</h2>
+        <div class="cert-list">
+          <ul>
+            {% for item in page.certifications %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
 
-      <!-- academics department-->
-      {% elsif page.courses %}
-      <h1>Courses By Year</h1>
-        <section class="courses">
+    <!-- academics department-->
+    {% elsif page.courses %}
+      <section class="courses">
+        <h2>Courses By Year</h2>
+        <div class="course-list">
           {% for grade in page.courses %}
+          <div>
             <h3>{{ grade[0]}}</h3>
             <ul>
               {% for course in grade[1] %}
                 <li>{{ course }}</li>
               {% endfor %}
             </ul>
+          </div>
           {% endfor %}
-        </section>
-      {% endif %}
-    
-      <section class="contact-us">
-        <div class="faculty-list card-container">
-            {% for faculty in site.data.faculty %}
-            {% assign staff = faculty.department | remove: '"' %}
-            {% assign depart = staff | strip %}
-            {%- if depart == page.title -%}
-              <div class="staff-members">
-                <div class="card card--faculty">
-                  <div class="staff">
-                      <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{faculty.last_name}}">
-                    <div class="card-content">
-                      <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p>
-                      <p class="title card-description">{{ faculty.title }}</p>
-                      <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
-                    </div>                        
-                  </div>
-                </div>
-              </div>
-                {%- endif -%}
-              {% endfor %}
-          </section>
         </div>
       </section>
+    {% endif %}
+    
+    <section class="contact-us">
+      <h2 id="faculty">Faculty</h2>
+      <div class="faculty-list card-container">
+          {% for faculty in site.data.faculty %}
+          {% assign staff = faculty.department | remove: '"' %}
+          {% assign depart = staff | strip %}
+          {%- if depart == page.title -%}
+            <div class="staff-members">
+              <div class="card card--faculty">
+                <div class="staff">
+                    <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{faculty.last_name}}">
+                  <div class="card-content">
+                    <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p>
+                    <p class="title card-description">{{ faculty.title }}</p>
+                    <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
+                  </div>                        
+                </div>
+              </div>
+            </div>
+              {%- endif -%}
+            {% endfor %}
+        </section>
+      </div>
+    </section>
       
   </article>
 </div>
