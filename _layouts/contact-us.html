@@ -13,21 +13,21 @@ layout: default
             <p>
                 Thank you for your message.<br/>We will get in touch with you shortly.
             </p>
-            <button id="contact-modal-close">Close</button>
+            <button id="contact-modal-close" class="close-btn">Close</button>
         </div>
       </div>
       <form aria-label="Contact Form" action="" method="POST" id="contact-form">
         <label for="name" id="name-label">Name</label>
-        <input type="text" name="name" id="name" required>
+        <input type="text" name="name" id="name" placeholder="Name" required>
 
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" aria-describedby="email-help" required>
+        <input type="email" name="email" id="email" aria-describedby="email-help" placeholder="Email" required>
 
         <label for="subject">Subject</label>
-        <input type="text" name="subject" id="subject" required>
+        <input type="text" name="subject" id="subject" placeholder="Subject" required>
         
         <label for="message">Message</label>
-        <textarea name="message" id="message" cols="10" rows="10" required></textarea>
+        <textarea name="message" id="message" cols="10" rows="10" required placeholder="Message"></textarea>
 
         <input type="submit" value="Send">
        
@@ -36,3 +36,4 @@ layout: default
   </div>
 
 </article>
+<script type="module" src="/assets/js/paladin-contact/contact.js"></script>

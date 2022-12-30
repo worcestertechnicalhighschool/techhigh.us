@@ -1,4 +1,6 @@
 .contact{
+    text-align: center;
+
     ul{
         display: flex;
         margin: auto;
@@ -6,12 +8,7 @@
         align-items: center;
         padding: 0px;
     }
-    text-align: center;
-}
 
-
-//Box sizing
-.contact{
     form{
         max-width: 31.25rem;
         padding: 0 1.25rem;
@@ -19,36 +16,61 @@
         label{ //Box Label coloring and text weight
             color: $primary;
             font-weight: bold;
+            text-align: left;
+            display: block;
         }
     }
-}
+        
+        
+    //Box organization for the contact us form
+    //Puts labels above boxes and boxes in a column
+    //Also more box sizing
+    input, textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    //Submit button styling 
+    input[type=submit], .close-btn{
+        background-color: white;
+        color: $primary;
+        width: 50%;
+        font-weight: bold;
+        transition: 0.3s all ease; //This creates a fade effect for the transition to the hover colors
+    }
 
+    //Submit button hover Styling. It is the reverse of regular colors
+    input[type=submit]:hover, .close-btn:hover{
+        background-color: $primary;
+        color:white;
+    }
 
-//Box organization for the contact us form
-//Puts labels above boxes and boxes in a column
-//Also more box sizing
-input, textarea{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
+    .contact-modal {
+        z-index: -1;
+        width: 100%;
+        position: fixed;
+        max-width: 500px;
+        max-width: 31.25rem;
+        padding: 30px;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        background-color: $white;
+        border: 1px solid $light_grey;
+        box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
 
-//Submit button styling 
-input[type=submit]{
-    background-color: white;
-    color: $primary;
-    width: 50%;
-    font-weight: bold;
-    transition: 0.3s all ease; //This creates a fade effect for the transition to the hover colors
-}
-
-//Submit button hover Styling. It is the reverse of regular colors
-input[type=submit]:hover{
-    background-color: $primary;
-    color:white;
+    }
+    .contact-modal.show {
+        opacity: 1;
+        z-index: 1;
+        transition: 0.3s all ease;
+    }
 }
