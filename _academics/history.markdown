@@ -12,12 +12,13 @@ courses:
         - AP US History
         - AP Art History after school with the Worcester Art Museum 
     Juniors:
-        - No history courses for juniors. Students can opt to take AP Art History after school with the Worcester Art Museum
+        - None required 
+        - "Optional: AP Art History after school with the Worcester Art Museum"
     Seniors:
         - World History
         - AP World History
         - AP Art History after school with the Worcester Art Museum 
-        - Elective courses in Psychology, Sociology, Legal Aspects & Personal Finance
+        - "Electives: Psychology, Sociology, Legal Aspects & Personal Finance"
 
 description: Students discover the physical and natural world trough observation and experiments.
 ---
