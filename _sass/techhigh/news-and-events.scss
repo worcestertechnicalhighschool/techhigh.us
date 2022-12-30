@@ -81,7 +81,17 @@ margin-top:40px;
 
 }
 
-.events-cta {
+.events .news-feed > p {
     text-align: left;
+    a {
+        color: $dark_blue;
+        transition: $soft;
+        &:hover {
+            color: $dark_grey;
+            text-decoration: none;
+        }
+    }
 }
-// @todo: finish styling the links above on EVENTS and FRONT-PAGE
+.events-cta {
+    text-transform: uppercase;
+}
