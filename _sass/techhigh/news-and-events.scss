@@ -1,3 +1,8 @@
+.events {
+    .news {
+margin-top:40px;
+    }
+}
 .news{
     h2{
         font-size: 60px;
@@ -8,35 +13,65 @@
         justify-content: center;
         flex-wrap: wrap;
 
-        aside {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
     }
 
     .news-feed {
         padding-top:20px;
-        h3:first-child {
-            border-top: 3px solid $dark_blue;
-            padding-top: 20px;
-        }
-        h3 {
-            font-size: 32px;
-            font-weight: $header_bold;
-            color: $dark_blue;
-            margin: 0;
-            margin-top: -5px;
-            text-align: left;
-        }
-        p {
-            margin: 0;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            text-align: left;
+        .event {
+            display: flex;
+            align-items: flex-start;
             border-bottom: 3px solid $dark_blue;
-
+            padding: 20px 0;
+            &:first-child {
+                border-top: 3px solid $dark_blue;
+            }
+            h3 {
+                font-size: 32px;
+                font-weight: $header_bold;
+                color: $dark_blue;
+                margin: 0;
+                text-align: left;
+            }
+            p {
+                margin: 0;
+            }
         }
+        .date-icon {
+            display: inline-block;
+            background-color: $dark_grey;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 0 0 $dark_grey_50;
+            margin-right: 30px;
+
+            .month, .day {
+                font-family: $header_font;
+                text-transform: uppercase;
+            }
+        }
+
+        // h3:first-child {
+        //     // border-top: 3px solid $dark_blue;
+        //     padding-top: 20px;
+        // }
+        // h3 {
+        //     font-size: 32px;
+        //     font-weight: $header_bold;
+        //     color: $dark_blue;
+        //     margin: 0;
+        //     margin-top: -5px;
+        //     text-align: left;
+        // }
+        // p {
+        //     margin: 0;
+        //     margin-bottom: 20px;
+        //     padding-bottom: 20px;
+        //     text-align: left;
+        //     border-bottom: 3px solid $dark_blue;
+
+        // }
     }
 
     .featured-news {
@@ -45,3 +80,8 @@
     }
 
 }
+
+.events-cta {
+    text-align: left;
+}
+// @todo: finish styling the links above on EVENTS and FRONT-PAGE

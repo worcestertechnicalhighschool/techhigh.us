@@ -10,17 +10,19 @@ layout: default
       <aside class="news-feed">
         {% if site.data.events %}
           {%- for e in site.data.events -%}
+          
+          <div class="event">
             <div class="date-icon">
               <div class="month">{{ e.month }}</div>
               <div class="day">{{ e.day }}</div>
             </div>
-            <div class="event">
+            <div class="event-details">
               <h3 id="{{ e.event }}">{{ e.event }}</h3>
               <p>{{ e.location }}, {{ e.date }}{%- if e.time -%}, {{ e.time }}{%- endif -%}</p>
             </div>
+          </div>
           {%- endfor -%}
 
-          {{ site.data.events | inspect }}
         {% endif %}
         {{ content }}
       </aside>
