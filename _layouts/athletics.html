@@ -1,0 +1,81 @@
+---
+layout: default
+---
+<article class="post {{ page.slug }} events" >
+  {%- include components/hero-entry.html -%}
+  
+  <nav id="top" class="section-navigation">
+      <ul class="navlist-secondary">
+        {% comment %}
+
+          This loop iterates over the sports records
+          and creates an anchor link for each sport category
+
+        {% endcomment %}
+        {% if site.data.sports %}
+          {% assign c = site.data.sports[0].category %}
+            <li class="menu-item">
+              <a href="#{{ c | downcase | replace: ' ', '-' }}">{{ c }}</a>
+            </li>
+          {% for e in site.data.sports %}
+            {% if c != e.category %}
+              {% assign c = e.category %}
+              <li class="menu-item">
+                <a href="#{{ c | downcase | replace: ' ', '-' }}">{{ c }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        <li class="menu-item">
+          <a href="#coach-info">Coaches</a>
+        </li>
+      </ul>
+  </nav>
+  <section class="athletics-calendar news">
+    {% comment %} 
+
+      This loop iterates over every record in the 
+      sports CSV. The document must be sorted 
+      by the "category" column in order for the 
+      groupings to work.
+
+    {% endcomment %}
+
+    {% if site.data.sports %}
+      {% assign c = site.data.sports[0].category %}
+        <h2 id="{{ c | downcase | replace: ' ', '-' }}">{{ c }}</h2>
+        <a class="top-link" href="#top"><i class="fa-solid fa-circle-up"></i>
+          Back to top</a>
+        <aside class="news-feed">
+          {% for e in site.data.sports %}
+          {% if c != e.category %}
+          {% assign c = e.category %}
+          </aside>
+          <h2 id="{{ c | downcase | replace: ' ', '-' }}">{{ c }}</h2>
+          <a class="top-link" href="#top"><i class="fa-solid fa-circle-up"></i>
+            Back to top</a>
+          <aside class="news-feed">
+        {% endif %}
+          <div class="event">
+            <div class="date-icon">
+              <div class="month">{{ e.month }}</div>
+              <div class="day">{{ e.day }}</div>
+            </div>
+            <div class="event-details">
+              <h3 id="{{ e.event }}">{{ e.event }}</h3>
+              <p>{{ e.location }}, {{ e.date }}{%- if e.time -%}, {{ e.time }}{%- endif -%}</p>
+            </div>
+          </div>
+
+      {% endfor %}
+      </aside>
+    {% endif %}
+  </section>
+
+  <section class="post-content" >
+    <h2 id="coach-info">Coach Info</h2>
+    <a class="top-link" href="#top"><i class="fa-solid fa-circle-up"></i>Back to top</a>
+    {{ content }}
+  </section>
+
+</article>

@@ -52,3 +52,18 @@
     
     
 }
+#coach-info {
+    text-align: left;
+}
+.top-link {
+    color: $dark_blue;
+    transition: $soft;
+    text-decoration: none;
+    &:visited {
+        color: $dark_blue;
+    }
+    &:hover {
+        color: $dark_grey;
+        text-decoration: underline;
+    }
+}
