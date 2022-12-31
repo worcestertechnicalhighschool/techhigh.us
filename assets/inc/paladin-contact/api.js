@@ -1,4 +1,4 @@
-const api_endpoint = '/assets/js/paladin-contact/api.php';
+const api_endpoint = '/assets/inc/paladin-contact/api.php';
 
 function get_csrf() {
 
