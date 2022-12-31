@@ -1,4 +1,4 @@
-const api_endpoint = './api.php';
+const api_endpoint = '/assets/inc/paladin-contact/api.php';
 
 function get_csrf() {
 
@@ -18,7 +18,6 @@ function submit_contact(data) {
             method:'POST',
             mode: 'same-origin',
             credentials: 'same-origin',
-            headers: {"Content-type": "application/json; charset=UTF-8"},
             body: data 
         })
         .then( response => response.json() )
