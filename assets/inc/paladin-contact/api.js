@@ -18,7 +18,6 @@ function submit_contact(data) {
             method:'POST',
             mode: 'same-origin',
             credentials: 'same-origin',
-            headers: {"Content-type": "application/json; charset=UTF-8"},
             body: data 
         })
         .then( response => response.json() )
