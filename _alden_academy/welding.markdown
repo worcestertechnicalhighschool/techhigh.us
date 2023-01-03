@@ -3,7 +3,7 @@ layout: department-pages
 title: Welding
 date: 2022-10-24
 permalink:
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016974/2022/06/2CF7C34E-D8A1-4E93-A020-B4198E17C843-1_wfvrpl.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/rob-lambert-9Q_pLLP_jmA-unsplash-1.jpg
 certifications: 
     - D.O.T. Bridge
 ---

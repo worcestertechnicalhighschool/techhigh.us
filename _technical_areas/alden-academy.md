@@ -2,7 +2,7 @@
 title: Alden Academy
 layout: academies
 date: 2022-11-5
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016836/TechHigh.us/Technical%20areas/alden/alden-1024x395-1_lyvm1b.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/02/alden-1024x395-1.jpeg
 ---
 
 <div class="card" markdown="1">
