@@ -2,7 +2,7 @@
 layout: department-pages
 title: Auto Collision
 date: 2022-10-24
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016932/2022/04/clarity-coat-nr-9yu-ERTM-unsplash-1_sz2qbw.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/egor-vikhrev-S0cqn0mZU0E-unsplash-1.jpg
 certifications:
     - OSHA 10
     - Applied educational system certifications
