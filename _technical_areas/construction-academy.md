@@ -2,7 +2,7 @@
 title: Coghlin Construction Academy
 layout: academies
 date: 2022-11-5
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668014394/2018/06/solar-panels-1794467_1280-1024x690_jw3lt3.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/02/solar-panels-1794467_1280-768x518-1.jpeg
 ---
 
 <div class="card" markdown="1">

@@ -2,7 +2,7 @@
 title: IT and Business Services Academy
 layout: academies
 date: 2022-11-5
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668014414/2018/06/IT_wv47jm.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/02/IT-768x512-1.jpeg
 ---
 
 <div class="card" markdown="1">

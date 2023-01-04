@@ -2,7 +2,7 @@
 layout: department-pages
 title: Advanced Manufacturing
 date: 2022-10-24
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016931/2022/04/minku-kang-aCniNTiIFd8-unsplash-2-1-1536x1023_uf3p7w.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/minku-kang-aCniNTiIFd8-unsplash-1.jpg
 certifications:
     - MACWIC I & II (Manufacturing Advancement Center Workforce Innovation Collaborative Level 1 & 2)
     - NIMS Skills (National Institute of Metalworking Skills)
