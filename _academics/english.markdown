@@ -14,7 +14,7 @@ courses:
         - English IV (students get to select special elective topics)
         - AP Literature & Composition
 
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016848/2022/03/english-image_ms8w8a.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/english-image.jpg
 
 description: Students explore the past in order to guide us in the present by studying our rich history.
 

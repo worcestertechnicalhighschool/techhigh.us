@@ -20,7 +20,7 @@ courses:
         - AP Calculus
         - AP Statistics
 
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016948/2022/05/mathematics_image-scaled_r2ijo9.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/math.jpg
 
 description: Students excel in problem solving and critical thinking through various mathematical practices.
 ---
