@@ -2,7 +2,7 @@
 layout: department-pages
 title:  Biotechnology
 date:   2022-10-24 11:30:49 -0400
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016940/TechHigh.us/Technical%20areas/allied/Biotech/national-cancer-institute-XknuBmnjbKg-unsplash-1_rvsdy6.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/national-cancer-institute-XknuBmnjbKg-unsplash-1.jpg
 certifications:
     - OSHA 10 Hour General Industry Healthcare
 

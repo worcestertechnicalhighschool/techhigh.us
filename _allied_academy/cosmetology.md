@@ -2,7 +2,7 @@
 layout: department-pages
 title: Cosmetology
 date: 2022-10-25
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016912/2022/04/maria-lupan-f6qXaAk4rOk-unsplash-1-768x512_l7w1tw.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/maria-lupan-f6qXaAk4rOk-unsplash-1.jpg
 certifications: 
     - Massachusetts State Cosmetology License
     - 1000 Hour Course Completion
