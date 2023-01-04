@@ -2,7 +2,7 @@
 layout: department-pages
 title: HVAC/R
 date: 2022-10-25
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016873/2022/04/michal-matlon-aOG4tvogdC8-unsplash-1_krbmvr.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/troy-bridges-kXC6XhVL1e4-unsplash-1.jpg
 certifications: 
     - OSHA 10
     - EPA 608
