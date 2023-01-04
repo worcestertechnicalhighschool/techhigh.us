@@ -2,7 +2,7 @@
 layout: department-pages
 title: Graphic Communication
 date: 2022-10-28
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016940/2022/04/neven-krcmarek-V4EOZj7g1gw-unsplash-1-1024x683_uqekp0.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/neven-krcmarek-V4EOZj7g1gw-unsplash-1.jpg
 alumni:
     - name: Aliana
       description: Aliana Nieves is a 2017 graduate of Worcester Tech Graphic communication program. Upon graduation Aliana went straight into the work field as print and marketing associate at staples and working at Minuteman Press, where they do the finishing and post press work, as well as packaging and shipping out completed jobs. 
