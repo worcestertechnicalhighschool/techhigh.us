@@ -4,13 +4,13 @@
 
 layout: front-page
 hero_slides: 
-  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016973/2022/06/IMG_5222-5-scaled_mhjmva.jpg"
+  - image: "https://wordpress.techhigh.us/wp-content/uploads/2022/06/IMG_5222.jpg"
     alt: "Web Dev Students"
     position: "object-position: center 75%;"
-  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016966/2022/05/07C7A651-2D1F-43F6-BE63-383639091C84_biukvq.jpg"
+  - image: "https://wordpress.techhigh.us/wp-content/uploads/2022/05/07C7A651-2D1F-43F6-BE63-383639091C84.jpeg"
     alt: "Carpentry Students"
     position: "object-position: center;"
-  - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016972/2022/06/2CF7C34E-D8A1-4E93-A020-B4198E17C843_pilgb0.jpg"
+  - image: "https://wordpress.techhigh.us/wp-content/uploads/2022/05/2CF7C34E-D8A1-4E93-A020-B4198E17C843-1-2.jpeg"
     alt: "Student Welding"
     position: "object-position: center;"
 
