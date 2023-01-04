@@ -2,7 +2,7 @@
 layout: summer-work
 title: English Summer Work
 date: 2022-12-22
-featured-image:
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/05/English.webp
 ---
 <div class="freshmen" markdown="1">
 ### Grade 9
