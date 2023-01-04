@@ -2,7 +2,7 @@
 layout: student-life
 title: Special Education
 date: 2022-10-24
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016850/2022/03/Israel_Goldstein_Youth_Village_students_13-1_rpoyzn.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/Israel_Goldstein_Youth_Village_students_13.jpg
 
 excerpt: Worcester Technical High School is committed to helping students gain access to a valuable core and vocational education while addressing individual needs.
  
