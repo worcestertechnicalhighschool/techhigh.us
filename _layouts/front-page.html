@@ -54,7 +54,9 @@ layout: default
                   </div>
                   <div class="event-details">
                     <h3 id="{{ e.event }}">{{ e.event }}</h3>
-                    <p>{{ e.location }}, {{ e.date }}{%- if e.time -%}, {{ e.time }}{%- endif -%}</p>
+                    <p>{{ e.location }}{%- if e.date -%}, 
+                      {{ e.date }}{%- endif -%}{%- if e.time -%}, 
+                      {{ e.time }}{%- endif -%}</p>
                   </div>
                 </div>
               {%- endfor -%}
