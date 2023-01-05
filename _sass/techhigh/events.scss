@@ -61,8 +61,7 @@ margin-top:40px;
 
 }
 
-.events .news-feed > p {
-    text-align: left;
+.events .news-feed 
     a {
         color: $dark_blue;
         transition: $soft;
@@ -71,9 +70,12 @@ margin-top:40px;
             text-decoration: none;
         }
     }
+    .event-details {
+        text-align: left;
 }
 .events-cta {
     text-transform: uppercase;
+    text-align: left;
 }
 
 .athletics h2 {
