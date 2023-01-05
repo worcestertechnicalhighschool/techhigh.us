@@ -8,8 +8,8 @@ layout: default
   <section class="post-content news">
     <div class="news__body">
       <aside class="news-feed">
-        {% if site.data.events %}
-          {%- for e in site.data.events -%}
+        {% if site.data.aggregate %}
+          {%- for e in site.data.aggregate -%}
           
           <div class="event">
             <div class="date-icon">
@@ -18,7 +18,9 @@ layout: default
             </div>
             <div class="event-details">
               <h3 id="{{ e.event }}">{{ e.event }}</h3>
-              <p>{{ e.location }}, {{ e.date }}{%- if e.time -%}, {{ e.time }}{%- endif -%}</p>
+              <p>{{ e.location }}{%- if e.date_start -%}, 
+                {{ e.date_start }}{%- endif -%}{% if e.date_end %}-{{ e.date_end }}{% endif %}{%- if e.time -%}, 
+                {{ e.time }}{%- endif -%}</p>
             </div>
           </div>
           {%- endfor -%}
