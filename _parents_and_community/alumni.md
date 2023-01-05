@@ -2,7 +2,7 @@
 layout: external-links
 title: Alumni
 date: 2022-12-1
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670264954/2022/01/Worcester_Tech_2017_Alumnis_eqcrpn.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/alumni.jpg
 external: https://docs.google.com/forms/d/e/1FAIpQLSd2OLEKfrttRJkNRBiI9ZeDOPBLjbKiqHtgL-RPctcUzpl9Bg/viewform
 ---
 
