@@ -5,8 +5,7 @@ async function get_csrf() {
             method:'GET',
         })
         .then( response => response.json() )
-        .then( token => resolve(token) )
-        .catch( err => console.log(err) );
+        .catch( err => console.error(err) );
 }
     
 async function submit_contact(data) {
@@ -17,8 +16,7 @@ async function submit_contact(data) {
             body: data 
         })
         .then( response => response.json() )
-        .then( token => resolve(token) )
-        .catch( err => console.log(err) );
+        .catch( err => console.error(err) );
 
 }
 
