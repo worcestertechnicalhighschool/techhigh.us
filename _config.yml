@@ -126,3 +126,4 @@ collections:
 #   - vendor/ruby/
 exclude:
     - contributors.sh
+    - github_api_access_token.txt
