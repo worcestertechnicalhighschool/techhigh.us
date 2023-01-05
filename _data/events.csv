@@ -1,5 +1,277 @@
-event,month,day,date,location,time
-Holiday Vacation,Dec,23,12/23/2022-1/2/2023,No school for students,
-Martin Luther King Jr. Day,Jan,16,1/16/2023,No school,
-PAC Meeting,Jan,18,1/18/2023,WTHS Conference Room,12pm-1pm
-Students Half Day,Jan,15,1/15/2023,Worcester Tech,10:40am
+event,month,day,date_start,date_end,location,time,category
+JV Boys Basketball vs Monty Tech,Jan,6,1/6/2023,,Home,5:00 PM,Boys Basketball
+V Boys Basketball vs Monty Tech,Jan,6,1/6/2023,,Home,6:30 PM,Boys Basketball
+JV Boys Basketball vs Assabet,Jan,9,1/9/2023,,Away,5:00 PM,Boys Basketball
+V Boys Basketball vs Assabet,Jan,9,1/9/2023,,Away,6:30 PM,Boys Basketball
+JV Boys Basketball vs Baypath,Jan,13,1/13/2023,,Away,5:00 PM,Boys Basketball
+V Boys Basketball vs Baypath,Jan,13,1/13/2023,,Away,6:30 PM,Boys Basketball
+JV Boys Basketball vs Parker,Jan,17,1/17/2023,,Home,5:00 PM,Boys Basketball
+V Boys Basketball vs Parker,Jan,17,1/17/2023,,Home,6:30 PM,Boys Basketball
+JV Boys Basketball vs Abby Kelley,Jan,20,1/20/2023,,Away,5:00 PM,Boys Basketball
+V Boys Basketball vs Abby Kelley,Jan,20,1/20/2023,,Away,6:30 PM,Boys Basketball
+JV Boys Basketball vs BVT,Jan,24,1/24/2023,,Home,5:00 PM,Boys Basketball
+V Boys Basketball vs BVT,Jan,24,1/24/2023,,Home,6:30 PM,Boys Basketball
+JV Boys Basketball vs AMSA,Jan,27,1/27/2023,,Home,5:00 PM,Boys Basketball
+V Boys Basketball vs AMSA,Jan,27,1/27/2023,,Home,6:30 PM,Boys Basketball
+JV Boys Basketball vs Keefe Tech,Jan,31,1/31/2023,,Away,5:00 PM,Boys Basketball
+V Boys Basketball vs Keefe Tech,Jan,31,1/31/2023,,Away,6:30 PM,Boys Basketball
+JV Boys Basketball vs Auburn,Feb,3,2/3/2023,,Home,5:00 PM,Boys Basketball
+V Boys Basketball vs Auburn,Feb,3,2/3/2023,,Home,6:30 PM,Boys Basketball
+JV Boys Basketball vs Leicister,Feb,6,2/6/2023,,Away,5:00 PM,Boys Basketball
+V Boys Basketball vs Leicester,Feb,6,2/6/2023,,Away,6:30 PM,Boys Basketball
+JV Boys Basketball vs AMSA,Feb,15,2/15/2023,,Away,3:30 PM,Boys Basketball
+V Boys Basketball vs AMSA,Feb,15,2/15/2023,,Away,5:00 PM,Boys Basketball
+JV Boys Basketball vs Burncoat,Feb,17,2/17/2023,,Home,5:00 PM,Boys Basketball
+V Boys Basketball vs Burncoat,Feb,17,2/17/2023,,Home,6:30 PM,Boys Basketball
+JV Girls Basketball vs Fitchburg,Jan,4,1/4/2023,,Home,4:30 PM,Girls Basketball
+V Girls Basketball vs Fitchburg,Jan,4,1/4/2023,,Home,6:00 PM,Girls Basketball
+JV Girls Basketball vs Monty Tech,Jan,6,1/6/2023,,Away,5:30 PM,Girls Basketball
+V Girls Basketball vs Monty Tech,Jan,6,1/6/2023,,Away,7:00 PM,Girls Basketball
+JV Girls Basketball vs Assabet,Jan,9,1/9/2023,,Home,4:30 PM,Girls Basketball
+V Girls Basketball vs Assabet,Jan,9,1/9/2023,,Home,6:00 PM,Girls Basketball
+JV Girls Basketball vs Baypath,Jan,13,1/13/2023,,Home,4:30 PM,Girls Basketball
+V Girls Basketball vs Baypath,Jan,13,1/13/2023,,Home,6:00 PM,Girls Basketball
+JV Girls Basketball vs Parker,Jan,17,1/17/2023,,Away,5:00 PM,Girls Basketball
+V Girls Basketball vs Parker,Jan,17,1/17/2023,,Away,6:30 PM,Girls Basketball
+JV Girls Basketball vs Abby Kelley,Jan,20,1/20/2023,,Home,4:30 PM,Girls Basketball
+V Girls Basketball vs Abby Kelley,Jan,20,1/20/2023,,Home,6:00 PM,Girls Basketball
+JV Girls Basketball vs BVT,Jan,24,1/24/2023,,Away,5:00 PM,Girls Basketball
+V Girls Basketball vs BVT,Jan,24,1/24/2023,,Away,6:30 PM,Girls Basketball
+JV Girls Basketball vs AMSA,Jan,27,1/27/2023,,Away,3:30 PM,Girls Basketball
+V Girls Basketball vs AMSA,Jan,27,1/27/2023,,Away,5:00 PM,Girls Basketball
+JV Girls Basketball vs Grafton,Jan,31,1/31/2023,,Away,5:00 PM,Girls Basketball
+V Girls Basketball vs Grafton,Jan,31,1/31/2023,,Away,6:30 PM,Girls Basketball
+JV Girls Basketball vs Quabbin,Feb,2,2/2/2023,,Home,4:30 PM,Girls Basketball
+V Girls Basketball vs Quabbin,Feb,2,2/2/2023,,Home,6:00 PM,Girls Basketball
+JV Girls Basketball vs St Bernard's,Feb,7,2/7/2023,,Away,5:00 PM,Girls Basketball
+V Girls Basketball vs St Bernard's,Feb,7,2/7/2023,,Away,6:30 PM,Girls Basketball
+JV Girls Basketball vs Main South,Feb,10,2/10/2023,,Home,4:30 PM,Girls Basketball
+V Girls Basketball vs Main South,Feb,10,2/10/2023,,Home,6:00 PM,Girls Basketball
+JV Girls Basketball vs Ayer Shirley,Feb,15,2/15/2023,,Away,5:30 PM,Girls Basketball
+V Girls Basketball vs Ayer Shirley,Feb,15,2/15/2023,,Away,7:00 PM,Girls Basketball
+JV Girls Basketball vs North,Feb,17,2/17/2023,,Away,4:00 PM,Girls Basketball
+V Girls Basketball vs North,Feb,17,2/17/2023,,Away,5:30 PM,Girls Basketball
+Indoor Track Inter High Meet,Jan,7,1/7/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Northeast Invitational,Jan,13,1/13/2023,,Reggie Lewis ,10am-4pm,Indoor Track
+Indoor Track Inter High Meet,Jan,14,1/14/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Northeast Invitational,Jan,15,1/15/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Inter High Meet,Jan,21,1/21/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Division III Relays,Jan,22,1/22/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Coaches Invite,Jan,29,1/29/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Last Chance,Feb,11,2/11/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Rising Stars,Feb,14,2/14/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track MIAA Division III Championship,Feb,19,2/19/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track MIAA Meet Of Champions,Feb,25,2/25/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track New England Championship,Mar,4,3/4/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track New Balance Nationals,Mar,10,3/10/2023,3/12/2023,New Balance T&F Center,10am-4pm,Indoor Track
+Holiday Vacation,Dec,23,12/23/2022,1/2/2023,No school for students,,Event
+Martin Luther King Jr. Day,Jan,16,1/16/2023,,No school,,Event
+PAC Meeting,Jan,18,1/18/2023,,WTHS Conference Room,12pm-1pm,Event
+Students Half Day,Jan,25,1/25/2023,,Worcester Tech,10:40 AM,Event
+JV Boys Basketball vs Monty Tech,Jan,6,1/6/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Monty Tech,Jan,6,1/6/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Assabet,Jan,9,1/9/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Assabet,Jan,9,1/9/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Baypath,Jan,13,1/13/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Baypath,Jan,13,1/13/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Parker,Jan,17,1/17/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Parker,Jan,17,1/17/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Abby Kelley,Jan,20,1/20/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Abby Kelley,Jan,20,1/20/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs BVT,Jan,24,1/24/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs BVT,Jan,24,1/24/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs AMSA,Jan,27,1/27/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs AMSA,Jan,27,1/27/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Keefe Tech,Jan,31,1/31/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Keefe Tech,Jan,31,1/31/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Auburn,Feb,3,2/3/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Auburn,Feb,3,2/3/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Leicister,Feb,6,2/6/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Leicester,Feb,6,2/6/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs AMSA,Feb,15,2/15/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs AMSA,Feb,15,2/15/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Burncoat,Feb,17,2/17/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Burncoat,Feb,17,2/17/2023,,Home,12/30/1899,Boys Basketball
+JV Girls Basketball vs Fitchburg,Jan,4,1/4/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Fitchburg,Jan,4,1/4/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Monty Tech,Jan,6,1/6/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Monty Tech,Jan,6,1/6/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Assabet,Jan,9,1/9/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Assabet,Jan,9,1/9/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Baypath,Jan,13,1/13/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Baypath,Jan,13,1/13/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Parker,Jan,17,1/17/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Parker,Jan,17,1/17/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Abby Kelley,Jan,20,1/20/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Abby Kelley,Jan,20,1/20/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs BVT,Jan,24,1/24/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs BVT,Jan,24,1/24/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs AMSA,Jan,27,1/27/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs AMSA,Jan,27,1/27/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Grafton,Jan,31,1/31/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Grafton,Jan,31,1/31/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Quabbin,Feb,2,2/2/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Quabbin,Feb,2,2/2/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs St Bernard's,Feb,7,2/7/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs St Bernard's,Feb,7,2/7/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Main South,Feb,10,2/10/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Main South,Feb,10,2/10/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Ayer Shirley,Feb,15,2/15/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Ayer Shirley,Feb,15,2/15/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs North,Feb,17,2/17/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs North,Feb,17,2/17/2023,,Away,12/30/1899,Girls Basketball
+Indoor Track Inter High Meet,Jan,7,1/7/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Northeast Invitational,Jan,13,1/13/2023,,Reggie Lewis ,10am-4pm,Indoor Track
+Indoor Track Inter High Meet,Jan,14,1/14/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Northeast Invitational,Jan,15,1/15/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Inter High Meet,Jan,21,1/21/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Division III Relays,Jan,22,1/22/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Coaches Invite,Jan,29,1/29/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Last Chance,Feb,11,2/11/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Rising Stars,Feb,14,2/14/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track MIAA Division III Championship,Feb,19,2/19/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track MIAA Meet Of Champions,Feb,25,2/25/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track New England Championship,Mar,4,3/4/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track New Balance Nationals,Mar,10,3/10/2023,3/12/2023,New Balance T&F Center,10am-4pm,Indoor Track
+Holiday Vacation,Dec,23,12/23/2022,1/2/2023,No school for students,,Event
+Martin Luther King Jr. Day,Jan,16,1/16/2023,,No school,,Event
+PAC Meeting,Jan,18,1/18/2023,,WTHS Conference Room,12pm-1pm,Event
+Students Half Day,Jan,25,1/25/2023,,Worcester Tech,12/30/1899,Event
+JV Boys Basketball vs Monty Tech,Jan,6,1/6/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Monty Tech,Jan,6,1/6/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Assabet,Jan,9,1/9/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Assabet,Jan,9,1/9/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Baypath,Jan,13,1/13/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Baypath,Jan,13,1/13/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Parker,Jan,17,1/17/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Parker,Jan,17,1/17/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Abby Kelley,Jan,20,1/20/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Abby Kelley,Jan,20,1/20/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs BVT,Jan,24,1/24/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs BVT,Jan,24,1/24/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs AMSA,Jan,27,1/27/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs AMSA,Jan,27,1/27/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Keefe Tech,Jan,31,1/31/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Keefe Tech,Jan,31,1/31/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Auburn,Feb,3,2/3/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Auburn,Feb,3,2/3/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Leicister,Feb,6,2/6/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Leicester,Feb,6,2/6/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs AMSA,Feb,15,2/15/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs AMSA,Feb,15,2/15/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Burncoat,Feb,17,2/17/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Burncoat,Feb,17,2/17/2023,,Home,12/30/1899,Boys Basketball
+JV Girls Basketball vs Fitchburg,Jan,4,1/4/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Fitchburg,Jan,4,1/4/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Monty Tech,Jan,6,1/6/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Monty Tech,Jan,6,1/6/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Assabet,Jan,9,1/9/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Assabet,Jan,9,1/9/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Baypath,Jan,13,1/13/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Baypath,Jan,13,1/13/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Parker,Jan,17,1/17/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Parker,Jan,17,1/17/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Abby Kelley,Jan,20,1/20/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Abby Kelley,Jan,20,1/20/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs BVT,Jan,24,1/24/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs BVT,Jan,24,1/24/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs AMSA,Jan,27,1/27/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs AMSA,Jan,27,1/27/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Grafton,Jan,31,1/31/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Grafton,Jan,31,1/31/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Quabbin,Feb,2,2/2/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Quabbin,Feb,2,2/2/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs St Bernard's,Feb,7,2/7/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs St Bernard's,Feb,7,2/7/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Main South,Feb,10,2/10/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Main South,Feb,10,2/10/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Ayer Shirley,Feb,15,2/15/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Ayer Shirley,Feb,15,2/15/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs North,Feb,17,2/17/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs North,Feb,17,2/17/2023,,Away,12/30/1899,Girls Basketball
+Indoor Track Inter High Meet,Jan,7,1/7/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Northeast Invitational,Jan,13,1/13/2023,,Reggie Lewis ,10am-4pm,Indoor Track
+Indoor Track Inter High Meet,Jan,14,1/14/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Northeast Invitational,Jan,15,1/15/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Inter High Meet,Jan,21,1/21/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Division III Relays,Jan,22,1/22/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Coaches Invite,Jan,29,1/29/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Last Chance,Feb,11,2/11/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Rising Stars,Feb,14,2/14/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track MIAA Division III Championship,Feb,19,2/19/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track MIAA Meet Of Champions,Feb,25,2/25/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track New England Championship,Mar,4,3/4/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track New Balance Nationals,Mar,10,3/10/2023,3/12/2023,New Balance T&F Center,10am-4pm,Indoor Track
+Holiday Vacation,Dec,23,12/23/2022,1/2/2023,No school for students,,Event
+Martin Luther King Jr. Day,Jan,16,1/16/2023,,No school,,Event
+PAC Meeting,Jan,18,1/18/2023,,WTHS Conference Room,12pm-1pm,Event
+Students Half Day,Jan,25,1/25/2023,,Worcester Tech,12/30/1899,Event
+JV Boys Basketball vs Monty Tech,Jan,6,1/6/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Monty Tech,Jan,6,1/6/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Assabet,Jan,9,1/9/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Assabet,Jan,9,1/9/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Baypath,Jan,13,1/13/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Baypath,Jan,13,1/13/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Parker,Jan,17,1/17/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Parker,Jan,17,1/17/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Abby Kelley,Jan,20,1/20/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Abby Kelley,Jan,20,1/20/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs BVT,Jan,24,1/24/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs BVT,Jan,24,1/24/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs AMSA,Jan,27,1/27/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs AMSA,Jan,27,1/27/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Keefe Tech,Jan,31,1/31/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Keefe Tech,Jan,31,1/31/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Auburn,Feb,3,2/3/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Auburn,Feb,3,2/3/2023,,Home,12/30/1899,Boys Basketball
+JV Boys Basketball vs Leicister,Feb,6,2/6/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs Leicester,Feb,6,2/6/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs AMSA,Feb,15,2/15/2023,,Away,12/30/1899,Boys Basketball
+V Boys Basketball vs AMSA,Feb,15,2/15/2023,,Away,12/30/1899,Boys Basketball
+JV Boys Basketball vs Burncoat,Feb,17,2/17/2023,,Home,12/30/1899,Boys Basketball
+V Boys Basketball vs Burncoat,Feb,17,2/17/2023,,Home,12/30/1899,Boys Basketball
+JV Girls Basketball vs Fitchburg,Jan,4,1/4/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Fitchburg,Jan,4,1/4/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Monty Tech,Jan,6,1/6/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Monty Tech,Jan,6,1/6/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Assabet,Jan,9,1/9/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Assabet,Jan,9,1/9/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Baypath,Jan,13,1/13/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Baypath,Jan,13,1/13/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Parker,Jan,17,1/17/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Parker,Jan,17,1/17/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Abby Kelley,Jan,20,1/20/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Abby Kelley,Jan,20,1/20/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs BVT,Jan,24,1/24/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs BVT,Jan,24,1/24/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs AMSA,Jan,27,1/27/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs AMSA,Jan,27,1/27/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Grafton,Jan,31,1/31/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Grafton,Jan,31,1/31/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Quabbin,Feb,2,2/2/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Quabbin,Feb,2,2/2/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs St Bernard's,Feb,7,2/7/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs St Bernard's,Feb,7,2/7/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs Main South,Feb,10,2/10/2023,,Home,12/30/1899,Girls Basketball
+V Girls Basketball vs Main South,Feb,10,2/10/2023,,Home,12/30/1899,Girls Basketball
+JV Girls Basketball vs Ayer Shirley,Feb,15,2/15/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs Ayer Shirley,Feb,15,2/15/2023,,Away,12/30/1899,Girls Basketball
+JV Girls Basketball vs North,Feb,17,2/17/2023,,Away,12/30/1899,Girls Basketball
+V Girls Basketball vs North,Feb,17,2/17/2023,,Away,12/30/1899,Girls Basketball
+Indoor Track Inter High Meet,Jan,7,1/7/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Northeast Invitational,Jan,13,1/13/2023,,Reggie Lewis ,10am-4pm,Indoor Track
+Indoor Track Inter High Meet,Jan,14,1/14/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Northeast Invitational,Jan,15,1/15/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Inter High Meet,Jan,21,1/21/2023,,Northbridge,9am-12pm,Indoor Track
+Indoor Track Division III Relays,Jan,22,1/22/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Coaches Invite,Jan,29,1/29/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Last Chance,Feb,11,2/11/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track Rising Stars,Feb,14,2/14/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track MIAA Division III Championship,Feb,19,2/19/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track MIAA Meet Of Champions,Feb,25,2/25/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track New England Championship,Mar,4,3/4/2023,,Reggie Lewis,10am-4pm,Indoor Track
+Indoor Track New Balance Nationals,Mar,10,3/10/2023,3/12/2023,New Balance T&F Center,10am-4pm,Indoor Track
+Holiday Vacation,Dec,23,12/23/2022,1/2/2023,No school for students,,Event
+Martin Luther King Jr. Day,Jan,16,1/16/2023,,No school,,Event
+PAC Meeting,Jan,18,1/18/2023,,WTHS Conference Room,12pm-1pm,Event
+Students Half Day,Jan,25,1/25/2023,,Worcester Tech,12/30/1899,Event
