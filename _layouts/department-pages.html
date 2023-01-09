@@ -60,6 +60,16 @@ layout: default
           </div>
           {% endfor %}
         </div>
+        {% for x in site.summer_work %}
+          <section class="summer-work" markdown="1">
+            <div class="courses">
+              {% if x.slug == page.slug %}
+                <h2> {{x}} </h2>
+                {% break %}
+              {% endif %}
+            </div>
+          </section>
+        {% endfor %}
       </section>
     {% endif %}
     
