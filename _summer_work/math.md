@@ -2,7 +2,7 @@
 layout: summer-work
 title: Math Summer Work
 date: 2022-12-22
-featured-image: 
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/math.jpg
 ---
 
 <div class="freshmen" markdown="1">

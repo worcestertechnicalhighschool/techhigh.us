@@ -2,7 +2,7 @@
 layout: department-pages
 title: Information Support Services & Networking
 date: 2022-10-25
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016941/2022/04/umberto-jXd2FSvcRr8-unsplash-1-1024x683_wnbhvg.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/umberto-jXd2FSvcRr8-unsplash-1.jpg
 alumni:
     - name: Derek
       description: Derek Murphy is a 2014 graduate from Worcester Technical High School’s Information Supports Services & Networking Program (ISS&N). After graduating, Derek attended Fitchburg State and Worcester Polytechnic Institute, and then completed classes at Northeastern University. He now serves as a Senior Software Engineer for Greathorn Email Security. 

@@ -1,5 +1,8 @@
 {% if page.featured_image %}
-<header style="background-image: url({{ page.featured_image }});" class="hero-entry">
+<header 
+    style="background-image: url({{ page.featured_image }}); {% if page.position %}{{ page.position }}{% endif %}" 
+    class="hero-entry"
+    >
     <h1>
         {{ page.title }}
     </h1>

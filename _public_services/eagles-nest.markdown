@@ -2,7 +2,7 @@
 layout: public-services
 title: Eagle's Nest
 date: 2022-11-30
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1670346518/2022/01/football-67701_1920_jyifue.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/riley-mccullough-iezcEpGuYdE-unsplash-1.jpg
 ---
 
 Student run school store that sells Worcester Tech merchandise.

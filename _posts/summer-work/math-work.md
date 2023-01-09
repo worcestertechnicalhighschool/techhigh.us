@@ -2,7 +2,7 @@
 layout: page
 title: Math Summer Work
 date: 2022-10-27
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016950/2022/05/History1-768x432_h9m13n.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/math.jpg
 ---
 
 ## Grade 9

@@ -2,7 +2,7 @@
 layout: student-life
 title: Clubs
 date: 2022-10-26
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016920/2022/04/lucas-santos-XIIsv6AshJY-unsplash-1_y4jl6o.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/lucas-santos-XIIsv6AshJY-unsplash-1.jpg
 
 excerpt: Worcester Tech offers various clubs and leadership opportunities for students to excel in and outside of the classroom.
 ---

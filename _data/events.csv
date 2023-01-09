@@ -1,5 +1,6 @@
-event,month,day,date,location,time
-Holiday Vacation,Dec,23,12/23/2022-1/2/2023,No school for students,
-Martin Luther King Jr. Day,Jan,16,1/16/2023,No school,
-PAC Meeting,Jan,18,1/18/2023,WTHS Conference Room,12pm-1pm
-Students Half Day,Jan,15,1/15/2023,Worcester Tech,10:40am
+event,month,day,date_start,date_end,location,time,category
+Martin Luther King Jr. Day,Jan,16,1/16,,No school,,Event
+PAC Meeting,Jan,18,1/18,,WTHS Conference Room,12pm-1pm,Event
+Student Council Winter Dance,Jan,19,1/19,,Worcester Tech,5pm-9pm,Event
+Quarter 2 Grades Close,Jan,20,1/20,,Worcester Tech,,Event
+Students Half Day,Jan,25,1/25,,Worcester Tech,10:40am,Event

@@ -2,7 +2,7 @@
 layout: public-services
 title: Mechanic
 date: 2022-11-30
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016932/2022/04/chad-kirchoff-xe-e69j6-Ds-unsplash-1_ws8wq5.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/chad-kirchoff-xe-e69j6-Ds-unsplash-1.jpg
 ---
 
 ## Services

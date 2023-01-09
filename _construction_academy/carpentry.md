@@ -2,7 +2,7 @@
 layout: department-pages
 title: Carpentry
 date: 2022-10-25
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016866/TechHigh.us/Technical%20areas/construction/Carpentry/benjamin-lehman-EJU7A__krX0-unsplash-1-1536x1024_xybizd.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/benjamin-lehman-EJU7A__krX0-unsplash-1.jpg
 certifications: 
     - OSHA 10 
     - Carpentry Proficiency Certificate

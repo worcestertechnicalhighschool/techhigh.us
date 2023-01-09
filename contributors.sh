@@ -1,6 +1,8 @@
 # This script generates a json list of contributors for techhigh.us
-# To run this script you must create a Github access token (Github >> Settings >> Developer Settings >> Tokens (Classic))
-# Run in terminal:
+# To run this script you must create a Github access token 
+#  -> Github >> Settings >> Developer Settings >> Tokens (Classic)
+#  -> Grant public repo access
+# Run in terminal (mac/linux) or Git Bash (win):
 # sh ./contributors.sh YOUR_TOKEN
 # KEEP YOUR TOKEN SECRET!
 

@@ -2,7 +2,7 @@
 layout: page
 title: History Summer Work
 date: 2022-10-27
-featured_image: https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016957/2022/05/History1-150x150_pqtlgz.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2023/01/Summer-Work.jpg
 ---
 
 ## Grade 9

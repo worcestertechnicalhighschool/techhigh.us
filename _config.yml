@@ -40,6 +40,7 @@ github_username:  worcestertechnicalhighschool
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections: 
   sections:
@@ -126,3 +127,4 @@ collections:
 #   - vendor/ruby/
 exclude:
     - contributors.sh
+    - github_api_access_token.txt
