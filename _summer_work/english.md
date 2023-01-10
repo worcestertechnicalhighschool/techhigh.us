@@ -23,7 +23,7 @@ SUMMER READING 2022
 Rising 10th Graders Worcester Technical High
 
 Sophomore Summer Reading
-</div >
+</div>
 
 <div class="juniors" markdown="1">
 ### Grade 11

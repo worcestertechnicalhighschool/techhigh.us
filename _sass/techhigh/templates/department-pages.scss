@@ -40,4 +40,13 @@
             flex-direction: column;
         }
     }
+
+    .courses{
+        .summer-work{
+            border-radius: 10px;
+            margin-top: 0;
+            background-color: $light-grey;
+            color: black;
+        }
+    }
 }
