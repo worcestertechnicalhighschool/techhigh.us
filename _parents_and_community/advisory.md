@@ -9,7 +9,7 @@ Pursuant to Massachusetts General Law Chapter 74, Section 2, and The Vocational 
 
 ***The responsibility of Program Advisory Committees is to advise, assist and support school personnel in order to improve planning, operation, and evaluation in its program area.***
 
-New Members are always welcome.  Please contact Dr. Patricia Suomala, Director of Career and Technical Education, at [suomalap@worcesterschools.net](mailto:suomalap@worcesterschools.net) if you are interested in serving on one of our Program Advisory Boards: [WTHS PAC Orientation](https://docs.google.com/document/d/1NEl0ikAoGQgmdWYit6ws6MEaWgb6wJCSMFs6bEqQfxY/edit)
+New members are always welcome.  Please contact Dr. Patricia Suomala, Director of Career and Technical Education, at [suomalap@worcesterschools.net](mailto:suomalap@worcesterschools.net). If you are interested in serving on one of our Program Advisory Boards: [WTHS PAC Orientation](https://docs.google.com/document/d/1NEl0ikAoGQgmdWYit6ws6MEaWgb6wJCSMFs6bEqQfxY/edit)
 
 The Worcester Technical High School Program Advisory Committees meet two times per academic year, once in the fall and once in the spring. 
 * Program faculty prepare a meeting agenda with input from Advisory members.
