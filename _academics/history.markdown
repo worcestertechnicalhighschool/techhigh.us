@@ -20,6 +20,6 @@ courses:
         - AP Art History after school with the Worcester Art Museum 
         - "Electives: Psychology, Sociology, Legal Aspects & Personal Finance"
 
-description: Students discover the physical and natural world trough observation and experiments.
+description: Students explore the past in order to guide us in the present by studying our rich history.
 ---
 
