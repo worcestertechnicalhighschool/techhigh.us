@@ -25,7 +25,18 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/julia-t
 - Lynn Wanjiku - Student
 - Jocelyn Coughlin - Teacher
 
-### Contact US
+## Contact Us
 
+<div>
 
-Drew weymouth | Principal                    Michelle Phenix_ Assistantnt Principal                    Allison audet| MCAS Specialist
+Drew Weymouth 
+
+</div>
+
+Principal Michelle Phenix Assistant Principal 
+
+<div>
+
+Allison Audet MCAS Specialist
+
+</div>
