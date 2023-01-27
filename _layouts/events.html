@@ -1,222 +1,165 @@
 ---
 layout: default
 ---
-<html>
 
-<head>
+<article class="post {{ page.slug }}">
 
-  <!--This is importing some other css sheets to make the styling for the calendar work-->
-  <link rel="stylesheet" href="https://fullcalendar.io/releases/core/4.0.2/main.min.css">
-  <link rel="stylesheet" href="https://fullcalendar.io/releases/daygrid/4.0.1/main.min.css">
-  <link rel="stylesheet" href="https://fullcalendar.io/releases/list/4.0.1/main.min.css">
-  <style>
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-      font-size: 14px;
-    }
-
-    #calendar {
-      max-width: 800px;
-      margin: 40px auto;
-      border-style: solid;
-      border-width: 2px;
-      background: white;
-      padding: 20px;
-      border-radius: 15px;
-      display:flex;
-      justify-content: flex-end;
-    }
-
-    .fc .fc-button-primary {
-      background: rgb(50, 140, 255);
-      border: none;
-    }
-
-    .fc .fc-button-primary:disabled {
-      font-weight: bold;
-      background-color: rgb(93, 143, 255);
-      border: none;
-      opacity: 0.8;
-    }
-    /*This is the styling for the language selector. Feel free to experiment...*/
-    #top {
-      background: #eee;
-      border-bottom: 1px solid #ddd;
-      padding: 0 10px;
-      line-height: 40px;
-      font-size: 12px;
-    }
-  </style>
-</head>
-
-<body>
-
-  <article class="post {{ page.slug }}">
-
-    {%- include components/hero-entry.html -%}
-
+  {%- include components/hero-entry.html -%}
+  <div>
+    <div>
+      <div id='calendar'>
+        <div>
+          Languages:
+          <select id="locale-selector">
+            <option value="en">en</option>
+            <option value="af">af</option>
+            <option value="ar-dz">ar-dz</option>
+            <option value="ar-kw">ar-kw</option>
+            <option value="ar-ly">ar-ly</option>
+            <option value="ar-ma">ar-ma</option>
+            <option value="ar-sa">ar-sa</option>
+            <option value="ar-tn">ar-tn</option>
+            <option value="ar">ar</option>
+            <option value="az">az</option>
+            <option value="bg">bg</option>
+            <option value="bn">bn</option>
+            <option value="bs">bs</option>
+            <option value="ca">ca</option>
+            <option value="cs">cs</option>
+            <option value="cy">cy</option>
+            <option value="da">da</option>
+            <option value="de-at">de-at</option>
+            <option value="de">de</option>
+            <option value="el">el</option>
+            <option value="en-au">en-au</option>
+            <option value="en-gb">en-gb</option>
+            <option value="en-nz">en-nz</option>
+          <option value="eo">eo</option>
+          <option value="es">es</option>
+          <option value="et">et</option>
+          <option value="eu">eu</option>
+          <option value="fa">fa</option>
+          <option value="fi">fi</option>
+          <option value="fr">fr</option>
+          <option value="fr-ch">fr-ch</option>
+          <option value="gl">gl</option>
+          <option value="he">he</option>
+          <option value="hi">hi</option>
+          <option value="hr">hr</option>
+          <option value="hu">hu</option>
+          <option value="hy-am">hy-am</option>
+          <option value="id">id</option>
+          <option value="is">is</option>
+          <option value="it">it</option>
+          <option value="ja">ja</option>
+          <option value="ka">ka</option>
+          <option value="kk">kk</option>
+          <option value="km">km</option>
+          <option value="ko">ko</option>
+          <option value="ku">ku</option>
+          <option value="lb">lb</option>
+          <option value="lt">lt</option>
+          <option value="lv">lv</option>
+          <option value="mk">mk</option>
+          <option value="ms">ms</option>
+          <option value="nb">nb</option>
+          <option value="ne">ne</option>
+          <option value="nl">nl</option>
+          <option value="nn">nn</option>
+          <option value="pl">pl</option>
+          <option value="pt-br">pt-br</option>
+          <option value="pt">pt</option>
+          <option value="ro">ro</option>
+          <option value="ru">ru</option>
+          <option value="si-lk">si-lk</option>
+          <option value="sk">sk</option>
+          <option value="sl">sl</option>
+          <option value="sm">sm</option>
+          <option value="sq">sq</option>
+          <option value="sr-cyrl">sr-cyrl</option>
+          <option value="sr">sr</option>
+          <option value="sv">sv</option>
+          <option value="ta-in">ta-in</option>
+          <option value="th">th</option>
+          <option value="tr">tr</option>
+          <option value="ug">ug</option>
+          <option value="uk">uk</option>
+          <option value="uz">uz</option>
+          <option value="vi">vi</option>
+          <option value="zh-cn">zh-cn</option>
+          <option value="zh-tw">zh-tw</option>
+          </select>
+        </div>  
+      </div>
+    </div>
     <section class="post-content news">
       <div class="news__body">
-
+        
         <aside class="featured-news">
           {%- include components/collection-carousel.html collection="featured_news" height="500px" -%}
         </aside>
+        
       </div>
     </section>
-    <aside>
-      Languages:
-      <select id="locale-selector">
-        <option value="en">en</option>
-        <option value="af">af</option>
-        <option value="ar-dz">ar-dz</option>
-        <option value="ar-kw">ar-kw</option>
-        <option value="ar-ly">ar-ly</option>
-        <option value="ar-ma">ar-ma</option>
-        <option value="ar-sa">ar-sa</option>
-        <option value="ar-tn">ar-tn</option>
-        <option value="ar">ar</option>
-        <option value="az">az</option>
-        <option value="bg">bg</option>
-        <option value="bn">bn</option>
-        <option value="bs">bs</option>
-        <option value="ca">ca</option>
-        <option value="cs">cs</option>
-        <option value="cy">cy</option>
-        <option value="da">da</option>
-        <option value="de-at">de-at</option>
-        <option value="de">de</option>
-        <option value="el">el</option>
-        <option value="en-au">en-au</option>
-        <option value="en-gb">en-gb</option>
-        <option value="en-nz">en-nz</option>
-        <option value="eo">eo</option>
-        <option value="es">es</option>
-        <option value="et">et</option>
-        <option value="eu">eu</option>
-        <option value="fa">fa</option>
-        <option value="fi">fi</option>
-        <option value="fr">fr</option>
-        <option value="fr-ch">fr-ch</option>
-        <option value="gl">gl</option>
-        <option value="he">he</option>
-        <option value="hi">hi</option>
-        <option value="hr">hr</option>
-        <option value="hu">hu</option>
-        <option value="hy-am">hy-am</option>
-        <option value="id">id</option>
-        <option value="is">is</option>
-        <option value="it">it</option>
-        <option value="ja">ja</option>
-        <option value="ka">ka</option>
-        <option value="kk">kk</option>
-        <option value="km">km</option>
-        <option value="ko">ko</option>
-        <option value="ku">ku</option>
-        <option value="lb">lb</option>
-        <option value="lt">lt</option>
-        <option value="lv">lv</option>
-        <option value="mk">mk</option>
-        <option value="ms">ms</option>
-        <option value="nb">nb</option>
-        <option value="ne">ne</option>
-        <option value="nl">nl</option>
-        <option value="nn">nn</option>
-        <option value="pl">pl</option>
-        <option value="pt-br">pt-br</option>
-        <option value="pt">pt</option>
-        <option value="ro">ro</option>
-        <option value="ru">ru</option>
-        <option value="si-lk">si-lk</option>
-        <option value="sk">sk</option>
-        <option value="sl">sl</option>
-        <option value="sm">sm</option>
-        <option value="sq">sq</option>
-        <option value="sr-cyrl">sr-cyrl</option>
-        <option value="sr">sr</option>
-        <option value="sv">sv</option>
-        <option value="ta-in">ta-in</option>
-        <option value="th">th</option>
-        <option value="tr">tr</option>
-        <option value="ug">ug</option>
-        <option value="uk">uk</option>
-        <option value="uz">uz</option>
-        <option value="vi">vi</option>
-        <option value="zh-cn">zh-cn</option>
-        <option value="zh-tw">zh-tw</option>
-      </select>
-      
-    </div>
-      
-      <div id='calendar'></div>
-    </aside>
-    <div id='top'></div>
+  </div>
+</article>
 
+    <!--These lines are required to make the calendar work. It calls code from other Javascript libraries. Basically importing-->
+<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.3/index.global.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.0.3/locales-all.global.min.js"></script>
+<script src="https://fullcalendar.io/releases/core/4.0.2/main.min.js"></script>
+<script src="https://fullcalendar.io/releases/google-calendar/4.0.1/main.min.js"></script>
+<script src="https://fullcalendar.io/releases/daygrid/4.0.1/main.min.js"></script>
+<script src="https://fullcalendar.io/releases/list/4.0.1/main.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var initialLocaleCode = 'en'; //Sets the default language
+    var localeSelectorEl = document.getElementById('locale-selector');
+    var calendarEl = document.getElementById("calendar");
 
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      locale: initialLocaleCode,
+      plugins: ['dayGrid', 'list', 'googleCalendar'],
+      headerToolbar: {
+        left: "prev,next today",
+        center: "title",
+        right: "dayGridMonth,listYear"
+      },
 
-  </article>
-  <!--These lines are required to make the calendar work. It calls code from other Javascript libraries. Basically importing-->
-  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.3/index.global.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.0.3/locales-all.global.min.js"></script>
-  <script src="https://fullcalendar.io/releases/core/4.0.2/main.min.js"></script>
-  <script src="https://fullcalendar.io/releases/google-calendar/4.0.1/main.min.js"></script>
-  <script src="https://fullcalendar.io/releases/daygrid/4.0.1/main.min.js"></script>
-  <script src="https://fullcalendar.io/releases/list/4.0.1/main.min.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var initialLocaleCode = 'en'; //Sets the default language
-      var localeSelectorEl = document.getElementById('locale-selector');
-      var calendarEl = document.getElementById("calendar");
+      titleFormat: { year: 'numeric', month: 'long' },
 
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        locale: initialLocaleCode,
-        plugins: ['dayGrid', 'list', 'googleCalendar'],
-        headerToolbar: {
-          left: "prev,next today",
-          center: "title",
-          right: "dayGridMonth,listYear"
-        },
+      googleCalendarApiKey: "AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk",
+      events: {
+        googleCalendarId: "techhigh.us_ii29m54j9iumi3a2i6mkc5qo90@group.calendar.google.com",
+        className: "gcal-event" // an option!
+      },
+      eventClick: function (arg) {
 
-        titleFormat: { year: 'numeric', month: 'long' },
-
-        googleCalendarApiKey: "AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk",
-        events: {
-          googleCalendarId: "techhigh.us_ii29m54j9iumi3a2i6mkc5qo90@group.calendar.google.com",
-          className: "gcal-event" // an option!
-        },
-        eventClick: function (arg) {
-
-          // opens events in a popup window
-          window.open(arg.event.url, '_blank', 'width=700,height=600');
-
-          // prevents current tab from navigating
-          arg.jsEvent.preventDefault();
-        }
-      });
-
-
-      calendar.render();
-      // build the locale selector's options
-      calendar.getAvailableLocaleCodes().forEach(function (localeCode) {
-        var optionEl = document.createElement('option');
-        optionEl.value = localeCode;
-        optionEl.selected = localeCode == initialLocaleCode;
-        optionEl.innerText = localeCode;
-        localeSelectorEl.appendChild(optionEl);
-      });
-
-      // when the selected option changes, dynamically change the calendar option
-      localeSelectorEl.addEventListener('change', function () {
-        if (this.value) {
-          calendar.setOption('locale', this.value);
-        }
-      });
+        // opens events in a popup window
+        window.open(arg.event.url, '_blank', 'width=700,height=600');
+        
+        // prevents current tab from navigating
+        arg.jsEvent.preventDefault();
+      }
     });
 
-  </script>
-</body>
 
-</html>
+    calendar.render();
+    // build the locale selector's options
+    calendar.getAvailableLocaleCodes().forEach(function (localeCode) {
+      var optionEl = document.createElement('option');
+      optionEl.value = localeCode;
+      optionEl.selected = localeCode == initialLocaleCode;
+      optionEl.innerText = localeCode;
+      localeSelectorEl.appendChild(optionEl);
+    });
+
+    // when the selected option changes, dynamically change the calendar option
+    localeSelectorEl.addEventListener('change', function () {
+      if (this.value) {
+        calendar.setOption('locale', this.value);
+      }
+    });
+  });
+</script>
