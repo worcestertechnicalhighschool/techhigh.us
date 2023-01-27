@@ -21,19 +21,19 @@ Applications will close on March 15, 2023
 </div>
 <div class="items" markdown="1">
 
-# Class of 2025  
+# Class of 2026  
 We are not currently accepting applications for the Class of 2025  
 
 </div>
 <div class="items" markdown="1">
 
-# Class of 2024
+# Class of 2025
 We are not currently accepting transfers into Class of 2024.
 
 </div>
 <div class="items" markdown="1">
 
-# Class of 2023​  
+# Class of 2024  
 We are not currently accepting transfers into the Class of 2023.
 
 </div>
