@@ -104,14 +104,15 @@ layout: default
   </div>
 </article>
 
-    <!--These lines are required to make the calendar work. It calls code from other Javascript libraries. Basically importing-->
-<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.3/index.global.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.0.3/locales-all.global.min.js"></script>
-<script src="https://fullcalendar.io/releases/core/4.0.2/main.min.js"></script>
-<script src="https://fullcalendar.io/releases/google-calendar/4.0.1/main.min.js"></script>
-<script src="https://fullcalendar.io/releases/daygrid/4.0.1/main.min.js"></script>
-<script src="https://fullcalendar.io/releases/list/4.0.1/main.min.js"></script>
+    <!--These lines are required to make the calendar work. It calls code from other Javascript libraries. Basically importing
+      <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.0.3/locales-all.global.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.3/index.global.min.js"></script>
+      <script src="https://fullcalendar.io/releases/core/4.0.2/main.min.js"></script>
+      <script src="https://fullcalendar.io/releases/google-calendar/4.0.1/main.min.js"></script>
+      <script src="https://fullcalendar.io/releases/daygrid/4.0.1/main.min.js"></script>
+      <script src="https://fullcalendar.io/releases/list/4.0.1/main.min.js"></script> -->
+      <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     var initialLocaleCode = 'en'; //Sets the default language
@@ -120,11 +121,19 @@ layout: default
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
       locale: initialLocaleCode,
-      plugins: ['dayGrid', 'list', 'googleCalendar'],
+      //plugins: ['dayGrid', 'list', 'googleCalendar','listPlugin'],
+      initialView: 'listWeek',
+      views: {
+      listDay: { buttonText: 'list day' },
+      listWeek: { buttonText: 'list week' },
+      listMonth: { buttonText: 'list month' },
+      dayGridMonth: { buttonText: 'Calendar' },
+
+      },
       headerToolbar: {
-        left: "prev,next today",
+        left: "prev,next,today",
         center: "title",
-        right: "dayGridMonth,listYear"
+        right: 'dayGridMonth,listDay,listWeek,listMonth'
       },
 
       titleFormat: { year: 'numeric', month: 'long' },
