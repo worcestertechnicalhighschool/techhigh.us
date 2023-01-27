@@ -16,7 +16,7 @@ courses:
         - No science courses for seniors
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/science-image.jpg
 
-description: Students dive into the English language through reading, writing, and theory.
+description: Students discover the physical and natural world trough observation and experiments.
 
 ---
 
