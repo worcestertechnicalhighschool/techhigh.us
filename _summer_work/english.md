@@ -8,7 +8,6 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/05/English
 ### Grade 9
 SUMMER READING 2022
 
-
 Incoming 9th Graders
 
 Worcester Technical High
@@ -23,7 +22,7 @@ SUMMER READING 2022
 Rising 10th Graders Worcester Technical High
 
 Sophomore Summer Reading
-</div >
+</div>
 
 <div class="juniors" markdown="1">
 ### Grade 11

@@ -5,7 +5,7 @@ date: 2022-10-28
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/c88f76e0-1499-4954-920b-faac2e8cc48b-LOC_Tech_Principal.jpg.jpeg
 position: "object-position: center 25%;"
 ---
-# The schools that works
+## The School That Works
 
 ## OUR MISSION
 

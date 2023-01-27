@@ -12,9 +12,6 @@ GEM
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     ffi (1.15.5)
-    ffi (1.15.5-x64-mingw-ucrt)
-    ffi (1.15.5-x64-mingw32)
-    ffi (1.15.5-x86-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
@@ -48,7 +45,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    liquid (4.0.3)
+    liquid (4.0.4)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -78,6 +75,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  arm64-darwin-22
   universal-darwin-21
   x64-mingw-ucrt
   x64-mingw32

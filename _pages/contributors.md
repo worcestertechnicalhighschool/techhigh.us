@@ -7,7 +7,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-ho
 excerpt: This site is a product of students in the Programming and Web Development and Finance and Marketing shops.
 ---
 
-## History of this site
+## History of This Site <!--You can change the caps back if you want to-->
 Techhigh.us started in 2005 with a simple site built with Microsoft Front-Page. The site contained static content about our technical areas and news on the construction of our new building.
 
 ![Screenshot of the original techhigh.us home page](https://wordpress.techhigh.us/wp-content/uploads/2023/01/original.png)

@@ -10,8 +10,8 @@ margin-top:40px;
     }
     .news__body {
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
 
     }
 
