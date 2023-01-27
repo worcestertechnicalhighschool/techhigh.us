@@ -1,22 +1,23 @@
 .events {
+    margin: 0 auto;
     .news {
-margin-top:40px;
+        margin-top:40px;
     }
 }
 .news{
     h2{
         font-size: 60px;
         font-weight: $header_bold;
+        text-align: center;
     }
     .news__body {
         display: flex;
         justify-content: flex-end;
         flex-wrap: nowrap;
-
     }
 
     .news-feed {
-        padding-top:20px;
+        padding: 10px;
         .event {
             display: flex;
             align-items: flex-start;
@@ -55,8 +56,9 @@ margin-top:40px;
     }
 
     .featured-news {
+        padding: 10px;
         min-width: 50%;
-        height: 600px;
+        margin: auto;
     }
 
 }
@@ -80,4 +82,53 @@ margin-top:40px;
 
 .athletics h2 {
     margin-bottom: 10px;
+}
+
+// Calendar css VVV
+
+.events {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+    
+    #calendar {
+        max-width: 800px;
+        margin: 40px auto;
+        border-style: solid;
+        border-width: 2px;
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        display:flex;
+        justify-content: flex-end;
+        
+        .fc-event-container a:visited span{
+            text-decoration: none;
+            color: white;
+        }
+        .fc-event-container a span{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .fc .fc-button-primary {
+        background: rgb(50, 140, 255);
+        border: none;
+    }
+    
+    .fc .fc-button-primary:disabled {
+        font-weight: bold;
+        background-color: rgb(93, 143, 255);
+        border: none;
+        opacity: 0.8;
+    }
+    /*This is the styling for the language selector. Feel free to experiment...*/
+    #top {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        padding: 0 10px;
+        line-height: 40px;
+        font-size: 12px;
+    }
 }
