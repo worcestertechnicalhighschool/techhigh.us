@@ -124,7 +124,7 @@ layout: default
                   <option value="zh-tw">zh-tw</option>
                   </select>
                 </div>  
-                
+
               </div>
             </div>
            <!-- {% if site.data.events %}
@@ -199,7 +199,7 @@ layout: default
     {%- include components/collection-carousel.html collection="technical_areas" -%}
     
   </section>
-</article><!-- /.landing -->
+</article><!-- /.landing 
 
 <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.3/index.global.min.js"></script>
@@ -207,7 +207,9 @@ layout: default
 <script src="https://fullcalendar.io/releases/core/4.0.2/main.min.js"></script>
 <script src="https://fullcalendar.io/releases/google-calendar/4.0.1/main.min.js"></script>
 <script src="https://fullcalendar.io/releases/daygrid/4.0.1/main.min.js"></script>
-<script src="https://fullcalendar.io/releases/list/4.0.1/main.min.js"></script>
+<script src="https://fullcalendar.io/releases/list/4.0.1/main.min.js"></script> -->
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     var initialLocaleCode = 'en'; //Sets the default language
@@ -216,13 +218,21 @@ layout: default
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
       locale: initialLocaleCode,
-      plugins: ['dayGrid', 'list', 'googleCalendar'],
-      headerToolbar: {
-        left: "prev,next today",
-        center: "title",
-        right: "dayGridMonth,listYear"
-      },
+      //plugins: ['dayGrid', 'list', 'googleCalendar','listPlugin'],
+      initialView: 'listWeek',
+      views: {
+      listDay: { buttonText: 'list day' },
+      listWeek: { buttonText: 'list week' },
+      listMonth: { buttonText: 'list month' },
+      dayGridMonth: { buttonText: 'Calendar' },
 
+      },
+      headerToolbar: {
+        left: "prev,next,today",
+        center: "title",
+        right: 'dayGridMonth,listDay,listWeek,listMonth'
+      },
+      
       titleFormat: { year: 'numeric', month: 'long' },
 
       googleCalendarApiKey: "AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk",
