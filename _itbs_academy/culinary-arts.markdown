@@ -10,7 +10,7 @@ certifications:
 alumni:
     - name: Samantha
       description: Samantha Lucier is a 2017 graduate from Worcester Tech’s Culinary Art program. Upon graduation, she continued her education at Johnston and Wales university where she graduated in 2021. Now Samantha is continuing in her career as she is the  Head Baker at Crust Bakeshop in Worcester MA. 
-      img: 
+      img: https://wordpress.techhigh.us/wp-content/uploads/2023/01/SamanthaLucier_Alumni.png
 ---
 
 Is food your passion? Then the Culinary Arts program is perfect for you! Our day is spent preparing food for our customers who purchase sweet and savory goods through our student run operations, in order to prepare our student chefs for the food service industry. 
