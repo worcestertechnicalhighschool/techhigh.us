@@ -36,7 +36,8 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         img{
-            height: 600px;
+            object-fit: contain;
+            height: 650px;
             width: 480px;
             margin-top: 50px;
         }
