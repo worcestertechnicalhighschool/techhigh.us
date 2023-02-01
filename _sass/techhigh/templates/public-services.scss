@@ -1,5 +1,6 @@
 .public_services{
     .post-content{
+        
         p{
             text-align: center;
         }
@@ -15,5 +16,32 @@
         table{
             padding: 10px 20px 10px 20px;
         }
+  
+
+    }
+    .auto-content {    
+        display: flex;
+
+        .col{
+            flex: 33.33%;
+            padding: 40px;
+        }
+
+        h3{
+            font-size: 1.5em;
+        }
+        h2{
+            
+            font-size: 3.5em;
+            text-align: start;
+        }
+        img{
+            padding: 0px;
+            display: flex;
+            justify-content: flex-start;
+            max-height: 400px;
+            max-width: 750px;
+        }
+        
     }
 }
