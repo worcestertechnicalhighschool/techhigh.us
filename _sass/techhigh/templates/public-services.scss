@@ -44,18 +44,19 @@
         }
         
     }
-    .box-container{
+    .box-container{ 
+
         .box-content{
-
             display: flex;
-            flex-direction: row;
-            justify-content: center;
             flex-wrap: wrap;
-
+            
             .box{
                 background-color: #21211f;
                 height: 300px;
                 width: 325px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
             }
             
             .box.blue{
@@ -67,13 +68,24 @@
             .box.bright{
                 background-color: #4b85de;
             }
-
+            
             p {
                 color: white;
-                padding: 20px;
+                padding: 10px;
                 font-size: 1.8em;
                 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 text-align: center;
+                margin: 0px;
+            }
+
+            .img-container{
+                margin-left: 100px;
+                margin-right: auto;
+                margin-top: 30px;
+                width: 50%;
+            }
+            img {
+                height: 150px;
             }
 
         }
