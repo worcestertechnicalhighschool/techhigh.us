@@ -24,7 +24,6 @@
 
         .col{
             flex: 33.33%;
-            padding: 40px;
         }
 
         h3{
@@ -39,8 +38,13 @@
             padding: 0px;
             display: flex;
             justify-content: flex-start;
-            max-height: 400px;
-            max-width: 750px;
+            min-height: 64px;
+            min-width: 180px;
+                @media (max-width:450px) {
+                    background-color: rgb(31, 31, 31);
+                    border-radius: 20cm;
+                    margin: 2px;
+                }
         }
         
     }
