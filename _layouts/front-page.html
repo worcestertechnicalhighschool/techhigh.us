@@ -37,7 +37,7 @@ layout: default
   
   <div class="wrapper wrapper--lt-gray">
     <section class="news events">
-        <h2>News and Events</h2>
+        <h2>WHAT'S HAPPENING AT TECH!</h2>
         <div class="news__body">
           <aside class="news-feed">
             <div>
@@ -220,34 +220,41 @@ layout: default
       locale: initialLocaleCode,
       //plugins: ['dayGrid', 'list', 'googleCalendar','listPlugin'],
       initialView: 'listWeek',
-      views: {
-      listDay: { buttonText: 'Day View' },
-      listWeek: { buttonText: 'Week View' },
-      listMonth: { buttonText: 'Month View' },
-      dayGridMonth: { buttonText: 'Calendar' },
+      // views: {
+      // listDay: { buttonText: 'Day View' },
+      // listWeek: { buttonText: 'Week View' },
+      // listMonth: { buttonText: 'Month View' },
+      // dayGridMonth: { buttonText: 'Calendar' },
 
-      },
-      headerToolbar: {
-        left: "prev,next,today",
-        center: "title",
-        right: 'dayGridMonth,listDay,listWeek,listMonth'
-      },
+      // },
+      // headerToolbar: {
+      //   left: '',
+      //   center: '',
+      //   right: 'dayGridMonth,listDay,listWeek,listMonth'
+      // },
       
-      titleFormat: { year: 'numeric', month: 'long' },
-
+      titleFormat: { year: 'numeric', month: 'short' }, //Returns date like: Jan 2023 on top left
+      listDayFormat: false, // Gets rid of the day of the week
+      listDaySideFormat: {month: 'short', day: '2-digit'}, //Returns date Like: Jan 31 in the rows
       googleCalendarApiKey: "AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk",
       events: {
         googleCalendarId: "techhigh.us_ii29m54j9iumi3a2i6mkc5qo90@group.calendar.google.com",
         className: "gcal-event" // an option!
       },
-      eventClick: function (arg) {
 
-        // opens events in a popup window
-        window.open(arg.event.url, '_blank', 'width=700,height=600');
-        
-        // prevents current tab from navigating
-        arg.jsEvent.preventDefault();
+      //Prevents clicking on events to go to the Google Calendar
+      //Still able to right-click and open in a new tab...
+      eventClick: function(info){
+        info.jsEvent.preventDefault();
       }
+      // eventClick: function (arg) {
+
+      //   // opens events in a popup window
+      //   //window.open(arg.event.url, '_blank', 'width=700,height=600');
+        
+      //   // prevents current tab from navigating
+      //   arg.jsEvent.preventDefault();
+      // }
     });
 
 
