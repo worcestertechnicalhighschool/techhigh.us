@@ -110,28 +110,64 @@
         //     }
 
         // }
+        
         tr{
+            color: #002855;
+        }
+        tr:hover td{
+            background-color: transparent;
+        }
+        .fc-list-event{
+            font-size: 15px;
+            font-weight: $body_bold;
+            font-family: $body_font;
+        }
+        .fc-list-event:hover a{
+            text-decoration: none;
+            transition: all ease 0.3s;
             color: #111;
-           
         }
         
-        .fc-event-container a:visited span{
+        .fc-daygrid-event-harness a:visited{
+            padding-left: 1px;
             text-decoration: none;
-            color: white;
+            color: $primary;//changes event font, change both a:visited and a when you change this
+            list-style-type: none; 
         }
-        .fc-event-container a span{
+        .fc-daygrid-event-harness a{
+            padding-left: 5%;
+            list-style-type: none; 
             text-decoration: none;
-            color: white;
+            color: $primary; //changes event font, change both a:visited and a when you change this
         }
+        .fc-event{
+            background-color: #b9d9eb;
+        }
+        .fc-list .fc-list-day .fc-list-day-cushion{
+            background-color: $primary;
+            a{
+                font-size: 15px;
+                font-weight: $body_bold;
+                color: #f7faff;
+            }
+        }
+        .fc .fc-list-event:hover td{
+            background-color: transparent;
+          }
+          .events .news-feed a:hover{
+            pointer-events: none;
+          }
+          .fc .fc-list-event.fc-event-forced-url:hover a{
+            text-decoration: none;
+          }
     }
     .fc .fc-button-primary {
-        background: rgb(50, 140, 255);
+        background: $primary;
         border: none;
     }
     
     .fc .fc-button-primary:disabled {
-        font-weight: bold;
-        background-color: rgb(93, 143, 255);
+        background-color: $primary;
         border: none;
         opacity: 0.8;
     }
@@ -142,5 +178,22 @@
         padding: 0 10px;
         line-height: 40px;
         font-size: 12px;
+    }
+    .fc-daygrid-event-dot {
+        display: none;
+      }
+    .fc-event .fc-list-event-dot{
+        display: none;
+    }
+    .fc-dayGridMonth-view .fc-scrollgrid-section .fc-scroller-harness .fc-scroller{
+        table{
+            margin: 0;
+        }
+        .fc-col-header{
+        background-color: $primary;
+            .fc-col-header-cell a{
+                color: #f7faff;
+            }
+        }
     }
 }

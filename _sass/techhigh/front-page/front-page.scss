@@ -28,7 +28,7 @@
     //Affects the date.
     .fc-direction-ltr .fc-list-day-side-text, .fc-direction-rtl .fc-list-day-text{
         float: left; // puts the date on the left side
-        color: #a9acb1;
+        color: #f7faff;
         padding: 5px;
       }
       //The date row
@@ -56,6 +56,7 @@
       }
       .fc .fc-list-event.fc-event-forced-url:hover a{
         text-decoration: none;
+        color: #111;
       }
 
       //Affects event text
@@ -79,6 +80,6 @@
 
       //The dot in between the time and event names
       .fc .fc-list-event-dot{
-        border: #b9d9eb; //Makes it the same as the background color... Basically amking it invisible
+        display: none; //Makes it the same as the background color... Basically amking it invisible
       }
 }

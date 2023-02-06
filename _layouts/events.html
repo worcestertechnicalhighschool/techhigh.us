@@ -131,19 +131,20 @@ layout: default
 
       },
       headerToolbar: {
-        left: "prev,next,today",
+        left: "prev,next today",
         center: "title",
-        right: 'dayGridMonth,listDay,listWeek,listMonth'
+        right: 'dayGridMonth listDay,listWeek,listMonth'
       },
 
-      titleFormat: { year: 'numeric', month: 'long' },
+      titleFormat: { year: 'numeric', month: 'short' },
+      listDayFormat: {weekday:'long', month: 'short', day: '2-digit'},
+      listDaySideFormat: false,
 
       googleCalendarApiKey: "AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk",
 
       events: {
         googleCalendarId: "techhigh.us_ii29m54j9iumi3a2i6mkc5qo90@group.calendar.google.com",
         className: "gcal-event", // an option!
-        
       },
 
 

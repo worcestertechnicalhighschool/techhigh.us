@@ -244,17 +244,17 @@ layout: default
 
       //Prevents clicking on events to go to the Google Calendar
       //Still able to right-click and open in a new tab...
-      eventClick: function(info){
-        info.jsEvent.preventDefault();
-      }
-      // eventClick: function (arg) {
+      //eventClick: function(info){
+      // info.jsEvent.preventDefault();
+      //}
+       eventClick: function (arg) {
 
-      //   // opens events in a popup window
-      //   //window.open(arg.event.url, '_blank', 'width=700,height=600');
+          //opens events in a popup window
+          window.open(arg.event.url, '_blank', 'width=700,height=600');
         
-      //   // prevents current tab from navigating
-      //   arg.jsEvent.preventDefault();
-      // }
+          //prevents current tab from navigating
+          arg.jsEvent.preventDefault();
+       }
     });
 
 
