@@ -73,7 +73,8 @@
             transition: $soft;
         }
 
-        /* This is specifically for the full-image cards on the technical areas page */
+        /* Used to be for the full-image cards on the technical areas page [ARCHIVED]*/
+        /*
         &.card--technical-areas{
             // margin: 0;
             max-width: 550px;
@@ -91,7 +92,7 @@
                 }
             }
         }
-
+        */
     }
     
     &.card--faculty{
@@ -118,7 +119,6 @@
 
     &.card--academics{
         display: flex;
-        // margin: 0 10px;
         flex-direction: column;
         max-width: 265px;
         min-height: 500px;
@@ -226,7 +226,6 @@
         width: 425px;
         height: 350px;
         margin: 10px;
-        
 
         h2 {
             position: relative;
@@ -283,5 +282,15 @@
                 transform:scale(1.1)
             }
         }
+    }
+    &.card--public-services {
+        h3{
+            text-align: center;
+        }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: max-content;
     }
 }
