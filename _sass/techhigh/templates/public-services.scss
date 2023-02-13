@@ -21,6 +21,17 @@
     }
     .auto-content {    
         display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+        @media (min-width:$breakpoint_standard) {
+            flex-direction: column;
+            
+            h2{
+                text-align: start;
+            }
+        }
 
         .col{
             flex: 33.33%;
@@ -28,32 +39,29 @@
 
         h3{
             font-size: 1.5em;
+            text-align: center;
         }
         h2{
             
             font-size: 3.5em;
-            text-align: start;
+            text-align: center;
         }
         img{
-            padding: 0px;
-            display: flex;
-            justify-content: flex-start;
-            min-height: 64px;
-            min-width: 180px;
-                @media (max-width:450px) {
-                    background-color: rgb(31, 31, 31);
-                    border-radius: 20cm;
-                    margin: 2px;
-                }
+            width: 100%;
+            height: auto;
+            max-width: 600px;
         }
         
     }
     .box-container{ 
+        
 
         .box-content{
             display: flex;
             flex-wrap: wrap;
-            
+            justify-content: center;
+            align-items: center;
+
             .box{
                 background-color: #21211f;
                 height: 300px;
