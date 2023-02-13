@@ -21,35 +21,45 @@
     }
     .auto-content {    
         display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+        @media (min-width:$breakpoint_standard) {
+            flex-direction: column;
+            flex-direction: row;
+            h2{
+                text-align: start;
+            }
+        }
 
         .col{
             flex: 33.33%;
-            padding: 40px;
         }
 
         h3{
             font-size: 1.5em;
+            text-align: center;
         }
         h2{
-            
             font-size: 3.5em;
-            text-align: start;
+            text-align: center;
         }
         img{
-            padding: 0px;
-            display: flex;
-            justify-content: flex-start;
-            max-height: 400px;
-            max-width: 750px;
+            width: 100%;
+            height: auto;
+            max-width: 600px;
         }
         
     }
     .box-container{ 
+        
 
         .box-content{
             display: flex;
             flex-wrap: wrap;
-            
+            justify-content: center;
+            align-items: center;
+
             .box{
                 background-color: #21211f;
                 height: 300px;
