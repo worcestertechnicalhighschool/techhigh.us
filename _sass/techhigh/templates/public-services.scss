@@ -23,11 +23,10 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        flex-wrap: nowrap;
         
         @media (min-width:$breakpoint_standard) {
             flex-direction: column;
-            
+            flex-direction: row;
             h2{
                 text-align: start;
             }
@@ -42,7 +41,6 @@
             text-align: center;
         }
         h2{
-            
             font-size: 3.5em;
             text-align: center;
         }
