@@ -19,6 +19,38 @@
   
 
     }
+    .salon-content{
+
+        display: flex;        
+        width: 100%;
+        flex-direction: column;
+
+        .pricetable {
+            background-color: $secondary;
+            margin-top: 10px;
+        }
+
+        h2 {
+            color: white;
+            text-decoration: underline;
+            text-align: center;
+        }
+        td {
+            color: white;
+            padding: 3px;
+        }
+        .pricetable tr td:nth-child(2){
+            border-bottom: 3px white dotted;
+        }
+        em {
+            color: white;
+        }  
+        img {
+            background-color: white;
+        }
+
+    }
+
     .auto-content {    
         display: flex;
         flex-direction: column-reverse;
