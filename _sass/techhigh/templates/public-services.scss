@@ -188,4 +188,35 @@
 
         }
     }
+    .credit-union-content{
+
+        display: flex;
+        flex-direction: row;
+        h1{
+            color: $secondary;
+            text-align: center;
+            margin-top: 150px;
+        }
+        .second {
+            margin-top: 220px;
+        }
+
+        ul li{
+            
+            font-size: 25px;
+            font-family:$header_font;
+            text-align: left;
+            list-style-position: inside;
+            }
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            max-height: 200px;
+            max-width: 400px;
+            align-self: center;
+        }
+        
+    }
 }
