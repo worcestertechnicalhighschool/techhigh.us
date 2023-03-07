@@ -19,6 +19,94 @@
   
 
     }
+    .salon-content{
+
+        display: flex;        
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        // @media (min-width:$breakpoint_standard) {
+        //     flex-direction: row;
+        // }
+        .large-container{
+            margin-top: 35px;
+            max-width: 1200px;
+            @media (min-width:$breakpoint_standard) {
+                background-repeat: no-repeat, repeat;
+                background-position: right center;
+                background-size: 900px;
+            }
+        }
+        .large-container.one {
+            @media (min-width:$breakpoint_standard) {
+                background-image: url("https://wordpress.techhigh.us/wp-content/uploads/2023/02/Screen-Shot-2023-02-10-at-7.51.04-AM.png");
+            }
+        }
+        
+        .large-container.two {
+            @media (min-width:$breakpoint_standard) {
+                background-position: left center;
+                background-image: url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon_2.jpg");
+            }
+        }
+        .large-container.three {
+            @media (min-width:$breakpoint_standard) {
+
+                background-image: url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon_3.png"), url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon_03.png"), url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon03.png");
+                background-position: top center, top right, bottom right;
+                background-repeat: no-repeat;
+                background-size: 425px 300px, 380px 300px, 812px 260px;
+            }
+        }
+        .large-container.four {
+            @media (min-width:$breakpoint_standard) {
+                background-position: left center;
+                background-image: url("https://wordpress.techhigh.us/wp-content/uploads/2023/02/75A37195-FA52-420C-B3A1-8D9D2E8CDA49.png");
+            }
+        }
+
+
+        .pricetable {
+            background-color: $secondary;
+            max-width: 525px;
+            margin-top: 20px;
+            @media (min-width:$breakpoint_standard) {
+                margin-bottom: 20px;
+            }
+        }
+
+
+        .pricetable.right {
+            @media (min-width:$breakpoint_standard) {
+                float: right;
+            }
+        }
+        
+        h2 {
+            color: white;
+            text-decoration: underline;
+            text-align: center;
+        }
+        td {
+            color: white;
+            padding: 3px;
+        }
+        .pricetable tr td:nth-child(2){
+            border-bottom: 3px white dotted;
+        }
+        em {
+            color: white;
+        }  
+        img {
+            
+            background-color: white;
+            @media (min-width:$breakpoint_standard) {
+               display: none; 
+            }
+        }
+
+    }
+
     .auto-content {    
         display: flex;
         flex-direction: column-reverse;
