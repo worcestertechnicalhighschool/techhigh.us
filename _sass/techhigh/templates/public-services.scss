@@ -193,25 +193,41 @@
         display: flex;
         margin-top: 20px;
         flex-direction: column;
-        // outline: 5px solid darkblue;
+        justify-content: center;
+        border: 20px solid #214f94;
+        padding: 50px;
+
+        @media (min-width:$breakpoint_standard) {
+            flex-direction: row;
+        }
 
         h1{
             color: $secondary;
             text-align: center;
-            margin-top: 30px;
         }
-        // .second {
-        //     margin-top: 220px;
-        // }
 
-        .list{
-            display:flex;
+        .list {
+            @media (min-width:$breakpoint_standard) {
+                margin: 50px;
+                display: flex;
+                flex-direction: row;
+            }
+        }
+
+        .second {
+            align-self: center;
         }
 
         ul li {
             font-size: 25px;
             font-weight: bold;
+            word-wrap:break-word;
+            margin: 0px;
         } 
+
+        ul, ol {
+            margin: 0 0 0px 3em;
+        }
 
         li { color: #214f94; }
 
