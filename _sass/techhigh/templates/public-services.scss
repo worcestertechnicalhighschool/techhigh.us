@@ -289,7 +289,7 @@
             flex-direction: column;
             @media (min-width:$breakpoint_standard) {
                 flex-direction: row;
-                max-width: 340px;
+                max-width: 775px;
             }
             max-width: fit-content;
             object-fit: cover;
@@ -297,7 +297,8 @@
 
         .post {
             margin: 0px;
-            max-width: 600px;
+            max-width: 740px;
+            margin-right: 5px;
         }
 
         img {
