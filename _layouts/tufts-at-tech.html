@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+    <article class="post {{ page.slug }}">
+        
+        {%- include components/hero-entry.html -%}
+
+    <div class="public_services">
+        <section class="tufts-content">
+
+            <h1>Welcome to Tufts at Tech</h1>
+
+            <div>
+                <p>Tufts at Tech student-run veterinary clinic provides low-cost care for family pets within Central Massachusetts’ underserved communities. With Tufts University’s Cummings School of Veterinary Medicine, Worcester Technical High School works to address the healthcare needs of the area’s beloved animal companions under the leadership of Dr. Greg Wolfus.</p>
+            </div>
+            
+            <div class="container">
+                <div class="post">
+                    <img class="lar" src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/8708EE5B-E8A0-4CCE-B52F-6231D8ACC54A-min.png">
+                
+                </div>
+
+                
+                <div class="tufts-box">
+                    <div class="img-container">
+                        <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/6B545EC1-9A53-47C9-984C-B9FB22C6FA4F-min.png">
+                        <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/0A406C40-0F87-4827-B859-62BC4D703E5D-min-1.png">
+                        
+                    </div>
+                    
+                    <div class="background">
+                        <p>Tufts at Tech uses month-to-month appointment scheduling, booking at least one month ahead. To make an appointment for your pet, please call 508-751-7670. Business hours are 8 a.m. - 4 p.m. and appointments are available 8 a.m. - 7 p.m. <br> For more information, please visit our website below.  </p>
+                        
+                        <div class="button">
+                            <a target="_blank" class="btn btn--cta" href="{{page.external}}">{{ page.title }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        {% if page.external %}
+         
+        {% endif %}
+    </article>
+    
+</div>

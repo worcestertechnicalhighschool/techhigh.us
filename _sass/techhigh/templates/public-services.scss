@@ -247,4 +247,66 @@
         }
         
     }
+    .tufts-content{
+
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tufts-box{
+
+            .background{
+                background-color: $secondary;
+                max-width: 810px;
+            }
+
+            p{
+                color: white;
+                text-align: center;
+                padding: 20px;
+                margin: 0px;
+            }
+            a{
+                color:white;
+                border-color: white;
+            }
+            .button {
+                display: flex;
+                justify-content: center;
+            }
+            
+        }
+
+        .post {
+            margin: 0px;
+        }
+
+        .img-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            padding: 0px;
+            margin-bottom: 5px;
+        }
+
+        .lar {
+            margin: 0px;
+        }
+
+        p{
+            font-family: $header_font;
+            font-size: 20px;
+            
+        }
+
+        h1{
+            background-color:$secondary;
+            color:white;
+            padding: 10px;
+        }
+        
+    }
 }
