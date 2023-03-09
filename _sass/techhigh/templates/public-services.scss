@@ -191,23 +191,31 @@
     .credit-union-content{
 
         display: flex;
-        flex-direction: row;
+        margin-top: 20px;
+        flex-direction: column;
+        // outline: 5px solid darkblue;
+
         h1{
             color: $secondary;
             text-align: center;
-            margin-top: 150px;
+            margin-top: 30px;
         }
-        .second {
-            margin-top: 220px;
+        // .second {
+        //     margin-top: 220px;
+        // }
+
+        .list{
+            display:flex;
         }
 
-        ul li{
-            
+        ul li {
             font-size: 25px;
-            font-family:$header_font;
-            text-align: left;
-            list-style-position: inside;
-            }
+            font-weight: bold;
+        } 
+
+        li { color: #214f94; }
+
+        li span { color: black; }
 
         img {
             width: 100%;
@@ -216,6 +224,10 @@
             max-height: 200px;
             max-width: 400px;
             align-self: center;
+        }
+
+        .acc {
+            border: 5px solid #214f94;
         }
         
     }
