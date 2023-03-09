@@ -252,13 +252,18 @@
         .container{
             display: flex;
             flex-direction: column;
+            @media (min-width:$breakpoint_standard) {
+                flex-direction: row;
+            }
         }
 
         .tufts-box{
+            
+            display: flex;
+            flex-direction: column;
 
             .background{
                 background-color: $secondary;
-                max-width: 810px;
             }
 
             p{
@@ -270,6 +275,7 @@
             a{
                 color:white;
                 border-color: white;
+                border-radius: 40px;
             }
             .button {
                 display: flex;
@@ -278,22 +284,32 @@
             
         }
 
-        .post {
-            margin: 0px;
-        }
-
-        .img-container {
+        .img-container{
             display: flex;
             flex-direction: column;
+            @media (min-width:$breakpoint_standard) {
+                flex-direction: row;
+                max-width: 775px;
+            }
+            max-width: fit-content;
+            object-fit: cover;
+        }
+
+        .post {
+            margin: 0px;
+            max-width: 740px;
+            margin-right: 5px;
         }
 
         img {
             padding: 0px;
             margin-bottom: 5px;
+            min-width: 0
         }
 
         .lar {
             margin: 0px;
+            object-fit: cover;
         }
 
         p{
