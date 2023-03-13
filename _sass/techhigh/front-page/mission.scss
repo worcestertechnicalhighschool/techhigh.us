@@ -3,10 +3,11 @@
        color: black;
        font-family: $header_font; 
        text-transform: uppercase;
+       text-align: center;
     }
-    text-align: center;
     
     .mission {
+        text-align: center;
         
         padding: 20px;
 
@@ -22,6 +23,9 @@
             // padding: 0 120px;
             max-width: 800px;
             margin: 0 auto;
+        }
+        .events{
+            text-align: unset;
         }
         .stats{
             padding-top: 20px;
