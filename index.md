@@ -14,8 +14,7 @@ hero_slides:
     alt: "Student Welding"
     position: "object-position: center;"
 
-hero_text: "<h1>Worcester Technical High&nbsp;School</h1>
-            <p><em>The School That Works</em></p>"
+hero_text: "<p><em>The School That Works</em></p>"
 
 slideshows:
   - slideshow:

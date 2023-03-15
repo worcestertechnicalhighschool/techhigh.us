@@ -12,13 +12,65 @@
             margin: 20px auto;
         }
     }
-    .events {
-        margin: 0 auto;
-        .news {
-            margin-top: 40px;
-        }
+        
+  .news-feed {
+  max-height: 600px;
+  overflow-y: auto;
+  // border-radius:25px;
+  background-color: #b9d9eb;
+  box-shadow: 0 0 20px #000;
+  border-radius: 5px;
+}
+#events {
+  padding: 20px;
+  .event{
+    .event-details{
+      .location{
+        display: none;
+      }
     }
-    #calendar{
+  }
+}
+
+.event {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 3px solid $dark_blue;
+  padding: 20px 0;
+  &:first-child {
+    border-top: 3px solid $dark_blue;
+  }
+  h3 {
+    font-size: 32px;
+    font-weight: $header_bold;
+    color: $dark_blue;
+    margin: 0;
+    text-align: left;
+  }
+  .location {
+    display: inline-block;
+    min-width: 200px;
+    margin-right: 25px;
+  }
+  .time {
+    display: inline-block;
+  }
+}
+.date-icon {
+  display: inline-block;
+  background-color: $dark_blue;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-right: 30px;
+
+  .month,
+  .day {
+    font-family: $header_font;
+    text-transform: uppercase;
+  }
+}
+    /* #calendar{
         width: 800px;
         tr{
             color: #111;
@@ -28,7 +80,7 @@
     //Affects the date.
     .fc-direction-ltr .fc-list-day-side-text, .fc-direction-rtl .fc-list-day-text{
         float: left; // puts the date on the left side
-        color: #a9acb1;
+        color: #f7faff;
         padding: 5px;
       }
       //The date row
@@ -38,12 +90,12 @@
 
         //POTENTIAL WAY TO CHANGE BORDER LENGTH (Need to experiment some more (Link I got the code from: https://www.steckinsights.com/shorten-length-border-bottom-pure-css/))
         // ::after{
-        //   content: ""; /* This is necessary for the pseudo element to work. */ 
-        //   display: block; /* This will put the pseudo element on its own line. */
-        //   margin: 0 auto; /* This will center the border. */
-        //   width: 50%; /* Change this to whatever width you want. */
-        //   padding-top: 20px; /* This creates some space between the element and the border. */
-        //   border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+        //   content: ""; /* This is necessary for the pseudo element to work.
+        //   display: block; /* This will put the pseudo element on its own line. 
+        //   margin: 0 auto; /* This will center the border. 
+        //   width: 50%; /* Change this to whatever width you want. 
+        //   padding-top: 20px; /* This creates some space between the element and the border. 
+        //   border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. 
         // }
       }
 
@@ -56,6 +108,7 @@
       }
       .fc .fc-list-event.fc-event-forced-url:hover a{
         text-decoration: none;
+        color: #111;
       }
 
       //Affects event text
@@ -79,6 +132,7 @@
 
       //The dot in between the time and event names
       .fc .fc-list-event-dot{
-        border: #b9d9eb; //Makes it the same as the background color... Basically amking it invisible
+        display: none; //Makes it the same as the background color... Basically amking it invisible
       }
+      */
 }

@@ -7,89 +7,7 @@ layout: default
   {%- include components/hero-entry.html -%}
   <div>
     <div>
-      <div id='calendar'>
-        <div>
-          Languages:
-          <select id="locale-selector">
-            <option value="en">en</option>
-            <option value="af">af</option>
-            <option value="ar-dz">ar-dz</option>
-            <option value="ar-kw">ar-kw</option>
-            <option value="ar-ly">ar-ly</option>
-            <option value="ar-ma">ar-ma</option>
-            <option value="ar-sa">ar-sa</option>
-            <option value="ar-tn">ar-tn</option>
-            <option value="ar">ar</option>
-            <option value="az">az</option>
-            <option value="bg">bg</option>
-            <option value="bn">bn</option>
-            <option value="bs">bs</option>
-            <option value="ca">ca</option>
-            <option value="cs">cs</option>
-            <option value="cy">cy</option>
-            <option value="da">da</option>
-            <option value="de-at">de-at</option>
-            <option value="de">de</option>
-            <option value="el">el</option>
-            <option value="en-au">en-au</option>
-            <option value="en-gb">en-gb</option>
-            <option value="en-nz">en-nz</option>
-          <option value="eo">eo</option>
-          <option value="es">es</option>
-          <option value="et">et</option>
-          <option value="eu">eu</option>
-          <option value="fa">fa</option>
-          <option value="fi">fi</option>
-          <option value="fr">fr</option>
-          <option value="fr-ch">fr-ch</option>
-          <option value="gl">gl</option>
-          <option value="he">he</option>
-          <option value="hi">hi</option>
-          <option value="hr">hr</option>
-          <option value="hu">hu</option>
-          <option value="hy-am">hy-am</option>
-          <option value="id">id</option>
-          <option value="is">is</option>
-          <option value="it">it</option>
-          <option value="ja">ja</option>
-          <option value="ka">ka</option>
-          <option value="kk">kk</option>
-          <option value="km">km</option>
-          <option value="ko">ko</option>
-          <option value="ku">ku</option>
-          <option value="lb">lb</option>
-          <option value="lt">lt</option>
-          <option value="lv">lv</option>
-          <option value="mk">mk</option>
-          <option value="ms">ms</option>
-          <option value="nb">nb</option>
-          <option value="ne">ne</option>
-          <option value="nl">nl</option>
-          <option value="nn">nn</option>
-          <option value="pl">pl</option>
-          <option value="pt-br">pt-br</option>
-          <option value="pt">pt</option>
-          <option value="ro">ro</option>
-          <option value="ru">ru</option>
-          <option value="si-lk">si-lk</option>
-          <option value="sk">sk</option>
-          <option value="sl">sl</option>
-          <option value="sm">sm</option>
-          <option value="sq">sq</option>
-          <option value="sr-cyrl">sr-cyrl</option>
-          <option value="sr">sr</option>
-          <option value="sv">sv</option>
-          <option value="ta-in">ta-in</option>
-          <option value="th">th</option>
-          <option value="tr">tr</option>
-          <option value="ug">ug</option>
-          <option value="uk">uk</option>
-          <option value="uz">uz</option>
-          <option value="vi">vi</option>
-          <option value="zh-cn">zh-cn</option>
-          <option value="zh-tw">zh-tw</option>
-          </select>
-        </div>  
+      <div id='calendar' class="events_calendar">  
       </div>
     </div>
     <section class="post-content news">
@@ -131,19 +49,20 @@ layout: default
 
       },
       headerToolbar: {
-        left: "prev,next,today",
+        left: "prev,next today",
         center: "title",
-        right: 'dayGridMonth,listDay,listWeek,listMonth'
+        right: 'dayGridMonth listDay,listWeek,listMonth'
       },
 
-      titleFormat: { year: 'numeric', month: 'long' },
+      titleFormat: { year: 'numeric', month: 'short' },
+      listDayFormat: {weekday:'long', month: 'short', day: '2-digit'},
+      listDaySideFormat: false,
 
       googleCalendarApiKey: "AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk",
 
       events: {
         googleCalendarId: "techhigh.us_ii29m54j9iumi3a2i6mkc5qo90@group.calendar.google.com",
         className: "gcal-event", // an option!
-        
       },
 
 

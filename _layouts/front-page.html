@@ -39,94 +39,9 @@ layout: default
     <section class="news events">
         <h2>WHAT'S HAPPENING AT TECH!</h2>
         <div class="news__body">
-          <aside class="news-feed">
-            <div>
-              <div id='calendar'>
-                <div>
-                  Languages:
-                  <select id="locale-selector">
-                    <option value="en">en</option>
-                    <option value="af">af</option>
-                    <option value="ar-dz">ar-dz</option>
-                    <option value="ar-kw">ar-kw</option>
-                    <option value="ar-ly">ar-ly</option>
-                    <option value="ar-ma">ar-ma</option>
-                    <option value="ar-sa">ar-sa</option>
-                    <option value="ar-tn">ar-tn</option>
-                    <option value="ar">ar</option>
-                    <option value="az">az</option>
-                    <option value="bg">bg</option>
-                    <option value="bn">bn</option>
-                    <option value="bs">bs</option>
-                    <option value="ca">ca</option>
-                    <option value="cs">cs</option>
-                    <option value="cy">cy</option>
-                    <option value="da">da</option>
-                    <option value="de-at">de-at</option>
-                    <option value="de">de</option>
-                    <option value="el">el</option>
-                    <option value="en-au">en-au</option>
-                    <option value="en-gb">en-gb</option>
-                    <option value="en-nz">en-nz</option>
-                  <option value="eo">eo</option>
-                  <option value="es">es</option>
-                  <option value="et">et</option>
-                  <option value="eu">eu</option>
-                  <option value="fa">fa</option>
-                  <option value="fi">fi</option>
-                  <option value="fr">fr</option>
-                  <option value="fr-ch">fr-ch</option>
-                  <option value="gl">gl</option>
-                  <option value="he">he</option>
-                  <option value="hi">hi</option>
-                  <option value="hr">hr</option>
-                  <option value="hu">hu</option>
-                  <option value="hy-am">hy-am</option>
-                  <option value="id">id</option>
-                  <option value="is">is</option>
-                  <option value="it">it</option>
-                  <option value="ja">ja</option>
-                  <option value="ka">ka</option>
-                  <option value="kk">kk</option>
-                  <option value="km">km</option>
-                  <option value="ko">ko</option>
-                  <option value="ku">ku</option>
-                  <option value="lb">lb</option>
-                  <option value="lt">lt</option>
-                  <option value="lv">lv</option>
-                  <option value="mk">mk</option>
-                  <option value="ms">ms</option>
-                  <option value="nb">nb</option>
-                  <option value="ne">ne</option>
-                  <option value="nl">nl</option>
-                  <option value="nn">nn</option>
-                  <option value="pl">pl</option>
-                  <option value="pt-br">pt-br</option>
-                  <option value="pt">pt</option>
-                  <option value="ro">ro</option>
-                  <option value="ru">ru</option>
-                  <option value="si-lk">si-lk</option>
-                  <option value="sk">sk</option>
-                  <option value="sl">sl</option>
-                  <option value="sm">sm</option>
-                  <option value="sq">sq</option>
-                  <option value="sr-cyrl">sr-cyrl</option>
-                  <option value="sr">sr</option>
-                  <option value="sv">sv</option>
-                  <option value="ta-in">ta-in</option>
-                  <option value="th">th</option>
-                  <option value="tr">tr</option>
-                  <option value="ug">ug</option>
-                  <option value="uk">uk</option>
-                  <option value="uz">uz</option>
-                  <option value="vi">vi</option>
-                  <option value="zh-cn">zh-cn</option>
-                  <option value="zh-tw">zh-tw</option>
-                  </select>
-                </div>  
-
+          <div class="news-feed">
+              <div id='events'>
               </div>
-            </div>
            <!-- {% if site.data.events %}
               {%- for e in site.data.events -%}
               
@@ -149,13 +64,13 @@ layout: default
               {%- endfor -%}
 
             {% endif %} -->
-            <p class="events-cta"><a href="/learn-more/events/">View all events</a></p> 
-
-          </aside> 
-          <aside class="featured-news">
+            
+          </div> 
+          <div class="featured-news">
             {%- include components/collection-carousel.html collection="featured_news" height="500px" -%}
-          </aside>
+          </div>
         </div>
+        <p class="events-cta"><a href="/learn-more/events/">View all events</a></p> 
     </section>
   </div>
   
@@ -211,68 +126,95 @@ layout: default
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
 <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var initialLocaleCode = 'en'; //Sets the default language
-    var localeSelectorEl = document.getElementById('locale-selector');
-    var calendarEl = document.getElementById("calendar");
+  const eventList = document.querySelector('#events');
 
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-      locale: initialLocaleCode,
-      //plugins: ['dayGrid', 'list', 'googleCalendar','listPlugin'],
-      initialView: 'listWeek',
-      // views: {
-      // listDay: { buttonText: 'Day View' },
-      // listWeek: { buttonText: 'Week View' },
-      // listMonth: { buttonText: 'Month View' },
-      // dayGridMonth: { buttonText: 'Calendar' },
+const CAL_API = 'AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk'; 
+const CAL_ID = 'techhigh.us_ii29m54j9iumi3a2i6mkc5qo90@group.calendar.google.com';
+const MAX_RESULTS = 4;
+const BASEPARAMS = [ // https://developers.google.com/calendar/api/v3/reference/events/list
+  'orderBy=startTime',
+  'singleEvents=true',
+  `maxResults=${ MAX_RESULTS }`,
+  `timeMin=${new Date().toISOString()}`
+];
+const BASEURL = `https://www.googleapis.com/calendar/v3/calendars/${CAL_ID}/events?${BASEPARAMS.join('&')}`;
 
-      // },
-      // headerToolbar: {
-      //   left: '',
-      //   center: '',
-      //   right: 'dayGridMonth,listDay,listWeek,listMonth'
-      // },
-      
-      titleFormat: { year: 'numeric', month: 'short' }, //Returns date like: Jan 2023 on top left
-      listDayFormat: false, // Gets rid of the day of the week
-      listDaySideFormat: {month: 'short', day: '2-digit'}, //Returns date Like: Jan 31 in the rows
-      googleCalendarApiKey: "AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk",
-      events: {
-        googleCalendarId: "techhigh.us_ii29m54j9iumi3a2i6mkc5qo90@group.calendar.google.com",
-        className: "gcal-event" // an option!
-      },
+const HEADERS = {
+  'Content-type': 'application/json',
+  'Access-Control-Allow-Methods': 'GET',
+}
 
-      //Prevents clicking on events to go to the Google Calendar
-      //Still able to right-click and open in a new tab...
-      eventClick: function(info){
-        info.jsEvent.preventDefault();
-      }
-      // eventClick: function (arg) {
-
-      //   // opens events in a popup window
-      //   //window.open(arg.event.url, '_blank', 'width=700,height=600');
-        
-      //   // prevents current tab from navigating
-      //   arg.jsEvent.preventDefault();
-      // }
-    });
+async function getCalEvents() {
+  const finalURL = `${BASEURL}&key=${CAL_API}`;
+  try {
+    return fetch(finalURL)
+      .then((response) => response.json())
+      .then((data) => renderEvents( data.items ))
+  } catch (e) {
+    console.error(e);
+    return {
+      statusCode:500,
+      body: e.toString()
+    }
+  }
+}
 
 
-    calendar.render();
-    // build the locale selector's options
-    calendar.getAvailableLocaleCodes().forEach(function (localeCode) {
-      var optionEl = document.createElement('option');
-      optionEl.value = localeCode;
-      optionEl.selected = localeCode == initialLocaleCode;
-      optionEl.innerText = localeCode;
-      localeSelectorEl.appendChild(optionEl);
-    });
+function renderEvents(eventData) {
+  let events = eventData.map(e => {
+    let event = createEventData(e)
+    return `
+      <div class="event">
+        <div class="date-icon">
+          <div class="month">${ event.month }</div>
+          <div class="day">${ event.day }</div>
+        </div>
+        <div class="event-details">
+          <h3 id="${ event.summary }">${ event.summary }</h3>
+          <p><span class="location">${ event.location }</span><span class="time">${ event.time }</span></p>
+        </div>
+      </div>
+      `;
+  })
+  
+  document.querySelector('#events').innerHTML = events.join('');
+}
 
-    // when the selected option changes, dynamically change the calendar option
-    localeSelectorEl.addEventListener('change', function () {
-      if (this.value) {
-        calendar.setOption('locale', this.value);
-      }
-    });
-  });
-</script>
+function createEventData(evt) {
+  let date;
+  let startTime;
+  let endTime;
+  let location = evt.location ? `@ ${evt.split(', ')[0]}` : '';
+  
+  let summary = evt.summary;
+  
+  if (evt.start.dateTime) { // regular event
+    date = new Date(evt.start.dateTime);
+    let hour = +date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
+    let noon = +date.getHours() < 12 ? "am" : "pm"
+    startTime = `${hour}:${ date.getMinutes().toString().padStart(2,'0') }${noon}`;
+    
+    if (evt.end.dateTime) {
+      date = new Date(evt.end.dateTime);
+      hour = +date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
+      noon = +date.getHours() < 12 ? "am" : "pm"
+      endTime = `${hour}:${ date.getMinutes().toString().padStart(2,'0') }${noon}`;
+    }
+    
+  } else if (evt.start.date) { // all day event
+    date = new Date(evt.start.date);
+    
+  } else {
+    return { invalid: true };
+  }
+  let month = date.toDateString().split(' ')[1];
+  let day = date.toDateString().split(' ')[2];
+  
+  let time = startTime ? `<i class="fa-regular fa-clock"></i> ${startTime}` : '';
+  time += endTime ? ' - ' + endTime : '';
+  
+  return {month, day, summary, time, location };
+}
+
+getCalEvents();
+</script>s

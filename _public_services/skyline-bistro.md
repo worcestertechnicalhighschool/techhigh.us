@@ -17,7 +17,6 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 | **Crock of French Onion Soup Gratinee** | **$4.75** |||
 |*Caramelized sweet onions blended with our own chicken and beef stock with a hint of sherry wine topped with cheese crouton and mounds of bubbly cheese.*|
      
-<div class="wrapper wrapper--lt-gray" markdown="1">
 
 | *Salads* | *Price* | 
 |:--------| -----:|
@@ -30,7 +29,6 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 | **Seasonal Spinach Salad** | **$6.95** | 
 *Please ask your server for today's selection.*|
 
-</div>
 
 <p> Add chicken to any salad for $3.00  </p>
 
@@ -45,7 +43,6 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 | **Turkey and Bacon Wrap** | **$7.95** | 
 |*We took all the ingredients of a Turkey Club – roasted turkey breast, warm smoky bacon, crisp lettuce, ripe tomatoes, mayonnaise and rolled them up in a grilled low carb whole wheat tortilla*|
 
-<div class="wrapper wrapper--lt-gray" markdown="1">
 
 |*Black Angus Burgers*| | *Price* |
 |:------------------ | -----: | ---:|
