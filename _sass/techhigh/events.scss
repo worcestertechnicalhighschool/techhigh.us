@@ -5,7 +5,6 @@
     }
     .events-cta {
         text-transform: uppercase;
-        text-align: center;
         padding-bottom: 50px;
         a {
             color: $dark_blue;
@@ -25,7 +24,7 @@
     }
     .news__body {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
@@ -61,8 +60,8 @@
             color: white;
             text-align: center;
             padding: 10px;
-            border-radius: 5px;
-            box-shadow: 5px 5px 0 0 $dark_grey_50;
+            //border-radius: 5px;
+            //box-shadow: 5px 5px 0 0 $dark_grey_50;
             margin-right: 30px;
 
             .month, .day {

@@ -8,7 +8,40 @@ layout: default
     {{ content }}
   </section>
   <div class="Meet-principal">
-    
+    <div class="Principal">
+        <p>Meet Principal</p>
+        <p class="principal-name">Drew Weymouth</p>
+    </div>
+    <div class="Principal-image">
+        {% for faculty in site.data.faculty %}
+        {% assign staff = faculty.title | remove: '"' %}
+        {%- if staff == page.title -%}
+        <div class="staff-members">
+            <div class="card card--faculty">
+            <div class="staff">
+                <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{faculty.last_name}}">
+                <div class="card-content">
+                <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p>
+                <p class="title card-description">{{ faculty.title }}</p>
+                <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
+                </div>                        
+            </div>
+            </div>
+        </div>
+        {%- endif -%}
+        {% endfor %}
+    </div>
+    <div class="about">
+        <h4>About Principal Weymouth</h4>
+        <p>
+            Drew Weymouth was named Worcester Tech's Principal in 2022. He is passionate about technical education and helping prepare students with the skills needed to make them succed in their future careers.
+        </p>
+        <p>
+            Mr.Weymouth started off his career as a Math & Science teacher at Wachusett High School, until joining WTHS in 2014 as an Assistant Principal. In 2018, he helped develop and run the Innovation Pathways Program for WPS to help expand career education to more students. He was the Director of the program untill this past summer of 2022.
+        </p>
+    </div>
+    <div class="Outside-Wths"></div>
+    <div class="more"></div>
   </div>
 
 </article>
