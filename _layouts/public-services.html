@@ -15,6 +15,22 @@ layout: default
             <a target="_blank" class="btn btn--cta" href="{{page.external}}">{{ page.title }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div> 
         {% endif %}
+
+        {% if page.services %}
+        <section class="card-container">
+            <div class="card card--public-services">
+                {% for service in page.services %}
+                <div class="card-content">
+                    <h3 class="card-title">{{service}}</h3>
+                    {% for sub in service[0] %}
+                    <p class="card-description">{{sub}}</p>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
     </article>
     
 </div>
+
