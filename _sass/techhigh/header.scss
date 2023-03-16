@@ -18,6 +18,8 @@
     position: relative; // set the positioning context
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
   
     .container {
         padding: 0 20px;
@@ -25,7 +27,7 @@
         position: relative;
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         z-index: 1000;
     } 
@@ -54,13 +56,14 @@
 
     .hamburger {
         display: block;
-        position: relative;
+        position: absolute;
         width: 38px;
         height: 32px;
         border: none;
         background: none;
         padding: 0;
         margin: 0;
+        right: 30px;
 
         .line-container {
             display: block;
@@ -121,9 +124,10 @@
         background-color: $header-background;
         transform: translateY(-100%);
         box-shadow: 0 0 12px black;
+        font-size: 1.1rem;
         a {
             font-family: $header_font;
-            font-weight: $header_extra_light;
+            font-weight: $header_bold;
             text-transform: uppercase;
         }
         &.mobile {

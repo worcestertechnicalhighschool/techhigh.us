@@ -38,7 +38,7 @@ layout: default
   <div class="wrapper wrapper--lt-gray">
     <section class="news events">
         <h2>WHAT'S HAPPENING AT TECH!</h2>
-        <div class="news__body">
+        <section class="news__body">
           <div class="news-feed">
               <div id='events'>
               </div>
@@ -69,7 +69,7 @@ layout: default
           <div class="featured-news">
             {%- include components/collection-carousel.html collection="featured_news" height="500px" -%}
           </div>
-        </div>
+        </section>
         <p class="events-cta"><a href="/learn-more/events/">View all events</a></p> 
     </section>
   </div>
@@ -217,4 +217,4 @@ function createEventData(evt) {
 }
 
 getCalEvents();
-</script>s
+</script>
