@@ -1,11 +1,12 @@
 .contact{
     text-align: center;
-    
+    section{
+        padding: 0;
+    }
     .office-info{
     
         display: flex;
         justify-content: center;
-        margin: 40px;
 
         p{
           color:$dark_grey;  
@@ -22,14 +23,15 @@
         }
 
         .icon{
-            min-height: 85px;
+            min-height: 100px;
             max-width: 100px;
             background-color: $secondary;
             border-radius: 50%;
             display: inline-block;
-        }
-        img{
-            margin-top: 10px;
+            img{
+                object-fit: contain;
+                height:100px;
+            }
         }
         @media (max-width:930px) {
             .box{

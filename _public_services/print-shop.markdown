@@ -3,6 +3,15 @@ layout: public-services
 title: Graphics Print Shop
 date: 2022-10-26
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/neven-krcmarek-V4EOZj7g1gw-unsplash-1.jpg
+services:
+    Graphic Design: 
+        icon: https://wordpress.techhigh.us/wp-content/uploads/2023/02/Untitled-design-2.png
+        serv-list:
+            - Logo Design
+            - Business Cards
+            - Brochures
+            - Flyers/Posters
+    
 ---
 
 
