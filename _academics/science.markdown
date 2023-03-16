@@ -16,7 +16,7 @@ courses:
         - No science courses for seniors
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/science-image.jpg
 
-description: Students discover the physical and natural world trough observation and experiments.
+description: Students discover the physical and natural world through observation and experiments.
 
 ---
 
