@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     min-height: 100vh;
     display: grid;
@@ -24,7 +27,9 @@ section{
 .wrapper--lt-gray {
     background-color: $light_grey;
 }
-
+.wrapper--lt-blue {
+    background-color: #b9d9eb;
+}
 .site-main {
     margin-top: 0;
 }
