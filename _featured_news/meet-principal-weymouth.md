@@ -6,5 +6,3 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/c88f76e
 excerpt: Drew Weymouth named new Worcester Technical High principal.
 position: "object-position: center top;"
 ---
-
-To read more, visit the Telegram and Gazzette's full article [here](https://www.telegram.com/story/news/2022/04/05/worcester-technical-high-school-names-drew-weymouth-new-principal/7207813001/)
