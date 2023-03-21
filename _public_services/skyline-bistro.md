@@ -9,7 +9,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 ## For Reservations, call after 9:30 AM (508) 799-1964
 
 
-| *Soups* | *Cup*  | | *Bowl* |
+| Soups | Cup  | | Bowl |
 | :----- | ----: | --- | ----: |
 | **Soup du Jour** | **$3.25** | | **$3.95** | 
 | **New England Clam Chowder** | **$4.00** | | **$5.25** | 
@@ -18,7 +18,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 |*Caramelized sweet onions blended with our own chicken and beef stock with a hint of sherry wine topped with cheese crouton and mounds of bubbly cheese.*|
      
 
-| *Salads* | *Price* | 
+| Salads | Price | 
 |:--------| -----:|
 |**Caesar Salad**  | **$5.95**  | 
 |*Crisp Romaine lettuce, tossed in our Caesar dressing and garnished with croutons, Romano cheese and a wedge of focaccia*.| 
@@ -32,7 +32,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 
 <p> Add chicken to any salad for $3.00  </p>
 
-|*Sandwiches and Wraps* | *Price* |
+|Sandwiches and Wraps | Price |
 |:-------------------- | -----: |
 | **Chicken Pesto Panini**| **$8.95** |
 |*Grilled chicken breast, roasted red pepper, spinach, provolone, tomato, red onion and pesto aioli on pressed sourdough* |
@@ -44,7 +44,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 |*We took all the ingredients of a Turkey Club – roasted turkey breast, warm smoky bacon, crisp lettuce, ripe tomatoes, mayonnaise and rolled them up in a grilled low carb whole wheat tortilla*|
 
 
-|*Black Angus Burgers*| | *Price* |
+|Black Angus Burgers| | Price|
 |:------------------ | -----: | ---:|
 | **Classic Burger** | **$7.95** | **w/cheese $8.50** | 
 |*Simply states, simply prepared. This half-pound burger is simply seasoned and grilled to order. It’s topped with crisp lettuce, ripe tomatoes, sliced pickles and mayonnaise on a toasted roll.* |
@@ -59,7 +59,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 
 <div align="center" > All burgers, sandwiches and wraps are served with French fries, coleslaw and a half-sour pickle <br> Gluten-free bread available upon request </div><br>
 
-| *Entrees* | *Price* | 
+| Entrees | Price | 
 | :------- | -----: | 
 |**Chicken Parmesan**|  **$9.95** | 
 |*A generous portion of chicken breast lightly fried in bread crumbs with fresh Italian herbs, topped with a rich tomato sauce and melted Mozzarella cheese. Served with pasta and garlic bread.*|
