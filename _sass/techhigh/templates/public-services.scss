@@ -19,6 +19,35 @@
   
 
     }
+
+    .bistro-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img {
+            margin: 80px;
+            max-width: 70%;
+        }
+
+        .lists {
+            display: flex;
+        }
+
+        h2 {
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        em{
+            color: #21211f;
+        }
+    }
+
+    .bistro-content > table {
+        flex: 50%;
+    }
+
     .salon-content{
 
         display: flex;        
