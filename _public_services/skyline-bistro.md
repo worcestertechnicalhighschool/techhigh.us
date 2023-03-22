@@ -12,7 +12,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 
 | <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-093154.png" alt=""> | 
 
-| *Soups* | *Cup*  | | *Bowl* |
+| Soups | Cup  | | Bowl |
 | :----- | ----: | --- | ----: |
 | **Soup du Jour** | **$3.25** | | **$3.95** | 
 | **New England Clam Chowder** | **$4.00** | | **$5.25** | 
@@ -21,6 +21,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 |*Caramelized sweet onions blended with our own chicken and beef stock with a hint of sherry wine topped with cheese crouton and mounds of bubbly cheese.*|
 
 
+| Salads | Price | 
 
 | *Salads* | *Price* | 
 |:--------| -----:|
@@ -38,7 +39,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 
 <div class="line"></div>
 
-|*Black Angus Burgers*| | *Price* |
+|Black Angus Burgers| | Price|
 |:------------------ | -----: | ---:|
 | **Classic Burger** | **$7.95** | **w/cheese $8.50** | 
 |*Simply states, simply prepared. This half-pound burger is simply seasoned and grilled to order. It’s topped with crisp lettuce, ripe tomatoes, sliced pickles and mayonnaise on a toasted roll.* |
@@ -70,7 +71,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 
 <div class="line"></div>
 
-| *Entrees* | *Price* | 
+| Entrees | Price | 
 | :------- | -----: | 
 |**Chicken Parmesan**|  **$9.95** | 
 |*A generous portion of chicken breast lightly fried in bread crumbs with fresh Italian herbs, topped with a rich tomato sauce and melted Mozzarella cheese. Served with pasta and garlic bread.*|

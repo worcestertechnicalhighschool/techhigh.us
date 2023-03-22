@@ -21,6 +21,7 @@
         font-size: 60px;
         font-weight: $header_bold;
         text-align: center;
+        color: $primary;
     }
     .news__body {
         display: flex;
@@ -44,7 +45,7 @@
             }
             h3 {
                 font-size: 32px;
-                font-weight: $header_bold;
+                font-weight: 400;
                 color: $dark_blue;
                 margin: 0;
                 text-align: left;
@@ -55,14 +56,14 @@
         }
         .date-icon {
             display: inline-block;
-            background-color: $dark_grey;
+            background-color: $primary;
             color: white;
             text-align: center;
             padding: 10px;
             //border-radius: 5px;
             //box-shadow: 5px 5px 0 0 $dark_grey_50;
             margin-right: 30px;
-
+            font-size: 16px;
             .month, .day {
                 font-family: $header_font;
                 text-transform: uppercase;
