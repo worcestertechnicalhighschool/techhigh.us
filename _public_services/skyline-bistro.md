@@ -8,6 +8,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 ## Open Tuesday - Friday Hours: 10:30 AM - 12:15 PM 
 ## For Reservations, call after 9:30 AM (508) 799-1964
 
+<div class="line"></div>
 
 | <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-093154.png" alt=""> | 
 
@@ -35,6 +36,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 
 | <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7789.jpg" alt=""> | 
 
+<div class="line"></div>
 
 |*Black Angus Burgers*| | *Price* |
 |:------------------ | -----: | ---:|
@@ -49,7 +51,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 
 |  <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-092951.png" alt=""> <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7789.jpg" alt=""> | 
 
-
+<div class="line"></div>
 
 | <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7761.jpg" alt=""> <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-092752.png" alt="">| 
 
@@ -66,6 +68,8 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 
 <div align="center" > All burgers, sandwiches and wraps are served with French fries, coleslaw and a half-sour pickle <br> Gluten-free bread available upon request </div><br>
 
+<div class="line"></div>
+
 | *Entrees* | *Price* | 
 | :------- | -----: | 
 |**Chicken Parmesan**|  **$9.95** | 
@@ -78,3 +82,5 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 |<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7731-3.jpg" alt="">|
 
 <div align="center" > Ask about our specials and dessert <br> **Before placing your order, please inform your server if anyone in your party has a food allergy** </div>
+
+<div class="line"></div>

@@ -25,6 +25,13 @@
         flex-wrap: wrap;
         justify-content: center;
 
+        .line {
+            margin: 20px;
+            height: 3px;
+            width: 1500px;
+            background: black;
+        }
+
         img {
             margin: 80px;
             max-width: 70%;
@@ -35,8 +42,8 @@
         }
 
         h2 {
-            text-decoration: underline;
             text-align: center;
+            padding: 10px;
         }
 
         em{
