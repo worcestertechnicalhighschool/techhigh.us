@@ -66,7 +66,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 | **Turkey and Bacon Wrap** | **$7.95** | 
 |*We took all the ingredients of a Turkey Club – roasted turkey breast, warm smoky bacon, crisp lettuce, ripe tomatoes, mayonnaise and rolled them up in a grilled low carb whole wheat tortilla*|
 
-<div align="center" > All burgers, sandwiches and wraps are served with French fries, coleslaw and a half-sour pickle <br> Gluten-free bread available upon request </div><br>
+<div> All burgers, sandwiches and wraps are served with French fries, coleslaw and a half-sour pickle <br> Gluten-free bread available upon request </div><br>
 
 <div class="line"></div>
 
@@ -81,6 +81,6 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 
 |<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7731-3.jpg" alt="">|
 
-<div align="center" > Ask about our specials and dessert <br> **Before placing your order, please inform your server if anyone in your party has a food allergy** </div>
+<div> Ask about our specials and dessert <br> **Before placing your order, please inform your server if anyone in your party has a food allergy** </div>
 
 <div class="line"></div>
