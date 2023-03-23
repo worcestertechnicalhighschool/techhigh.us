@@ -8,9 +8,8 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 ## Open Tuesday - Friday Hours: 10:30 AM - 12:15 PM 
 ## For Reservations, call after 9:30 AM (508) 799-1964
 
-<div class="line"></div>
 
-| <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-093154.png" alt=""> | 
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-093154.png" alt="">
 
 | Soups | Cup  | | Bowl |
 | :----- | ----: | --- | ----: |
@@ -20,8 +19,6 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 | **Crock of French Onion Soup Gratinee** | **$4.75** |||
 |*Caramelized sweet onions blended with our own chicken and beef stock with a hint of sherry wine topped with cheese crouton and mounds of bubbly cheese.*|
 
-
-| Salads | Price | 
 
 | *Salads* | *Price* | 
 |:--------| -----:|
@@ -35,9 +32,8 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 |*Please ask your server for today's selection.*|
 |Add chicken to any salad for $3.00|
 
-| <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7789.jpg" alt=""> | 
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7789.jpg" alt=""> 
 
-<div class="line"></div>
 
 |Black Angus Burgers| | Price|
 |:------------------ | -----: | ---:|
@@ -50,11 +46,12 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 | **Veggie Burger** | | **$6.95** | 
 |*Southwest black bean veggie burger topped with guacamole, crispy lettuce and ripe tomatoes on a roll.* |
 
-|  <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-092951.png" alt=""> <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7789.jpg" alt=""> | 
+|<img class="lar" src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-092951.png" alt=""> 
+<img class="lar" src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7789.jpg" alt="">|
 
-<div class="line"></div>
 
-| <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7761.jpg" alt=""> <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-092752.png" alt="">| 
+|<img class="lar" src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7761.jpg" alt=""> 
+<img class="lar" src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-092752.png" alt="">|
 
 |*Sandwiches and Wraps* | *Price* |
 |:-------------------- | -----: |
@@ -66,10 +63,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 |*Mounds of hot lean corned beef topped with sauerkraut and melted Swiss cheese on grilled marble rye bread with Thousand Island dressing.*|
 | **Turkey and Bacon Wrap** | **$7.95** | 
 |*We took all the ingredients of a Turkey Club – roasted turkey breast, warm smoky bacon, crisp lettuce, ripe tomatoes, mayonnaise and rolled them up in a grilled low carb whole wheat tortilla*|
-
-<div> All burgers, sandwiches and wraps are served with French fries, coleslaw and a half-sour pickle <br> Gluten-free bread available upon request </div><br>
-
-<div class="line"></div>
+|All burgers, sandwiches and wraps are served with French fries, coleslaw and a half-sour pickle <br> Gluten-free bread available upon request|
 
 | Entrees | Price | 
 | :------- | -----: | 
@@ -80,8 +74,6 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 | **New England Baked Scrod** | **$9.25** | 
 |*The traditional Ritz cracked topped fillet of haddock with white wine, lemon juice and creamy butter. Served with stanch and vegetable du Jour.*| 
 
-|<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7731-3.jpg" alt="">|
+<img class="lar" src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7731-3.jpg" alt="">
 
 <div> Ask about our specials and dessert <br> **Before placing your order, please inform your server if anyone in your party has a food allergy** </div>
-
-<div class="line"></div>

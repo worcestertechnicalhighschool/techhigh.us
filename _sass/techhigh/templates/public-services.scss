@@ -31,18 +31,24 @@
     .bistro-content{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-
-        .line {
-            margin: 20px;
-            height: 3px;
-            width: 1500px;
-            background: black;
+        
+        table {
+            max-width: 800px;
         }
 
         img {
-            margin: 80px;
-            max-width: 70%;
+
+            @media (min-width:$breakpoint_standard) {
+                max-width: 370px;
+                margin: 30px;
+            }
+            
+        }
+
+        .lar {
+            @media (min-width:$breakpoint_standard) {
+                margin-left : 150px;
+            }
         }
 
         .lists {
@@ -51,16 +57,38 @@
 
         h2 {
             text-align: center;
-            padding: 10px;
+            padding: 20px;
+            color: #000000;
+            margin: auto;
+            margin: auto;
+            margin-left: 18px;
+        }
+
+        tbody {
+            font-family: 'Oswald';
+            color: #000000;
+        }
+
+        * {
+            font-family: 'Oswald';
         }
 
         em{
-            color: #21211f;
+            border: none;
+            font-weight: 450;
+            font-style: normal;
+        }
+
+        th {
+            font-weight: bolder;
+            color: #000000;
         }
     }
 
     .bistro-content > table {
-        flex: 50%;
+        @media (min-width:$breakpoint_standard) {
+            flex: 50%;
+        }
     }
 
     .salon-content{
