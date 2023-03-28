@@ -27,6 +27,70 @@
   
 
     }
+
+    .bistro-content{
+        display: flex;
+        flex-wrap: wrap;
+        
+        table {
+            max-width: 800px;
+        }
+
+        img {
+
+            @media (min-width:$breakpoint_standard) {
+                max-width: 370px;
+                margin: 30px;
+            }
+            
+        }
+
+        .lar {
+            @media (min-width:$breakpoint_standard) {
+                margin-left : 150px;
+            }
+        }
+
+        .lists {
+            display: flex;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 20px;
+            color: #000000;
+            margin: auto;
+            margin: auto;
+            margin-left: 18px;
+        }
+
+        tbody {
+            font-family: 'Oswald';
+            color: #000000;
+        }
+
+        * {
+            font-family: 'Oswald';
+        }
+
+        em{
+            border: none;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        th {
+            font-weight: bolder;
+            color: #000000;
+        }
+    }
+
+    .bistro-content > table {
+        @media (min-width:$breakpoint_standard) {
+            flex: 50%;
+        }
+    }
+
     .salon-content{
 
         display: flex;        
@@ -60,7 +124,7 @@
         .large-container.three {
             @media (min-width:$breakpoint_standard) {
 
-                background-image: url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon_3.png"), url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon_03.png"), url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon03.png");
+                background-image: url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon2.jpg"), url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon03.jpg"), url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon_3.jpg");
                 background-position: top center, top right, bottom right;
                 background-repeat: no-repeat;
                 background-size: 425px 300px, 380px 300px, 812px 260px;
@@ -69,7 +133,7 @@
         .large-container.four {
             @media (min-width:$breakpoint_standard) {
                 background-position: left center;
-                background-image: url("https://wordpress.techhigh.us/wp-content/uploads/2023/02/75A37195-FA52-420C-B3A1-8D9D2E8CDA49.png");
+                background-image: url("https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon4.jpg");
             }
         }
 
