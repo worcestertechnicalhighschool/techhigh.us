@@ -1,6 +1,7 @@
 .athletics {
     h2 {
         font-size: 48px;
+        
     }
     h3 {
         font-size: 36px;
@@ -8,6 +9,8 @@
         break-after: avoid;
     }
     ul {
+        position:relative;
+        left: 450px;
         list-style-type: none;
         padding: 0;
         margin: 0;
