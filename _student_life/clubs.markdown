@@ -7,7 +7,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/lucas-s
 excerpt: Worcester Tech offers various clubs and leadership opportunities for students to excel in and outside of the classroom.
 ---
 Worcester tech offers various clubs and leadership opportunities for students to excel in and out of the classroom
-<div class="card clubs_list" markdown="1">
+<div class="card card--clubs" markdown="1">
 
 - ## ESports
   ### [Mr. Gemme](mailto:gemmem@worcesterschools.net)
@@ -15,26 +15,34 @@ Worcester tech offers various clubs and leadership opportunities for students to
 
   Room B116
 
-  Wednesday 
+  Weds 
 
 - ## Outdoor Club
   ### [Chef Y.](mailto:)
   ---
-  
+
   Room B285
 
-  Thursday 
+  Thurs 
 
 - ## Math Team
   ### [Mr. Marrion](mailto:)
   ---
   
-  Room 
+  Room TBD
 
-  Wednesdays & Fridays 
+  Dates TBD
+
+- ## Student Council
+  ### [Ms. Kolodziejczak](mailto:)
+  ---
+
+  Room N/A
+
+  Mon/Thurs
 </div>
     
-- Math Team 
+
 - A/V Club
 - Gay/Straight Alliance
 - Writer's Club

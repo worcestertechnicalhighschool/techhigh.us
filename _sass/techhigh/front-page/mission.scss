@@ -2,6 +2,7 @@
     h2{
        color: black;
        font-family: $header_font; 
+       font-weight: 600px;
        text-transform: uppercase;
        text-align: center;
     }
@@ -11,11 +12,7 @@
         
         padding: 20px;
 
-        h2{
-            font-size: 70px;
-            font-weight: 600;
-            margin: 0;
-        }
+
         p{
             color: black;
             font-family: $body_font;
