@@ -2,6 +2,7 @@
     h2 {
         font-size: 48px;
     }
+
     h3 {
         font-size: 36px;
         margin-bottom:10px;
@@ -16,5 +17,13 @@
             display: inline-block;
             margin-bottom: 10px;
         }
+    }
+    div.col-3 {
+        position: relative;
+        left: 450px;
+    }
+    #coach-info{
+        position: relative;
+        left: 580px;
     }
 }
