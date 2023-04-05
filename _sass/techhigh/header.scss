@@ -38,13 +38,9 @@
         background-image: url('https://fontawesome.com/icons/magnifying-glass?f=classic&s=regular');
         background-size: cover;
         border: none;
-        padding: 10px 10px;
+        padding: 40px 10px;
         font-size: 20px;
         cursor: pointer;
-      }
-      
-      .openBtn:hover {
-        background: #bbb;
       }
       
       .overlay {
@@ -73,6 +69,7 @@
         font-size: 60px;
         cursor: pointer;
         color: white;
+        margin-top: 1240px;
       }
       
       .overlay .closebtn:hover {
@@ -86,7 +83,7 @@
         float: left;
         width: 80%;
         background: white;
-        margin: 70px;
+        margin-top: 700px;
       }
       
       .overlay input[type=text]:hover {
@@ -101,10 +98,6 @@
         font-size: 17px;
         border: none;
         cursor: pointer;
-      }
-      
-      .overlay button:hover {
-        background: #bbb;
       }
 
     .brand {
