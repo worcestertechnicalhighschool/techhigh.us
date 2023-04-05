@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+
+    <ul id="results-container"></ul>
+    <!-- or without installing anything -->
+    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+    <script>
+      let str = location.search.split('=')[1];
+      let searchText = document.getElementById('searchText')
+      if (str.length > 0) {
+          searchText.value = str;
+          console.log(str);
+        }
+        var sjs = SimpleJekyllSearch({
+          searchInput: searchText, //document.getElementById('s'),
+          resultsContainer: document.getElementById('results-container'),
+          json: '{{ site.baseurl }}/search.json',
+          debounceTime: 1000
+        })
+        let t = setTimeout(()=> {
+          sjs.search(str);
+          clearTimeout(t);
+        }, 100)
+      
+    </script>
+  </div>
+
+</article>

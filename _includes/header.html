@@ -4,6 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="container">
+      <button class="openBtn" onclick="openSearch()"></button> 
       <a class="brand" rel="author" href="{{ '/' | relative_url }}">
         W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
       </a>
@@ -40,11 +41,35 @@
                     <li class="menu-item">
                       <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
                     </li>
+                    <li class="menu-item"></li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
           {% endfor %}
+          
+
+          <div id="myOverlay" class="overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+            <div class="overlay-content">
+              <form action="/jekyll-simple-search-demo/search/" method="get">
+                <input type="text" name="s" id="s" placeholder="Search blog posts..">
+                <input type="hidden" id="searchText">
+              </form>
+            </div>
+          </div>
+
+          <button class="openBtn" onclick="openSearch()"></button>
+
+          <script>
+            function openSearch() {
+              document.getElementById("myOverlay").style.display = "block";
+            }
+            
+            function closeSearch() {
+              document.getElementById("myOverlay").style.display = "none";
+            }
+            </script>
         </ul>
       </nav>
     {%- endif -%}
