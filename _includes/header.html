@@ -4,7 +4,6 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="container">
-      <button class="openBtn" onclick="openSearch()"></button> 
       <a class="brand" rel="author" href="{{ '/' | relative_url }}">
         W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
       </a>
@@ -48,6 +47,7 @@
             </li>
           {% endfor %}
           
+          <script src="https://kit.fontawesome.com/694d5fdcc3.js" crossorigin="anonymous"></script>
 
           <div id="myOverlay" class="overlay">
             <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
@@ -59,7 +59,7 @@
             </div>
           </div>
 
-          <button class="openBtn" onclick="openSearch()"></button>
+          <button class="openBtn" onclick="openSearch()"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
 
           <script>
             function openSearch() {
