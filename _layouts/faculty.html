@@ -18,7 +18,7 @@ layout: default
         {% for faculty in site.data.faculty %} <!--This for loop goes through all the faculty memebers-->
 
           {%- if faculty.department != lastdep -%}  <!--makes sure that previous department names aren't output again. 
-          Checks if current department isn't the last department of lastdep. Without this, department title will be printed for every faculty member
+          Checks if current department isn't the last department of lastdep (line 32). Without this, department title will be printed for every faculty member
           Each department's title is found based on the faculty member's department on the csv datalist. -->
           
             {%- if forloop.index0 != 0 -%} <!--The first is already printed, we do not want to print it again-->
@@ -29,7 +29,7 @@ layout: default
           {%- endif -%}
 
           <div class="staff-members"> <!--This wraps all the faculty members in this department-->
-          {% assign lastdep = faculty.department %} <!--Last dep is assigned everytime the forloop goes through a new staff member-->
+          {% assign lastdep = faculty.department %} <!--  lastdep  is assigned everytime the forloop goes through a new staff member-->
             <div class="card card--faculty"> <!--All the information for the staff is now based upon the staff the forloop is going through now
           faculty = site.data.faculty[#], # meaning anynumber -->
               <div class="staff"> <!--for each individual staff-->
