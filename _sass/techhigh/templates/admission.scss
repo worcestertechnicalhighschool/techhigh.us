@@ -3,17 +3,9 @@
     h2{
         text-align: center;
     }
-    .container{
+    .card-container{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        text-align: center;
-        .items{
-            flex-basis: 50%;
-            h1{
-                color: $primary;
-            }
-        }
+        justify-content: space-evenly;
     }
 }
