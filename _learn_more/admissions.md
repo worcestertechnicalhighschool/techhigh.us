@@ -9,7 +9,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/sigmund
 
 ## Application Process For The 2023 2024 School Year Is Now Closed.
 
-<div class="container" markdown="1">
+<!---<div class="container" markdown="1">
 
 <div class="items" markdown="1">
 
@@ -38,4 +38,4 @@ We are not currently accepting transfers into the Class of 2023.
 
 </div>
 
-</div>
+</div> -->
