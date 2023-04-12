@@ -39,6 +39,18 @@ layout: default
           <p>April 12th</p>
           <p>At 5pm</p>
         </div>
+
+      </div>
+      <div class="documents" id="documents">
+        <h2>WTHS Lottery Results</h2>
+        <ul>
+          <li><a href="/assets/documents/2023-lottery-results/burncoat-middle.pdf">Burncoat Middle</a></li>
+          <li><a href="/assets/documents/2023-lottery-results/claremont-academy.pdf">Claremont Academy</a></li>
+          <li><a href="/assets/documents/2023-lottery-results/forest-grove.pdf">Forest Grove</a></li>
+          <li><a href="/assets/documents/2023-lottery-results/sullivan-middle.pdf">Sullivan Middle</a></li>
+          <li><a href="/assets/documents/2023-lottery-results/university-park-campus.pdf">University Park Campus</a></li>
+          <li><a href="/assets/documents/2023-lottery-results/worcester-east.pdf">Worcester East</a></li>
+        </ul>
       </div>
     </section>
 
@@ -94,7 +106,8 @@ layout: default
 <script>
   const video = document.querySelector("iframe");
   const placeholder = document.querySelector("#placeholder");
-  
+  const docs = document.querySelector('#documents');
+
   let premier = new Date('12 April 2023 17:00') 
   let now = Date.now();
 
@@ -106,12 +119,14 @@ layout: default
   
   function playVideo() {
     placeholder.style.display = "none";
+    docs.style.display = "block";
     console.log('playing')
   };
   
   function waitForVideo(s) {
     console.log("this page will reload in 10 mins ... ");
     video.style.display = "none";
+    docs.style.display = "none";
     placeholder.style.display = "block";
     //         ms     s    min
     let time = 1000 * 60 * 10;
