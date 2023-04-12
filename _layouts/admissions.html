@@ -26,6 +26,16 @@ layout: default
       </div>
     </section>
 
+    <section class="admission-lottery">
+      <h2>Admission Lottery for Class of 2027</h2>
+      <h3>Worcester Tech's lottery will be run and posted online April 12 at 5pm.</h3>
+      <video width="70%" controls>
+        <source src="/assets/videos/2023admissions.mp4" type="video/mp4">
+        <source src="broken" type="video/mp4">
+      </video>
+      <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" alt="logo">
+    </section>
+
     <section class="contacts">
         <h2>ADMISSION CONTACTS</h2>
         <section class="card-container">
@@ -74,3 +84,27 @@ layout: default
       </section>
     </article>
 </div>
+
+<script>
+  const video = document.querySelector("video");
+  const source = video.querySelector("source");
+  const img = document.querySelector("img");
+  img.style.display = "none";
+
+  source.onerror = (e) => {
+    video.style.display = "none";
+    img.style.display = "block";
+    checkForVideo(source);
+  };
+
+  function checkForVideo(s) {
+    //         ms     s    min
+    let time = 1000 * 60 * 10;
+    console.log("this page will reload in 10 mins ... ");
+    const t = setTimeout(() => {
+      clearTimeout(t);
+      location.reload();
+    }, time);
+  }
+
+</script>

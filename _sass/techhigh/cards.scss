@@ -103,7 +103,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        width: 350px;
+        // width: 350px;
         margin: auto;
         img{
             border-radius: 40px;
@@ -224,9 +224,8 @@
 
     &.card--student-life {
         color: $white;
-        width: 425px;
+        width: 100%;
         height: 350px;
-        margin: 10px;
 
         h2 {
             position: relative;
@@ -267,13 +266,13 @@
         }
 
         .image-container{
-            width: 425px;
+            width: 100%;
             height: 350px;
         }
 
         img {
             transition: $soft;
-            width: 100%;
+            width: 425px;
             height: 100%;
             object-fit: cover;
         
@@ -284,6 +283,7 @@
             }
         }
     }
+
     &.card--public-services {
         h3{
             text-align: center;
@@ -307,6 +307,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            justify-content: center;
           }
           
           li {
@@ -494,4 +495,9 @@
         top: 50px;
         padding-top: 70px;
     }
+}
+
+.link-wrapper{
+    display: block;
+    padding: 10px;
 }
