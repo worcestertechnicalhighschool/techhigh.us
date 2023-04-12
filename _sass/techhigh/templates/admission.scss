@@ -1,7 +1,5 @@
 .admissions{
-    section{
-        padding: 0;
-    }
+
     text-align: center;
     h2{
         text-align: center;
@@ -12,19 +10,48 @@
         justify-content: space-evenly;
     }
     .admission-lottery{
-        h2::before {
-            font-family: "Font Awesome 5 Free"; 
-            font-weight: 900;
-            content: "\f005";
-            color: $secondary;
-            padding-right: 10px;
-          }
-        h2::after {
-        font-family: "Font Awesome 5 Free"; 
-        font-weight: 900;
-        content: "\f005";
-        color: $secondary;
-        padding-left: 10px;
+        padding-bottom: 30px;
+        border-bottom: solid 2px $primary;
+    }
+    .video-placeholder {
+        border: $primary solid 2px;
+        background-color: $light-blue;
+        border-radius: 25px;
+        max-width: 400px;
+        margin: auto;
+        margin-top:45px;
+        p {
+            font-family: $header-font;
+            margin: 0;
+            font-size: 1.5em;
+        }
+        >p {
+            padding: 30px;
+        }
+        img {
+            border: $primary solid 2px;
+            border-radius: 50%;
+            display: block;
+            margin: -37px auto 0 auto;
+            text-align: center;
+            line-height: 75px;
+            background-color: #fff;
+        }
+        .video-placeholder-footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            border-top: solid 2px $primary;
+            p {
+                height: 75px;
+                line-height: 75px;
+                width: 100%;
+                text-align: center;
+            }
+            p:first-child {
+                border-right: solid 2px $primary;
+            }
         }
     }
 }

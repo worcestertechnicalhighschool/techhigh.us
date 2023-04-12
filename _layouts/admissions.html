@@ -27,13 +27,19 @@ layout: default
     </section>
 
     <section class="admission-lottery">
-      <h2>Admission Lottery for Class of 2027</h2>
+      <h2><i class="fa-solid fa-star"></i> Admission Lottery for Class of 2027 <i class="fa-solid fa-star"></i></h2>
       <h3>Worcester Tech's lottery will be run and posted online April 12 at 5pm.</h3>
-      <video width="70%" controls>
-        <source src="/assets/videos/2023admissions.mp4" type="video/mp4">
-        <source src="broken" type="video/mp4">
-      </video>
-      <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" alt="logo">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eqtWI4g0EQw " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+      <div id="placeholder" class="video-placeholder">
+        <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" alt="WTHS" width="75" height="75">
+        <p>Worcester Tech's admission lottery will be run and posted online.</p>
+        <div class="video-placeholder-footer">
+          <p>April 12th</p>
+          <p>At 5pm</p>
+        </div>
+      </div>
     </section>
 
     <section class="contacts">
@@ -86,21 +92,29 @@ layout: default
 </div>
 
 <script>
-  const video = document.querySelector("video");
-  const source = video.querySelector("source");
-  const img = document.querySelector("img");
-  img.style.display = "none";
+  const video = document.querySelector("iframe");
+  const placeholder = document.querySelector("#placeholder");
+  
+  let premier = new Date('12 April 2023 17:00') 
+  let now = Date.now();
 
-  source.onerror = (e) => {
-    video.style.display = "none";
-    img.style.display = "block";
-    checkForVideo(source);
+  if (now >= premier) {
+    playVideo();
+  } else {
+    waitForVideo();
+  }
+  
+  function playVideo() {
+    placeholder.style.display = "none";
+    console.log('playing')
   };
-
-  function checkForVideo(s) {
+  
+  function waitForVideo(s) {
+    console.log("this page will reload in 10 mins ... ");
+    video.style.display = "none";
+    placeholder.style.display = "block";
     //         ms     s    min
     let time = 1000 * 60 * 10;
-    console.log("this page will reload in 10 mins ... ");
     const t = setTimeout(() => {
       clearTimeout(t);
       location.reload();
