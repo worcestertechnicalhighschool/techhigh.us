@@ -7,7 +7,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/sigmund
 
 8th grade students residing in Worcester, MA are welcome to apply to Worcester Technical High School.
 
-## Applications process for the 2023-2024 school year is now closed.
+## Application Process For The 2023-2024 School Year Is Now Closed.
 
 <!---<div class="container" markdown="1">
 
