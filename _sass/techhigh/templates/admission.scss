@@ -12,6 +12,20 @@
     .admission-lottery{
         padding-bottom: 30px;
         border-bottom: solid 2px $primary;
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+
+            span {
+                margin:0 5px;
+                font-family: inherit;
+                // flex-shrink: 1;
+            }
+            i {
+                padding-top:5px;
+            }
+        }
     }
     .video-placeholder {
         border: $primary solid 2px;
