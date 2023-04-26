@@ -139,7 +139,7 @@ layout: none
       "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
-  ,
+
   {% for post in site.public_services %}
     {
       "title"    : "{{ post.title | escape }}",
@@ -183,17 +183,5 @@ layout: none
       "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
-  ,
-  {% for post in site.technical_areas %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
 
 ]
