@@ -14,9 +14,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/sigmund
 <div class="items" markdown="1">
 
 # Class of 2027 
-Applications open January 24, 2023
-
-Applications will close on March 15, 2023
+We are no longer accepting applications for the Class of 2026.
 
 </div>
 <div class="items" markdown="1">

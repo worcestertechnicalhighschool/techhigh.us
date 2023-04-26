@@ -40,11 +40,36 @@
                     <li class="menu-item">
                       <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
                     </li>
+                    <li class="menu-item"></li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
           {% endfor %}
+          
+          <script src="https://kit.fontawesome.com/694d5fdcc3.js" crossorigin="anonymous"></script>
+
+          <div id="myOverlay" class="overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+            <div class="overlay-content">
+              <form action="/search/" method="get">
+                <input type="text" name="s" id="s" placeholder="Search blog posts..">
+                <input type="hidden" id="searchText">
+              </form>
+            </div>
+          </div>
+
+          <button class="openBtn" onclick="openSearch()"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+
+          <script>
+            function openSearch() {
+              document.getElementById("myOverlay").style.display = "block";
+            }
+            
+            function closeSearch() {
+              document.getElementById("myOverlay").style.display = "none";
+            }
+            </script>
         </ul>
       </nav>
     {%- endif -%}

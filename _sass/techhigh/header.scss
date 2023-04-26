@@ -30,7 +30,85 @@
         justify-content: space-around;
         align-items: center;
         z-index: 1000;
-    } 
+    }
+
+//search bar buttton
+    .openBtn {
+        background: none;
+        background-image: url('https://fontawesome.com/icons/magnifying-glass?f=classic&s=regular');
+        background-size: cover;
+        border: none;
+        padding: 40px 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      
+      .overlay {
+        height: 100%;
+        width: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+      }
+      
+      .overlay-content {
+        position: relative;
+        top: 46%;
+        width: 80%;
+        text-align: center;
+        margin-top: 30px;
+        margin: auto;
+      }
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: 60px;
+        right: 45px;
+        font-size: 60px;
+        cursor: pointer;
+        color: white;
+        margin-top: 1240px;
+        @media (min-width: $breakpoint_standard) {
+            margin-top: 80px;
+            margin-right: 180px;
+        }
+      }
+      
+      .overlay .closebtn:hover {
+        color: #ccc;
+      }
+      
+      .overlay input[type=text] {
+        padding: 15px;
+        font-size: 17px;
+        border: none;
+        float: left;
+        width: 80%;
+        background: white;
+        margin-top: 700px;
+        margin-left: 10px;
+        @media (min-width: $breakpoint_standard) {
+            margin-top: 160px;
+            margin-left: 80px;
+        }
+      }
+      
+      .overlay input[type=text]:hover {
+        background: #f1f1f1;
+      }
+      
+      .overlay button {
+        float: left;
+        width: 20%;
+        padding: 15px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+      }
+
     .brand {
         padding: 0 20px;
         margin: 0;
