@@ -58,16 +58,19 @@
               </form>
             </div>
           </div>
-
-          <button class="openBtn" onclick="openSearch()"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+          
+          <button  class="openBtn" onclick="openSearch()"><i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+          </button>
 
           <script>
             function openSearch() {
               document.getElementById("myOverlay").style.display = "block";
+              document.getElementById("myBtn").style.visibility = "hidden";
             }
-            
+
             function closeSearch() {
               document.getElementById("myOverlay").style.display = "none";
+              document.getElementById("myBtn").style.visibility = "visible";
             }
             </script>
         </ul>
