@@ -75,16 +75,14 @@
       
       .overlay .closebtn {
         position: absolute;
-        top: 60px;
-        right: 45px;
-        font-size: 60px;
+        font-size: 70px;
         cursor: pointer;
         color: lightgray;
         visibility: hidden;
         @media (min-width: $breakpoint_standard) {
             visibility: visible;
-            top: 130px;
-            right: 140px;
+            top: 110px;
+            right: 120px;
         }
       }
       
