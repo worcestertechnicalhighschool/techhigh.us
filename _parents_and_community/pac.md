@@ -21,7 +21,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/julia-t
 - James Tripp Pockevicius - Teacher/Department Head
 - Peter Stearns - Teacher
 - Jacqueline Kaliz - Teacher
-- Tom Quinn	Guidance
+- Tom Quinn Guidance
 - Lynn Wanjiku - Student
 - Jocelyn Coughlin - Teacher
 

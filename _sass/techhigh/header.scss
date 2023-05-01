@@ -38,19 +38,30 @@
         background-image: url('https://fontawesome.com/icons/magnifying-glass?f=classic&s=regular');
         background-size: cover;
         border: none;
-        padding: 40px 10px;
         font-size: 20px;
         cursor: pointer;
       }
       
+      #myBtn{
+        display: none;
+        @media (min-width: $breakpoint_standard) {
+            display: block;
+        }
+      }
+
+
       .overlay {
         height: 100%;
         width: 100%;
-        display: none;
-        position: fixed;
+        display: block;
         z-index: 1;
         top: 0;
         left: 0;
+        padding: 20px;
+        @media (min-width: $breakpoint_standard) {
+            position: fixed;
+            display: none;
+        }
       }
       
       .overlay-content {
@@ -64,15 +75,14 @@
       
       .overlay .closebtn {
         position: absolute;
-        top: 60px;
-        right: 45px;
-        font-size: 60px;
+        font-size: 70px;
         cursor: pointer;
-        color: white;
-        margin-top: 1240px;
+        color: lightgray;
+        visibility: hidden;
         @media (min-width: $breakpoint_standard) {
-            margin-top: 80px;
-            margin-right: 180px;
+            visibility: visible;
+            top: 110px;
+            right: 120px;
         }
       }
       
@@ -84,14 +94,13 @@
         padding: 15px;
         font-size: 17px;
         border: none;
-        float: left;
         width: 80%;
         background: white;
-        margin-top: 700px;
         margin-left: 10px;
+        border-style: solid;
+        border-color: lightgray;
         @media (min-width: $breakpoint_standard) {
             margin-top: 160px;
-            margin-left: 80px;
         }
       }
       
