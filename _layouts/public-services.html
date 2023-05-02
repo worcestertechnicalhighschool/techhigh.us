@@ -9,11 +9,14 @@ layout: default
         <section class="post-content">
             {{ content }}
         </section>
-        
+
         {% if page.external %}
-        <div class="external-links">
-            <a target="_blank" class="btn btn--cta" href="{{page.external}}">{{ page.title }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-        </div> 
+            {% comment %}
+               This is used for Tufts at tech's external link
+            {% endcomment %}
+            <div class="external-links">
+                <a target="_blank" class="btn btn--cta" href="{{page.external}}">{{ page.title }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div> 
         {% endif %}
     </article>
     
