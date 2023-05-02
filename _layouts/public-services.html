@@ -11,6 +11,9 @@ layout: default
         </section>
         
         {% if page.external %}
+        {% comment %}
+        This is used for Tufts at Tech's external link
+        {% endcomment %}
         <div class="external-links">
             <a target="_blank" class="btn btn--cta" href="{{page.external}}">{{ page.title }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div> 
