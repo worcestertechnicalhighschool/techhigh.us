@@ -7,13 +7,18 @@
       <a class="brand" rel="author" href="{{ '/' | relative_url }}">
         W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
       </a>
-      <button title="Menu" class="hamburger " type="button" id="hamburger" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Navigation">
-        <span class="line-container">
-          <span class="line line-1"></span>
-          <span class="line line-2"></span>
-          <span class="line line-3"></span>
-        </span>
-      </button>
+      <div class="btn-group">
+        <button  class="search-btn" onclick="openSearch()">
+          <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        </button>
+        <button title="Menu" class="hamburger " type="button" id="hamburger" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Navigation">
+          <span class="line-container">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </span>
+        </button>
+      </div>
     </div>
   
     {%- if page_paths -%}
@@ -59,8 +64,8 @@
             </div>
           </div>
           
-          <button  class="openBtn" onclick="openSearch()"><i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-          </button>
+          <!-- <button  class="openBtn" onclick="openSearch()"><i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+          </button> -->
 
           <script>
             function openSearch() {
