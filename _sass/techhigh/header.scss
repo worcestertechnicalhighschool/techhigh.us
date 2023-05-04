@@ -48,8 +48,10 @@
     border: none;
     font-size: 20px;
     cursor: pointer;
-    @media screen and (min-width: $nav-breakpoint) {
+    color: $white;
+    span {
       display: none;
+      font-family: $header_font;
     }
   }
 
@@ -251,6 +253,10 @@
 
 @media screen and (min-width: $nav-breakpoint) {
   .site-header {
+      .search-btn span {
+        display: inline;
+        text-transform: uppercase;
+      }
     .container {
       background-color: transparent;
       flex-basis: 0;
