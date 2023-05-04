@@ -1,3 +1,13 @@
+<div id="search-modal" class="search-modal">
+  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  <div class="modal-content">
+    <form action="/search/" method="get">
+      <input type="text" name="s" id="s" placeholder="Search blog posts..">
+      <input type="hidden" id="searchText">
+    </form>
+  </div>
+</div>
+
 <div class="wrapper wrapper--site-header">
   <header id="masthead" class="site-header" role="banner">
     <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
@@ -52,20 +62,10 @@
             </li>
           {% endfor %}
           
-          <script src="https://kit.fontawesome.com/694d5fdcc3.js" crossorigin="anonymous"></script>
 
-          <div id="myOverlay" class="overlay">
-            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-            <div class="overlay-content">
-              <form action="/search/" method="get">
-                <input type="text" name="s" id="s" placeholder="Search blog posts..">
-                <input type="hidden" id="searchText">
-              </form>
-            </div>
-          </div>
           
-          <!-- <button  class="openBtn" onclick="openSearch()"><i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-          </button> -->
+          
+          
 
           <script>
             function openSearch() {
