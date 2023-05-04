@@ -1,70 +1,46 @@
 .search-modal {
-    height: 100%;
-    width: 100%;
-    padding: 50px;
+    width: 90%;
+    padding: 40px;
     display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: red;
+    position: fixed;
+    border-radius: 10px;
+    left: 5%;
+    top: 100px;
+    background-color: rgba(255,255,255,0.5);
     z-index: 9999;
+    backdrop-filter: saturate(180%) blur(5px);
+    transform: scale(0);
+    transition: $soft;
+    border: 1px solid $light_grey;
+    &.open {
+        transform: scale(1);
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+    }
+    .search-close-btn {
+        color: $dark_grey;
+        border: none;
+        background: none;
+        width: 50px;
+        height: 50px;
+        transition: $soft;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
     
-    // padding: 20px;
-    // @media (min-width: $breakpoint_standard) {
-    //   position: fixed;
-    //   display: none;
-    // }
-  }
-  .overlay-content {
-    position: relative;
-    top: 46%;
-    width: 80%;
-    text-align: center;
-    margin-top: 30px;
-    margin: auto;
-  }
-
-  .overlay .closebtn {
-    position: absolute;
-    font-size: 70px;
-    cursor: pointer;
-    color: lightgray;
-    visibility: hidden;
-    @media (min-width: $breakpoint_standard) {
-      visibility: visible;
-      top: 110px;
-      right: 120px;
+        &:hover {
+            transform: scale(1.2);
+            border: none;
+        }
+        
     }
-  }
-
-  .overlay .closebtn:hover {
-    color: #ccc;
-  }
-
-  .overlay input[type="text"] {
-    padding: 15px;
-    font-size: 17px;
-    border: none;
-    width: 80%;
-    background: white;
-    margin-left: 10px;
-    border-style: solid;
-    border-color: lightgray;
-    @media (min-width: $breakpoint_standard) {
-      margin-top: 160px;
+}
+@media screen and (min-width: $nav-breakpoint) {
+    .search-modal {
+        top: 200px;
     }
-  }
-
-  .overlay input[type="text"]:hover {
-    background: #f1f1f1;
-  }
-
-  .overlay button {
-    float: left;
-    width: 20%;
-    padding: 15px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
+}

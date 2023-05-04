@@ -1,8 +1,10 @@
 <div id="search-modal" class="search-modal">
-  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  <button class="search-close-btn" id="search-close-btn" title="Close Search">
+    <i class="fa-solid fa-x"></i>
+  </button>
   <div class="modal-content">
     <form action="/search/" method="get">
-      <input type="text" name="s" id="s" placeholder="Search blog posts..">
+      <input type="text" name="s" id="s" placeholder="Search &hellip; ">
       <input type="hidden" id="searchText">
     </form>
   </div>
@@ -18,7 +20,7 @@
         W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
       </a>
       <div class="btn-group">
-        <button  class="search-btn" onclick="openSearch()">
+        <button  class="search-btn" id="search-btn">
           <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
         </button>
         <button title="Menu" class="hamburger " type="button" id="hamburger" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Navigation">
@@ -68,14 +70,18 @@
           
 
           <script>
+            const searchBtn = document.querySelector('#search-btn');
+            const searchModal = document.querySelector('#search-modal');
+            const searchCloseBtn = searchModal.querySelector('#search-close-btn');
+
+            searchBtn.addEventListener('click', openSearch);
+            searchCloseBtn.addEventListener('click', closeSearch);
             function openSearch() {
-              document.getElementById("myOverlay").style.display = "block";
-              document.getElementById("myBtn").style.visibility = "hidden";
+              searchModal.classList.toggle('open');
             }
 
             function closeSearch() {
-              document.getElementById("myOverlay").style.display = "none";
-              document.getElementById("myBtn").style.visibility = "visible";
+              searchModal.classList.remove('open');
             }
             </script>
         </ul>
