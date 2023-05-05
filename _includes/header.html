@@ -1,9 +1,9 @@
 <div id="search-modal" class="search-modal">
-  <button class="search-close-btn" id="search-close-btn" title="Close Search">
+  <button class="search-close-btn" id="search-close-btn" title="Close Search" aria-label="Close Search">
     <i class="fa-solid fa-x"></i>
   </button>
   <div class="modal-content">
-    <form action="/search/" method="get">
+    <form action="/search/" method="get" aria-label="Search">
       <input type="text" name="s" id="s" placeholder="Search &hellip; ">
       <input type="hidden" id="searchText">
     </form>
@@ -21,7 +21,7 @@
       </a>
       <div class="btn-group">
         <button  class="search-btn" id="search-btn">
-          <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+          <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;" aria-label="SearchButton"></i>
           <span>Search</span>
         </button>
         <button title="Menu" class="hamburger " type="button" id="hamburger" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Navigation">
