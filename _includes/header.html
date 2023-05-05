@@ -81,6 +81,7 @@
 
             searchBtn.addEventListener('click', openSearch);
             searchCloseBtn.addEventListener('click', closeSearch);
+            
             window.addEventListener('click', e=> {
               if (searchOpen) {
                 if (!searchModal.contains(e.target) && !searchBtn.contains(e.target)) {
@@ -91,6 +92,7 @@
 
             function openSearch() {
               searchModal.classList.toggle('open');
+              searchModal.querySelector('#s').focus();
               searchOpen = !searchOpen;
             }
 
