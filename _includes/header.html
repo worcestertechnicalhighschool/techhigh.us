@@ -71,18 +71,32 @@
           
 
           <script>
+            /**
+             * Search Modal functionality
+             */ 
             const searchBtn = document.querySelector('#search-btn');
             const searchModal = document.querySelector('#search-modal');
             const searchCloseBtn = searchModal.querySelector('#search-close-btn');
+            let searchOpen = false;
 
             searchBtn.addEventListener('click', openSearch);
             searchCloseBtn.addEventListener('click', closeSearch);
+            window.addEventListener('click', e=> {
+              if (searchOpen) {
+                if (!searchModal.contains(e.target) && !searchBtn.contains(e.target)) {
+                  closeSearch();
+                }
+              }
+            })
+
             function openSearch() {
               searchModal.classList.toggle('open');
+              searchOpen = !searchOpen;
             }
 
             function closeSearch() {
               searchModal.classList.remove('open');
+              searchOpen = false;
             }
             </script>
         </ul>
