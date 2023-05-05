@@ -1,0 +1,46 @@
+.search-modal {
+    width: 90%;
+    padding: 40px;
+    display: block;
+    position: fixed;
+    border-radius: 10px;
+    left: 5%;
+    top: 100px;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 9999;
+    backdrop-filter: saturate(180%) blur(5px);
+    transform: scale(0);
+    transition: $soft;
+    border: 1px solid $light_grey;
+    &.open {
+        transform: scale(1);
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+    }
+    .search-close-btn {
+        color: $dark_grey;
+        border: none;
+        background: none;
+        width: 50px;
+        height: 50px;
+        transition: $soft;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    
+        &:hover {
+            transform: scale(1.2);
+            border: none;
+        }
+        
+    }
+}
+@media screen and (min-width: $nav-breakpoint) {
+    .search-modal {
+        top: 200px;
+    }
+}

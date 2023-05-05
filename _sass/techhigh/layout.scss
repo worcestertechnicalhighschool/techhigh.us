@@ -81,11 +81,8 @@ ul{
     display: none;
 }
 
-
-@media screen and (min-width: $breakpoint_standard) {
-    .show-md {
-        display: initial;
-    }
+@media screen and (min-width: $wordmark_breakpoint) {
+    
     .lg {
         position: relative !important;
         height: initial;
@@ -94,6 +91,12 @@ ul{
         width: initial;
         margin: initial;
     }
+}
+@media screen and (min-width: $breakpoint_standard) {
+    .show-md {
+        display: initial;
+    }
+
 	
     .col-2{
         columns: 2;
