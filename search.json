@@ -2,162 +2,34 @@
 layout: none
 ---
 [
-  {% for post in site.student_life %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-  {% for post in site.academics %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
+  {% for c in site.collections %}
+    {% assign n = site[c.label] | size %}
+    {% if n > 0 %}
+      {% for post in site[c.label] %}
+          {
+            "type"     : "post",
+            "title"    : "{{ post.title | escape }}",
+            "category" : "{{ post.category }}",
+            "tags"     : "{{ post.tags | join: ', ' }}",
+            "url"      : "{{ site.baseurl }}{{ post.url }}",
+            "date"     : "{{ post.date }}",
+            "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
+          } {% unless forloop.last %},{% endunless %}
+      {% endfor %} {% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %},
 
-  {% for post in site.alden_academy %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
+  {% for faculty in site.data.faculty %}
+    {%- if faculty.department != lastdep -%}
+      {%- if forloop.index0 != 0 -%}
+            {
+              "type"        : "faculty",
+              "name"        : "{{ faculty.first_name }} {{ faculty.last_name }}",
+              "title"       : "{{ faculty.title }}",
+              "department"  : "{{ faculty.department }}",
+              "url"         : "{{ faculty.url }}"
+            }{% unless forloop.last %},{% endunless %}
+      {%- endif -%}
+    {%- endif -%}
   {% endfor %}
-  ,
-
-  {% for post in site.allied_academy %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-
-  {% for post in site.construction_academy %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-
-  {% for post in site.featured_news %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-  {% for post in site.itbs_academy %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-  {% for post in site.learn_more %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-  {% for post in site.parents_and_community %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-  {% for post in site.posts %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-
-  {% for post in site.public_services %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-  {% for post in site.sections %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-  {% for post in site.student_life %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-  {% for post in site.summer_work %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-
 ]

@@ -1,36 +1,62 @@
 ---
 layout: default
 ---
-<article class="post">
 
+<article class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content">
+    <div id="results-container" class="results-container"></div>
 
-    <ul id="results-container"></ul>
-    <!-- or without installing anything -->
-    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
     <script>
-      let str = location.search.split('=')[1];
-      let searchText = document.getElementById('searchText')
-      if (str.length > 0) {
-          searchText.value = str;
-          console.log(str);
+      let query = location.search.split("=")[1];
+      if (query.length > 0) {
+        searchJSON()
+      }
+      async function searchJSON() {
+        query = location.search.split("=")[1];
+        if (query.length > 0) {
+          // console.log(query);
+          document.querySelector('#results-container').innerHTML = `<p>Results for <strong>${query}</strong>:</p>`
+          const response = await fetch("/search.json");
+          const jsonData = await response.json();
+          search(query, jsonData);
+        }else {
+          document.querySelector('#results-container').innerHTML = `<p>No results for <strong>${query}</strong>.</p>`
         }
-        var sjs = SimpleJekyllSearch({
-          searchInput: searchText, //document.getElementById('s'),
-          resultsContainer: document.getElementById('results-container'),
-          json: '{{ site.baseurl }}/search.json',
-          debounceTime: 1000
-        })
-        let t = setTimeout(()=> {
-          sjs.search(str);
-          clearTimeout(t);
-        }, 100)
+      }
+      function search(q, data) {
+        // console.log(data)
+        let results = data.reduce((a,c) => {
+          for (val of Object.values(c)) {
+            if (val.toLowerCase().includes(q.toLowerCase())) {
+              a.push(c);
+              return a;
+            }
+          }
+          return a;
+        }, []).map(r=>{
+          if (r.type === "post") {
+            return `<div class="post-result">
+                      <a href="${r.url}"><h2>${r.title}</h2></a>
+                      <p>${ createExcerpt(r.content) } &hellip; </p>
+                    </div>`
+          } else {
+            return `<div class="faculty-result">
+                      <h2>${r.name}</h2>
+                      <p>${r.title} <a href="${r.url}">${ r.department }</a></p>
+                    </div>`
+          }
+        }).join('');
+        document.querySelector('#results-container').innerHTML += results;
+        console.log(results)
+      }
       
+      function createExcerpt(content) {
+        return content.split(" ", 20).join(" ");
+      }
     </script>
   </div>
-
 </article>
