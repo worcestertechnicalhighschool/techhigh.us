@@ -44,3 +44,14 @@
         top: 200px;
     }
 }
+
+.results-container {
+    padding: 20px;
+    .post-result, .faculty-result {
+        margin-bottom:20px;
+        h2, p {
+            text-align:left;
+            margin: 0;
+        }
+    }
+}
