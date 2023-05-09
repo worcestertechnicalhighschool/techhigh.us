@@ -1,13 +1,12 @@
 <div id="search-modal" class="search-modal">
-  <button class="search-close-btn" id="search-close-btn" title="Close Search" aria-label="Close Search">
-    <i class="fa-solid fa-x"></i>
-  </button>
   <div class="modal-content">
-    <form action="/search/" method="get" aria-label="Search">
-      <input type="text" name="s" id="s" placeholder="Search &hellip; ">
-      <input type="hidden" id="searchText">
+    <form action="/search/" method="get">
+      <input type="text" name="s" id="s" placeholder="Search &hellip; " >
     </form>
   </div>
+  <button class="search-close-btn" id="search-close-btn" title="Close Search" >
+    <i class="fa-solid fa-x"></i>
+  </button>
 </div>
 
 <div class="wrapper wrapper--site-header">
@@ -16,22 +15,20 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="container">
+      <button  class="search-btn" id="search-btn">
+        <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        <span>Search</span>
+      </button>
       <a class="brand" rel="author" href="{{ '/' | relative_url }}">
         W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
       </a>
-      <div class="btn-group">
-        <button  class="search-btn" id="search-btn">
-          <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;" aria-label="SearchButton"></i>
-          <span>Search</span>
-        </button>
-        <button title="Menu" class="hamburger " type="button" id="hamburger" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Navigation">
-          <span class="line-container">
-            <span class="line line-1"></span>
-            <span class="line line-2"></span>
-            <span class="line line-3"></span>
-          </span>
-        </button>
-      </div>
+      <button title="Menu" class="hamburger " type="button" id="hamburger" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Navigation">
+        <span class="line-container">
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </span>
+      </button>
     </div>
   
     {%- if page_paths -%}
