@@ -27,21 +27,11 @@
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     z-index: 1000;
   }
-  // group for search and hamburger
-  .btn-group {
-    position: absolute;
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: space-between;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-  }
+
   //search bar button
   .search-btn {
     background: none;
@@ -80,14 +70,14 @@
 
   .hamburger {
     display: block;
-    position: absolute;
+    position: relative;
     width: 38px;
     height: 32px;
     border: none;
     background: none;
     padding: 0;
     margin: 0;
-    right: 30px;
+    // right: 30px;
     cursor: pointer;
 
     .line-container {
@@ -254,14 +244,19 @@
 
 @media screen and (min-width: $nav-breakpoint) {
   .site-header {
-      .search-btn span {
+    .search-btn {
+      position: absolute;
+      left: 30px;
+      span {
         display: inline;
         text-transform: uppercase;
       }
+    }
     .container {
       background-color: transparent;
-      flex-basis: 0;
-      flex-basis: fit-content;
+      justify-content: center;
+      // flex-basis: 0; // not needed without the nav bar right of brand
+      // flex-basis: fit-content;
     }
 
     .primary-nav {
