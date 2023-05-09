@@ -13,7 +13,7 @@ layout: none
             "tags"     : "{{ post.tags | join: ', ' }}",
             "url"      : "{{ site.baseurl }}{{ post.url }}",
             "date"     : "{{ post.date }}",
-            "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
+            "content"  : "{{ post.content | strip_html | strip_newlines }}"
           } {% unless forloop.last %},{% endunless %}
       {% endfor %} {% unless forloop.last %},{% endunless %}
     {% endif %}
@@ -27,7 +27,8 @@ layout: none
               "name"        : "{{ faculty.first_name }} {{ faculty.last_name }}",
               "title"       : "{{ faculty.title }}",
               "department"  : "{{ faculty.department }}",
-              "url"         : "{{ faculty.url }}"
+              "url"         : "{{ faculty.url }}",
+              "email"       : "{{ faculty.email }}"
             }{% unless forloop.last %},{% endunless %}
       {%- endif -%}
     {%- endif -%}

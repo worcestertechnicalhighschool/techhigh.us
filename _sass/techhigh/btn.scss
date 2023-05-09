@@ -1,6 +1,12 @@
+button:focus-visible, 
+[type="button"]:focus-visible, 
+[type="reset"]:focus-visible, 
+[type="submit"]:focus-visible {
+    outline: 1px dotted white ;
+}
 .btn {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 12px 24px;     
     margin: 20px;
     border-radius: 5px;
     text-transform: uppercase;
