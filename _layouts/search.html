@@ -45,8 +45,8 @@ layout: default
                     </div>`
           } else {
             return `<div class="faculty-result">
-                      <h2>${r.name}</h2>
-                      <p>${r.title} <a href="${r.url}">${ r.department }</a></p>
+                      <a href="mailto:${r.email}"><h2>${r.name}</h2></a>
+                      <p>${r.title}, <a href="${r.url}">${ r.department }</a></p>
                     </div>`
           }
         }).join('');
