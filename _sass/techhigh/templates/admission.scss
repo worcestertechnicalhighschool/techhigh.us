@@ -72,6 +72,24 @@
         ul {
             display: inline-block;
             text-align: left;
+            color: white;
         }
+    }
+    .background {
+        background-color: $primary;
+
+    }
+    .outer{
+        border: 4px $primary;
+        padding: 20px;
+        border-style: solid;
+    }
+    a {
+        color:#fff;
+    }
+    #inner {
+        margin: 0px;
+        padding: 10px;
+        color: white;
     }
 }
