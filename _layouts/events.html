@@ -34,7 +34,6 @@ layout: default
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     var initialLocaleCode = 'en'; //Sets the default language
-    var localeSelectorEl = document.getElementById('locale-selector');
     var calendarEl = document.getElementById("calendar");
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
@@ -84,14 +83,8 @@ layout: default
       optionEl.value = localeCode;
       optionEl.selected = localeCode == initialLocaleCode;
       optionEl.innerText = localeCode;
-      localeSelectorEl.appendChild(optionEl);
     });
 
-    // when the selected option changes, dynamically change the calendar option
-    localeSelectorEl.addEventListener('change', function () {
-      if (this.value) {
-        calendar.setOption('locale', this.value);
-      }
-    });
+    
   });
 </script>
