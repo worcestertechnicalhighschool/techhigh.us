@@ -401,4 +401,58 @@
         }
         
     }
+
+    .graphics-content{
+
+        img {
+            width: 400px;
+        }
+
+        p{
+            font-family: $header_font;
+            font-size: 20px;
+            padding: 15px;
+        }
+
+
+        .box-graphics{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        
+
+            
+
+            h1{
+                color: white;
+            }
+
+            ul li{
+                list-style-type: none;
+                font-family: $header_font;
+                font-size: 20px;
+                color: white;
+            }
+
+            .secondary-box{
+                .box{
+                    background-color: $secondary;
+                    padding: 15px;
+                }
+                
+            }
+
+            .primary-box{
+                .box{
+                    background-color: $primary;
+                    padding: 15px;
+                }
+                
+            }
+
+            
+        }
+
+    }
 }
