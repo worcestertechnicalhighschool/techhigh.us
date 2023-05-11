@@ -176,10 +176,11 @@ function renderEvents(eventData) {
 }
 
 function createEventData(evt) {
+  console.log(evt)
   let date;
   let startTime;
   let endTime;
-  let location = evt.location ? `@ ${evt.split(', ')[0]}` : '';
+  let location = evt.location ? `@ ${evt.location.split(', ')[0]}` : '';
   
   let summary = evt.summary;
   
