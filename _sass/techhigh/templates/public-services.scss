@@ -404,8 +404,8 @@
 
     .graphics-content{
 
-        img {
-            width: 400px;
+        .img {
+            width: 300px;
         }
 
         p{
@@ -418,14 +418,16 @@
         .box-graphics{
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        
-
-            
+            @media (min-width:$breakpoint_standard) {
+                flex-wrap: nowrap;
+            }     
 
             h1{
                 color: white;
+                @media (min-width:$breakpoint_standard) {
+                    font-size: 1em;
+                    padding-left: 15px;
+                }
             }
 
             ul li{
@@ -433,25 +435,41 @@
                 font-family: $header_font;
                 font-size: 20px;
                 color: white;
-            }
-
-            .secondary-box{
-                .box{
-                    background-color: $secondary;
-                    padding: 15px;
+                @media (min-width:$breakpoint_standard) {
+                    font-size: 12px;
+                    margin-left: -30px;
                 }
-                
             }
 
-            .primary-box{
-                .box{
-                    background-color: $primary;
-                    padding: 15px;
+            .box{
+                display: flex;
+                flex-direction: column;
+                background-color: $primary;
+                justify-content: center;
+                padding-left: 15px;
+                height: 500px;
+                margin:5px;
+
+                img {
+                    @media (min-width:$breakpoint_standard) {
+                        max-width: 150px;
+                        
+                    }
                 }
-                
+
+                @media (min-width:$breakpoint_standard) {
+                    height: 234px;
+                    width: 250px;
+                }
             }
 
-            
+            .blue {
+                background-color: $secondary;
+            }
+
+            .image-main{
+                margin:5px
+            }
         }
 
     }
