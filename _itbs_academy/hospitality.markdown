@@ -1,6 +1,6 @@
 ---
 layout: department-pages
-title: Hotel Management
+title: Hospitality Management
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/gift-habeshaw-IunBGha7idU-unsplash-1.jpg
 certifications: 
