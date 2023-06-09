@@ -7,8 +7,8 @@ certifications:
     - OSHA 10
     - MA Boating Safety 
 shop_images:
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/04/chuttersnap-UmncJq4KPcA-unsplash-1.jpg
+      description: "Plants"
     - src: https://picsum.photos/600/600
       description: "placeholder"
     - src: https://picsum.photos/600/600

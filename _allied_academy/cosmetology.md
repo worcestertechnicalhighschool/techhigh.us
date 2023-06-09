@@ -16,10 +16,10 @@ alumni:
       description: Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosmetology Program. Upon graduation Dennise Decided to go right into the work field as she currently works at Jeffrey Robert Salon as a hairstylist.
       img: https://wordpress.techhigh.us/wp-content/uploads/2023/01/DennisePorrata_Alumni.jpg
 shop_images:
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/04/raphael-lovaski-pxax5WuM7eY-unsplash-1.jpg
+      description: "Makeup Brushes"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/04/maria-lupan-f6qXaAk4rOk-unsplash-1.jpg
+      description: "Nail Polish"
     - src: https://picsum.photos/600/600
       description: "placeholder"
     - src: https://picsum.photos/600/600

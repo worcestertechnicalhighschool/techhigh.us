@@ -6,12 +6,12 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/lucas-k
 certifications:
     - OSHA 10
 shop_images:
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/05/IMG-5783-1.jpg
+      description: "CADD Student"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/04/lucas-kepner-Yn8D5B8C-eY-unsplash-2-1.jpg
+      description: "CADD Blueprints"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/03/GettyImages-1173740460.jpg
+      description: "Man 3D modeling"
     - src: https://picsum.photos/600/600
       description: "placeholder"
     - src: https://picsum.photos/600/600

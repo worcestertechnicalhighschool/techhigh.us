@@ -7,10 +7,10 @@ certifications:
     - Department of Early Education and Care Certification
     - CPR and First Aid
 shop_images:
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/04/tina-floersch-CcbnSarTldQ-unsplash-1.jpg
+      description: "Children Chalk"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/04/sigmund-TJxotQTUr8o-unsplash-1.jpg
+      description: "Children playing with paper"
     - src: https://picsum.photos/600/600
       description: "placeholder"
     - src: https://picsum.photos/600/600

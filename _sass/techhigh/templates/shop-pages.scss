@@ -30,8 +30,9 @@
           display: block;
           margin: 10px auto;
           width: 100%;
-          height: auto;
+          height: 100%;
           max-width: 300px;
+          object-fit: cover;
         }
       }
     .shop-certifications {
