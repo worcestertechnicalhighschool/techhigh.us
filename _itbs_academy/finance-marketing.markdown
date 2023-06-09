@@ -1,5 +1,5 @@
 ---
-layout: department-pages
+layout: shop-pages
 title: Finance, Marketing, & Business Management
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/kanchanara-5hcV51EeeWc-unsplash-1.jpg
@@ -7,6 +7,19 @@ certifications:
     - Everfi Financial Literacy
     - HubSpot Marketing 
     - Microsoft Office 
+shop_images:
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
 ---
 
 Dive into a field that is universal, innovative, and relentlessly fast-paced. Finance, Marketing & Business Management provides students with the skills needed to be successful in a variety of paths in business. Combining rich hands-on experiences with coursework taught by leading instructors, our students become equipped with real-world application in digital marketing, social media management, professional speaking, personal finance, investing, and much more.

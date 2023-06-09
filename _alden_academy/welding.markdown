@@ -1,11 +1,24 @@
 ---
-layout: department-pages
+layout: shop-pages
 title: Welding
 date: 2022-10-24
 permalink:
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/rob-lambert-9Q_pLLP_jmA-unsplash-1.jpg
 certifications: 
     - D.O.T. Bridge
+shop_images:
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
 ---
 
 

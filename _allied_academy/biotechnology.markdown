@@ -1,5 +1,5 @@
 ---
-layout: department-pages
+layout: shop-pages
 title:  Biotechnology
 date:   2022-10-24 11:30:49 -0400
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/national-cancer-institute-XknuBmnjbKg-unsplash-1.jpg
@@ -7,6 +7,19 @@ certifications:
     - OSHA 10 Hour General Industry Healthcare
 
     - CPR/First Aid
+shop_images:
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
+    - src: https://picsum.photos/600/600
+      description: "placeholder"
 ---
 Explore the sciences of life in our Biotechnology program. Immersed in industry techniques, taught by leading instructors in our state-of-the-art laboratories, students will learn how biological systems operate and how to develop innovative technologies and solutions to improve our lives.
 
