@@ -12,12 +12,12 @@ certifications:
     - MASTERCAM
     - AUTODESK
 shop_images:
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/04/minku-kang-aCniNTiIFd8-unsplash-2-1.jpg
+      description: "Advanced Manufacturing Machine"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/03/advanced-manufacturing.jpg
+      description: "Advanced Manufacturing Machine"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/03/advanced-manufacturing-robots.jpeg
+      description: "Advanced Manufacturing Robots"
     - src: https://picsum.photos/600/600
       description: "placeholder"
     - src: https://picsum.photos/600/600
