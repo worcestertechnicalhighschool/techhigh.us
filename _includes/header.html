@@ -1,9 +1,24 @@
+<div id="search-modal" class="search-modal">
+  <div class="modal-content">
+    <form action="/search/" method="get">
+      <input type="text" name="s" id="s" placeholder="Search &hellip; " >
+    </form>
+  </div>
+  <button class="search-close-btn" id="search-close-btn" title="Close Search" >
+    <i class="fa-solid fa-x"></i>
+  </button>
+</div>
+
 <div class="wrapper wrapper--site-header">
   <header id="masthead" class="site-header" role="banner">
     <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="container">
+      <button  class="search-btn" id="search-btn">
+        <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        <span>Search</span>
+      </button>
       <a class="brand" rel="author" href="{{ '/' | relative_url }}">
         W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
       </a>
@@ -40,11 +55,49 @@
                     <li class="menu-item">
                       <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
                     </li>
+                    <li class="menu-item"></li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
           {% endfor %}
+          
+
+          
+          
+          
+
+          <script>
+            /**
+             * Search Modal functionality
+             */ 
+            const searchBtn = document.querySelector('#search-btn');
+            const searchModal = document.querySelector('#search-modal');
+            const searchCloseBtn = searchModal.querySelector('#search-close-btn');
+            let searchOpen = false;
+
+            searchBtn.addEventListener('click', openSearch);
+            searchCloseBtn.addEventListener('click', closeSearch);
+            
+            window.addEventListener('click', e=> {
+              if (searchOpen) {
+                if (!searchModal.contains(e.target) && !searchBtn.contains(e.target)) {
+                  closeSearch();
+                }
+              }
+            })
+
+            function openSearch() {
+              searchModal.classList.toggle('open');
+              searchModal.querySelector('#s').focus();
+              searchOpen = !searchOpen;
+            }
+
+            function closeSearch() {
+              searchModal.classList.remove('open');
+              searchOpen = false;
+            }
+            </script>
         </ul>
       </nav>
     {%- endif -%}

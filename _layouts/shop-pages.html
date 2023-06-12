@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+<div class="shop-pages">
+
+  {%- include components/hero-entry.html -%}
+
+  <article class="post">
+    <section class="post-content">
+      <div class="shop-content-border">
+        {{ content }}
+      </div>
+    </section>
+    <!-- Renders alumni data (in page front matter) but splits them into img, and content for easier styling-->
+    {% if page.alumni %}
+      <section class="alumni-spotlight">
+        <div class="spotlight-header">
+          <h2>Alumni Spotlight</h2>
+        </div>
+        <div class="alumn-container">
+          {% for info in page.alumni %}
+          <div class="alumns">
+            <img src={{info.img}}>
+            <div class="alumn-content">
+              <h3>Meet {{info.name}}</h3>
+              <p>{{info.description}}</p>
+            </div>
+          </div>
+            
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %} 
+
+      {% if page.shop_images %}
+        <section class="shop-images">
+          <div class="shop-img-grid">
+            {% for image in page.shop_images %}
+              <img src="{{ image.src }}" alt="image.description">
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
+      
+    <!-- If statements that will print courses if academic or certs if shop page-->
+    {% if page.certifications %}
+      <section class="shop-certifications">
+        <h2>Certifications and Achievements</h2>
+        <div class="cert-list">
+          <ul>
+            {% for item in page.certifications %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    {% endif %}
+
+    {% if page.courses %}
+      <section class="courses">
+        <h2>Courses By Year</h2>
+        <div class="course-list">
+          {% for grade in page.courses %}
+          <div>
+            <h3>{{ grade[0]}}</h3>
+            <ul>
+              {% for course in grade[1] %}
+                <li>{{ course }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if page.summer_work%}
+        <h2>Summer Work</h2>
+        <section class="summer-work">
+          <!-- If any subject in summer work matches the page's slug then render the summer work 
+          Uses slug and not title because of case sensitivity in titles-->
+          {% for sbj in site.summer_work %}
+            {% if sbj.slug == page.slug %}
+            <!-- Translate to markdown or it'll treat the markdown as raw text on the academic pages -->
+              {{sbj | markdownify}}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        </section>
+      </section>
+    {% endif %}
+    
+    <section class="contact-us">
+      <h2 id="faculty">Faculty</h2>
+      <div class="faculty-list card-container">
+        <!-- For loop that iterates over the faculty.csv and matches teacher departments to page title
+        This ensures that the teachers in the math dept will be rendered on the math page. -->
+          {% for faculty in site.data.faculty %}
+          {% assign staff = faculty.department | remove: '"' %}
+          {% assign depart = staff | strip %}
+          {%- if depart == page.title -%}
+            <div class="staff-members">
+              <div class="card card--faculty">
+                <div class="staff">
+                    <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{faculty.last_name}}">
+                  <div class="card-content">
+                    <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p>
+                    <p class="title card-description">{{ faculty.title }}</p>
+                    <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p>
+                  </div>                        
+                </div>
+              </div>
+            </div>
+              {%- endif -%}
+            {% endfor %}
+        </section>
+      </div>
+    </section>
+      
+  </article>
+</div>
+

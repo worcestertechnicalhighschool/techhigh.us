@@ -6,41 +6,68 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/lucas-s
 
 excerpt: Worcester Tech offers various clubs and leadership opportunities for students to excel in and outside of the classroom.
 ---
-
-<div class="club_list" markdown="1">
-
 Worcester tech offers various clubs and leadership opportunities for students to excel in and out of the classroom
+<div class="card card--clubs" markdown="1">
 
+- ## ESports
+  ### [Mr. Gemme](mailto:gemmem@worcesterschools.net)
+  ---
 
-- ESports
-- Outdoor Club
-- Math team 
-- A/V club
+  Room B116
+
+  Weds 
+
+- ## Outdoor Club
+  ### [Chef Y.](mailto:)
+  ---
+
+  Room B285
+
+  Thurs 
+
+- ## Math Team
+  ### [Mr. Marrion](mailto:)
+  ---
+  
+  Room TBD
+
+  Dates TBD
+
+- ## Student Council
+  ### [Ms. Kolodziejczak](mailto:)
+  ---
+
+  Room N/A
+
+  Mon/Thurs
+</div>
+    
+
+- A/V Club
 - Gay/Straight Alliance
-- Writer's club
+- Writer's Club
 - Poetry Out Loud
 - Herren Project
 - Model UN
 - Newspaper
 - Asian Student Union
 - BTS LY Club
-- Guitar club
-- Dungeons & Dragons club
-- Women Empowerment club
-- Drama club
-- Art club
-- Earth club
-- FIT club
+- Guitar Club
+- Dungeons & Dragons Club
+- Women Empowerment Club
+- Drama Club
+- Art Club
+- Earth Club
+- FIT Club
 - Black Student Union
-- Caring with Compassion club
-- Psychology club
+- Caring with Compassion Club
+- Psychology Club
 - Let Love Lead
-- Yearbook club
-- WooTech news club
+- Yearbook Club
+- WooTech News Club
 - Skateboard Club
 - Chess Club
 
-</div>
 
 
 

@@ -51,6 +51,7 @@
             z-index: 3;
             color: $white;
             text-transform: capitalize;
+            text-align: center;
             .card-title {
                 color: $white;
             }
@@ -73,7 +74,8 @@
             transition: $soft;
         }
 
-        /* This is specifically for the full-image cards on the technical areas page */
+        /* Used to be for the full-image cards on the technical areas page [ARCHIVED]*/
+        /*
         &.card--technical-areas{
             // margin: 0;
             max-width: 550px;
@@ -91,7 +93,7 @@
                 }
             }
         }
-
+        */
     }
     
     &.card--faculty{
@@ -101,7 +103,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        width: 350px;
+        // width: 350px;
         margin: auto;
         img{
             border-radius: 40px;
@@ -118,7 +120,6 @@
 
     &.card--academics{
         display: flex;
-        // margin: 0 10px;
         flex-direction: column;
         max-width: 265px;
         min-height: 500px;
@@ -223,10 +224,8 @@
 
     &.card--student-life {
         color: $white;
-        width: 425px;
+        width: 100%;
         height: 350px;
-        margin: 10px;
-        
 
         h2 {
             position: relative;
@@ -267,13 +266,13 @@
         }
 
         .image-container{
-            width: 425px;
+            width: 100%;
             height: 350px;
         }
 
         img {
             transition: $soft;
-            width: 100%;
+            width: 425px;
             height: 100%;
             object-fit: cover;
         
@@ -284,4 +283,222 @@
             }
         }
     }
+
+    &.card--public-services {
+        h3{
+            text-align: center;
+        }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: max-content;
+    }
+    &.card--clubs{
+        max-width: 100%;
+        * {
+            box-sizing: border-box;
+          }
+          
+          ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+          
+          li {
+            position: relative;
+            display: grid;
+            padding: 25px;
+            margin: 25px;
+            border: solid black 2px;
+            border-radius: 10px;
+            min-width: 300px;
+          }
+          
+          h2::before {
+            font-family: "Font Awesome 5 Free"; 
+            font-weight: 900;
+            content: "\f11b";
+            display: inline-block;
+            border: $primary 1px;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            margin-right: 15px;
+            background-color: $primary;
+            color: white;
+          }
+          
+          h2 {
+            margin:0;
+            grid-row-start: 1;
+            grid-column-start: 1;
+            text-align: left;
+          }
+          
+          h3{
+            grid-row-start: 2;
+            grid-column-start: 1;
+            font-size: 15px;
+            padding-left: 50px;
+            margin-left: 15px;
+            margin-top: -5px;
+            text-decoration: none;
+          }
+          
+          hr{
+            position: absolute;
+            left:-25px;
+            grid-row-start: 3;
+            grid-column-start: 1;
+            border: 1px solid black;
+            width: calc(100% + 25px);
+          }
+          
+          p{
+            grid-row-start: 4;
+            grid-column-start: 1;
+            justify-content: space-between;
+            padding-top: 10px;
+            margin-bottom: 0;
+          }
+          
+          p:nth-child(4){
+            text-align: left;
+          }
+          
+          p:nth-child(5){
+            text-align: right;
+          }
+    }
+}
+
+.cta-card {
+    background-color: grey;
+    max-width: 400px;
+    min-height: 400px;
+    margin: 20px;
+    overflow:hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: #003865 10px solid;
+    img {
+      display: block;
+      position: absolute;
+      left:0;
+      right: 0;
+      width:100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+    .card-content {
+      color: white;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      min-height: 360px;
+      background-color: #003865d8;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transition: ease 0.3s all;
+      h2 {
+        margin:0;
+        color: white;
+        text-transform:uppercase;
+        font-size: 36px;
+        font-size: 3.5cqb;
+        
+      }
+      p {
+        margin: 0 20px;
+        transition: ease 0.3s all;
+      }
+      .btn {
+        display: block;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+    }
+  }
+  
+  
+  @media screen and (min-width: 450px) {
+    .cta-card {
+      min-width: 400px;
+      .card-content {
+        background-color: #00386550;
+        
+        p {
+          opacity:0;
+          font-size: 0;
+          overflow: hidden;
+        }
+        
+        &:hover {
+          background-color: #003865d8;
+          p {
+            // opacity: 1;
+            font-size: 1rem;
+            &.open {
+              opacity: 1 ;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .card--admissions{
+    color: $dark_blue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    .card-title{
+        z-index: 1;
+        position: absolute;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 70%;
+        padding: 20px;
+        width: fit-content;
+        text-align: center;
+        background: white;
+        b{
+            font-size: 21px;
+            font-family: $header_font;
+        }
+    }
+    .card-description{
+        color: black;
+        border-color: $dark_blue;
+        z-index: 0;
+        position: relative;
+        border-style: solid;
+        border-width: 2px;
+        width: 250px;
+        padding: 15px;
+        top: 50px;
+        padding-top: 70px;
+    }
+}
+
+.link-wrapper{
+    display: block;
+    padding: 10px;
 }

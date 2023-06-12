@@ -1,22 +1,40 @@
 .events {
+    margin: 0 auto;
     .news {
-margin-top:40px;
+        margin-top:40px;
+    }
+    .events-cta {
+        text-transform: uppercase;
+        // padding-bottom: 50px;
+        a {
+            color: $dark_blue;
+            transition: $soft;
+            &:hover {
+                color: $dark_grey;
+                text-decoration: none;
+            }
+        }
     }
 }
 .news{
     h2{
         font-size: 60px;
         font-weight: $header_bold;
+        text-align: center;
+        color: $primary;
     }
     .news__body {
         display: flex;
-        justify-content: flex-end;
-        flex-wrap: nowrap;
-
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .news-feed {
-        padding-top:20px;
+        padding: 10px;
+        width: auto;
+        min-width: fit-content;
         .event {
             display: flex;
             align-items: flex-start;
@@ -27,7 +45,7 @@ margin-top:40px;
             }
             h3 {
                 font-size: 32px;
-                font-weight: $header_bold;
+                font-weight: 400;
                 color: $dark_blue;
                 margin: 0;
                 text-align: left;
@@ -38,14 +56,14 @@ margin-top:40px;
         }
         .date-icon {
             display: inline-block;
-            background-color: $dark_grey;
+            background-color: $primary;
             color: white;
             text-align: center;
             padding: 10px;
-            border-radius: 5px;
-            box-shadow: 5px 5px 0 0 $dark_grey_50;
+            //border-radius: 5px;
+            //box-shadow: 5px 5px 0 0 $dark_grey_50;
             margin-right: 30px;
-
+            font-size: 16px;
             .month, .day {
                 font-family: $header_font;
                 text-transform: uppercase;
@@ -55,29 +73,129 @@ margin-top:40px;
     }
 
     .featured-news {
-        min-width: 50%;
-        height: 600px;
+        padding: 10px;
+        min-width: auto;
+        //margin: auto;
     }
 
 }
-
-.events .news-feed 
-    a {
-        color: $dark_blue;
-        transition: $soft;
-        &:hover {
-            color: $dark_grey;
-            text-decoration: none;
-        }
-    }
-    .event-details {
-        text-align: left;
-}
-.events-cta {
-    text-transform: uppercase;
-    text-align: left;
-}
-
 .athletics h2 {
     margin-bottom: 10px;
+}
+
+// Calendar css VVV
+
+.events {
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+    
+    .events_calendar{
+        width: 800px;
+    }
+    #calendar {
+        margin: 40px auto;
+        border-style: solid;
+        border-width: 2px;
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        display:flex;
+        justify-content: flex-end;
+        color:#111;
+        // .fc-daygrid-event-harness{
+        //     a{
+        //         background-color: white;
+        //         color: #111;
+        //     }
+
+        // }
+        .fc-h-event .fc-event-main{
+            color: $primary;
+        }
+        tr{
+            color: #002855;
+        }
+        tr:hover td{
+            background-color: transparent;
+        }
+        .fc-list-event{
+            font-size: 15px;
+            font-weight: $body_bold;
+            font-family: $body_font;
+        }
+        .fc-list-event:hover a{
+            text-decoration: none;
+            transition: all ease 0.3s;
+            color: #111;
+        }
+        
+        .fc-daygrid-event-harness a:visited{
+            padding-left: 1px;
+            text-decoration: none;
+            color: $primary;//changes event font, change both a:visited and a when you change this
+            list-style-type: none; 
+        }
+        .fc-daygrid-event-harness a{
+            padding-left: 5%;
+            list-style-type: none; 
+            text-decoration: none;
+            color: $primary; //changes event font, change both a:visited and a when you change this
+        }
+        .fc-event{
+            background-color: #b9d9eb;
+        }
+        .fc-list .fc-list-day .fc-list-day-cushion{
+            background-color: $primary;
+            a{
+                font-size: 15px;
+                font-weight: $body_bold;
+                color: #f7faff;
+            }
+        }
+        .fc .fc-list-event:hover td{
+            background-color: transparent;
+          }
+          .events .news-feed a:hover{
+            pointer-events: none;
+          }
+          .fc .fc-list-event.fc-event-forced-url:hover a{
+            text-decoration: none;
+          }
+    }
+    .fc .fc-button-primary {
+        background: $primary;
+        border: none;
+    }
+    
+    .fc .fc-button-primary:disabled {
+        background-color: $primary;
+        border: none;
+        opacity: 0.8;
+    }
+    /*This is the styling for the language selector. Feel free to experiment...*/
+    #top {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        padding: 0 10px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+    .fc-daygrid-event-dot {
+        display: none;
+      }
+    .fc-event .fc-list-event-dot{
+        display: none;
+    }
+    .fc-dayGridMonth-view .fc-scrollgrid-section .fc-scroller-harness .fc-scroller{
+        table{
+            margin: 0;
+        }
+        .fc-col-header{
+        background-color: $primary;
+            .fc-col-header-cell a{
+                color: #f7faff;
+            }
+        }
+    }
 }

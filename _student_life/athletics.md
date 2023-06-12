@@ -14,41 +14,53 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 <div class="col-3" style="text-align: center;" markdown="1">
 
-### Cheer 
-- Coach Abby Biernacki
-- [abbybiernacki@gmail.com](mailto: abbybiernacki@gmail.com)
+- ### Cheer
+    Coach Abby Biernacki
 
-### Football
-- Coach Derek Robbins
-- [derekrobbins31@gmail.com](mailto: derekrobbins31@gmail.com)
+    [abbybiernacki@gmail.com](mailto: abbybiernacki@gmail.com)
 
-### Girls Volleyball
-- Coach Hallet
-- [halletp@worcesterschools.net](mailto: halletp@worcesterschools.net)
+- ### Football
+    Coach Derek Robbins
 
-### Cross Country
-- Coach john Nicol
-- [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
-- Coach Gerald Snay<br>
-- [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+    [derekrobbins31@gmail.com](mailto: derekrobbins31@gmail.com)
 
-### Field Hockey
-- Coach lindsay Ryan
-- [ryan.lindsayn@gmail.com](mailto: ryan.lindsayn@gmail.com)
+- ### Girls Volleyball
+    Coach Hallet
 
-### Boys Golf
-- Coach Tom Quinn
-- [quinnt@worcesterschools.net](mailto: quinnt@worcesterschools.net)
+    [halletp@worcesterschools.net](mailto: halletp@worcesterschools.net)
 
-### Girls Soccer
-- Coach Granum
-- [bgranum@msn.com](mailto: bgranum@msn.com)
-- Coach Binienda
-- [biniendama@worcesterschools.net](mailto: biniendama@worcesterschools.net)
+- ### Cross Country
+    Coach John Nicol
 
-### Crew
-- Coach Kolaco
-- [rkolaco@gmail.com](mailto: rkolaco@gmail.com)
+    [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
+
+    Coach Gerald Snay
+
+    [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+
+- ### Field Hockey
+    Coach Lindsay Ryan
+
+    [ryan.lindsayn@gmail.com](mailto: ryan.lindsayn@gmail.com)
+
+- ### Boys Golf
+    Coach Tom Quinn
+
+    [quinnt@worcesterschools.net](mailto: quinnt@worcesterschools.net)
+
+- ### Girls Soccer
+    Coach Granum
+
+    [bgranum@msn.com](mailto: bgranum@msn.com)
+
+    Coach Binienda
+
+    [biniendama@worcesterschools.net](mailto: biniendama@worcesterschools.net)
+
+- ### Crew
+    Coach Kolaco
+
+    [rkolaco@gmail.com](mailto: rkolaco@gmail.com)
 
 </div>
 
@@ -56,31 +68,39 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 <div class="col-3" style="text-align: center;" markdown="1">
 
-### Boys Basketball
-- Coach Sean Lynch
-- [lynchse@worcesterschools.net](mailto: lynchse@worcesterschools.net)
+- ### Boys Basketball
+    Coach Sean Lynch
 
-### Girls Basketball
-- Coach Leveille
-- [sleveillee@ymail.com](mailto: sleveillee@ymail.com)
+    [lynchse@worcesterschools.net](mailto: lynchse@worcesterschools.net)
 
-### Indoor Track
-- Coach John Nicol
-- [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
-- Coach Gerlad Snay
-- [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+- ### Girls Basketball
+    Coach Leveille
 
-### Ice Hockey
-- Coach Vaughan
-- [vaughanm@lpsma.net](mailto: vaughanm@lpsma.net)
+    [sleveillee@ymail.com](mailto: sleveillee@ymail.com)
 
-### Swimming
-- Coach Bruno
-- [tarickbruno123@gmail.com](mailto: tarickbruno123@gmail.com)
+- ### Indoor Track
+    Coach John Nicol
 
-### Wrestling
-- Coach Markgren
-- [markgrenl@worcesterschools.net](mailto: markgrenl@worcesterschools.net)
+    [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
+
+    Coach Gerlad Snay
+
+    [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+
+- ### Ice Hockey
+    Coach Vaughan
+
+    [vaughanm@lpsma.net](mailto: vaughanm@lpsma.net)
+
+- ### Swimming
+    Coach Bruno
+
+    [tarickbruno123@gmail.com](mailto: tarickbruno123@gmail.com)
+
+- ### Wrestling
+    Coach Markgren
+
+    [markgrenl@worcesterschools.net](mailto: markgrenl@worcesterschools.net)
 
 </div>
 
@@ -88,38 +108,48 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 <div class="col-3" style="text-align: center;" markdown="1">
 
-### Baseball
-- Coach Vincent Pennell
-- [pennellvc@worcesterschools.net](mailto: pennellvc@worcesterschools.net)
+- ### Baseball
+    Coach Vincent Pennell
 
-### Softball
-- Coach Pat Phenix
-- [phenixp@worcesterschools.net](mailto: phenixp@worcesterschools.net)
+    [pennellvc@worcesterschools.net](mailto: pennellvc@worcesterschools.net)
 
-### Boys Volleyball
-- Coach Dancy
-- [dancye@worcesterschools.net](mailto: dancye@worcesterschools.net)
+- ### Softball
+    Coach Pat Phenix
 
-### Outdoor Track
-- Coach Coach John Nicol
-- [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
-- Coach Gerald Snay
-- [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+    [phenixp@worcesterschools.net](mailto: phenixp@worcesterschools.net)
 
-### Girls Tennis
-- Coach Anthony Camoreyt
-- [camoreyta@worcesterschools.net](mailto: camoreyta@worcesterschools.net)
+- ### Boys Volleyball
+    Coach Dancy
 
-### Girls Golf
-- Coach Meghan McDonald
-- [mcdonaldm@worcesterschools.net](mailto: mcdonaldm@worcesterschools.net)
+    [dancye@worcesterschools.net](mailto: dancye@worcesterschools.net)
 
-### Boys Lacrosse
-- Coach Matthew Genkos
-- [matthewgenkos@gmail.com](mailto: matthewgenkos@gmail.com)
+- ### Outdoor Track
+    Coach Coach John Nicol
 
-### Girls Lacrosse
-- Coach Moulin
-- [moulinn@worcesterschools.net](mailto: moulinn@worcesterschools.net)
+    [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
+
+    Coach Gerald Snay
+
+    [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+
+- ### Girls Tennis
+    Coach Anthony Camoreyt
+
+    [camoreyta@worcesterschools.net](mailto: camoreyta@worcesterschools.net)
+
+- ### Girls Golf
+    Coach Meghan McDonald
+
+    [mcdonaldm@worcesterschools.net](mailto: mcdonaldm@worcesterschools.net)
+
+- ### Boys Lacrosse
+    Coach Matthew Genkos
+
+    [matthewgenkos@gmail.com](mailto: matthewgenkos@gmail.com)
+
+- ### Girls Lacrosse
+    Coach Moulin
+    
+    [moulinn@worcesterschools.net](mailto: moulinn@worcesterschools.net)
 
 <div>

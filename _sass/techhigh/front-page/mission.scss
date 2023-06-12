@@ -2,19 +2,17 @@
     h2{
        color: black;
        font-family: $header_font; 
+       font-weight: 600px;
        text-transform: uppercase;
+       text-align: center;
     }
-    text-align: center;
     
     .mission {
+        text-align: center;
         
         padding: 20px;
 
-        h2{
-            font-size: 70px;
-            font-weight: 600;
-            margin: 0;
-        }
+
         p{
             color: black;
             font-family: $body_font;
@@ -22,6 +20,9 @@
             // padding: 0 120px;
             max-width: 800px;
             margin: 0 auto;
+        }
+        .events{
+            text-align: unset;
         }
         .stats{
             padding-top: 20px;
