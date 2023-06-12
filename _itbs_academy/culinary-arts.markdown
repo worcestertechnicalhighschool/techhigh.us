@@ -13,18 +13,18 @@ alumni:
       img: https://wordpress.techhigh.us/wp-content/uploads/2023/01/SamanthaLucier_Alumni.png
 
 shop_images:
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6690.JPG.jpg
+      description: "students with shop instructor working"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6703JPG.jpg
+      description: "students cooking"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6710.jpg
+      description: "student adding things to plate"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_7145.jpg
+      description: "student cooking"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_7156.jpg
+      description: "two culinary students working together"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6687.JPG.jpg
+      description: "student and shop instructor cooking"
 ---
 
 Is food your passion? Then the Culinary Arts program is perfect for you! Our day is spent preparing food for our customers who purchase sweet and savory goods through our student run operations, in order to prepare our student chefs for the food service industry. 

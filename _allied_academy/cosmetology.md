@@ -16,18 +16,18 @@ alumni:
       description: Dennise Porrata is a 2017 graduate from Worcester Technical high school’s cosmetology Program. Upon graduation Dennise Decided to go right into the work field as she currently works at Jeffrey Robert Salon as a hairstylist.
       img: https://wordpress.techhigh.us/wp-content/uploads/2023/01/DennisePorrata_Alumni.jpg
 shop_images:
-    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/04/raphael-lovaski-pxax5WuM7eY-unsplash-1.jpg
-      description: "Makeup Brushes"
-    - src: https://wordpress.techhigh.us/wp-content/uploads/2022/04/maria-lupan-f6qXaAk4rOk-unsplash-1.jpg
-      description: "Nail Polish"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_1847.HEIC.jpg
+      description: "students working on someones hair"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_1820.HEIC.jpg
+      description: "student washing someones hair"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_1813.HEIC.jpg
+      description: "student blowdrying someones hair"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_1055.HEIC.jpg
+      description: "student working on someones makeup"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_0671.HEIC.jpg
+      description: "all cosmotology students grouped together"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_0653.HEIC.jpg
+      description: "student working on someones makeup"
 ---
 
 Fashion-forward, self-expressive students will thrive in our Cosmetology program. You will be taught a wide variety of skills and services that will allow you to specialize in hairdressing, esthetics (skin care), nails (manicures/pedicures), and make-up. You will get the opportunity to work on paying customers and provide services such as shampooing, hair styling, facials, hair coloring, and more. At the end of this program students have the opportunity to become licensed cosmetologists upon completion of the State Board Exam. You will be prepared for any career in the ever-expanding and ever-changing Beauty Industry.
