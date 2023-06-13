@@ -8,18 +8,18 @@ certifications:
     - HubSpot Marketing 
     - Microsoft Office 
 shop_images:
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
-    - src: https://picsum.photos/600/600
-      description: "placeholder"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_4543.HEIC.jpg
+      description: "student taking photos"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_5579.HEIC.jpg
+      description: "student checking stocks"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_3041.HEIC.jpg
+      description: "student showing off things on whiteboard"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_4424.heic.jpg
+      description: "student on instagram"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_4404.heic.jpg
+      description: "students working in the eagles nest"
+    - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_4350.heic.jpg
+      description: "two students talking about whiteboard"
 ---
 
 Dive into a field that is universal, innovative, and relentlessly fast-paced. Finance, Marketing & Business Management provides students with the skills needed to be successful in a variety of paths in business. Combining rich hands-on experiences with coursework taught by leading instructors, our students become equipped with real-world application in digital marketing, social media management, professional speaking, personal finance, investing, and much more.
