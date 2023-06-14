@@ -2,6 +2,7 @@
 layout: student-life
 title: Freshmen
 date: 2022-10-26
+redirect_from: /freshmen/
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/melissa-askew-tSlvoSZK77c-unsplash-1.jpg
 
 excerpt: Information, links, and resources for WTHS Freshman. Welcome to Worcester Tech!
