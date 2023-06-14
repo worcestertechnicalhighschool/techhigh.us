@@ -32,25 +32,9 @@
        
     }
 
-    .alumn-container{
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        img{
-            object-fit: contain;
-            height: 650px;
-            width: 480px;
-            margin-top: 50px;
-        }
-        
-        .alumn-content{
-            display: flex;
-            max-width: 500px;
-            flex-direction: column;
-        }
-    }
+    
     /*
-        Summer work is grey annd round to somewhat contrast with the certifications section
+        Summer work is grey and round to somewhat contrast with the certifications section
         It also adds more color to the page and makes it look less like a generic document
     */
 
