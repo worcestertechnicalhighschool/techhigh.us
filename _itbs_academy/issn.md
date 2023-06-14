@@ -5,7 +5,7 @@ date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/umberto-jXd2FSvcRr8-unsplash-1.jpg
 alumni:
     - name: Prince
-      description: Prince Donkoris a 2016 graduate from Worcester Technical High School’s Information Supports Services & Networking Program (ISS&N). After graduating, Prince went straight into the workforce, and now serves as a Full Stack Software Developer at Ford Motors.
+      description: Prince Donkor is a 2016 graduate from Worcester Technical High School’s Information Supports Services & Networking Program (ISS&N). After graduating, Prince went straight into the workforce, and now serves as a Full Stack Software Developer at Ford Motors.
       img: https://wordpress.techhigh.us/wp-content/uploads/2023/01/PrinceDonkoris_Alumni.jpg
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_3857.heic.jpg
