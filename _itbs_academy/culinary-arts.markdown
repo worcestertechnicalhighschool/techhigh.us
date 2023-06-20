@@ -4,14 +4,8 @@ title: Culinary Arts
 date: 2022-10-24
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/luisa-brimble-HvXEbkcXjSk-unsplash-1.jpg
 certifications:
-    - ServSafe
-    - OSHA
-
-alumni:
-    - name: Samantha
-      description: Samantha Lucier is a 2017 graduate from Worcester Tech’s Culinary Art program. Upon graduation, she continued her education at Johnston and Wales university where she graduated in 2021. Now Samantha is continuing in her career as she is the  Head Baker at Crust Bakeshop in Worcester MA. 
-      img: https://wordpress.techhigh.us/wp-content/uploads/2023/01/SamanthaLucier_Alumni.png
-
+    - ServSafe - Food Manager Certification
+    - OSHA 10 General Industry
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6690.JPG.jpg
       description: "students with shop instructor working"

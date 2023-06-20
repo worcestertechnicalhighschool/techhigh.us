@@ -4,12 +4,9 @@ title: Electrical
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/troy-bridges-kXC6XhVL1e4-unsplash-1.jpg
 certifications: 
-    - Anyone wishing to become a licensed electrician in Massachusetts must serve an apprenticeship. 
-    - The apprenticeship has hour requirements for both classroom hours and work hours.
-alumni:
-    - name: David
-      description: David Joyce is a 2012 graduate from Worcester Tech’s  Electrical program. Upon graduation David has Bachelor's Degree in Business Management and Economics from Worcester State University Master's in Business Administration/Management from Worcester State University. David currently works for Gaston Electrical Contractors as a project manager overseeing medium to large commercial/industrial electrical construction projects.
-      img: https://wordpress.techhigh.us/wp-content/uploads/2023/01/DavidJoyce_Alumni.png
+    - OSHA 10 Construction
+    - Electrical Program Certificate
+    - Progression towards Massachusetts Electrician Journeyman License 
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG-0844.jpg
       description: "A student wiring the lights in the interior walls"

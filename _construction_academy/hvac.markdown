@@ -4,10 +4,10 @@ title: HVAC/R
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/troy-bridges-kXC6XhVL1e4-unsplash-1.jpg
 certifications: 
-    - OSHA 10
+    - OSHA 10 Construction
     - EPA 608
     - R-410A 
-    - Hours towards Massachusetts Refrigeration Technician License
+    - Progression towards Massachusetts Refrigeration Technician License
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_1653.HEIC.jpg
       description: "A student working on the temperature to a ventilation"

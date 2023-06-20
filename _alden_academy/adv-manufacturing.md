@@ -6,9 +6,9 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/minku-k
 certifications:
     - MACWIC I & II (Manufacturing Advancement Center Workforce Innovation Collaborative Level 1 & 2)
     - NIMS Skills (National Institute of Metalworking Skills)
-    - NC3
-    - OSHA
-    - HAA5
+    - NS3 (Nulcear Command, Control, and Communications)
+    - OSHA 10 General Industry
+    - HAAS
     - MASTERCAM
     - AUTODESK
 shop_images:
