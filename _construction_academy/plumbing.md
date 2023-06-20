@@ -4,7 +4,8 @@ title: Plumbing
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/sigmund-4CNNH2KEjhc-unsplash-1.jpg
 certifications:
-    - 550 hours of related theory classroom instruction 
+    - OSHA 10 Construction
+    - Hotworks
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_4598.HEIC.jpg
       description: "A group of kids buiding a pipe system"

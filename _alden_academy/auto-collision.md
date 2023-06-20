@@ -4,9 +4,9 @@ title: Auto Collision
 date: 2022-10-24
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/egor-vikhrev-S0cqn0mZU0E-unsplash-1.jpg
 certifications:
-    - OSHA 10
-    - Applied educational system certifications
-    - up to 9 SP2 certifications
+    - OSHA 10 General Industry
+    - AES (Applied Educational Systems)
+    - SP2 (Safety & Pollution Prevention Certifications)
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_8012.HEIC.jpg
       description: "Auto Collison Students"

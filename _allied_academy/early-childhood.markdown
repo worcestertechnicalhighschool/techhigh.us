@@ -4,7 +4,7 @@ title:  Early Childhood
 date:   2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/sigmund-TJxotQTUr8o-unsplash-1.jpg
 certifications:
-    - Department of Early Education and Care Certification
+    - EEC Certifications (Department of Early Education and Care)
     - CPR and First Aid
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_8038.jpg

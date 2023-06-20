@@ -4,9 +4,9 @@ title: Carpentry
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/benjamin-lehman-EJU7A__krX0-unsplash-1.jpg
 certifications: 
-    - OSHA 10 
-    - Carpentry Proficiency Certificate
-    - NASRCC level I and level II Certificates
+    - OSHA 10 Construction
+    - Carpentry Proficiency
+    - NASRCC level I and level II
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_8031.HEIC-scaled.jpg
       description: "A student measuring a wooden board"

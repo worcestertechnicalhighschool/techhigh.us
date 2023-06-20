@@ -4,7 +4,7 @@ title:  Environmental Tech
 date:   2022-10-24 11:30:49 -0400
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/chuttersnap-UmncJq4KPcA-unsplash-1.jpg
 certifications:
-    - OSHA 10
+    - OSHA 10 General Industry
     - MA Boating Safety 
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_5255-JPG.jpg

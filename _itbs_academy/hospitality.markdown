@@ -4,11 +4,11 @@ title: Hospitality Management
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/gift-habeshaw-IunBGha7idU-unsplash-1.jpg
 certifications: 
-    - ServSafe -Food Manager
-    - ServSafe- Allergen
+    - ServSafe - Food Manager
+    - ServSafe - Allergen
     - Alcohol Intervention
-    - OSHA- 10 general industry
-    - CPR/AED – choke safe
+    - OSHA 10 General Industry
+    - CPR/AED – Choke Safe
     - Mass Crowd Manager
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_5296.JPG.jpg

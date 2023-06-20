@@ -27,7 +27,4 @@ shop_images:
       description: "student coding"
 ---
 
-Tech-savvy, critical thinkers, with a passion for creating technology will find success in our Programming and Website Development program. Students will learn computer science principles such as coding and the development of mobile apps in order to solve real-world problems. You will also have the opportunity to gain more advanced skills in java script and the design and creation of websites. This program will give students the ability to effectively communicate and help the community through the use of technology.
-
-
-
+Tech-savvy, critical thinkers, with a passion for creating technology will find success in our Programming and Website Development program. Students will learn computer science concepts through theory and project-based learning. Students develop websites, apps, and digital games to solve real-world problems. You will also have the opportunity to gain more advanced skills in JavaScript and the design and creation of websites. This program will give students the ability to effectively communicate and help the community through the use of technology.

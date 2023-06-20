@@ -4,7 +4,8 @@ title:  Veterinary Assisting
 date:   2022-10-24 11:30:49 -0400
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/alice-aVTME6WDKqw-unsplash-1.jpg
 certifications:
-    - Approved Veterinary Assitant (AVA)
+    - OSHA 10 General Industry
+    - Approved Veterinary Assistant (AVA)
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_8086.JPG.jpg
       description: "student checking on dog"

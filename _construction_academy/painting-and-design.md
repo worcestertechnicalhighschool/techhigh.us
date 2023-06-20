@@ -3,9 +3,11 @@ layout: shop-pages
 title: Interior Design & Decorating
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash-1.jpg
+certifications: 
+    - OSHA 10 Construction
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6814.JPG.jpg
-      description: "A student paintin a bench"
+      description: "A student painting a bench"
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6798.JPG.jpg
       description: "A student carefully painting a bench and polishing it up"
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6769.JPG.jpg
@@ -13,7 +15,7 @@ shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6751.JPG.jpg
       description: "A student drawing a design on a ipad"
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_5523.JPG.jpg
-      description: "A student paintin a chair"
+      description: "A student painting a chair"
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_6753.JPG.jpg
       description: "A picture of a girl making designs"
 ---

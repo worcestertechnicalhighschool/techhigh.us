@@ -5,7 +5,8 @@ date: 2022-10-24
 permalink:
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/rob-lambert-9Q_pLLP_jmA-unsplash-1.jpg
 certifications: 
-    - D.O.T. Bridge
+    - massDOT Bridge (AWS D1.5)
+    - OSHA 10 Construction
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_4391.jpg
       description: "student welding with helmet on"
