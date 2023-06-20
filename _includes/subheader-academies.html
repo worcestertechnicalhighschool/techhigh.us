@@ -1,0 +1,13 @@
+<div class="wrapper">
+  
+    <nav id="section-navigation" class="section-navigation">
+        <ul class="navlist-secondary">
+          {% for academy in site.['technical_areas'] %}
+              <li class="menu-item current-menu-item">
+                <a href="{{ academy.url | relative_url }}" 
+                    aria-current="page">{{ academy.title }}</a>
+              </li>
+          {% endfor %}
+        </ul>  
+    </nav>
+</div>
