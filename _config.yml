@@ -39,10 +39,10 @@ github_username:  worcestertechnicalhighschool
 # Build settings
 # theme: minima
 plugins:
+  - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-redirect-from
 
 collections: 
   sections:
