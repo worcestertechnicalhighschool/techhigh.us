@@ -2,6 +2,11 @@
 layout: shop-pages
 title: Auto Collision
 date: 2022-10-24
+tags: [auto+collision, shop, cars, automotive, alden, alden+academy]
+
+redirect_from:
+  - /auto-collision
+
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/egor-vikhrev-S0cqn0mZU0E-unsplash-1.jpg
 certifications:
     - OSHA 10 General Industry

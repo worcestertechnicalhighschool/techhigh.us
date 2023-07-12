@@ -3,6 +3,11 @@ layout: shop-pages
 title: Auto Technology
 date: 2022-10-24
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/markus-spiske-1fkoklr9ZIA-unsplash-1.jpg
+tags: [auto+tech, auto+technology, automotive, cars, shop, alden, alden+academy]
+
+redirect_from:
+  - /auto-tech
+
 certifications:
     - ASE Student Certification 
     - ASE 609

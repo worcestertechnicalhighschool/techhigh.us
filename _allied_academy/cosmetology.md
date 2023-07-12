@@ -3,6 +3,12 @@ layout: shop-pages
 title: Cosmetology
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/maria-lupan-f6qXaAk4rOk-unsplash-1.jpg
+tags: [cosmetology, shop, allied, hair, allied+academy]
+
+redirect_from:
+  - /cosmo
+  - /cosmetology
+
 certifications: 
     - Massachusetts State Cosmetology License
     - 1000 Hour Course Completion

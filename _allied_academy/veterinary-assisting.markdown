@@ -3,9 +3,16 @@ layout: shop-pages
 title:  Veterinary Assisting
 date:   2022-10-24 11:30:49 -0400
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/alice-aVTME6WDKqw-unsplash-1.jpg
+tags: [veterinary+aassisting, animals, allied, shop, vet, allied+academy]
+
 certifications:
     - OSHA 10 General Industry
     - Approved Veterinary Assistant (AVA)
+
+redirect_from:
+  - /veterinary-assisting
+  - /veterinary
+
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_8086.JPG.jpg
       description: "student checking on dog"

@@ -2,6 +2,10 @@
 layout: department-pages
 title: Science
 date: 2022-10-25
+tags: [science, biology, chemistry, physics, academics]
+
+redirect_from:
+    - /science
 
 courses:
     Freshmen: 

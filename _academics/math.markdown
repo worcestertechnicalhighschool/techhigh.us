@@ -2,6 +2,11 @@
 layout: department-pages
 title: Math
 date: 2022-10-25
+tags: [math, equations, problems, acedemics]
+
+redirect_from:
+    - /math
+
 courses:
     Freshmen: 
         - Algebra I
