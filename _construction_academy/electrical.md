@@ -4,6 +4,10 @@ title: Electrical
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/troy-bridges-kXC6XhVL1e4-unsplash-1.jpg
 tags: [electric, wiring, electricity, maintenance]
+
+redirect_from:
+  - /electrical
+
 certifications: 
     - OSHA 10 Construction
     - Electrical Program Certificate
