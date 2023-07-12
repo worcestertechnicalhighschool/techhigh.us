@@ -3,6 +3,7 @@ layout: summer-work
 title: Science Summer Work
 date: 2022-12-22
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/science.jpg
+tags: [observating, undertanding, physics, chemistry, biology, summer+work]
 ---
 
 <div class="freshmen" markdown="1">

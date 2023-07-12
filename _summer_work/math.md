@@ -3,6 +3,7 @@ layout: summer-work
 title: Math Summer Work
 date: 2022-12-22
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/math.jpg
+tags: [calculating, numbers, relationships, summer+work]
 ---
 <br>
 <div class="freshmen" markdown="1">

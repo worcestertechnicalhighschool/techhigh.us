@@ -3,6 +3,7 @@ layout: summer-work
 title: English Summer Work
 date: 2022-12-22
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/05/English.webp
+tags: [reading, learning, writing, communication, summer+work]
 ---
 <div class="freshmen" markdown="1">
 <br>

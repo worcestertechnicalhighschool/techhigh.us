@@ -3,6 +3,7 @@ layout: shop-pages
 title: Hospitality Management
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/gift-habeshaw-IunBGha7idU-unsplash-1.jpg
+tags: [service, managment, hosting, planing]
 certifications: 
     - ServSafe - Food Manager
     - ServSafe - Allergen
