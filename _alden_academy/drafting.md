@@ -3,8 +3,14 @@ layout: shop-pages
 title: Computer Aided Drafting
 date: 2022-10-24
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/lucas-kepner-Yn8D5B8C-eY-unsplash-1.jpg
+tags: [drafting, cad, computer+aided+drafting, shop, alden, alden+academy]
+
 certifications:
     - OSHA 10 General Industry
+
+redirect_from:
+  - /drafting
+
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_8623.JPG.jpg
       description: "cad students watching a ramp"

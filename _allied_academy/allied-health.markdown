@@ -3,6 +3,11 @@ layout: shop-pages
 title:  Allied Health
 date:   2022-10-24 11:30:49 -0400
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/myriam-zilles-7V95FwS2Ss4-unsplash-1.jpg
+tags: [shop, allied+health, healthcare, allied, allied+academy]
+
+redirect_from:
+  - /allied-health
+
 certifications: 
     - Dementia Training Certification
     - OSHA 10 General Industry Certification

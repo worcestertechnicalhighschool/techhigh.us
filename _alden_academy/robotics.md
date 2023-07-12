@@ -3,9 +3,15 @@ layout: shop-pages
 title: Robotics & Automation Technology
 date: 2022-10-24
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/louis-reed-wSTCaQpiLtc-unsplash-1.jpg
+tags: [robotics, robot, robots, shop, alden, alden+academy]
+
 certifications:
     - OSHA 10 General Industry
     - FANUC Robotics
+
+redirect_from:
+  - /robotics
+
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_8046.HEIC.jpg 
       description: "Robotics Student"
