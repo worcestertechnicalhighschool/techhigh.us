@@ -4,6 +4,7 @@ title: Programming & Web Development
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/markus-spiske-hbb6GkG6p9M-unsplash-1.jpg
 certifications: 
+tags: [programming, coding, designing, software, website+management]
 - OSHA 10 General Industry
 alumni:
   - name: Derek

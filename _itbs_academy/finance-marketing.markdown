@@ -3,6 +3,7 @@ layout: shop-pages
 title: Finance, Marketing, & Business Management
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/kanchanara-5hcV51EeeWc-unsplash-1.jpg
+tags: [investments, finances, money, money+management, marketing]
 certifications:
     - Everfi Financial Literacy
     - Everfi Entrepreneurship

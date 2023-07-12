@@ -3,6 +3,7 @@ layout: shop-pages
 title: Culinary Arts
 date: 2022-10-24
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/luisa-brimble-HvXEbkcXjSk-unsplash-1.jpg
+tags: [food, cooking, presentation, art, gourmet]
 certifications:
     - ServSafe - Food Manager Certification
     - OSHA 10 General Industry

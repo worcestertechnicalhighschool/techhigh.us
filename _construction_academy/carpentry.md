@@ -3,6 +3,7 @@ layout: shop-pages
 title: Carpentry
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/benjamin-lehman-EJU7A__krX0-unsplash-1.jpg
+tags: [building, wood, construction, designing, craft]
 certifications: 
     - OSHA 10 Construction
     - Carpentry Proficiency

@@ -3,6 +3,7 @@ layout: shop-pages
 title: Plumbing
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/sigmund-4CNNH2KEjhc-unsplash-1.jpg
+tags: [plumbing, water+system, waterworkds, drains, pipes]
 certifications:
     - OSHA 10 Construction
     - Hotworks
