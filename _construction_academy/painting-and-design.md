@@ -7,6 +7,7 @@ tags: [painting, designing, art, crafts, creating]
 
 redirect_from:
   - /painting-and-design
+  - /painting
 
 certifications: 
     - OSHA 10 Construction
