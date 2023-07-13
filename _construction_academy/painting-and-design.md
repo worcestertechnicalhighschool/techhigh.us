@@ -4,6 +4,11 @@ title: Interior Design & Decorating
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash-1.jpg
 tags: [painting, designing, art, crafts, creating]
+
+redirect_from:
+  - /painting-and-design
+  - /painting
+
 certifications: 
     - OSHA 10 Construction
 shop_images:
