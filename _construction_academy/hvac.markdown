@@ -4,6 +4,10 @@ title: HVAC/R
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/troy-bridges-kXC6XhVL1e4-unsplash-1.jpg
 tags: [ventilation, cooling, heating, maintenance]
+
+redirect_from:
+  - /hvac
+
 certifications: 
     - OSHA 10 Construction
     - EPA 608
