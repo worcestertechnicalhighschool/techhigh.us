@@ -1,5 +1,5 @@
 ---
-layout: student-life
+layout: clubs
 title: Clubs
 date: 2022-10-26
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/lucas-santos-XIIsv6AshJY-unsplash-1.jpg
@@ -241,11 +241,6 @@ Worcester tech offers various clubs and leadership opportunities for students to
 - ## Class Officer Positions 
 - ## E-team
 
-## Organizations
 
-- ## DECA
-- ## SkillsUSA
-- ## Student Council
-- ## National Honor Society
 
 </div>
