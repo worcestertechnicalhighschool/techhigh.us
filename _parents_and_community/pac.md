@@ -21,10 +21,10 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/julia-t
 - James Tripp Pockevicius - Teacher/Department Head
 - Peter Stearns - Teacher
 - Jacqueline Kaliz - Teacher
-- Tom Quinn Guidance
+- Tom Quinn - Guidance
 - Lynn Wanjiku - Student
 - Jocelyn Coughlin - Teacher
 
 ## Contact Us
 
-Drew Weymouth | Principal                    Michelle Phenix_ Assistantnt Principal                    Allison audet| MCAS Specialist
+ [Drew Weymouth - Principal](mailto:weymouthdg@worcesterschools.net) | [Michelle Phenix - Assistant Principal](mailto:phenixm@worcesterschools.net) | [ Allison Audet - MCAS Specialist](mailto:audeta@worcesterschools.net)

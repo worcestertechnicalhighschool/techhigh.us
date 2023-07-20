@@ -26,7 +26,7 @@ Worcester tech offers various clubs and leadership opportunities for students to
   Thurs 
 
 - ## Math Team
-  ### [Mr. Marrion](mailto:)
+  ### [Mr. Marion](mailto:)
   ---
   
   Room TBD
@@ -40,47 +40,212 @@ Worcester tech offers various clubs and leadership opportunities for students to
   Room N/A
 
   Mon/Thurs
-</div>
+
     
 
-- A/V Club
-- Gay/Straight Alliance
-- Writer's Club
-- Poetry Out Loud
-- Herren Project
-- Model UN
-- Newspaper
-- Asian Student Union
-- BTS LY Club
-- Guitar Club
-- Dungeons & Dragons Club
-- Women Empowerment Club
-- Drama Club
-- Art Club
-- Earth Club
-- FIT Club
-- Black Student Union
-- Caring with Compassion Club
-- Psychology Club
-- Let Love Lead
-- Yearbook Club
-- WooTech News Club
-- Skateboard Club
-- Chess Club
+- ## A/V Club
+  ### [Mr. Torres & Mr. Stearns](mailto:)
+  ---
+
+  Room N/A
+
+  Every Other Monday.
+
+- ## Gay/Straight Alliance
+  ### [Mrs. Holland & Mrs. Mitre](mailto:)
+  ---
+
+  Room N/A
+
+  Meets 1st and 3rd Thursdays.
+
+- ## Writer's Club
+  ### [Mrs. Holland](mailto:)
+  ---
+
+  Room C340
+
+  Meets 2nd and 4th Thursdays.
+
+- ## Poetry Out Loud
+  ### [Mrs. Holland](mailto:)
+  ---
+
+  Room N/A
+
+  dates: n/a
+  
+- ## Herren Project
+  ### [Ms. Mac](mailto:)
+  ---
+
+  Room D408
+
+  Meeting dates determined by student interest.
+  
+- ## Model UN
+  ### [john doe](mailto:)
+  ---
+
+  Room D343
+
+  Z Week Thursdays.
+  
+- ## Newspaper
+  ### [TBD](mailto:)
+  ---
+
+  Room: TBD
+  
+- ## Asian Student Union
+  ### [N/A](mailto:)
+  ---
+
+  Room N/A
+  
+- ## BTS LY Club
+  ### [john doe](mailto:)
+  ---
+
+  Room N/A
+
+  mon/thurs
+  
+- ## Guitar Club
+  ### [Mr. Stearns](mailto:)
+  ---
+
+  Room N/A
+
+  Friday Afternoons
+  
+- ## Dungeons & Dragons Club  
+  ### [Mr. Brennan](mailto:)
+  ---
+
+  Room B318
+
+  Wednesdays
+  
+- ## Women Empowerment Club
+  ### [Mrs. McGuire](mailto:)
+  ---
+
+  Room B316
+
+  Tuesdays
+  
+- ## Drama Club
+  ### [Ms. Bowers](mailto:)
+  ---
+
+  Room B317
+
+  Thursdays
+  
+- ## Art Club
+  ### [Mrs. Holland](mailto:)
+  ---
+
+  Environmental Science Shop
+
+  Wednesdays
+  
+- ## Earth Club
+  ### [TBD](mailto:)
+  ---
+
+  Room TBD
+
+  TBD
+  
+- ## FIT Club
+  ### [Mrs. Coughlin](mailto:)
+  ---
+
+  Room C409
+
+  N/A
+
+- ## Black Student Union
+  ### [Ms. Belcher, Ms. MacKnight & Ms. Johnson](mailto:)
+  ---
+
+  Biotech Area
+
+  2nd and 4th Thursdays of Each Month
+  
+- ## Caring with Compassion Club
+  ### [Ms. Chase](mailto:)
+  ---
+
+  Zen Den
+
+  Wednesdays
+  
+- ## Psychology Club
+  ### [Mrs. Donovan](mailto:)
+  ---
+
+  Room D339
+
+  2nd and 4th Thursdays of Each Month
+  
+- ## Let Love Lead
+  ### [N/A](mailto:)
+  ---
+
+  Room N/A
+
+  N/A
+  
+- ## Yearbook Club
+  ### [Mrs. Coughlin](mailto:)
+  ---
+
+  Room C409
+
+  
+- ## WooTech News Club
+  ### [Mr. Metivier](mailto:)
+  ---
+
+  Room N/A
+
+  Wednesdays
+  
+- ## Skateboard Club
+  ### [john doe](mailto:)
+  ---
+
+  Room N/A
+
+  mon/thurs
+  
+- ## Chess Club
+  ### [Mr. Petty](mailto:)
+  ---
+
+  Room B174
+
+  Thursdays
+  
 
 
 
 
 ## Leadership
-- Student Advisory Council
-- Student representative to Worcester School Committee 
-- Superintendent's Advisory Committee
-- Class Officer Positions 
-- E-team
+- ## Student Advisory Council
+- ## Student representative to Worcester School Committee 
+- ## Superintendent's Advisory Committee
+- ## Class Officer Positions 
+- ## E-team
 
 ## Organizations
 
-- DECA
-- SkillsUSA
-- Student Council
-- National Honor Society
+- ## DECA
+- ## SkillsUSA
+- ## Student Council
+- ## National Honor Society
+
+</div>

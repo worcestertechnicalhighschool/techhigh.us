@@ -30,12 +30,12 @@ layout: default
 
           <div class="staff-members"> <!--This wraps all the faculty members in this department-->
           {% assign lastdep = faculty.department %} <!--Last dep is assigned everytime the forloop goes through a new staff member-->
-            <div class="card card--faculty"> <!--All the information for the staff is now based upon the staff the forloop is going through now
+            <div class="card card--faculty" style="min-width: 300px; max-width: 300px;"> <!--All the information for the staff is now based upon the staff the forloop is going through now
           faculty = site.data.faculty[#], # meaning anynumber -->
               <div class="staff"> <!--for each individual staff-->
                 <img src="{{ faculty.image_url }}" alt='{{ faculty.first_name }} {{faculty.last_name}}'> <!--Their image-->
-                <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p> <!--their name-->
-                <p class="title card-description">{{ faculty.title }}</p><!--Their staff role/title-->
+                <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p><!--their name-->
+                <p class="title card-description">{{ faculty.title }}</p> <!--Their staff role/title-->
                 <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p> <!--their email-->
               </div>
             </div>

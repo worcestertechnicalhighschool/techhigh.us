@@ -10,6 +10,7 @@ redirect_from:
 
 excerpt: Worcester Technical High School is committed to helping students gain access to a valuable core and vocational education while addressing individual needs.
  
+description: " "
 ---
 
 ## Voc-P Program
