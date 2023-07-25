@@ -6,7 +6,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/lucas-s
 
 excerpt: Worcester Tech offers various clubs and leadership opportunities for students to excel in and outside of the classroom.
 ---
-Worcester tech offers various clubs and leadership opportunities for students to excel in and out of the classroom
+
 <div class="card card--clubs" markdown="1">
 
 - ## ESports
@@ -38,10 +38,7 @@ Worcester tech offers various clubs and leadership opportunities for students to
   ---
 
   Room N/A
-
-  Mon/Thurs
-
-    
+ 
 
 - ## A/V Club
   ### [Mr. Torres & Mr. Stearns](mailto:)
@@ -84,7 +81,7 @@ Worcester tech offers various clubs and leadership opportunities for students to
   Meeting dates determined by student interest.
   
 - ## Model UN
-  ### [john doe](mailto:)
+  ### [N/A](mailto:)
   ---
 
   Room D343
@@ -104,12 +101,12 @@ Worcester tech offers various clubs and leadership opportunities for students to
   Room N/A
   
 - ## BTS LY Club
-  ### [john doe](mailto:)
+  ### [N/A](mailto:)
   ---
 
   Room N/A
 
-  mon/thurs
+
   
 - ## Guitar Club
   ### [Mr. Stearns](mailto:)
@@ -215,12 +212,10 @@ Worcester tech offers various clubs and leadership opportunities for students to
   Wednesdays
   
 - ## Skateboard Club
-  ### [john doe](mailto:)
+  ### [N/A](mailto:)
   ---
 
   Room N/A
-
-  mon/thurs
   
 - ## Chess Club
   ### [Mr. Petty](mailto:)

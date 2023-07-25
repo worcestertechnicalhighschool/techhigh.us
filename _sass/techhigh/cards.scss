@@ -382,17 +382,27 @@
 .card--organizations {
     h2 {
         text-align: center;
-        color: red;
+        color: $white;
+        font-size: 35px;
     }
   
     .org-category {
-        
-    }
-
-    .box-color {
-        background-color: blue;
+        color: $white;
+        position: relative;
+        top: 50%;
+        left: 30%;
+        margin-left: -120px;        
     }
 }
+table {
+    color: $white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.box-color {
+    background-color: $primary;
+    }
 
 .cta-card {
     background-color: grey;
