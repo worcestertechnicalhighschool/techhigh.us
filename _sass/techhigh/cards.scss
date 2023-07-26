@@ -391,18 +391,17 @@
         position: relative;
         top: 50%;
         left: 30%;
-        margin-left: -120px;        
+        margin-left: -120px;
+        
+          
     }
-}
-table {
-    color: $white;
-    font-size: 25px;
-    text-align: center;
 }
 
+
 .box-color {
-    background-color: $primary;
-    }
+    background-color: #003865;
+    color: $white;
+}
 
 .cta-card {
     background-color: grey;
