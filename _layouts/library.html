@@ -89,8 +89,7 @@ layout: default
           {% assign staff = faculty.department | remove: '"' %}
           {% assign depart = staff | strip %}
           {% assign title = faculty.title | strip %}
-          
-          {%- if faculty.title == "Librarian" -%}
+          {%- if title == "Librarian" -%}
             <div class="staff-members">
               <div class="card card--faculty">
                 <div class="staff">
