@@ -21,9 +21,17 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        font-weight: bold;
+        font-size: 15px;
+        li {
+            img {
+                border-radius: 40px;
+            }
+        }
         a {
             display: inline-block;
             margin-bottom: 10px;
+            font-weight: normal;
         }
     }
 }
