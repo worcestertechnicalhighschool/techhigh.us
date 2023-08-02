@@ -148,7 +148,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 <div class="col-3" style="text-align: center;" markdown="1">
 
 - ### Baseball
-<img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/0119.jpg" width="230" height="230" />
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/0119.jpg" width="230" />
 
     Coach Vincent Pennell
 
@@ -162,7 +162,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
     [phenixp@worcesterschools.net](mailto: phenixp@worcesterschools.net)
 
 - ### Boys Volleyball
-<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" width="230"/>
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" width="230" />
 
     Coach Dancy
     
@@ -205,7 +205,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
     [matthewgenkos@gmail.com](mailto: matthewgenkos@gmail.com)
 
 - ### Girls Lacrosse
-<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" width="250"/>
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" width="230"/>
 
     Coach Moulin
     
