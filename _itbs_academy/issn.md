@@ -4,6 +4,8 @@ title: Information Support Services & Networking
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/umberto-jXd2FSvcRr8-unsplash-1.jpg
 tags: [computer+management, networking, servers, IT, hardware]
+redirect_from:
+  - /issn
 alumni:
     - name: Prince
       description: Prince Donkor is a 2016 graduate from Worcester Technical High School’s Information Supports Services & Networking Program (ISS&N). After graduating, Prince went straight into the workforce, and now serves as a Full Stack Software Developer at Ford Motors.

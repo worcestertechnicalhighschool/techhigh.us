@@ -7,9 +7,6 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/riley-m
 excerpt: Students have the opportunity to learn skills and techniques that translate to what they learn in the classroom – leadership, teamwork, respect, dedication, mental and physical toughness on and off the playing field.
 ---
 
-
-
-
 ## Fall Sports
 
 <div class="col-3" style="text-align: center;" markdown="1">

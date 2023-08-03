@@ -6,6 +6,10 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/markus-
 certifications: 
   - OSHA 10 General Industry
 tags: [programming, coding, designing, software, website+management]
+
+redirect_from:
+  - /webdev
+
 alumni:
   - name: Derek
     description: Derek Murphy is a 2014 graduate from Worcester Technical High School’s Programming and Web Development Program. After graduating, Derek attended Fitchburg State and Worcester Polytechnic Institute, and then completed classes at Northeastern University. He now serves as a Senior Software Engineer for GreatHorn Email Security. 

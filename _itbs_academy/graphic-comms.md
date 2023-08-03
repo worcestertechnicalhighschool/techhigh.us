@@ -4,6 +4,9 @@ title: Graphic Communication
 date: 2022-10-28
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/neven-krcmarek-V4EOZj7g1gw-unsplash-1.jpg
 tags: [art, graphics, designing, design, creativity]
+redirect_from:
+  - /graphics
+  - /graphics-communication
 certifications:
     - OSHA 10 General Industry
 shop_images:
