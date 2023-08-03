@@ -171,7 +171,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 - ### Outdoor Track
 <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" width="230"/>
 
-    Coach Coach John Nicol
+    Coach John Nicol
 
     [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
 
