@@ -21,9 +21,9 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 - ### Football
 <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" width="230"/>
 
-    Coach Derek Robbins
+    Coach Chris Simoneau
 
-    [derekrobbins31@gmail.com](mailto: derekrobbins31@gmail.com)
+    [simoneau.christopher5@gmail.com](mailto: simoneau.christopher5@gmail.com)
 
 - ### Girls Volleyball
 <img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/0050.jpg" width="230" />
@@ -98,7 +98,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 - ### Girls Basketball
 <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" width="230"/>
 
-    Coach Leveille
+    Coach Stephanie Leveille
 
     [sleveillee@ymail.com](mailto: sleveillee@ymail.com)
 
