@@ -31,7 +31,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
   
   Room TBD
 
-  Date: TBD
+  Dates TBD
 
 - ## Student Council
   ### [Ms. Kolodziejczak](mailto:)
@@ -231,7 +231,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 ## Leadership
 - ## Student Advisory Council
-- ## Student Representative to Worcester School Committee 
+- ## Student representative to Worcester School Committee 
 - ## Superintendent's Advisory Committee
 - ## Class Officer Positions 
 - ## E-team
