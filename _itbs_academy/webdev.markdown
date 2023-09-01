@@ -10,13 +10,13 @@ tags: [programming, coding, designing, software, website+management]
 redirect_from:
   - /webdev
 
-alumni:
-  - name: Derek
-    description: Derek Murphy is a 2014 graduate from Worcester Technical High School’s Programming and Web Development Program. After graduating, Derek attended Fitchburg State and Worcester Polytechnic Institute, and then completed classes at Northeastern University. He now serves as a Senior Software Engineer for GreatHorn Email Security. 
-    img: https://wordpress.techhigh.us/wp-content/uploads/2023/01/DerekMurphy_Alumni.jpg
-  - name: Mariah
-    description: Mariah Donahue is a 2018 graduate from Worcester Technical High School’s Programming and Web Development Program. After graduating, Mariah attended the University of Connecticut (UCONN), graduating with a Bachelor of Arts in Applied Mathematical Studies. While in school, Mariah worked as a web development specialist for OPIM Innovate. She currently works as a Computer Lab Research Specialist for OPIM Innovate.
-    img: https://wordpress.techhigh.us/wp-content/uploads/2023/06/mariah-donahue.jpg
+# alumni:
+#   - name: Derek
+#     description: Derek Murphy is a 2014 graduate from Worcester Technical High School’s Programming and Web Development Program. After graduating, Derek attended Fitchburg State and Worcester Polytechnic Institute, and then completed classes at Northeastern University. He now serves as a Senior Software Engineer for GreatHorn Email Security. 
+#     img: https://wordpress.techhigh.us/wp-content/uploads/2023/01/DerekMurphy_Alumni.jpg
+#   - name: Mariah
+#     description: Mariah Donahue is a 2018 graduate from Worcester Technical High School’s Programming and Web Development Program. After graduating, Mariah attended the University of Connecticut (UCONN), graduating with a Bachelor of Arts in Applied Mathematical Studies. While in school, Mariah worked as a web development specialist for OPIM Innovate. She currently works as a Computer Lab Research Specialist for OPIM Innovate. 
+#     img: https://wordpress.techhigh.us/wp-content/uploads/2023/06/mariah-donahue.jpg
 shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_3121-2.HEIC.jpg
       description: "students talking all together"

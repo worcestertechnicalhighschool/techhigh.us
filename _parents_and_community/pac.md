@@ -6,6 +6,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/julia-t
 ---
 
 ## 2021-2022 PAC Members
+
 - Drew Weymouth - Principal
 - Michelle Phenix - Assistant Principal
 - Jacquelyn Krull - MCAS Specialist
@@ -27,20 +28,4 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/julia-t
 
 ## Contact Us
 
-<<<<<<< HEAD
  [Drew Weymouth - Principal](mailto:weymouthdg@worcesterschools.net) | [Michelle Phenix - Assistant Principal](mailto:phenixm@worcesterschools.net) | [ Jacquelyn Krull - MCAS Specialist](mailto:krullj@worcesterschools.net)
-=======
-<div>
-
-Drew Weymouth 
-
-</div>
-
-Principal Michelle Phenix Assistant Principal 
-
-<div>
-
-Jacquelyn Krull MCAS Specialist
-
-</div>
->>>>>>> bcba46ae8f0e0697177d02db6b42a03582cc6b74

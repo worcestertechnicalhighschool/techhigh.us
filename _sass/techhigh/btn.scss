@@ -49,10 +49,12 @@ button:focus-visible,
 
 .btn--cta {
     border: 2px solid $primary;
+    background-color: $secondary;
     color: $primary;
-    &:visited{
+
+    /* &:visited{
         color: $primary;
-    }
+    } */
 
     &:hover{
         background: $primary;
