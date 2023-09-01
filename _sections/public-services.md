@@ -2,6 +2,7 @@
 title: Public Services
 layout: section
 date: 2022-11-5
+order: 5
 ---
 
 Worcester Technical High School offers several services to the community during school hours.

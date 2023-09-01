@@ -46,21 +46,6 @@
        
     }
 
-<<<<<<< HEAD
-    
-    /*
-        Summer work is grey and round to somewhat contrast with the certifications section
-        It also adds more color to the page and makes it look less like a generic document
-    */
-
-    .courses{
-        .summer-work{
-           // text-align: left;
-            border-radius: 10px;
-            margin-top: 0;
-            background-color: white;
-            color: black;
-=======
     .shop-img-grid{
         margin: auto;
         img{
@@ -71,6 +56,7 @@
             max-width: 300px;
         }
     }
+
     @media (min-width: 500px) {
         .shop-img-grid {
           max-width: 750px;
@@ -107,12 +93,11 @@
             max-width: 500px;
             max-height: 200px;
             flex-direction: column;
->>>>>>> bcba46ae8f0e0697177d02db6b42a03582cc6b74
         }
     }
 }
 
-/*
+    /*
         Summer work is grey and round to somewhat contrast with the certifications section
         It also adds more color to the page and makes it look less like a generic document
     */

@@ -34,16 +34,17 @@
     {%- if page_paths -%}
       <nav id="site-navigation" class="primary-nav mobile">
         <ul class="menu">
-          {% for section in site.sections %}
-            {% if page.url == section.url  %}
+          {% assign sections = site.sections | sort:"order" %}
+          {% for s in sections %}
+            {% if page.url == section.url %}
               <li class="menu-item current-menu-item">
-                <a href="{{ section.url | relative_url }}" aria-current="page">{{ section.title | escape}}</a>
+                <a href="{{ s.url | relative_url }}" aria-current="page">{{ s.title | escape}}</a>
             {% else %}
               <li class="menu-item">
-                <a href="{{ section.url | relative_url }}">{{ section.title | escape}}</a>
+                <a href="{{ s.url | relative_url }}">{{ s.title | escape}}</a>
             {% endif %}
               {% comment %} modify the file name to match the collection {% endcomment %}
-              {% assign sub = section.slug | replace: "-", "_" %}
+              {% assign sub = s.slug | replace: "-", "_" %}
               <ul class="submenu">
                 {% for menu_item in site.[sub] %}
                   {% if page.url == menu_item.url  %}
