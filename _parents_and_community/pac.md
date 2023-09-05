@@ -6,9 +6,10 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/julia-t
 ---
 
 ## 2021-2022 PAC Members
+
 - Drew Weymouth - Principal
 - Michelle Phenix - Assistant Principal
-- Allison Audet - MCAS Specialist
+- Jacquelyn Krull - MCAS Specialist
 - John Mahan - Community Member
 - Ms. Fabienne Charlemagne - Parent
 - Karen Chevalier - Parent
@@ -21,10 +22,10 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/julia-t
 - James Tripp Pockevicius - Teacher/Department Head
 - Peter Stearns - Teacher
 - Jacqueline Kaliz - Teacher
-- Tom Quinn	Guidance
+- Tom Quinn - Guidance
 - Lynn Wanjiku - Student
 - Jocelyn Coughlin - Teacher
 
 ## Contact Us
 
-Drew Weymouth | Principal                    Michelle Phenix_ Assistantnt Principal                    Allison audet| MCAS Specialist
+ [Drew Weymouth - Principal](mailto:weymouthdg@worcesterschools.net) | [Michelle Phenix - Assistant Principal](mailto:phenixm@worcesterschools.net) | [ Jacquelyn Krull - MCAS Specialist](mailto:krullj@worcesterschools.net)

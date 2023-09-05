@@ -7,48 +7,80 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/riley-m
 excerpt: Students have the opportunity to learn skills and techniques that translate to what they learn in the classroom – leadership, teamwork, respect, dedication, mental and physical toughness on and off the playing field.
 ---
 
-
-
-
 ## Fall Sports
 
 <div class="col-3" style="text-align: center;" markdown="1">
 
-### Cheer 
-- Coach Abby Biernacki
-- [abbybiernacki@gmail.com](mailto: abbybiernacki@gmail.com)
+- ### Cheer
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
 
-### Football
-- Coach Derek Robbins
-- [derekrobbins31@gmail.com](mailto: derekrobbins31@gmail.com)
+    Coach Abby Biernacki
 
-### Girls Volleyball
-- Coach Hallet
-- [halletp@worcesterschools.net](mailto: halletp@worcesterschools.net)
+    [abbybiernacki@gmail.com](mailto: abbybiernacki@gmail.com)
 
-### Cross Country
-- Coach john Nicol
-- [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
-- Coach Gerald Snay<br>
-- [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+- ### Football
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
 
-### Field Hockey
-- Coach lindsay Ryan
-- [ryan.lindsayn@gmail.com](mailto: ryan.lindsayn@gmail.com)
+    Coach Chris Simoneau
 
-### Boys Golf
-- Coach Tom Quinn
-- [quinnt@worcesterschools.net](mailto: quinnt@worcesterschools.net)
+    [simoneau.christopher5@gmail.com](mailto: simoneau.christopher5@gmail.com)
 
-### Girls Soccer
-- Coach Granum
-- [bgranum@msn.com](mailto: bgranum@msn.com)
-- Coach Binienda
-- [biniendama@worcesterschools.net](mailto: biniendama@worcesterschools.net)
+- ### Girls Volleyball
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/0050.jpg" width="230" />
+    
+    Coach Patricia Hallet
 
-### Crew
-- Coach Kolaco
-- [rkolaco@gmail.com](mailto: rkolaco@gmail.com)
+    [halletp@worcesterschools.net](mailto: halletp@worcesterschools.net)
+
+- ### Cross Country
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach John Nicol
+
+    [nicolj@worcesterschools.net](mailto: nicol@worcesterschools.net)
+
+    ______
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2022/05/4767.jpg" width="230"/>
+
+    Coach Gerald Snay
+
+    [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+
+- ### Field Hockey
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Lindsay Ryan
+
+    [ryan.lindsayn@gmail.com](mailto: ryan.lindsayn@gmail.com)
+
+- ### Boys Golf
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Tom Quinn
+
+    [quinnt@worcesterschools.net](mailto: quinnt@worcesterschools.net)
+
+- ### Girls Soccer
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/> 
+
+
+    Coach Granum 
+
+    [bgranum@msn.com](mailto: bgranum@msn.com) 
+
+    ___
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Binienda
+
+    [biniendama@worcesterschools.net](mailto: biniendama@worcesterschools.net)
+
+- ### Crew
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Kolaco
+
+    [rkolaco@gmail.com](mailto: rkolaco@gmail.com)
 
 </div>
 
@@ -56,31 +88,55 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 <div class="col-3" style="text-align: center;" markdown="1">
 
-### Boys Basketball
-- Coach Sean Lynch
-- [lynchse@worcesterschools.net](mailto: lynchse@worcesterschools.net)
+- ### Boys Basketball
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/0080.jpg" width="230"/>
 
-### Girls Basketball
-- Coach Leveille
-- [sleveillee@ymail.com](mailto: sleveillee@ymail.com)
+    Coach Sean Lynch
 
-### Indoor Track
-- Coach John Nicol
-- [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
-- Coach Gerlad Snay
-- [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+    [lynchse@worcesterschools.net](mailto: lynchse@worcesterschools.net)
 
-### Ice Hockey
-- Coach Vaughan
-- [vaughanm@lpsma.net](mailto: vaughanm@lpsma.net)
+- ### Girls Basketball
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
 
-### Swimming
-- Coach Bruno
-- [tarickbruno123@gmail.com](mailto: tarickbruno123@gmail.com)
+    Coach Stephanie Leveille
 
-### Wrestling
-- Coach Markgren
-- [markgrenl@worcesterschools.net](mailto: markgrenl@worcesterschools.net)
+    [sleveillee@ymail.com](mailto: sleveillee@ymail.com)
+
+- ### Indoor Track
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach John Nicol
+
+    [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
+
+    ______
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2022/05/4767.jpg" width="230"/>
+
+    Coach Gerlad Snay
+
+    [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+
+- ### Ice Hockey
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Vaughan
+
+    [vaughanm@lpsma.net](mailto: vaughanm@lpsma.net)
+
+- ### Swimming
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Bruno
+
+    [tarickbruno123@gmail.com](mailto: tarickbruno123@gmail.com)
+
+
+- ### Wrestling
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Markgren
+
+    [markgrenl@worcesterschools.net](mailto: markgrenl@worcesterschools.net)
 
 </div>
 
@@ -88,38 +144,68 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 <div class="col-3" style="text-align: center;" markdown="1">
 
-### Baseball
-- Coach Vincent Pennell
-- [pennellvc@worcesterschools.net](mailto: pennellvc@worcesterschools.net)
+- ### Baseball
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/0119.jpg" width="230" />
 
-### Softball
-- Coach Pat Phenix
-- [phenixp@worcesterschools.net](mailto: phenixp@worcesterschools.net)
+    Coach Vincent Pennell
 
-### Boys Volleyball
-- Coach Dancy
-- [dancye@worcesterschools.net](mailto: dancye@worcesterschools.net)
+    [pennellvc@worcesterschools.net](mailto: pennellvc@worcesterschools.net)
 
-### Outdoor Track
-- Coach Coach John Nicol
-- [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
-- Coach Gerald Snay
-- [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+- ### Softball
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/0125.jpg" width="230"/>
 
-### Girls Tennis
-- Coach Anthony Camoreyt
-- [camoreyta@worcesterschools.net](mailto: camoreyta@worcesterschools.net)
+    Coach Pat Phenix
 
-### Girls Golf
-- Coach Meghan McDonald
-- [mcdonaldm@worcesterschools.net](mailto: mcdonaldm@worcesterschools.net)
+    [phenixp@worcesterschools.net](mailto: phenixp@worcesterschools.net)
 
-### Boys Lacrosse
-- Coach Matthew Genkos
-- [matthewgenkos@gmail.com](mailto: matthewgenkos@gmail.com)
+- ### Boys Volleyball
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230" />
 
-### Girls Lacrosse
-- Coach Moulin
-- [moulinn@worcesterschools.net](mailto: moulinn@worcesterschools.net)
+    Coach Dancy
+    
+    [dancye@worcesterschools.net](mailto: dancye@worcesterschools.net)
+
+- ### Outdoor Track
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach John Nicol
+
+    [nicolj@worcesterschools.net](mailto: nicolj@worcesterschools.net)
+
+    
+    ____
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2022/05/4767.jpg" width="230"/>
+
+    Coach Gerald Snay
+
+    [snayg@worcesterschools.net](mailto: snayg@worcesterschools.net)
+
+- ### Girls Tennis
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Anthony Camoreyt
+
+    [camoreyta@worcesterschools.net](mailto: camoreyta@worcesterschools.net)
+
+- ### Girls Golf
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Meghan McDonald
+
+    [mcdonaldm@worcesterschools.net](mailto: mcdonaldm@worcesterschools.net)
+
+- ### Boys Lacrosse
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Matthew Genkos
+
+    [matthewgenkos@gmail.com](mailto: matthewgenkos@gmail.com)
+
+- ### Girls Lacrosse
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
+
+    Coach Moulin
+    
+    [moulinn@worcesterschools.net](mailto: moulinn@worcesterschools.net)
 
 <div>

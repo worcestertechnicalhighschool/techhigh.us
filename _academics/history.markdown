@@ -3,6 +3,10 @@ layout: department-pages
 title: History
 date: 2022-10-25
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/history-image.jpg
+tags: [history, old, academics]
+
+redirect_from:
+    - /history
 
 courses:
     Freshmen: 

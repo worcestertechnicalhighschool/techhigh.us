@@ -4,18 +4,17 @@
 
 layout: front-page
 hero_slides: 
-  - image: "https://wordpress.techhigh.us/wp-content/uploads/2022/06/IMG_5222.jpg"
+  - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/03/WebDev.jpg"
     alt: "Web Dev Students"
     position: "object-position: center 75%;"
-  - image: "https://wordpress.techhigh.us/wp-content/uploads/2022/05/07C7A651-2D1F-43F6-BE63-383639091C84.jpeg"
+  - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/03/07C7A651-2D1F-43F6-BE63-383639091C84.jpg"
     alt: "Carpentry Students"
     position: "object-position: center;"
-  - image: "https://wordpress.techhigh.us/wp-content/uploads/2022/05/2CF7C34E-D8A1-4E93-A020-B4198E17C843-1-2.jpeg"
+  - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/03/2CF7C34E-D8A1-4E93-A020-B4198E17C843-1-2-1.jpeg"
     alt: "Student Welding"
     position: "object-position: center;"
 
-hero_text: "<h1>Worcester Technical High&nbsp;School</h1>
-            <p><em>The School That Works</em></p>"
+hero_text: "<p><em>The School That Works</em></p>"
 
 slideshows:
   - slideshow:

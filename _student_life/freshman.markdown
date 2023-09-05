@@ -1,6 +1,10 @@
 ---
 layout: student-life
 title: Freshmen
+
+redirect_from:
+    - /freshman
+
 date: 2022-10-26
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/melissa-askew-tSlvoSZK77c-unsplash-1.jpg
 

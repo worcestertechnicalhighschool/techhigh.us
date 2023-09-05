@@ -1,4 +1,9 @@
 .athletics {
+    .col-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     h2 {
         font-size: 48px;
     }
@@ -12,9 +17,21 @@
         padding: 0;
         margin: 0;
         break-inside: avoid;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 15px;
+        li {
+            img {
+                border-radius: 40px;
+            }
+        }
         a {
             display: inline-block;
             margin-bottom: 10px;
+            font-weight: normal;
         }
     }
 }

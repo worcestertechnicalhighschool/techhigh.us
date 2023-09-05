@@ -1,0 +1,67 @@
+.news-feed{
+
+    #calendar{
+        width: 800px;
+        tr{
+            color: #111;
+           
+        }
+    }
+    //Affects the date.
+    .fc-direction-ltr .fc-list-day-side-text, .fc-direction-rtl .fc-list-day-text{
+        float: left; // puts the date on the left side
+        color: #f7faff;
+        padding: 5px;
+      }
+      //The date row
+      .fc-theme-standard .fc-list-day-cushion{
+        background-color: $primary;
+        border-radius: 3px;
+    
+        //POTENTIAL WAY TO CHANGE BORDER LENGTH (Need to experiment some more (Link I got the code from: https://www.steckinsights.com/shorten-length-border-bottom-pure-css/))
+        // ::after{
+        //   content: ""; /* This is necessary for the pseudo element to work. */ 
+        //   display: block; /* This will put the pseudo element on its own line. */
+        //   margin: 0 auto; /* This will center the border. */
+        //   width: 50%; /* Change this to whatever width you want. */
+        //   padding-top: 20px; /* This creates some space between the element and the border. */
+        //   border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+        // }
+      }
+    
+      //Hiding any hover event
+      .fc .fc-list-event:hover td{
+        background-color: transparent;
+      }
+      .events .news-feed a:hover{
+        pointer-events: none;
+      }
+      .fc .fc-list-event.fc-event-forced-url:hover a{
+        text-decoration: none;
+        color: #111;
+      }
+    
+      //Affects event text
+      .fc .fc-list-event-title a{
+        font-size: 15px;
+        font-weight: $body_bold;
+        font-family: $body_font;
+        color: $primary;
+      }
+    
+      //Affects the time
+      .fc .fc-list-day-cushion, .fc .fc-list-table td{
+        font-size: 15px;
+        font-weight: $body_bold;
+      }
+    
+      //Event Rows
+      .fc-event, .fc-event-dot{
+        background-color: #b9d9eb;
+      }
+    
+      //The dot in between the time and event names
+      .fc .fc-list-event-dot{
+        display: none; //Makes it the same as the background color... Basically amking it invisible
+     }
+}

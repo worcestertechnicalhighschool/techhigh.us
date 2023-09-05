@@ -2,20 +2,67 @@
 layout: default
 ---
 <article class="post {{ page-slug }} ">
+  
 
   {%- include components/hero-entry.html -%}
 
   <div class="post-content contact">
     {{ content }}
+
+  <section>
+  <div class="office-info">
+
+    <div class="box">
+        <div class="icon">
+        <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/Office-Address_-Location.png" alt="Office Address" width="100" height="100">
+        </div>
+        <h3>Office Address</h3>
+        <p>1 Officer Manny Familia Way, Worcester, MA 01605 </p>
+    
+    </div>
+
+    <div class="box">
+      <div class="icon">
+      <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/Main-Office-_-Fax.png" alt="Main Office & Fax" width="100" height="100">
+      </div>
+      <h3>Main Office & Fax</h3>
+      <p>Main Office: (508) 799-1940 Fax: (508) 799-1933</p>
+    
+    </div>
+
+    <div class="box">
+      <div class="icon">
+        <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/Office-Hours.png" alt="Office Hours" width="100" height="100">
+      </div>
+        <h3>Office Hours</h3>
+        <p>Office Hours: 7:00am-3:00pm </p>
+      
+    </div>
+
+    <div class="box">
+      <div class="icon">
+      <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/Class-Hours.png" alt="Class Hours" width="100" height="100">
+       </div>
+      <h3>Class Hours </h3>
+      <p>Class Hours: 7:20am-1:43pm</p>
+     
+    </div>
+
+  </div>
+  </section>
+
     <section>
       <div class="contact-modal" id="contact-modal">
         <div class="message">
+            
             <p>
                 Thank you for your message.<br/>We will get in touch with you shortly.
             </p>
             <button id="contact-modal-close" class="close-btn">Close</button>
         </div>
+       
       </div>
+         
       <form aria-label="Contact Form" action="" method="POST" id="contact-form">
         <label for="name" id="name-label">Name</label>
         <input type="text" name="name" id="name" placeholder="Name" required>
@@ -31,11 +78,13 @@ layout: default
         <label for="subject">Subject</label>
         <input type="text" name="subject" id="subject" placeholder="Subject" required>
         
+        <div class="message-content" id="message-content">
         <label for="message">Message</label>
         <textarea name="message" id="message" cols="10" rows="10" required placeholder="Message"></textarea>
 
         <input type="submit" value="Send">
-       
+       </div>
+
       </form>
     </section>
   </div>

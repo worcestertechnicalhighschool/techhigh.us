@@ -8,7 +8,9 @@ layout: default
 
   <article class="post">
     <section class="post-content">
+      <div class="shop-page-border">
         {{ content }}
+      </div>  
     </section>
     <!-- Renders alumni data (in page front matter) but splits them into img, and content for easier styling-->
     {% if page.alumni %}
@@ -30,7 +32,7 @@ layout: default
         </div>
       </section>
     {% endif %} 
-      
+
     <!-- If statements that will print courses if academic or certs if shop page-->
     {% if page.certifications %}
       <section class="shop-certifications">
@@ -38,7 +40,7 @@ layout: default
         <div class="cert-list">
           <ul>
             {% for item in page.certifications %}
-            <li>{{ item }}</li>
+              <li>{{ item }}</li>
             {% endfor %}
           </ul>
         </div>

@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: "en"
 
+
 # Google analytics
 google_analytics: UA-83881166-1
 
@@ -38,6 +39,7 @@ github_username:  worcestertechnicalhighschool
 # Build settings
 # theme: minima
 plugins:
+  - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -114,17 +116,17 @@ collections:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 exclude:
-    - contributors.sh
-    - github_api_access_token.txt
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - contributors.sh
+  - github_api_access_token.txt
+  - .vs

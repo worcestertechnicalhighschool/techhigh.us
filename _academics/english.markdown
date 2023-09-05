@@ -2,6 +2,11 @@
 layout: department-pages
 title: English
 date: 2022-10-25
+tags: [english, reading, writing, academics]
+
+redirect_from:
+    - /english
+
 courses:
     Freshmen: 
         - English I
