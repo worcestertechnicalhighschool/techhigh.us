@@ -9,10 +9,10 @@ hero_slides:
     position: "object-position: center 75%;"
   - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/03/07C7A651-2D1F-43F6-BE63-383639091C84.jpg"
     alt: "Carpentry Students"
-    position: "object-position: center;"
+    position: "object-position: center 5%;"
   - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/03/2CF7C34E-D8A1-4E93-A020-B4198E17C843-1-2-1.jpeg"
     alt: "Student Welding"
-    position: "object-position: center;"
+    position: "object-position: center 25%;"
 
 hero_text: "<p><em>The School That Works</em></p>"
 

@@ -9,7 +9,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 ## For Reservations, call after 9:30 AM (508) 799-1964
 
 
-<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-093154.png" alt="">
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-093154.png" alt="A picture of soup">
 
 | Soups | Cup  | | Bowl |
 | :----- | ----: | --- | ----: |
@@ -32,7 +32,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 |*Please ask your server for today's selection.*|
 |Add chicken to any salad for $3.00|
 
-<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7789.jpg" alt=""> 
+<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7789.jpg" alt="A picture of a buffalo chicken"> 
 
 
 |Black Angus Burgers| | Price|

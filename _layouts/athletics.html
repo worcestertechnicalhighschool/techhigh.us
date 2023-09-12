@@ -75,33 +75,10 @@ layout: default
   </section>
 
   <section class="post-content" >
-    <h2 id="coach-info">Coach Info</h2>
+    <h2 id="coach-info">Coach Contact Information</h2>
 
-    <h2 id="faculty">Faculty</h2>
-    <div class="faculty-list card-container">
-        {% for faculty in site.data.faculty %}
-        {% assign staff = faculty.department | remove: '"' %}
-        {% assign depart = staff | strip %}
-        {% assign title = faculty.title | strip %}
-        
-        {%- if faculty.title == "Nurse" -%}
-          <div class="staff-members">
-            <div class="card card--faculty">
-              <div class="staff">
-                  <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{faculty.last_name}}">
-                <div class="card-content">
-                  <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p>
-                  <p class="title card-description">{{ faculty.title }}</p>
-                  <p class="email card-description">PLACEHOLDER</p>
-                </div>                        
-              </div>
-            </div>
-          </div>
-            {%- endif -%}
-          {% endfor %}
-
-    <a class="top-link" href="#top"><i class="fa-solid fa-circle-up"></i>Back to top</a>
     {{ content }}
+    <a class="top-link" href="#top"><i class="fa-solid fa-circle-up"></i>Back to top</a>
   </section>
 
 </article>
