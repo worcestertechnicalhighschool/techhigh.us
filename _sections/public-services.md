@@ -13,4 +13,4 @@ Worcester Technical High School, 1 Officer Manny Familia Way, MA 01605
 
 Office Hours: 7:00AM - 3:00PM
 
-Class Hours: 7:20AM - 1:43PM
+Class Hours: 7:16AM - 1:43PM

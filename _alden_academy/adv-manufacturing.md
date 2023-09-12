@@ -7,7 +7,7 @@ tags: [advanced+manufacturing, shop, alden, alden+academy]
 certifications:
     - MACWIC I & II (Manufacturing Advancement Center Workforce Innovation Collaborative Level 1 & 2)
     - NIMS Skills (National Institute of Metalworking Skills)
-    - NS3 (Nulcear Command, Control, and Communications)
+    - NS3 (Nuclear Command, Control, and Communications)
     - OSHA 10 General Industry
     - HAAS
     - MASTERCAM

@@ -11,6 +11,8 @@
         p{
           color:$dark_grey;  
           font-family: $header_font;
+          margin: auto;
+          word-spacing: 60%;
         }
         h3{
             color:$dark_grey;  
@@ -19,7 +21,7 @@
 
         .box{
             max-width: 150px;
-            margin: 30px;
+            margin: 40px;            
         }
 
         .icon{
