@@ -36,7 +36,7 @@
         <ul class="menu">
           {% assign sections = site.sections | sort:"order" %}
           {% for s in sections %}
-            {% if page.url == section.url %}
+            {% if page.url == s.url %}
               <li class="menu-item current-menu-item">
                 <a href="{{ s.url | relative_url }}" aria-current="page">{{ s.title | escape}}</a>
             {% else %}
@@ -49,14 +49,11 @@
                 {% for menu_item in site.[sub] %}
                   {% if page.url == menu_item.url  %}
                     <li class="menu-item current-menu-item">
-                      <a href="{{ menu_item.url | relative_url }}" 
-                          aria-current="page">{{ menu_item.title | escape }}</a>
-                    </li>
+                    <a href="{{ menu_item.url | relative_url }}" aria-current="page">{{ menu_item.title | escape }}</a>
                   {% else %}
                     <li class="menu-item">
-                      <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
-                    </li>
-                    <li class="menu-item"></li>
+                    <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
+                    <li class="menu-item">
                   {% endif %}
                 {% endfor %}
               </ul>

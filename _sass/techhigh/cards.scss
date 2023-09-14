@@ -98,13 +98,12 @@
     
     &.card--faculty{
         
-        padding: 50px 0;
         text-align: center;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        // width: 350px;
-        margin: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 550px;
+        padding: 10px 0;
         img{
             border-radius: 40px;
         }
