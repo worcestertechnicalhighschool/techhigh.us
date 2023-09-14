@@ -137,7 +137,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 - 
 <img src="https://wordpress.techhigh.us/wp-content/uploads/2022/05/4767.jpg" width="230"/>
 
-    Coach Gerlad Snay
+    Coach Gerald Snay
 
     Indoor Track
 

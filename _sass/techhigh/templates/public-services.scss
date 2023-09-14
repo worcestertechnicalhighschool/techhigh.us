@@ -39,7 +39,6 @@
         img {
 
             @media (min-width:$breakpoint_standard) {
-                max-width: 370px;
                 margin: 30px;
             }
             
@@ -285,13 +284,13 @@
         .list {
             @media (min-width:$breakpoint_standard) {
                 margin: 50px;
-                display: flex;
-                flex-direction: row;
+                display: inline-block;
+                float: left;
             }
         }
 
-        .second {
-            align-self: center;
+        ul {
+            columns: 2;
         }
 
         ul li {
