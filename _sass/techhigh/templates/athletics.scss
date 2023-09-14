@@ -1,17 +1,27 @@
 .athletics {
-    .col-3{
+    .col-3 {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
+    .not-bold {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: absolute;
+    }
+
     h2 {
         font-size: 48px;
     }
+
     h3 {
         font-size: 36px;
-        margin-bottom:10px;
+        margin-bottom: 10px;
         break-after: avoid;
     }
+
     ul {
         list-style-type: none;
         padding: 0;
@@ -23,11 +33,13 @@
         justify-content: space-between;
         font-weight: bold;
         font-size: 15px;
+
         li {
             img {
                 border-radius: 40px;
             }
         }
+
         a {
             display: inline-block;
             margin-bottom: 10px;

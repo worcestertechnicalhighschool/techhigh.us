@@ -16,7 +16,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
     Coach Abby Biernacki
 
-    Cheer
+        Cheer
 
     [abbybiernacki@gmail.com](mailto: abbybiernacki@gmail.com)
 
