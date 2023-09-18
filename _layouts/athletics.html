@@ -1,107 +1,92 @@
 ---
 layout: default
 ---
-<article class="post {{ page.slug }} events" >
+
+<article class="post {{ page.slug }} events">
   {%- include components/hero-entry.html -%}
-  
-  <nav id="top" class="section-navigation">
-      <ul class="navlist-secondary">
-        {% comment %}
+  <div>
+    <div id='calendar' class="events_calendar" style="width: 65%;">
+    </div>
+  </div>
+  <section class="post-content">
+    <!--These lines are required to make the calendar work. It calls code from other Javascript libraries. Basically importing
+      <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.0.3/locales-all.global.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.3/index.global.min.js"></script>
+      <script src="https://fullcalendar.io/releases/core/4.0.2/main.min.js"></script>
+      <script src="https://fullcalendar.io/releases/google-calendar/4.0.1/main.min.js"></script>
+      <script src="https://fullcalendar.io/releases/daygrid/4.0.1/main.min.js"></script>
+      <script src="https://fullcalendar.io/releases/list/4.0.1/main.min.js"></script> -->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var initialLocaleCode = 'en'; //Sets the default language
+        var calendarEl = document.getElementById("calendar");
 
-          This loop iterates over the sports records
-          and creates an anchor link for each sport category
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          locale: initialLocaleCode,
+          //plugins: ['dayGrid', 'list', 'googleCalendar','listPlugin'],
+          //initialView: 'listYear',
+          views: {
+            listDay: { buttonText: 'Day View' },
+            listWeek: { buttonText: 'Week View' },
+            listMonth: { buttonText: 'Month View' },
+            dayGridMonth: { buttonText: 'Calendar' },
 
-        {% endcomment %}
-        {% if site.data.sports %}
-          {% assign c = site.data.sports[0].category %}
-            <li class="menu-item">
-              <a href="#{{ c | downcase | replace: ' ', '-' }}">{{ c }}</a>
-            </li>
-          {% for e in site.data.sports %}
-            {% if c != e.category %}
-              {% assign c = e.category %}
-              <li class="menu-item">
-                <a href="#{{ c | downcase | replace: ' ', '-' }}">{{ c }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-        <li class="menu-item">
-          <a href="#coach-info">Coaches</a>
-        </li>
-      </ul>
-  </nav>
-  <section class="athletics-calendar news">
-    {% comment %} 
+          },
 
-      This loop iterates over every record in the 
-      sports CSV. The document must be sorted 
-      by the "category" column in order for the 
-      groupings to work.
+          aspectRatio: 10,
+          contentHeight: 800,
 
-    {% endcomment %}
+          buttonText: {
+            today: 'Today'
+          },
 
-    {% if site.data.sports %}
-      {% assign c = site.data.sports[0].category %}
-        <h2 id="{{ c | downcase | replace: ' ', '-' }}">{{ c }}</h2>
-        <a class="top-link" href="#top"><i class="fa-solid fa-circle-up"></i>
-          Back to top</a>
-        <aside class="news-feed">
-          {% for e in site.data.sports %}
-          {% if c != e.category %}
-          {% assign c = e.category %}
-          </aside>
-          <h2 id="{{ c | downcase | replace: ' ', '-' }}">{{ c }}</h2>
-          <a class="top-link" href="#top"><i class="fa-solid fa-circle-up"></i>
-            Back to top</a>
-          <aside class="news-feed">
-        {% endif %}
-          <div class="event">
-            <div class="date-icon">
-              <div class="month">{{ e.month }}</div>
-              <div class="day">{{ e.day }}</div>
-            </div>
-            <div class="event-details">
-              <h3 id="{{ e.event }}">{{ e.event }}</h3>
-              <p>{{ e.location }}{%- if e.date_start -%}, 
-                {{ e.date_start }}{%- endif -%}{% if e.date_end %}-{{ e.date_end }}{% endif %}{%- if e.time -%}, 
-                {{ e.time }}{%- endif -%}</p>
-            </div>
-          </div>
+          headerToolbar: {
+            left: "prev,next today",
+            center: "title",
+            right: 'dayGridMonth listDay,listWeek,listMonth'
+          },
 
-      {% endfor %}
-      </aside>
-    {% endif %}
-  </section>
+          titleFormat: { year: 'numeric', month: 'short' },
+          listDayFormat: { weekday: 'long', month: 'short', day: '2-digit' },
+          listDaySideFormat: false,
 
-  <section class="post-content" >
-    <h2 id="coach-info">Coach Info</h2>
+          googleCalendarApiKey: "AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk",
 
-    <h2 id="faculty">Faculty</h2>
-    <div class="faculty-list card-container">
-        {% for faculty in site.data.faculty %}
-        {% assign staff = faculty.department | remove: '"' %}
-        {% assign depart = staff | strip %}
-        {% assign title = faculty.title | strip %}
-        
-        {%- if faculty.title == "Nurse" -%}
-          <div class="staff-members">
-            <div class="card card--faculty">
-              <div class="staff">
-                  <img src="{{ faculty.image_url }}" alt="{{ faculty.first_name }} {{faculty.last_name}}">
-                <div class="card-content">
-                  <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p>
-                  <p class="title card-description">{{ faculty.title }}</p>
-                  <p class="email card-description">PLACEHOLDER</p>
-                </div>                        
-              </div>
-            </div>
-          </div>
-            {%- endif -%}
-          {% endfor %}
+          events: {
+            googleCalendarId: "techhigh.us_ii29m54j9iumi3a2i6mkc5qo90@group.calendar.google.com",
+            className: "gcal-event", // an option!
+          },
 
-    <a class="top-link" href="#top"><i class="fa-solid fa-circle-up"></i>Back to top</a>
+
+          eventClick: function (arg) {
+
+            // opens events in a popup window
+            window.open(arg.event.url, '_blank', 'width=700,height=600');
+
+            // prevents current tab from navigating
+            arg.jsEvent.preventDefault();
+          }
+        });
+
+
+        calendar.render();
+        // build the locale selector's options
+        calendar.getAvailableLocaleCodes().forEach(function (localeCode) {
+          var optionEl = document.createElement('option');
+          optionEl.value = localeCode;
+          optionEl.selected = localeCode == initialLocaleCode;
+          optionEl.innerText = localeCode;
+        });
+
+
+      });
+    </script>
+    <h2 id="coach-info">Coach Contact Information</h2>
+
     {{ content }}
+    <a class="top-link" href="#top"><i class="fa-solid fa-circle-up"></i>Back to top</a>
   </section>
 
 </article>

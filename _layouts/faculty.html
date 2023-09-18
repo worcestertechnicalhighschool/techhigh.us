@@ -36,8 +36,8 @@ layout: default
                 <img src="{{ faculty.image_url }}" alt='{{ faculty.first_name }} {{faculty.last_name}}'> <!--Their image-->
                 <p class="name card-title">{{ faculty.first_name }} {{ faculty.last_name }}</p><!--their name-->
                 <p class="title card-description">{{ faculty.title }}</p> <!--Their staff role/title-->
-                <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p> <!--their email-->
               </div>
+              <p class="email card-description"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p> <!--their email-->
             </div>
           </div>
         {% endfor %}

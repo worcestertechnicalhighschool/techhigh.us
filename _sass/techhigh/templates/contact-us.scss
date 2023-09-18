@@ -8,18 +8,30 @@
         display: flex;
         justify-content: center;
 
-        p{
+        .short-text{
           color:$dark_grey;  
           font-family: $header_font;
+          margin: auto;
+          white-space: pre;
+          word-spacing: 50%;
+        }
+        .long-text {
+            color:$dark_grey;  
+            font-family: $header_font;
+            margin: auto;
+            white-space: pre;
+            word-spacing: 50%;
         }
         h3{
             color:$dark_grey;  
-            font-family: $header_font; 
+            font-family: $header_font;
+            font-size: 1.5rem;
+            white-space: pre;
         }
 
         .box{
             max-width: 150px;
-            margin: 30px;
+            margin: 55px;            
         }
 
         .icon{
