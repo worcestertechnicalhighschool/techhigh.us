@@ -1,9 +1,24 @@
+<div id="search-modal" class="search-modal">
+  <div class="modal-content">
+    <form action="/search/" method="get">
+      <input type="text" name="s" id="s" placeholder="Search &hellip; " >
+    </form>
+  </div>
+  <button class="search-close-btn" id="search-close-btn" title="Close Search" >
+    <i class="fa-solid fa-x"></i>
+  </button>
+</div>
+
 <div class="wrapper wrapper--site-header">
   <header id="masthead" class="site-header" role="banner">
     <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="container">
+      <button  class="search-btn" id="search-btn">
+        <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        <span>Search</span>
+      </button>
       <a class="brand" rel="author" href="{{ '/' | relative_url }}">
         W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
       </a>
@@ -19,32 +34,68 @@
     {%- if page_paths -%}
       <nav id="site-navigation" class="primary-nav mobile">
         <ul class="menu">
-          {% for section in site.sections %}
-            {% if page.url == section.url  %}
+          {% assign sections = site.sections | sort:"order" %}
+          {% for s in sections %}
+            {% if page.url == s.url %}
               <li class="menu-item current-menu-item">
-                <a href="{{ section.url | relative_url }}" aria-current="page">{{ section.title | escape}}</a>
+                <a href="{{ s.url | relative_url }}" aria-current="page">{{ s.title | escape}}</a>
             {% else %}
               <li class="menu-item">
-                <a href="{{ section.url | relative_url }}">{{ section.title | escape}}</a>
+                <a href="{{ s.url | relative_url }}">{{ s.title | escape}}</a>
             {% endif %}
               {% comment %} modify the file name to match the collection {% endcomment %}
-              {% assign sub = section.slug | replace: "-", "_" %}
+              {% assign sub = s.slug | replace: "-", "_" %}
               <ul class="submenu">
                 {% for menu_item in site.[sub] %}
                   {% if page.url == menu_item.url  %}
                     <li class="menu-item current-menu-item">
-                      <a href="{{ menu_item.url | relative_url }}" 
-                          aria-current="page">{{ menu_item.title | escape }}</a>
-                    </li>
+                    <a href="{{ menu_item.url | relative_url }}" aria-current="page">{{ menu_item.title | escape }}</a>
                   {% else %}
                     <li class="menu-item">
-                      <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
-                    </li>
+                    <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
+                    <li class="menu-item">
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
           {% endfor %}
+          
+
+          
+          
+          
+
+          <script>
+            /**
+             * Search Model functionality
+             */ 
+            const searchBtn = document.querySelector('#search-btn');
+            const searchModal = document.querySelector('#search-modal');
+            const searchCloseBtn = searchModal.querySelector('#search-close-btn');
+            let searchOpen = false;
+
+            searchBtn.addEventListener('click', openSearch);
+            searchCloseBtn.addEventListener('click', closeSearch);
+            
+            window.addEventListener('click', e=> {
+              if (searchOpen) {
+                if (!searchModal.contains(e.target) && !searchBtn.contains(e.target)) {
+                  closeSearch();
+                }
+              }
+            })
+
+            function openSearch() {
+              searchModal.classList.toggle('open');
+              searchModal.querySelector('#s').focus();
+              searchOpen = !searchOpen;
+            }
+
+            function closeSearch() {
+              searchModal.classList.remove('open');
+              searchOpen = false;
+            }
+            </script>
         </ul>
       </nav>
     {%- endif -%}

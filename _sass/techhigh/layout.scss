@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     min-height: 100vh;
     display: grid;
@@ -24,7 +27,9 @@ section{
 .wrapper--lt-gray {
     background-color: $light_grey;
 }
-
+.wrapper--lt-blue {
+    background-color: #b9d9eb;
+}
 .site-main {
     margin-top: 0;
 }
@@ -76,11 +81,8 @@ ul{
     display: none;
 }
 
-
-@media screen and (min-width: $breakpoint_standard) {
-    .show-md {
-        display: initial;
-    }
+@media screen and (min-width: $wordmark_breakpoint) {
+    
     .lg {
         position: relative !important;
         height: initial;
@@ -89,6 +91,12 @@ ul{
         width: initial;
         margin: initial;
     }
+}
+@media screen and (min-width: $breakpoint_standard) {
+    .show-md {
+        display: initial;
+    }
+
 	
     .col-2{
         columns: 2;

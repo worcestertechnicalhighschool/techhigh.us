@@ -1,5 +1,62 @@
 .contact{
     text-align: center;
+    section{
+        padding: 0;
+    }
+    .office-info{
+    
+        display: flex;
+        justify-content: center;
+
+        .short-text{
+          color:$dark_grey;  
+          font-family: $header_font;
+          margin: auto;
+          white-space: pre;
+          word-spacing: 50%;
+        }
+        .long-text {
+            color:$dark_grey;  
+            font-family: $header_font;
+            margin: auto;
+            white-space: pre;
+            word-spacing: 50%;
+        }
+        h3{
+            color:$dark_grey;  
+            font-family: $header_font;
+            font-size: 1.5rem;
+            white-space: pre;
+        }
+
+        .box{
+            max-width: 150px;
+            margin: 55px;            
+        }
+
+        .icon{
+            min-height: 100px;
+            max-width: 100px;
+            background-color: $secondary;
+            border-radius: 50%;
+            display: inline-block;
+            img{
+                object-fit: contain;
+                height:95px;
+            }
+        }
+        @media (max-width:930px) {
+            .box{
+                min-width: 300px;
+                max-width: 700px;
+            }
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            flex-grow: 3;
+        
+        }
+    }
 
     ul{
         display: flex;
@@ -14,11 +71,14 @@
         padding: 0 1.25rem;
         margin: auto;
         label{ //Box Label coloring and text weight
-            color: $primary;
+            color: $secondary;
             font-weight: bold;
+            font-family: $header_font;
+            font-size: 20px;
             text-align: left;
             display: block;
         }
+        
     }
         
         
@@ -28,8 +88,8 @@
     input, textarea{
         width: 100%;
         padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
+        border: 2px solid $secondary;
+        border-radius: 30px;
         box-sizing: border-box;
         margin-top: 6px;
         margin-bottom: 16px;
@@ -39,7 +99,7 @@
     //Submit button styling 
     input[type=submit], .close-btn{
         background-color: white;
-        color: $primary;
+        color: $secondary;
         width: 50%;
         font-weight: bold;
         transition: 0.3s all ease; //This creates a fade effect for the transition to the hover colors
@@ -73,4 +133,9 @@
         z-index: 1;
         transition: 0.3s all ease;
     }
+    
+
+
+    
+    
 }

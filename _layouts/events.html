@@ -1,37 +1,94 @@
 ---
 layout: default
 ---
+
 <article class="post {{ page.slug }}">
 
   {%- include components/hero-entry.html -%}
-
-  <section class="post-content news">
-    <div class="news__body">
-      <aside class="news-feed">
-        {% if site.data.aggregate %}
-          {%- for e in site.data.aggregate -%}
-          
-          <div class="event">
-            <div class="date-icon">
-              <div class="month">{{ e.month }}</div>
-              <div class="day">{{ e.day }}</div>
-            </div>
-            <div class="event-details">
-              <h3 id="{{ e.event }}">{{ e.event }}</h3>
-              <p>{{ e.location }}{%- if e.date_start -%}, 
-                {{ e.date_start }}{%- endif -%}{% if e.date_end %}-{{ e.date_end }}{% endif %}{%- if e.time -%}, 
-                {{ e.time }}{%- endif -%}</p>
-            </div>
-          </div>
-          {%- endfor -%}
-
-        {% endif %}
-        {{ content }}
-      </aside>
-      <aside class="featured-news">
-        {%- include components/collection-carousel.html collection="featured_news" height="500px" -%}
-      </aside>
+  <div>
+    <div>
+      <div id='calendar' class="events_calendar">  
+      </div>
     </div>
-  </section>
-
+    <section class="post-content news">
+      <div class="news__body">
+        
+        <aside class="featured-news">
+          {%- include components/collection-carousel.html collection="featured_news" height="500px" -%}
+        </aside>
+        
+      </div>
+    </section>
+  </div>
 </article>
+
+    <!--These lines are required to make the calendar work. It calls code from other Javascript libraries. Basically importing
+      <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.0.3/locales-all.global.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.3/index.global.min.js"></script>
+      <script src="https://fullcalendar.io/releases/core/4.0.2/main.min.js"></script>
+      <script src="https://fullcalendar.io/releases/google-calendar/4.0.1/main.min.js"></script>
+      <script src="https://fullcalendar.io/releases/daygrid/4.0.1/main.min.js"></script>
+      <script src="https://fullcalendar.io/releases/list/4.0.1/main.min.js"></script> -->
+      <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var initialLocaleCode = 'en'; //Sets the default language
+    var calendarEl = document.getElementById("calendar");
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      locale: initialLocaleCode,
+      //plugins: ['dayGrid', 'list', 'googleCalendar','listPlugin'],
+      //initialView: 'listYear',
+      views: {
+      listDay: { buttonText: 'Day View' },
+      listWeek: { buttonText: 'Week View' },
+      listMonth: { buttonText: 'Month View' },
+      dayGridMonth: { buttonText: 'Calendar' },
+
+      },
+
+      buttonText:{today:'Today'
+      },
+
+      headerToolbar: {
+        left: "prev,next today",
+        center: "title",
+        right: 'dayGridMonth listDay,listWeek,listMonth'
+      },
+
+      titleFormat: { year: 'numeric', month: 'short' },
+      listDayFormat: {weekday:'long', month: 'short', day: '2-digit'},
+      listDaySideFormat: false,
+
+      googleCalendarApiKey: "AIzaSyCleR5hROa8zwK8FmFmFYa2MJ_2w_yTFkk",
+
+      events: {
+        googleCalendarId: "techhigh.us_ii29m54j9iumi3a2i6mkc5qo90@group.calendar.google.com",
+        className: "gcal-event", // an option!
+      },
+
+
+      eventClick: function (arg) {
+
+        // opens events in a popup window
+        window.open(arg.event.url, '_blank', 'width=700,height=600');
+        
+        // prevents current tab from navigating
+        arg.jsEvent.preventDefault();
+      }
+    });
+
+
+    calendar.render();
+    // build the locale selector's options
+    calendar.getAvailableLocaleCodes().forEach(function (localeCode) {
+      var optionEl = document.createElement('option');
+      optionEl.value = localeCode;
+      optionEl.selected = localeCode == initialLocaleCode;
+      optionEl.innerText = localeCode;
+    });
+
+    
+  });
+</script>

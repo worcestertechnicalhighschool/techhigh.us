@@ -15,14 +15,10 @@
     position: relative;
     overflow: hidden;
 
-    h1 {
-        font-size: 62px;
-        text-transform: uppercase;
-        margin: 0;
-    }
     em {
         font-family: $header_font;
         font-weight: $header_light;
+        font-size: 42px;
     }
     p {
         font-size: 52px;
@@ -58,7 +54,9 @@
     // }
     .hero-text {
         z-index: 200;
-        text-shadow: 0 0 12px black; 
+        top: 400px;
+        height: 25%;
+        background-color: #003865db;
     }
 }
 
@@ -77,6 +75,7 @@
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     &::before {
         content: '';
         position: absolute;

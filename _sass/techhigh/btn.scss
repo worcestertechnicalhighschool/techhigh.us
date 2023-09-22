@@ -1,6 +1,12 @@
+button:focus-visible, 
+[type="button"]:focus-visible, 
+[type="reset"]:focus-visible, 
+[type="submit"]:focus-visible {
+    outline: 1px dotted white ;
+}
 .btn {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 12px 24px;     
     margin: 20px;
     border-radius: 5px;
     text-transform: uppercase;
@@ -19,7 +25,6 @@
     font-weight: bold;
     font-size: 15px;
     // white-space: nowrap;
-    
     &:hover {
         color: transparent;
         font-weight: bold;
@@ -44,10 +49,12 @@
 
 .btn--cta {
     border: 2px solid $primary;
+    background-color: $secondary;
     color: $primary;
-    &:visited{
+
+    /* &:visited{
         color: $primary;
-    }
+    } */
 
     &:hover{
         background: $primary;

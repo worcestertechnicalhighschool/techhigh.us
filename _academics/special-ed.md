@@ -1,19 +1,23 @@
 ---
-layout: student-life
+layout: department-pages
 title: Special Education
 date: 2022-10-24
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/Israel_Goldstein_Youth_Village_students_13.jpg
+tags: [special+education, special, academics]
+
+redirect_from:
+    - /student-life/special-ed/
 
 excerpt: Worcester Technical High School is committed to helping students gain access to a valuable core and vocational education while addressing individual needs.
  
+description: " "
 ---
 
-
-# Voc-P Program
+## Voc-P Program
 
 The VOC-P Program is made for students who thrive in a hands-on work environment. They will learn functional academics, independent living, and vocational skills through supportive instruction. Special educators and/or special education assistants help the students to achieve these goals. Students are individually matched with their own personal areas of study based on their own skill development, interests, strengths, and learning needs. Eligible students who are interested in applying for VOC-P should contact the Evaluation Team Chairperson at their district high schools.
 
-## Skills & Areas of study
+## Skills & Areas of Study
 
 
 **Self-Advocacy**
@@ -28,7 +32,7 @@ On the job training, work readiness, interview , resume building and job skills,
 
 Critical thinking and problem solving, working as a team, communication skills, motivation, time management
 
-**Activities of daily living**
+**Activities of Daily Living**
 
 Maintaining a safe environment, cooking, cleaning, dressing, personal hygiene
 

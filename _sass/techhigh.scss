@@ -18,6 +18,7 @@
 --------------------------------------------- */
 @import "techhigh/header";
 @import "techhigh/subheader";
+@import "techhigh/search.scss";
 
 /* Site Footer
 --------------------------------------------- */
@@ -58,6 +59,7 @@
 @import "techhigh/templates/department-pages";
 @import "techhigh/templates/faculty";
 @import "techhigh/templates/academies";
+@import "techhigh/templates/shop-pages";
 
 /* External Links
 --------------------------------------------- */
@@ -88,3 +90,7 @@
 /* public-services
 -----------------------------------------------*/
 @import "techhigh/templates/public-services";
+
+/* public-services
+-----------------------------------------------*/
+@import "techhigh/templates/principal.scss"

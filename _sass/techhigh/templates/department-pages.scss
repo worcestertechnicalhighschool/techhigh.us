@@ -1,4 +1,12 @@
+/*
+    Styling for every page that uses the departments.html layout.
+    This consists mainly of the academic pages (math, science, english, history)
+*/
 .departments{
+    /*
+        cert-list and course-list are very similar styling wise
+        course-list is in a grid to keep the content organized by grade
+    */
     h2{
         font-size: 32px;
         text-align: center;
@@ -48,6 +56,7 @@
             max-width: 300px;
         }
     }
+
     @media (min-width: 500px) {
         .shop-img-grid {
           max-width: 750px;
@@ -88,7 +97,7 @@
     }
 }
 
-/*
+    /*
         Summer work is grey and round to somewhat contrast with the certifications section
         It also adds more color to the page and makes it look less like a generic document
     */
