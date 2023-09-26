@@ -34,7 +34,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-be
 <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/IMG_7789.jpg" alt="" width=620px> 
 
 
-| Black Angus Burgers | | Price |
+| Black Angus Burgers | Price |
 |:------------------ | -----: |
 | **Classic Burger** | **$7.95** | 
 |*Simply states, simply prepared. This half-pound burger is simply seasoned and grilled to order. It’s topped with crisp lettuce, ripe tomatoes, sliced pickles and mayonnaise on a toasted roll.* **With cheese:** $8.50 |
