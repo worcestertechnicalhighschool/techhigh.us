@@ -4,25 +4,22 @@
       <input type="text" name="s" id="s" placeholder="Search &hellip; " >
     </form>
   </div>
-  <button class="search-close-btn" id="search-close-btn" title="Close Search" >
-    <i class="fa-solid fa-x"></i>
-  </button>
 </div>
 
 <div class="wrapper wrapper--site-header">
   <header id="masthead" class="site-header" role="banner">
-    <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+    <a class="visually-hidden-focusable" href="#primary">Skip to content</a>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="container">
-      <button  class="search-btn" id="search-btn">
+      <button class="search-btn">
         <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
         <span>Search</span>
       </button>
-      <a class="brand" rel="author" href="{{ '/' | relative_url }}">
+      <a class="navbar-brand" rel="author" href="{{ '/' | relative_url }}">
         W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
       </a>
-      <button title="Menu" class="hamburger " type="button" id="hamburger" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Navigation">
+      <button title="Menu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-haspopup="true" aria-expanded="false" aria-controls="navbarNav" aria-label="Toggle navigation">
         <span class="line-container">
           <span class="line line-1"></span>
           <span class="line line-2"></span>
@@ -32,33 +29,32 @@
     </div>
   
     {%- if page_paths -%}
-      <nav id="site-navigation" class="primary-nav mobile">
-        <ul class="menu">
+      <nav id="site-navigation" class="navbar mobile">
+        <ul class="navbar-nav">
           {% assign sections = site.sections | sort:"order" %}
           {% for s in sections %}
             {% if page.url == s.url %}
-              <li class="menu-item current-menu-item">
-                <a href="{{ s.url | relative_url }}" aria-current="page">{{ s.title | escape}}</a>
+              <li class="nav-item current-nav-item">
+                <a class="nav-link active" href="{{ s.url | relative_url }}" aria-current="page">{{ s.title | escape}}</a>
             {% else %}
-              <li class="menu-item">
-                <a href="{{ s.url | relative_url }}">{{ s.title | escape}}</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="{{ s.url | relative_url }}">{{ s.title | escape}}</a>
             {% endif %}
               {% comment %} modify the file name to match the collection {% endcomment %}
               {% assign sub = s.slug | replace: "-", "_" %}
-              <ul class="submenu">
+              <ul class="dropdown-menu">
                 {% for menu_item in site.[sub] %}
                   {% if page.url == menu_item.url  %}
-                    <li class="menu-item current-menu-item">
-                    <a href="{{ menu_item.url | relative_url }}" aria-current="page">{{ menu_item.title | escape }}</a>
+                    <li class="dropdown-item current-dropdown-item">
+                      <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a></li>
                   {% else %}
-                    <li class="menu-item">
-                    <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
-                    <li class="menu-item">
+                    <li class="dropdown-item">
+                      <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a></li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-          {% endfor %}
+          {% endfor %} 
           
 
           

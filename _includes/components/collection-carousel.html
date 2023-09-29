@@ -7,36 +7,40 @@ This component requires a collection parameter.
 
 {% endcomment %}
 {% if include.height %}
-<div id="carousel-{{ include.collection }}" 
-  class="carousel" 
-  style="min-height: {{ include.height }}">
+<div id="carousel-{{ include.collection }}" class="carousel slide" data-bs-ride="carousel">
 {% else %}
-<div id="carousel-{{ include.collection }}" class="carousel">
+<div id="carousel-{{ include.collection }}" class="carousel slide" data-bs-ride="carousel">
 {% endif %}
-  <button class="controls control-next">
-    <i class="fa-solid fa-chevron-left"></i>
-    <span class="screen-reader-text">Previous</span>
-  </button>
-  <ol class="indicators"></ol>
-  <div class="slide-container">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="0" class="active" aria-current="true"></button>
+    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="4"></button>
+  </div> 
+  <div class="carousel-inner">
     {% assign slides = site.[include.collection] %}
     {% for slide in slides %}
-      <div class="slide">
+      <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" id="slide{{ forloop.index }}" >
         <img 
-          src="{{ slide.featured_image }}" 
+          src="{{ slide.featured_image }}"
+          class="d-block w-100 center"
           alt="{{ slide.title }}"
-          style="{{ slide.position }}">
+          style="width: 400px; height: 400px;">
 
-        <div class="caption">
+        <div class="carousel-caption">
           <h3>{{ slide.title }}</h3>
-          <a href="{{ slide.url }}" class="btn btn--ghost">Learn More</a>
+          <a href="{{ slide.url }}" class="btn">Learn More</a>
         </div>
       </div>
     {% endfor %}
   </div>
-  <button class="controls control-prev">
-    <i class="fa-solid fa-chevron-right"></i>
-    <span class="screen-reader-text">Next</span>
-  </button>
-  
+  <a class="carousel-control-prev" type="button" data-bs-target="#carousel-{{ include.collection }}" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" type="button" data-bs-target="#carousel-{{ include.collection }}" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
 </div>
