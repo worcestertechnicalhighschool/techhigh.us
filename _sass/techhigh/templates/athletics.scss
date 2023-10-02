@@ -35,6 +35,23 @@
         font-size: 15px;
 
         li {
+            p {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                column-gap: 10%;
+                justify-content: space-evenly;
+
+
+            }
+
+            p:nth-child(3) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-weight: normal;
+            }
+
             img {
                 border-radius: 40px;
             }
