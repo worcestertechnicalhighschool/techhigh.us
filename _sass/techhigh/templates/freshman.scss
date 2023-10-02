@@ -1,14 +1,16 @@
 .freshman {
-    #information-links-and-resources-for-wths-freshmen {
+    h2:first-child {
         background-color: #002855;
         color: white;
         margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .post-content {
         max-width: fit-content;
         padding: inherit;
     }
-    p {
+    p:nth-child(2n + 3) {
         text-align: center;
     }
 }
