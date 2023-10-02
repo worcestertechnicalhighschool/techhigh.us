@@ -1,4 +1,14 @@
 .freshman {
-    // This line is a test.
-    color: aqua;
+    #information-links-and-resources-for-wths-freshmen {
+        background-color: #002855;
+        color: white;
+        margin-top: 0px;
+    }
+    .post-content {
+        max-width: fit-content;
+        padding: inherit;
+    }
+    p {
+        text-align: center;
+    }
 }
