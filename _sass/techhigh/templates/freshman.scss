@@ -10,7 +10,14 @@
         max-width: fit-content;
         padding: inherit;
     }
-    p:nth-child(2n + 3) {
+    p:first-of-type {
         text-align: center;
+    }
+    p:nth-child(1n + 4) {
+        text-align: center;
+        border: #002855 solid;
+    }
+    h2:nth-child(1n + 3) {
+        border: solid #002855;
     }
 }
