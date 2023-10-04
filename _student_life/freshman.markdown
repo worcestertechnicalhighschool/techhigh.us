@@ -16,6 +16,8 @@ excerpt: Information, links, and resources for WTHS Freshmen. Welcome to Worcest
 
 Our Jumpstart program is designed to help orient new students into our school! This is a great opportunity to meet your new teachers and classmates, navigate the building, and learn about our 23 technical areas.
 
+## Frequently Asked Questions
+
 ## "What is exploratory?"
 
 Leading up to choosing a trade area, Freshmen students will have the opportunity to experience eight different trade areas throughout a sixteen week period.
