@@ -10,8 +10,12 @@
             padding-bottom: 20px;
         }
 
-        h2:not(#frequently-asked-questions):not(#freshmen-jumpstart) {
+        h2:not(#frequently-asked-questions):not(#freshmen-jumpstart):not(#information-links-and-resources-for-wths-freshmen) {
             border: 1px solid #002855;
+            color:#002855;
+            background-color: white;
+            padding: 5px 15px;
+            display: inline-block;
         }
 
         h2, p {
