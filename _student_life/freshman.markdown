@@ -18,6 +18,8 @@ Our Jumpstart program is designed to help orient new students into our school! T
 
 ## Frequently Asked Questions
 
+<div class="freshman grid"></div>
+
 ## "What is exploratory?"
 
 Leading up to choosing a trade area, Freshmen students will have the opportunity to experience eight different trade areas throughout a sixteen week period.

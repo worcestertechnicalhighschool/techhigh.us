@@ -1,23 +1,21 @@
 .freshman {
-    h2:first-child {
-        background-color: #002855;
-        color: white;
-        margin-top: 0px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
     .post-content {
-        max-width: fit-content;
-        padding: inherit;
-    }
-    p:first-of-type {
         text-align: center;
-        font-family: 'Oswald', sans-serif;
-    }
 
-    /* h2:nth-child(1n + 3), p:nth-child(1n + 4) {
-        font-family: 'Oswald', sans-serif;
-        text-align: center;
-        border: #002855 solid;
-    } */
+        h2:first-child {
+            background-color: #002855;
+            color: white;
+            margin-top: 0px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        h2:not(#frequently-asked-questions):not(#freshmen-jumpstart) {
+            border: 1px solid #002855;
+        }
+
+        h2, p {
+            font-family: 'Oswald', sans-serif;
+        }
+    }
 }
