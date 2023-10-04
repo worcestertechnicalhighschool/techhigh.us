@@ -12,12 +12,16 @@
     }
     p:first-of-type {
         text-align: center;
+        font-family: 'Oswald', sans-serif;
     }
-    p:nth-child(1n + 4) {
+
+    h2:nth-child(1n + 3), p:nth-child(1n + 4) {
+        font-family: 'Oswald', sans-serif;
         text-align: center;
         border: #002855 solid;
-    }
-    h2:nth-child(1n + 3) {
-        border: solid #002855;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+
     }
 }
