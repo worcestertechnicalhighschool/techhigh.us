@@ -9,8 +9,12 @@
             padding-top: 20px;
             padding-bottom: 20px;
         }
+        
+        p:nth-child(3) {
+            border: none;
+        }
 
-        h2:not(#frequently-asked-questions):not(#freshmen-jumpstart):not(#information-links-and-resources-for-wths-freshmen) {
+        h2:not(#frequently-asked-questions):not(#freshmen-jumpstart):not(h2:first-child) {
             border: 1px solid #002855;
             color:#002855;
             background-color: white;
@@ -21,5 +25,12 @@
         h2, p {
             font-family: 'Oswald', sans-serif;
         }
+
+        h2 + p {
+            border: solid 1px;
+            padding: 15px 15px 15px 15px;
+            margin-top: -25px;
+        }
+
     }
 }
