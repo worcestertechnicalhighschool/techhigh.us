@@ -18,7 +18,7 @@ Our Jumpstart program is designed to help orient new students into our school! T
 
 ## Frequently Asked Questions
 
-<div class="freshman grid"></div>
+<div class="freshman grid" markdown='1'>
 
 ## "What is exploratory?"
 
@@ -35,3 +35,5 @@ This is the classroom portion of our trade areas that are taken everyday during 
 ## "When do freshmen get their shops?"
 
 Students will receive their trade areas once the 16 week exploratory program is over and administration has finished sorting all the students into the shops based on the students’ final trade areas rankings. This is usually around the months of January and February.
+
+</div>
