@@ -18,7 +18,7 @@ Our Jumpstart program is designed to help orient new students into our school! T
 
 ## Frequently Asked Questions
 
-<div class="freshman grid" markdown='1'>
+<div class="freshman_grid" markdown='1'>
 
 ## "What is exploratory?"
 
