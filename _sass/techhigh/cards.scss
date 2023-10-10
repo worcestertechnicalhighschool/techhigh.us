@@ -11,7 +11,6 @@
     flex-wrap: wrap;
     flex-basis: 25%;
     flex-grow: 3;
-    
 }
 
 .card{
@@ -22,6 +21,7 @@
     width: 100%;
     height: auto;
     max-width: 450px;
+    border: none;
 
     &.card--full-cover {
         padding: 50px 0;
@@ -57,7 +57,8 @@
             }
             .card-description{
                 text-transform: capitalize;
-                font-size: 1.5em;
+                font-size: 1.5rem;
+                color: $white;
             }
             
         }
@@ -250,12 +251,10 @@
         }
         .card-content{
             position: absolute;
-            bottom: 0px;
             text-align: left;
             padding: 20px;
             padding-top: 40px;
             text-shadow: 0 0 8px black;
-            height: 70%;
             background-color: rgba(0,0,0,0.6);
             height: 100%;
         }
@@ -382,17 +381,16 @@
     h2 {
         text-align: center;
         color: $white;
+        background-color: #003865;
         font-size: 35px;
     }
   
     .org-category {
         color: $white;
+        background-color: #003865;
         position: relative;
         top: 50%;
-        left: 30%;
-        margin-left: -120px;
-        
-          
+        font-size: 19px;
     }
 }
 

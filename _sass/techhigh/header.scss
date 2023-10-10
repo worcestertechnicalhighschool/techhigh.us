@@ -1,6 +1,6 @@
 // css variable for JS
 :root {
-  --nav-breakpoint: #{$nav_breakpoint};
+  --navbar-expand: #{$nav_breakpoint};
 }
 
 // Header-system
@@ -45,7 +45,7 @@
     }
   }
 
-  .brand {
+  .navbar-brand {
     padding: 0 20px;
     margin: 0;
     color: $nav-text-color;
@@ -68,7 +68,7 @@
     }
   } //.brand
 
-  .hamburger {
+  .navbar-toggler {
     display: block;
     position: relative;
     width: 38px;
@@ -126,7 +126,7 @@
     }
   } //.hamburger
 
-  .primary-nav {
+  .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,11 +139,12 @@
     background-color: $header-background;
     transform: translateY(-100%);
     box-shadow: 0 0 12px black;
-    font-size: 1.1rem;
     a {
       font-family: $header_font;
       font-weight: $header_bold;
       text-transform: uppercase;
+      text-align: center;
+      font-size: 1.1rem;
     }
     &.mobile {
       transition: transform 0.3s ease;
@@ -153,14 +154,15 @@
       transform: translateY(0);
     }
 
-    .menu,
-    .submenu {
+    .navbar-nav,
+    .dropdown-menu {
       list-style-type: none;
       padding: 0;
       margin: 0;
       width: 100%;
     }
-    .menu {
+    
+    .navbar-nav {
       // primary menu items
       display: flex;
       flex-direction: column;
@@ -174,11 +176,10 @@
         width: 100%;
         text-align: center;
         flex-grow: 1;
-        background-color: $light_grey;
       }
     } //.menu
 
-    .submenu {
+    .dropdown-menu {
       // secondary menu items
       display: flex;
       justify-content: space-between;
@@ -186,6 +187,7 @@
       width: 100%;
       margin: 0 auto;
       background-color: $white;
+      text-align: center;
 
       li {
         // max-width: 200px;
@@ -246,7 +248,8 @@
   .site-header {
     .search-btn {
       position: absolute;
-      left: 30px;
+      left: 6px;
+      top: 23px;
       span {
         display: inline;
         text-transform: uppercase;
@@ -259,13 +262,13 @@
       // flex-basis: fit-content;
     }
 
-    .primary-nav {
+    .navbar {
       position: relative;
       justify-content: flex-end;
       background-color: transparent;
       box-shadow: none;
       // transform: none;
-      .menu {
+      .navbar-nav {
         // primary menu items
         display: flex;
         flex-direction: row;
@@ -279,12 +282,19 @@
           background-color: transparent;
           a {
             margin: 0;
-            line-height: 66px;
           }
         }
       } //.menu
 
-      .submenu {
+      .nav-link {
+        color: $white;
+      }
+
+      .dropdown-item:active {
+        background-color: $white !important;
+      }
+
+      .dropdown-menu {
         // submenu items
         display: none;
         padding: 15px 10px;
@@ -299,7 +309,7 @@
         }
       } //.submenu
 
-      .menu > li:hover {
+      .navbar-nav > li:hover {
         &::before {
           // triangle
           content: "";
@@ -314,7 +324,7 @@
           border-bottom: 12px solid $white;
         }
 
-        > .submenu {
+        > .dropdown-menu {
           position: absolute;
           display: block;
           float: left;
