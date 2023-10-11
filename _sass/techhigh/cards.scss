@@ -321,6 +321,7 @@
           h2::before {
             font-family: "Font Awesome 5 Free"; 
             font-weight: 900;
+            font-size: 1.5rem;
             content: "\f11b";
             display: inline-block;
             border: $primary 1px;
@@ -339,6 +340,7 @@
             grid-row-start: 1;
             grid-column-start: 1;
             text-align: left;
+            font-size: 1.5rem;
           }
           
           h3{
@@ -364,7 +366,7 @@
             grid-row-start: 4;
             grid-column-start: 1;
             justify-content: space-between;
-            padding-top: 10px;
+            padding-top: 30px;
             margin-bottom: 0;
           }
           
@@ -382,22 +384,14 @@
         text-align: center;
         color: $white;
         background-color: #003865;
-        font-size: 35px;
+        font-size: 1.7rem;
     }
   
     .org-category {
-        color: $white;
-        background-color: #003865;
-        position: relative;
-        top: 50%;
-        font-size: 19px;
+        border: 35px #003865;
+        padding-left: 50px;
+        padding-right: 50px;
     }
-}
-
-
-.box-color {
-    background-color: #003865;
-    color: $white;
 }
 
 .cta-card {
@@ -489,13 +483,17 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+
     .card-title{
         z-index: 1;
         position: absolute;
         border-style: solid;
         border-width: 2px;
         border-radius: 70%;
-        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
         width: fit-content;
         text-align: center;
         background: white;
@@ -504,6 +502,7 @@
             font-family: $header_font;
         }
     }
+
     .card-description{
         color: black;
         border-color: $dark_blue;
@@ -515,6 +514,10 @@
         padding: 15px;
         top: 50px;
         padding-top: 70px;
+    }
+
+    h3 {
+        font-size: 21px;
     }
 }
 
