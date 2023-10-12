@@ -46,11 +46,11 @@
     <a class="visually-hidden-focusable" href="#primary">Skip to content</a>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <nav id="site-navigation" class="navbar navbar-expand-lg bg-body-custom">
+    <a class="navbar-brand" rel="author" href="{{ '/' | relative_url }}">
+      W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
+    </a>
+    <nav id="site-navigation" class="navbar navbar-light navbar-expand-xl bg-light bg-body-custom py-0">
       <div class="container-fluid">
-        <a class="navbar-brand" rel="author" href="{{ '/' | relative_url }}">
-          W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
-        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -58,7 +58,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
  
         {%- if page_paths -%}
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mb-lg-0">
           {% assign sections = site.sections | sort:"order" %}
           {% for s in sections %}
             {% if page.url == s.url %}
@@ -71,6 +71,14 @@
               {% comment %} modify the file name to match the collection {% endcomment %}
               {% assign sub = s.slug | replace: "-", "_" %}
                 <ul class="dropdown-menu">
+                  {% if page.url == s.url  %}
+                    <li class="dropdown-item current-dropdown-item">
+                      <a class="dropdown-item active dropdown-header" aria-current="true" href="{{ s.url | relative_url }}">{{ s.title | escape }}</a></li>
+                  {% else %}
+                    <li class="dropdown-item">
+                      <a class="dropdown-item dropdown-header" href="{{ s.url | relative_url }}">{{ s.title | escape }}</a></li>
+                  {% endif %}
+
                   {% for menu_item in site.[sub] %}
                     {% if page.url == menu_item.url  %}
                       <li class="dropdown-item current-dropdown-item">
@@ -86,9 +94,9 @@
           </ul>
           {%- endif -%}
           
-          <form action="/search/" method="get" class="d-flex" role="search">
+          <form action="/search/" method="get" class="d-flex search-form" role="search">
             <input class="form-control me-2" type="search" name="s" id="s" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
           </form>
           
         </div><!-- /navbar-collapse -->
