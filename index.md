@@ -4,15 +4,15 @@
 
 layout: front-page
 hero_slides: 
-  - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/03/WebDev.jpg"
-    alt: "Web Dev Students"
-    position: "object-position: center 75%;"
-  - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/03/07C7A651-2D1F-43F6-BE63-383639091C84.jpg"
-    alt: "Carpentry Students"
-    position: "object-position: center 5%;"
-  - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/03/2CF7C34E-D8A1-4E93-A020-B4198E17C843-1-2-1.jpeg"
-    alt: "Student Welding"
-    position: "object-position: center 25%;"
+  - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_8115-JPG.jpg"
+    alt: "Auto Tech students working on a car engine together."
+    position: "object-position: center 50%;"
+  - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_4162-JPG.jpg"
+    alt: "A Carpentry student cutting wood with a sawblade."
+    position: "object-position: center 30%;"
+  - image: "https://wordpress.techhigh.us/wp-content/uploads/2023/10/IMG_8830-1.jpg"
+    alt: "A Welding student welding metal."
+    position: "object-position: center 50%;"
 
 hero_text: "<p><em>The School That Works</em></p>"
 
