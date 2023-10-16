@@ -15,7 +15,7 @@
             border: none;
             display: inline-block;
 
-            h2{
+            h2 {
                 color: #002855;
                 border: 1px solid #002855;
                 padding: 5px 15px;
@@ -28,7 +28,9 @@
                 padding: 15px 15px 15px 15px;
                 margin-top: -25px;
             }
-            h2, li {
+
+            h2,
+            li {
                 font-family: 'Oswald', sans-serif;
             }
         }
