@@ -1,0 +1,50 @@
+.freshman {
+    .post-content {
+        text-align: center;
+
+        &>h2:first-child {
+            background-color: #002855;
+            color: white;
+            margin-top: 0px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .freshman_grid {
+            margin-top: 25px;
+            border: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: end;
+
+            div {
+                h2 {
+                    color: #002855;
+                    border: 2px solid #002855;
+                    // padding: 5px 15px;
+                    display: inline-block;
+                    background-color: $white;
+                    // max-width: 250px;
+                    // min-height: 100px;
+                }
+    
+                ul {
+                    border: solid 2px;
+                    color: black;
+                    padding: 50px 25px 50px 50px;
+                    margin: -42px 25px 50px 25px;
+                    text-align: left;
+                    max-width: 400px;
+                    min-height: 300px;
+                }
+                
+            }
+
+            h2,
+            li {
+                font-family: 'Oswald', sans-serif;
+            }
+        }
+    }
+}
