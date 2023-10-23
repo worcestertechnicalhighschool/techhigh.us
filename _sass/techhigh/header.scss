@@ -15,6 +15,15 @@
         text-decoration: underline;
       }
     }
+
+    a.dropdown-item {
+      border-left: solid 3px #004B87;
+    } 
+
+    .dropdown-item {
+      white-space: inherit;
+    }
+
     .container-fluid {
       flex-wrap: wrap;
       justify-content: end;
@@ -61,6 +70,8 @@
     }
   }
 }
+
+
 
 @media screen and (min-width: $xl-bs-breakpoint) {
   .site-header {
