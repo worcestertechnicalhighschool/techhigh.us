@@ -9,7 +9,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 <div class="card card--clubs" markdown="1">
 
- <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/09/Clubs1.png" width="230" style="background-color:blue;"/>
+ <!-- <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/09/Clubs1.png" width="230" style="background-color:blue;"/> -->
 - ## Art Club 
 
   ### [Mrs. Holland](mailto:)
