@@ -71,13 +71,6 @@
               {% comment %} modify the file name to match the collection {% endcomment %}
               {% assign sub = s.slug | replace: "-", "_" %}
                 <ul class="dropdown-menu">
-                  {% if page.url == s.url  %}
-                    <li class="dropdown-item current-dropdown-item">
-                      <a class="dropdown-item active dropdown-header" aria-current="true" href="{{ s.url | relative_url }}">{{ s.title | escape }}</a></li>
-                  {% else %}
-                    <li class="dropdown-item">
-                      <a class="dropdown-item dropdown-header" href="{{ s.url | relative_url }}">{{ s.title | escape }}</a></li>
-                  {% endif %}
 
                   {% for menu_item in site.[sub] %}
                     {% if page.url == menu_item.url  %}
