@@ -9,29 +9,201 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 <div class="card card--clubs" markdown="1">
 
-- ## ESports
+ <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/09/Clubs1.png" width="230" style="background-color:blue;"/>
+- ## Art Club 
+
+  ### [Mrs. Holland](mailto:)
+  ---
+
+  
+
+  C120
+
+  Every Wed
+
+- ## A/V Club
+  ### [Mr. Torres/Mr. Stearns](mailto:)
+  ---
+
+  Coming Soon
+
+  Every Other Mon
+
+- ## Black Student Union
+  ### [Ms. Belcher/Ms. MacKnight/Ms. Johnson](mailto:)
+  ---
+
+  A136
+
+  Every Tues
+
+- ## Bowling Club
+  ### [Mr. Miner](mailto:)
+  ---
+
+  D317
+
+  Coming Soon
+
+- ## Caring w/ Compassion
+  ### [Ms. Chase](mailto:)
+  ---
+
+  E102
+
+  Every Wed  
+
+- ## Chess Club
+  ### [Mr. Sanders](mailto:)
+  ---
+
+  C404
+
+  Every Tues
+
+- ## Communinty Service
+  ### [Ms. Marini](mailto:)
+  ---
+
+  Coming Soon
+
+  Coming Soon
+
+- ## D&D Club
+  ### [Mrs. Kruzel](mailto:)
+  ---
+
+  C119
+
+  Every Other Mon
+
+- ## DECA
+  ### [Mrs. Hayes](mailto:)
+  ---
+
+  D408
+
+  Finance Students Only
+
+- ## Drama Club
+  ### [Ms. Casey Bowers](mailto:)
+  ---
+
+  B317
+
+  Coming Soon
+
+- ## Empowering Women 
+  ### [Mrs. McGuire](mailto:)
+  ---
+
+  B301
+
+  Every Tues
+
+- ## FITCLUB
+  ### [Mrs. Coughlin](mailto:)
+  ---
+
+  E102
+
+  Every Wed
+
+- ## Gaming Club
   ### [Mr. Gemme](mailto:gemmem@worcesterschools.net)
   ---
 
-  Room B116
+  B201
 
-  Weds 
+  Every Thurs 
 
-- ## Outdoor Club
-  ### [Chef Y.](mailto:)
+- ## GSA Club
+  ### [Mrs. Holland](mailto:)
   ---
 
-  Room B285
+  C340
 
-  Thurs 
+  Every Other Thurs
+
+- ## Guitar Club
+  ### [Mr. Stearns](mailto:)
+  ---
+
+  Coming Soon
+
+  Every Fri
 
 - ## Math Team
   ### [Mr. Marion](mailto:)
   ---
   
-  Room TBD
+  B167
 
-  Dates TBD
+  Every Wed
+
+- ## Model UN
+  ### [Mr. Newton](mailto:)
+  ---
+
+  D343
+
+  Every Other Tues
+
+- ## News Club
+  ### [Mr. Metivier](mailto:)
+  ---
+
+  Coming Soon
+
+  Every Wed
+
+- ## Outdoor Club
+  ### [Chef Y.](mailto:)
+  ---
+
+  Coming Soon
+
+  Coming Soon
+
+- ## Poetry Out Loud
+  ### [Mrs. Holland](mailto:)
+  ---
+
+  C340
+
+  Coming Soon
+
+- ## Psychology Club
+  ### [Mrs. Donovan](mailto:)
+  ---
+
+  Room D339
+
+  Every Other Thurs
+  
+- ## SkateBoard Club
+  ### [Mr. Petkauskos](mailto:)
+  ---
+
+  D430
+
+  Every Tues
+
+- ## Ski & SnowBoard Club
+  ### [Mr. Beriau/Ms. Paulino](mailto:)
+  ---
+
+  Coming Soon
+
+  Coming Soon
+
+- ## Skills USA
+  ### [Mrs. Taylor](mailto:)
+  ---
+
+  A136
+
+  Coming Soon
 
 - ## Student Council
   ### [Ms. Kolodziejczak](mailto:)
@@ -39,23 +211,6 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
   Room N/A
  
-
-- ## A/V Club
-  ### [Mr. Torres & Mr. Stearns](mailto:)
-  ---
-
-  Room N/A
-
-  Every Other Monday.
-
-- ## Gay/Straight Alliance
-  ### [Mrs. Holland & Mrs. Mitre](mailto:)
-  ---
-
-  Room N/A
-
-  Meets 1st and 3rd Thursdays.
-
 - ## Writer's Club
   ### [Mrs. Holland](mailto:)
   ---
@@ -64,166 +219,13 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
   Meets 2nd and 4th Thursdays.
 
-- ## Poetry Out Loud
-  ### [Mrs. Holland](mailto:)
+- ## Yarn Club
+  ### [Mrs. Marini](mailto:)
   ---
 
-  Room N/A
+  B222
 
-  dates: n/a
-  
-- ## Herren Project
-  ### [Ms. Mac](mailto:)
-  ---
-
-  Room D408
-
-  Meeting dates determined by student interest.
-  
-- ## Model UN
-  ### [N/A](mailto:)
-  ---
-
-  Room D343
-
-  Z Week Thursdays.
-  
-- ## Newspaper
-  ### [TBD](mailto:)
-  ---
-
-  Room: TBD
-  
-- ## Asian Student Union
-  ### [N/A](mailto:)
-  ---
-
-  Room N/A
-  
-- ## BTS LY Club
-  ### [N/A](mailto:)
-  ---
-
-  Room N/A
-
-
-  
-- ## Guitar Club
-  ### [Mr. Stearns](mailto:)
-  ---
-
-  Room N/A
-
-  Friday Afternoons
-  
-- ## Dungeons & Dragons Club  
-  ### [Mr. Brennan](mailto:)
-  ---
-
-  Room B318
-
-  Wednesdays
-  
-- ## Women Empowerment Club
-  ### [Mrs. McGuire](mailto:)
-  ---
-
-  Room B316
-
-  Tuesdays
-  
-- ## Drama Club
-  ### [Ms. Bowers](mailto:)
-  ---
-
-  Room B317
-
-  Thursdays
-  
-- ## Art Club
-  ### [Mrs. Holland](mailto:)
-  ---
-
-  Environmental Science Shop
-
-  Wednesdays
-  
-- ## Earth Club
-  ### [TBD](mailto:)
-  ---
-
-  Room TBD
-
-  TBD
-  
-- ## FIT Club
-  ### [Mrs. Coughlin](mailto:)
-  ---
-
-  Room C409
-
-  N/A
-
-- ## Black Student Union
-  ### [Ms. Belcher, Ms. MacKnight & Ms. Johnson](mailto:)
-  ---
-
-  Biotech Area
-
-  2nd and 4th Thursdays of Each Month
-  
-- ## Caring with Compassion Club
-  ### [Ms. Chase](mailto:)
-  ---
-
-  Zen Den
-
-  Wednesdays
-  
-- ## Psychology Club
-  ### [Mrs. Donovan](mailto:)
-  ---
-
-  Room D339
-
-  2nd and 4th Thursdays of Each Month
-  
-- ## Let Love Lead
-  ### [N/A](mailto:)
-  ---
-
-  Room N/A
-
-  N/A
-  
-- ## Yearbook Club
-  ### [Mrs. Coughlin](mailto:)
-  ---
-
-  Room C409
-
-  
-- ## WooTech News Club
-  ### [Mr. Metivier](mailto:)
-  ---
-
-  Room N/A
-
-  Wednesdays
-  
-- ## Skateboard Club
-  ### [N/A](mailto:)
-  ---
-
-  Room N/A
-  
-- ## Chess Club
-  ### [Mr. Petty](mailto:)
-  ---
-
-  Room B174
-
-  Thursdays
+  Every Fri
   
 
 
