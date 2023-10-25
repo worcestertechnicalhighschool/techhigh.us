@@ -294,7 +294,8 @@
         max-width: max-content;
     }
     &.card--clubs{
-        max-width: 150%;
+        max-width: 130%;
+        width: 2000px;
         * {
             box-sizing: border-box;
           }
@@ -306,7 +307,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: left;
           }
           
           li {
@@ -316,7 +317,7 @@
             margin: 25px;
             border: solid black 2px;
             border-radius: 10px;
-            min-width: 525px;
+            min-width: 410px;
           }
           
           h2::before {
