@@ -8,11 +8,6 @@ This component requires a collection parameter.
 {% endcomment %}
 <div id="carousel-{{ include.collection }}" class="carousel slide carousel-{{ include.collection }} fix-timer carousel-not-hero" data-bs-ride="carousel" data-bs-interval="5000">
   {% assign slides = site.[include.collection] %}
-  <div class="carousel-indicators">
-    {% for slide in slides %}
-      <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="slide{{ forloop.index }}" class="{% if forloop.first %}active{% endif %}" aria-current="true" aria-label="Slide {{ forloop.index }}"></button>
-    {% endfor %}
-  </div>
   <div class="carousel-inner">
     {% for slide in slides %}
       <div class="carousel-item {% if forloop.index == 1 %} active{% endif %}" id="slide{{ forloop.index }}" >
