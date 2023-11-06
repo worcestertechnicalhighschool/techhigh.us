@@ -19,7 +19,7 @@ This component requires front matter.
     ---
 
 {% endcomment %}
-<div id="carousel hero" class="carousel slide" data-bs-ride="carousel">
+<div id="carousel hero carousel-hero" class="carousel slide carousel-hero fix-timer" data-bs-ride="carousel">
   <div class="carousel-inner">
     {% for slide in page.hero_slides %}
     <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" id="slide{{ forloop.index }}">
@@ -31,7 +31,7 @@ This component requires front matter.
     </div>
     {% endfor %}
   </div>
-  <div class="caption hero-text">
-    {{ page.hero_text }}
+  <div class="carousel-caption hero-text">
+    The School That Works
   </div>
 </div>

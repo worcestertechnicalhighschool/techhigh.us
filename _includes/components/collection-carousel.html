@@ -6,27 +6,20 @@ This component requires a collection parameter.
   {%- include components/collection-carousel.html collection="academics" -%}
 
 {% endcomment %}
-{% if include.height %}
-<div id="carousel-{{ include.collection }}" class="carousel slide" data-bs-ride="carousel">
-{% else %}
-<div id="carousel-{{ include.collection }}" class="carousel slide" data-bs-ride="carousel">
-{% endif %}
+<div id="carousel-{{ include.collection }}" class="carousel slide carousel-{{ include.collection }} fix-timer carousel-not-hero" data-bs-ride="carousel" data-bs-interval="5000">
+  {% assign slides = site.[include.collection] %}
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="0" class="active" aria-current="true"></button>
-    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="2"></button>
-    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="3"></button>
-    <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="4"></button>
-  </div> 
-  <div class="carousel-inner">
-    {% assign slides = site.[include.collection] %}
     {% for slide in slides %}
-      <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" id="slide{{ forloop.index }}" >
+      <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="slide{{ forloop.index }}" class="{% if forloop.first %}active{% endif %}" aria-current="true" aria-label="Slide {{ forloop.index }}"></button>
+    {% endfor %}
+  </div>
+  <div class="carousel-inner">
+    {% for slide in slides %}
+      <div class="carousel-item {% if forloop.index == 1 %} active{% endif %}" id="slide{{ forloop.index }}" >
         <img 
           src="{{ slide.featured_image }}"
-          class="d-block w-100 center"
-          alt="{{ slide.title }}"
-          style="width: 400px; height: 400px;">
+          class="d-block w-100"
+          alt="{{ slide.title }}">
 
         <div class="carousel-caption">
           <h3>{{ slide.title }}</h3>
@@ -35,12 +28,12 @@ This component requires a collection parameter.
       </div>
     {% endfor %}
   </div>
-  <a class="carousel-control-prev" type="button" data-bs-target="#carousel-{{ include.collection }}" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <button class="carousel-control-prev carousel-{{ include.collection }}" type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon carousel-{{ include.collection }}" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
-  </a>
-  <a class="carousel-control-next" type="button" data-bs-target="#carousel-{{ include.collection }}" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next carousel-{{ include.collection }}" type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide="next">
+    <span class="carousel-control-next-icon carousel-{{ include.collection }}" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
-  </a>
+  </button>
 </div>
