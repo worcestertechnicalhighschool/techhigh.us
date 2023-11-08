@@ -20,6 +20,8 @@
 
             div {
                 h2 {
+                    font-weight: normal;
+                    font-family: 'Oswald', sans-serif;
                     color: #002855;
                     border: 2px solid #002855;
                     // padding: 5px 15px;
@@ -28,22 +30,23 @@
                     // max-width: 250px;
                     // min-height: 100px;
                 }
-    
+
                 ul {
                     border: solid 2px;
                     color: black;
                     padding: 50px 25px 50px 50px;
                     margin: -42px 25px 50px 25px;
                     text-align: left;
-                    max-width: 400px;
-                    min-height: 300px;
+                    max-width: 500px;
+                    min-height: 400px;
                 }
-                
+
             }
 
-            h2,
             li {
+                font-weight: normal;
                 font-family: 'Oswald', sans-serif;
+                font-size: 1.5rem;
             }
         }
     }
