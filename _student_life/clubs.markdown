@@ -233,7 +233,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
   B133
   
-  Every Wed.
+  Every Wed
  
 - ![True Crime Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club25.png)
   ## True Crime Club
@@ -242,7 +242,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
   C341
 
-  Every Wed.
+  Every Wed
 
 - ![Writer's Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club26.png)
   ## Writer's Club
@@ -251,7 +251,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
   C340
 
-  Every Other Thur.
+  Every Other Thur
 
 - ![Yarn Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club27.png)
   ## Yarn Club
