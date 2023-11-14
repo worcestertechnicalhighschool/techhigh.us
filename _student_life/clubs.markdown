@@ -12,7 +12,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
  
 - ![Art Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/Clubs1.png)
   ## Art Club 
-  ### [Mrs. Holland](mailto:)
+  ### [Mrs. Holland](mailto:holland-dufaultg@worcesterschools.net)
   ---
 
   C120
@@ -21,7 +21,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![A/V Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club2.png)
   ## A/V Club
-  ### [Mr. Torres/Mr. Stearns](mailto:)
+  ### [Mr. Torres/Mr. Stearns](mailto:torresr@worcesterschools.net)
   ---
 
   Coming Soon
@@ -30,7 +30,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Black Student Union Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club3.png)
   ## Black Student Union
-  ### [Ms. Belcher/Ms. MacKnight/Ms. Johnson](mailto:)
+  ### [Ms. Belcher/Ms. MacKnight/Ms. Johnson](mailto:belcherd@worcesterschools.net)
   ---
 
   A136
@@ -39,7 +39,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Bowling Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club4.png)
   ## Bowling Club
-  ### [Mr. Miner](mailto:)
+  ### [Mr. Miner](mailto:minere@worcesterschools.net)
   ---
 
   D317
@@ -48,7 +48,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Caring w/ Compassion Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club5.png)
   ## Caring w/ Compassion
-  ### [Ms. Chase](mailto:)
+  ### [Ms. Chase](mailto:chaseh@worcesterschools.net)
   ---
 
   E102
@@ -57,7 +57,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Chess Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/clubs6.png)
   ## Chess Club
-  ### [Mr. Sanders](mailto:)
+  ### [Mr. Sanders](mailto:sanderst@worcesterschools.net)
   ---
 
   C404
@@ -66,7 +66,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Community Service Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club7.png)
   ## Communinty Service
-  ### [Ms. Marini](mailto:)
+  ### [Ms. Marini](mailto:marinia@worcesterschools.net)
   ---
 
   Coming Soon
@@ -75,7 +75,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![D&D Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club8.png)
   ## D&D Club
-  ### [Mrs. Kruzel](mailto:)
+  ### [Mrs. Kruzel](mailto:kruzelb@worcesterschools.net)
   ---
 
   C119
@@ -84,7 +84,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![DECA Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club9.png)
   ## DECA
-  ### [Mrs. Hayes](mailto:)
+  ### [Mrs. Hayes](mailto:hayesl@worcesterschools.net)
   ---
 
   D408
@@ -93,7 +93,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Drama Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club10.png)
   ## Drama Club
-  ### [Ms. Casey Bowers](mailto:)
+  ### [Ms. Casey Bowers](mailto:bowersc@worcesterschools.net)
   ---
 
   B317
@@ -102,7 +102,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Empowering Women Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club11.png)
   ## Empowering Women 
-  ### [Mrs. McGuire](mailto:)
+  ### [Mrs. McGuire](mailto:mcguirej@worcesterschools.net)
   ---
 
   B301
@@ -111,7 +111,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![FITCLUB Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club12.png)
   ## FITCLUB
-  ### [Mrs. Coughlin](mailto:)
+  ### [Mrs. Coughlin](mailto:coughlinj@worcesterschools.net)
   ---
 
   E102
@@ -129,7 +129,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![GSA Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club14.png)
   ## GSA Club
-  ### [Mrs. Holland](mailto:)
+  ### [Mrs. Holland](mailto:holland-dufaultg@worcesterschools.net)
   ---
 
   C340
@@ -138,7 +138,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Guitar Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club15.png)
   ## Guitar Club
-  ### [Mr. Stearns](mailto:)
+  ### [Mr. Stearns](mailto:stearnsp@worcesterschools.net)
   ---
 
   Coming Soon
@@ -147,7 +147,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Math Team Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club16.png)
   ## Math Team
-  ### [Mr. Marion](mailto:)
+  ### [Mr. Marion](mailto:marionz@worcesterschools.net)
   ---
   
   B167
@@ -156,7 +156,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Model UN Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club17.png)
   ## Model UN
-  ### [Mr. Newton](mailto:)
+  ### [Mr. Newton](mailto:newtonj@worcesterschools.net)
   ---
 
   D343
@@ -165,7 +165,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![News Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club18.png)
   ## News Club
-  ### [Mr. Metivier](mailto:)
+  ### [Mr. Metivier](mailto:metivierm@worcesterschools.net)
   ---
 
   Coming Soon
@@ -174,7 +174,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Outdoor Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club19.png)
   ## Outdoor Club
-  ### [Chef Y.](mailto:)
+  ### [Chef Y.](mailto:youkstetterk@worcesterschools.net)
   ---
 
   Coming Soon
@@ -183,7 +183,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Poetry Out Loud Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club20.png)
   ## Poetry Out Loud
-  ### [Mrs. Holland](mailto:)
+  ### [Mrs. Holland](mailto:holland-dufaultg@worcesterschools.net)
   ---
 
   C340
@@ -192,7 +192,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Psychology Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club21.png)
   ## Psychology Club
-  ### [Mrs. Donovan](mailto:)
+  ### [Mrs. Donovan](mailto:landersk@worcesterschools.net)
   ---
 
   D339
@@ -201,7 +201,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
   
 - ![Skateboard Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club22.png)
   ## SkateBoard Club
-  ### [Mr. Petkauskos](mailto:)
+  ### [Mr. Petkauskos](mailto:petkauskosn@worcesterschools.net)
   ---
 
   D430
@@ -210,7 +210,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Ski & SnowBoard Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club28.png)
   ## Ski & SnowBoard Club
-  ### [Mr. Beriau/Ms. Paulino](mailto:)
+  ### [Mr. Beriau/Ms. Paulino](mailto:beriaua@worcesterschools.net)
   ---
 
   Coming Soon
@@ -219,7 +219,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Skills USA Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club23.png)
   ## Skills USA
-  ### [Mrs. Taylor](mailto:)
+  ### [Mrs. Taylor](mailto:taylordm@worcesterschools.net)
   ---
 
   A136
@@ -228,34 +228,34 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
 - ![Student Council Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club24.png)
   ## Student Council
-  ### [Ms. Kolodziejczak](mailto:)
+  ### [Ms. Kolodziejczak](mailto:kolodziejczakj@worcesterschools.net)
   ---
 
   B133
   
-  Every Wed.
+  Every Wed
  
 - ![True Crime Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club25.png)
   ## True Crime Club
-  ### [Mrs. Mitre](mailto:)
+  ### [Mrs. Mitre](mailto:mitrek@worcesterschools.net)
   ---
 
   C341
 
-  Every Wed.
+  Every Wed
 
 - ![Writer's Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club26.png)
   ## Writer's Club
-  ### [Mrs. Holland](mailto:)
+  ### [Mrs. Holland](mailto:holland-dufaultg@worcesterschools.net)
   ---
 
   C340
 
-  Every Other Thur.
+  Every Other Thur
 
 - ![Yarn Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club27.png)
   ## Yarn Club
-  ### [Mrs. Marini](mailto:)
+  ### [Mrs. Marini](mailto:marinia@worcesterschools.net)
   ---
 
   B222
