@@ -19,15 +19,14 @@ This component requires front matter.
     ---
 
 {% endcomment %}
-<div id="carousel hero carousel-hero" class="carousel slide carousel-hero fix-timer" data-bs-ride="carousel">
+<div id="carousel hero carousel-hero" class="carousel slide carousel-hero" data-bs-ride="carousel" data-bs-pause="false">
   <div class="carousel-inner">
     {% for slide in page.hero_slides %}
     <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" id="slide{{ forloop.index }}">
       <img 
-        src="{{ slide.image }}" 
-        alt="{{ slide.alt }}"
-        class="d-block w-100"
-        style="{{ slide.position }}">
+        src="{{ slide.image }}"
+        class="d-block w-100" 
+        alt="{{ slide.alt }}">
     </div>
     {% endfor %}
   </div>
