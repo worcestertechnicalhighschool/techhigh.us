@@ -6,7 +6,6 @@
 }
 
 .carousel-featured_news > .carousel-inner > .carousel-item > img {
-  float: left;
   filter: brightness(75%);
 }
 
@@ -15,19 +14,6 @@
   height: 100%;
   max-width: 300px;
   max-height: 1500px;
-  left: 210px;
-}
-
-.carousel-featured_news > .carousel-control-prev {
-  left: 210px;
-}
-
-.carousel-featured_news > .carousel-control-next {
-  left: 460px;
-}
-
-.carousel-featured_news > .carousel-indicators {
-  right: -420px;
 }
 
 .carousel-caption > .btn {

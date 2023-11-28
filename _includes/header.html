@@ -71,7 +71,6 @@
               {% comment %} modify the file name to match the collection {% endcomment %}
               {% assign sub = s.slug | replace: "-", "_" %}
                 <ul class="dropdown-menu">
-
                   {% for menu_item in site.[sub] %}
                     {% if page.url == menu_item.url  %}
                       <li class="dropdown-item current-dropdown-item">

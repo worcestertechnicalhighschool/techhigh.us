@@ -1,10 +1,3 @@
-//What this does is sync up all the carousels so they change at the same. - Mohammed
-$('.fix-timer').carousel('cycle');
-$('.fix-timer').on('click', '.carousel-control[data-slide]', function (ev) {
-    ev.preventDefault();
-    $('.fix-timer').carousel($(this).data('slide'));
-});
-
 // class Carousel {
 //     // Private field declarations
 //     #sliding = false;
