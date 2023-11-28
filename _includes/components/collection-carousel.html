@@ -6,11 +6,21 @@ This component requires a collection parameter.
   {%- include components/collection-carousel.html collection="academics" -%}
 
 {% endcomment %}
-<div id="carousel-{{ include.collection }}" class="carousel slide carousel-{{ include.collection }} carousel-not-hero" data-bs-ride="carousel" data-bs-pause="false">
+<div id="carousel-{{ include.collection }}" class="carousel slide carousel-{{ include.collection }} carousel-not-hero" data-bs-ride="carousel" data-bs-pause="true">
   {% assign slides = site.[include.collection] %}
-  <div class="carousel-inner">
+  <div class="carousel-indicators">
+    
+    {% assign slideCount = 0 %}
     {% for slide in slides %}
-      <div class="carousel-item {% if forloop.index == 1 %} active{% endif %}" id="slide{{ forloop.index }}">
+      <button type="button" data-bs-target="#carousel-{{ include.collection }}" data-bs-slide-to="{{ slideCount }}" class="{% if forloop.index == 1 %} active{% endif %}" aria-current="true" aria-label="Slide {{ slideCount }}"></button>
+      {% assign slideCount = slideCount | plus: 1 %}
+    {% endfor %}
+  </div>
+  <div class="carousel-inner">
+    {% assign slideCount = 0 %}
+    {% for slide in slides %}
+      <div class="carousel-item {% if forloop.index == 1 %} active{% endif %}" id="slide{{ slideCount }}">
+        {% assign slideCount = slideCount | plus: 1 %}
         <img 
           src="{{ slide.featured_image }}"
           class="d-block w-100"
