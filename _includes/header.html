@@ -1,71 +1,14 @@
-<div id="search-modal" class="search-modal">
+<!-- <div id="search-modal" class="search-modal">
   <div class="modal-content">
     <form action="/search/" method="get">
       <input type="text" name="s" id="s" placeholder="Search &hellip; " >
     </form>
   </div>
-  <button class="search-close-btn" id="search-close-btn" title="Close Search" >
-    <i class="fa-solid fa-x"></i>
-  </button>
-</div>
-
-<div class="wrapper wrapper--site-header">
-  <header id="masthead" class="site-header" role="banner">
-    <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <div class="container">
-      <button  class="search-btn" id="search-btn">
-        <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-        <span>Search</span>
-      </button>
-      <a class="brand" rel="author" href="{{ '/' | relative_url }}">
-        W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
-      </a>
-      <button title="Menu" class="hamburger " type="button" id="hamburger" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Navigation">
-        <span class="line-container">
-          <span class="line line-1"></span>
-          <span class="line line-2"></span>
-          <span class="line line-3"></span>
-        </span>
-      </button>
-    </div>
-  
-    {%- if page_paths -%}
-      <nav id="site-navigation" class="primary-nav mobile">
-        <ul class="menu">
-          {% assign sections = site.sections | sort:"order" %}
-          {% for s in sections %}
-            {% if page.url == s.url %}
-              <li class="menu-item current-menu-item">
-                <a href="{{ s.url | relative_url }}" aria-current="page">{{ s.title | escape}}</a>
-            {% else %}
-              <li class="menu-item">
-                <a href="{{ s.url | relative_url }}">{{ s.title | escape}}</a>
-            {% endif %}
-              {% comment %} modify the file name to match the collection {% endcomment %}
-              {% assign sub = s.slug | replace: "-", "_" %}
-              <ul class="submenu">
-                {% for menu_item in site.[sub] %}
-                  {% if page.url == menu_item.url  %}
-                    <li class="menu-item current-menu-item">
-                    <a href="{{ menu_item.url | relative_url }}" aria-current="page">{{ menu_item.title | escape }}</a>
-                  {% else %}
-                    <li class="menu-item">
-                    <a href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
-                    <li class="menu-item">
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </li>
-          {% endfor %}
-          
-
-          
-          
-          
-
-          <script>
+</div> -->
+<!-- <button class="search-btn">
+  <i id="myBtn" class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+  <span>Search</span> -->
+<!-- <script>
             /**
              * Search Model functionality
              */ 
@@ -95,9 +38,61 @@
               searchModal.classList.remove('open');
               searchOpen = false;
             }
-            </script>
-        </ul>
-      </nav>
-    {%- endif -%}
+            </script> -->
+
+
+<div class="wrapper wrapper--site-header">
+  <header id="masthead" class="site-header" role="banner">
+    <a class="visually-hidden-focusable" href="#primary">Skip to content</a>
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="navbar-brand" rel="author" href="{{ '/' | relative_url }}">
+      W<span class="lg">orcester </span>T<span class="lg">echnical </span>H<span class="lg">igh </span>S<span class="lg">chool</span>
+    </a>
+    <nav id="site-navigation" class="navbar navbar-light navbar-expand-xl bg-light bg-body-custom py-0">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 
+        {%- if page_paths -%}
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mb-lg-0">
+          {% assign sections = site.sections | sort:"order" %}
+          {% for s in sections %}
+            {% if page.url == s.url %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" aria-current="page" href="{{ s.url | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ s.title | escape}}</a>
+            {% else %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ s.url | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ s.title | escape}}</a>
+            {% endif %}
+              {% comment %} modify the file name to match the collection {% endcomment %}
+              {% assign sub = s.slug | replace: "-", "_" %}
+                <ul class="dropdown-menu">
+                  {% for menu_item in site.[sub] %}
+                    {% if page.url == menu_item.url  %}
+                      <li class="dropdown-item current-dropdown-item">
+                        <a class="dropdown-item active" aria-current="true" href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a></li>
+                    {% else %}
+                      <li class="dropdown-item">
+                        <a class="dropdown-item" href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endfor %} 
+          </ul>
+          {%- endif -%}
+          
+          <form action="/search/" method="get" class="d-flex search-form" role="search">
+            <input class="form-control me-2" type="search" name="s" id="s" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
+          
+        </div><!-- /navbar-collapse -->
+      </div><!-- /container-fluid -->
+    </nav>
   </header>
 </div>
