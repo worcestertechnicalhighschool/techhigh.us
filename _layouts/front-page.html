@@ -83,22 +83,6 @@ layout: default
     </section>
   </div>
 
-  <script>
-    document.querySelectorAll(".cta-card").forEach(card=> {
-  let p = card.querySelector('.card-description');
-  p.addEventListener("transitionend", (e) => {
-    let fontSize = window.getComputedStyle(p).getPropertyValue("font-size")
-    if (e.propertyName == 'font-size' && fontSize != '0px') {
-      p.classList.add('open');
-    }
-  })
-  
-  card.addEventListener('mouseleave', e => {
-    p.classList.remove('open');
-  })
-})
-  </script>
-
   <section class="academics">
     <h2>Academics</h2>
     {%- include components/collection-carousel.html collection="academics" -%}
@@ -107,8 +91,8 @@ layout: default
   <section class="technical-academies">
     <h2>Technical Academies</h2>
     {%- include components/collection-carousel.html collection="technical_areas" -%}
-    
   </section>
+  
 </article><!-- /.landing 
 
 <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>

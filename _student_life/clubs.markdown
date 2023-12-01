@@ -200,7 +200,7 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
   Every Other Thurs
   
 - ![Skateboard Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club22.png)
-  ## SkateBoard Club
+  ## Skateboard Club
   ### [Mr. Petkauskos](mailto:petkauskosn@worcesterschools.net)
   ---
 
@@ -208,8 +208,8 @@ excerpt: Worcester Tech offers various clubs and leadership opportunities for st
 
   Every Tues
 
-- ![Ski & SnowBoard Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club28.png)
-  ## Ski & SnowBoard Club
+- ![Ski & Snowboard Club Logo](https://wordpress.techhigh.us/wp-content/uploads/2023/09/club28.png)
+  ## Ski & Snowboard Club
   ### [Mr. Beriau/Ms. Paulino](mailto:beriaua@worcesterschools.net)
   ---
 
