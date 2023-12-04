@@ -19,18 +19,18 @@ This component requires front matter.
     ---
 
 {% endcomment %}
-<div id="carousel-hero" class="carousel hero" >
-  <div class="slide-container">
+<div id="carousel hero carousel-hero" class="carousel slide carousel-hero" data-bs-ride="carousel" data-bs-pause="false">
+  <div class="carousel-inner">
     {% for slide in page.hero_slides %}
-      <div class="slide">
-        <img 
-          src="{{ slide.image }}" 
-          alt="{{ slide.alt }}"
-          style="{{ slide.position }}">
-      </div>
+    <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" id="slide{{ forloop.index }}">
+      <img 
+        src="{{ slide.image }}"
+        class="d-block w-100" 
+        alt="{{ slide.alt }}">
+    </div>
     {% endfor %}
   </div>
-  <div class="caption hero-text">
-    {{ page.hero_text }}
+  <div class="carousel-caption hero-text">
+    The School That Works
   </div>
 </div>

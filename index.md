@@ -14,8 +14,6 @@ hero_slides:
     alt: "A Welding student welding metal."
     position: "object-position: center 50%;"
 
-hero_text: "<p><em>The School That Works</em></p>"
-
 slideshows:
   - slideshow:
     - image: "https://res.cloudinary.com/dxm7ycyxz/image/upload/v1668016854/2022/03/history-image_q1ta2r.jpg"

@@ -4,7 +4,7 @@
       title="{{ site.facebook_username| cgi_escape | escape }}" 
       href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
       <i class="fa-brands fa-square-facebook"></i>
-      <span class="username screen-reader-text">{{ site.facebook_username| escape }}
+      <span class="visually-hidden">{{ site.facebook_username| escape }}
       </span>
     </a>
   </li>
@@ -14,7 +14,7 @@
         title="{{ site.instagram_username| cgi_escape | escape }}" 
         href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}">
         <i class="fa-brands fa-instagram"></i>
-        <span class="username screen-reader-text">{{ site.instagram_username| escape }}
+        <span class="visually-hidden">{{ site.instagram_username| escape }}
         </span></a></li>
   {%- endif -%}
   {%- if site.twitter_username -%}
@@ -22,7 +22,7 @@
       title="{{ site.twitter_username| cgi_escape | escape }}" 
       href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
       <i class="fa-brands fa-square-twitter"></i>
-      <span class="username screen-reader-text">{{ site.twitter_username}}
+      <span class="visually-hidden">{{ site.twitter_username}}
       </span></a></li>
   {%- endif -%}
   {%- if site.youtube_username -%}
@@ -30,7 +30,7 @@
       title="{{ site.youtube_username| cgi_escape | escape }}" 
       href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}">
       <i class="fa-brands fa-youtube"></i>
-      <span class="username screen-reader-text">{{ site.youtube_username| escape }}
+      <span class="visually-hidden">{{ site.youtube_username| escape }}
       </span></a></li>
   {%- endif -%}
   {%- if site.linkedin_username -%}
@@ -38,7 +38,7 @@
       title="{{ site.linkedin_username| cgi_escape | escape }}" 
       href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
       <i class="fa-brands fa-linkedin"></i>
-      <span class="username screen-reader-text">{{ site.linkedin_username| escape }}
+      <span class="visually-hidden">{{ site.linkedin_username| escape }}
       </span></a></li>
   {%- endif -%}
   {%- if site.github_username -%}
@@ -46,6 +46,6 @@
       title="{{ site.github_username| cgi_escape | escape }}" 
       href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
       <i class="fa-brands fa-github"></i>
-      <span class="username screen-reader-text">{{ site.github_username| escape }}</span></a></li>
+      <span class="visually-hidden">{{ site.github_username| escape }}</span></a></li>
   {%- endif -%}
 </ul>
