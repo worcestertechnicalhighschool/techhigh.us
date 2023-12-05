@@ -49,4 +49,6 @@ Jocelyn Coughlin - Teacher
 
  <h2>City-Wide Parent Advisory Council</h2>
 
- <a href="https://worcestercppac.weebly.com/" class="btn btn-primary" style="display:flex;justify-content: center">Click this to go there.</a>
+<div style="text-align: center;">
+ <a href="https://worcestercppac.weebly.com/" class="btn btn-primary">Click this to go there.</a>
+</div>
