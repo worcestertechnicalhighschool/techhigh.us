@@ -33,11 +33,7 @@ Mary Sheerin - Parent
 
 Ernie Floyd - Community Member
 
-James Tripp Pockevicius - Teacher/Department Head
-
 Peter Stearns - Teacher
-
-Jacqueline Kaliz - Teacher
 
 Tom Quinn - Guidance
 
@@ -49,4 +45,8 @@ Jocelyn Coughlin - Teacher
 
 ## Contact Us
 
- [Drew Weymouth - Principal](mailto:weymouthdg@worcesterschools.net) | [Michelle Phenix - Assistant Principal](mailto:phenixm@worcesterschools.net) | [ Jacquelyn Krull - MCAS Specialist](mailto:krullj@worcesterschools.net)
+ <p style="text-align:center"><a href="mailto:alejandrol@worcesterschools.net">Laura Alejandro</a></p>
+
+ <h2>City-Wide Parent Advisory Council</h2>
+
+ <a href="https://worcestercppac.weebly.com/" class="btn btn-primary" style="display:flex;justify-content: center">Click this to go there.</a>
