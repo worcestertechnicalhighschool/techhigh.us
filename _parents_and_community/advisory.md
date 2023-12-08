@@ -12,19 +12,26 @@ Pursuant to Massachusetts General Law Chapter 74, Section 2, and The Vocational 
 New members are always welcome.  Please contact Dr. Patricia Suomala, Director of Career and Technical Education, at [suomalap@worcesterschools.net](mailto:suomalap@worcesterschools.net). If you are interested in serving on one of our Program Advisory Boards: [WTHS PAC Orientation](https://docs.google.com/document/d/1NEl0ikAoGQgmdWYit6ws6MEaWgb6wJCSMFs6bEqQfxY/edit)
 
 The Worcester Technical High School Program Advisory Committees meet two times per academic year, once in the fall and once in the spring.
-<ul>
-<li>Program faculty prepare a meeting agenda with input from Advisory members.</li>
-<li>Attendance is taken by having members review and initial their contact information, including representation & composition data.</li>
-<li>Program faculty prepare meeting minutes.</li>
-<li>Regular Agenda Items:</li>
-    * &nbsp;&nbsp;&nbsp;Fall Meeting
-        * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Program validation
-        * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Equipment recommendations 
-        * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other topics as desired
-    * &nbsp;&nbsp;&nbsp;Spring Meeting
-        * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instructors report on program accomplishments
-        * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preparation of Chairperson’s report to the General Advisory.
-        * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other topics as desired
+
+Program faculty prepare a meeting agenda with input from Advisory members.
+Attendance is taken by having members review and initial their contact information, including representation & composition data.
+Program faculty prepare meeting minutes.
+
+Regular Agenda Items:
+<ul style="padding-left: 30px">
+    <li>Fall Meeting:</li>
+        <ul style="padding-left: 20px">
+            <li> Program validation </li>
+            <li> Equipment recommendations </li>
+            <li> Other topics as desired </li>
+        </ul>
+    <li>Spring Meeting:</li>
+        <ul style="padding-left: 20px">
+            <li>Instructors report on program accomplishments.</li>
+            <li>Preparation of Chairperson’s report to the General Advisory.</li>
+            <li>Other topics as desired.</li>
+        </ul>
+</ul>
 
 The Chairperson from each Program Advisory Committee serves on the **General Advisory Board**.  The General Advisory Board meets twice per year.  All  Program members are welcome to attend. 
 * &nbsp;&nbsp;The first meeting is in the Fall

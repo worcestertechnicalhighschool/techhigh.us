@@ -9,7 +9,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 ## Fall Sports
 
-<div class="col-3" style="text-align: center;" markdown="1">
+<div style="text-align: center;" markdown="1">
 
 - 
 <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/wths-school-seal-cards.svg" width="230"/>
@@ -105,7 +105,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 ## Winter Sports
 
-<div class="col-3" style="text-align: center;" markdown="1">
+<div style="text-align: center;" markdown="1">
 
 - 
 <img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/0080.jpg" width="230"/>
@@ -174,7 +174,7 @@ excerpt: Students have the opportunity to learn skills and techniques that trans
 
 ## Spring Sports
 
-<div class="col-3" style="text-align: center;" markdown="1">
+<div style="text-align: center;" markdown="1">
 
 - 
 <img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/0119.jpg" width="230" />
