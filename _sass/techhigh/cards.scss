@@ -294,18 +294,18 @@
     }
     &.card--clubs{
         margin-top: 50px;
-        max-width: 130%;
+        max-width: 100%;
         width: 100%;
         * {
             box-sizing: border-box;
           }
           
           ul {
-            margin: 100;
+            margin: 1%;
             padding: 0;
             list-style-type: none;
             display: grid;
-            grid-template-columns: repeat(auto-fill, 400px);
+            grid-template-columns: repeat(auto-fill, minmax(225px, 400px));
             gap: 30px;
             li {
                 border: 2px solid $dark_blue;
@@ -475,13 +475,13 @@
 
   }
 
-  .card--admissions{
+  .card--admissions {
     color: $dark_blue;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 
-    .card-title{
+    .card-title {
         z-index: 1;
         position: absolute;
         border-style: solid;
@@ -494,13 +494,13 @@
         width: fit-content;
         text-align: center;
         background: white;
-        b{
+        b {
             font-size: 21px;
             font-family: $header_font;
         }
     }
 
-    .card-description{
+    .card-description {
         color: black;
         border-color: $dark_blue;
         z-index: 0;
@@ -514,7 +514,7 @@
     }
 
     h3 {
-        font-size: 21px;
+        font-size: 15px;
     }
 }
 

@@ -1,11 +1,11 @@
-.meet-principal{
+.meet-principal {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-    align-items:stretch;
+    align-items: stretch;
     margin: 0 10% 0 10%;
-    .principal{
+    .principal {
         text-align: center;
         min-width: 45%;
         font-size: 300%;
@@ -13,19 +13,19 @@
         border-width: 5px;
         border-color: $secondary;
         margin: auto 5% auto 5%;
-        p{
+        p {
             font-family: $header_font;
         }
-        .principal-name{
+        .principal-name { 
             color: $secondary;
         }
     }
-    .principal-image{
-        .card--faculty{
+    .principal-image {
+        .card--faculty {
             width: auto;
         }
         min-width: 40%;
-        .staff-members{
+        .staff-members {
             img{
                 width: 500px;
                 border-radius: 100%;
@@ -38,7 +38,7 @@
             }
         }
     }
-    .about{
+    .about {
         max-width: 45%;
         margin-right: 5%;
         margin-left: 5%;
@@ -47,13 +47,13 @@
         background-color: #196ebf;
         color: white;
     }
-    .outside-Wths{
+    .outside-Wths {
         max-width: 40%;
         background-color: #bfd6ed;
         padding: 0 10px 0 20px;
         margin-bottom: 10px;
     }
-    .more{
+    .more {
         text-align: center;
         margin-top: 10px;
         padding: 0 10px 0 20px;
@@ -66,7 +66,7 @@
     }
     @media (max-width:500px) {
 
-        .about, .outside-Wths{
+        .about, .outside-Wths {
             max-width: 100%;
         }
     }
