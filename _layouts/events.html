@@ -87,7 +87,8 @@ layout: default
       optionEl.selected = localeCode == initialLocaleCode;
       optionEl.innerText = localeCode;
     });
-
+    
+    // If the user is on mobile, the view gets changed to an agenda view.
     function mediaViewChange(x) {
       if (x.matches) {
         calendar.changeView('dayGridMonth');
