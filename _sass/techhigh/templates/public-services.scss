@@ -434,15 +434,17 @@
                     text-align: left;
                 }
             }
-
-            ul li{
+            // Grouping is done with a comma, you can't just put a space in between them.
+            ul, li {
                 list-style-type: none;
                 font-family: $header_font;
                 font-size: 20px;
                 color: white;
+                text-align: center;
                 @media (min-width:$breakpoint_standard) {
                     font-size: 12px;
                     margin-left: 18px;
+                    text-align: left;
                 }
             }
 
