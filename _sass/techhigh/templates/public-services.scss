@@ -290,7 +290,10 @@
         }
 
         ul {
-            columns: 2;
+            @media (min-width:$breakpoint_standard) {
+                columns: 2;
+                
+            }
         }
 
         ul li {
@@ -301,7 +304,7 @@
         } 
 
         ul, ol {
-            margin: left;
+            margin: auto;
         }
 
         li { color: #214f94; }
@@ -368,6 +371,7 @@
             }
             max-width: fit-content;
             object-fit: cover;
+            margin: auto;
         }
 
         .post {
@@ -416,27 +420,31 @@
 
         .box-graphics{
             display: flex;
-            flex-wrap: wrap;
+            flex-flow: column;
             @media (min-width:$breakpoint_standard) {
-                flex-wrap: nowrap;
+                flex-flow: wrap;
             }     
 
             h1{
                 color: white;
+                text-align: center;
                 @media (min-width:$breakpoint_standard) {
                     font-size: 1em;
                     padding-left: 15px;
+                    text-align: left;
                 }
             }
-
-            ul li{
+            // Grouping is done with a comma, you can't just put a space in between them.
+            ul, li {
                 list-style-type: none;
                 font-family: $header_font;
                 font-size: 20px;
                 color: white;
+                text-align: center;
                 @media (min-width:$breakpoint_standard) {
                     font-size: 12px;
                     margin-left: 18px;
+                    text-align: left;
                 }
             }
 
@@ -450,8 +458,10 @@
                 margin:5px;
 
                 img {
+                    display: none;
                     @media (min-width:$breakpoint_standard) {
                         max-width: 150px;
+                        display: flex;
                     }
                 }
 

@@ -5,7 +5,7 @@ layout: default
 <article class="post {{ page.slug }} events">
   {%- include components/hero-entry.html -%}
   <div>
-    <div id='calendar' class="events_calendar" style="width: 65%;">
+    <div id='calendar' class="events_calendar">
     </div>
   </div>
   <section class="post-content">
@@ -79,6 +79,23 @@ layout: default
           optionEl.selected = localeCode == initialLocaleCode;
           optionEl.innerText = localeCode;
         });
+
+        // If the user is on mobile, the view gets changed to an agenda view.
+        function mediaViewChange(x) {
+          if (x.matches) {
+            calendar.changeView('dayGridMonth');
+          } else {
+            calendar.changeView('listMonth');
+          }
+        }
+
+        var x = window.matchMedia("(min-width: 450px)")
+
+        mediaViewChange(x);
+
+        x.addEventListener("change", function () {
+          mediaViewChange(x);
+        })
 
 
       });

@@ -90,8 +90,11 @@
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 14px;
     
-    .events_calendar{
-        width: 800px;
+    @media screen and (min-width: 450px){
+        .events_calendar{
+            width: 800px;
+        
+        }
     }
     #calendar {
         margin: 40px auto;
@@ -162,6 +165,12 @@
           .fc .fc-list-event.fc-event-forced-url:hover a{
             text-decoration: none;
           }
+        @media screen and (max-width: 450px){
+            .fc-toolbar{
+                display: none;
+            
+            }
+        }
     }
     .fc .fc-button-primary {
         background: $primary;
@@ -195,6 +204,7 @@
         background-color: $primary;
             .fc-col-header-cell a{
                 color: #f7faff;
+                font-size: initial;
             }
         }
     }
