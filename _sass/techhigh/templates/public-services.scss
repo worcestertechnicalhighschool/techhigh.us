@@ -96,9 +96,9 @@
         width: 100%;
         flex-direction: column;
         flex-wrap: nowrap;
-        // @media (min-width:$breakpoint_standard) {
-        //     flex-direction: row;
-        // }
+        @media (min-width:$breakpoint_standard) {
+            max-width: 50%;
+        }
         .large-container{
             margin-top: 35px;
             max-width: 1200px;

@@ -30,7 +30,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/raphael
 
 </div>
 
-<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/Screen-Shot-2023-02-10-at-7.51.04-AM.png" alt="">
+<img class="img-fluid" src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/Screen-Shot-2023-02-10-at-7.51.04-AM.png" alt="">
 </div>
 
 <div class="large-container two">
@@ -59,7 +59,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/raphael
 
 </div>
 
-<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon_2.jpg" alt="">
+<img class="img-fluid" src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Salon_2.jpg" alt="">
 
 </div>
 
@@ -84,7 +84,7 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/raphael
 
 </div>
 
-<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/Salon-3.png" alt="">
+<img class="img-fluid" src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/Salon-3.png" alt="">
 </div>
 
 <div class="large-container four">
@@ -114,6 +114,6 @@ featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/raphael
 
 </div>
 
-<img src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/75A37195-FA52-420C-B3A1-8D9D2E8CDA49.png" alt="">
+<img class="img-fluid" src="https://wordpress.techhigh.us/wp-content/uploads/2023/02/75A37195-FA52-420C-B3A1-8D9D2E8CDA49.png" alt="">
 
 </div>
