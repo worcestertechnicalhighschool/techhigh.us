@@ -1,15 +1,15 @@
 .admissions{
 
     text-align: center;
-    h2{
+    h2 {
         text-align: center;
     }
-    .card-container{
+    .card-container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .admission-lottery{
+    .admission-lottery {
         padding-bottom: 30px;
         border-bottom: solid 2px $primary;
         h2 {
@@ -27,6 +27,12 @@
             }
         }
     }
+    .post-content {
+        font-size: large;
+        color: rgb(17, 65, 102);
+        margin-top: 2%;
+    }
+
     .video-placeholder {
         border: $primary solid 2px;
         background-color: $light-blue;
@@ -46,7 +52,7 @@
             border: $primary solid 2px;
             border-radius: 50%;
             display: block;
-            margin: -37px auto 0 auto;
+            margin: -35px auto 0 auto;
             text-align: center;
             line-height: 75px;
             background-color: #fff;
@@ -57,6 +63,8 @@
             align-items: center;
             height: 75px;
             border-top: solid 2px $primary;
+            font-weight: 500;
+            font-size: larger;
             p {
                 height: 75px;
                 line-height: 75px;
@@ -75,21 +83,25 @@
             color: white;
         }
     }
-    .background {
-        background-color: $primary;
+    
+    //                        ** These comments are to hide the blue background to the video so that the placeholder is the only thing left. Code may or may not be bad :) **
+    // .background {
+    //     background-color: $primary;
 
-    }
-    .outer{
-        border: 4px $primary;
-        padding: 20px;
-        border-style: solid;
-    }
+    // }
+    // .outer {
+    //     border: 4px $primary;
+    //     padding: 20px;
+    //     border-style: solid;
+    // }
     a {
         color:#fff;
     }
     #inner {
-        margin: 0px;
-        padding: 10px;
+        margin: -10px;
+        padding: 0px;
         color: white;
+
+        font-size: xx-small;
     }
 }

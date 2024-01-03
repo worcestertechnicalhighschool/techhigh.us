@@ -7,7 +7,7 @@ layout: default
     {%- include components/hero-entry.html -%}
 
     <section class="post-content">
-        <a target="_blank" class="btn btn--cta" href="https://techhigh.go2cte.com">Application Portal <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <!-- <a target="_blank" class="btn btn--cta" href="https://techhigh.go2cte.com">Application Portal <i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
         {{ content }}
     </section>
     
@@ -39,10 +39,10 @@ layout: default
         
         <div id="placeholder" class="video-placeholder">
           <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" alt="WTHS" width="75" height="75">
-          <p>Worcester Tech's admission lottery will be run and posted online.</p>
+          <p>Worcester Tech's admission lottery will be run and posted online.<br class="placeholder-subtext">Applications open:</p>
           <div class="video-placeholder-footer">
-            <p>April 12th</p>
-            <p>At 5pm</p>
+            <p>Jan 23rd</p>
+            <p>On: Go2CTE</p>
           </div>
 
         </div>
@@ -106,7 +106,7 @@ layout: default
   const placeholder = document.querySelector("#placeholder");
   const docs = document.querySelector('#documents');
 
-  let premier = new Date('12 April 2023 17:00') 
+  let premier = new Date('12 April 2024 17:00') 
   let now = Date.now();
 
   if (now >= premier) {
