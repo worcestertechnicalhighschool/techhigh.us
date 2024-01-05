@@ -1,5 +1,5 @@
 ---
-layout: department-pages
+layout: special-ed
 title: Special Education
 date: 2022-10-24
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/03/Israel_Goldstein_Youth_Village_students_13.jpg
@@ -48,57 +48,58 @@ Identifying and counting coins and bills, comparing prices within stores, making
 
 ## Application Directions:
 
-1. Complete all of the information in the documents below by printing or typing in the spaces provided.
-
-2. Have the application signed by the student, parent, and the Special Education director or designee. 
-
-3. Return the completed application to your school’s Evaluation Team Chairperson
+<ol>
+    <li>Complete all of the information in the documents below by printing or typing in the spaces provided.</li>
+    <li>Have the application signed by the student, parent, and the Special Education director or designee.</li>
+    <li>Return the completed application to your school’s Evaluation Team Chairperson</li>
+</ol>
 
 ## Application Document
 
 ### Student Check list
-- [VOC-P Student Checklist](/assets/documents/voc-p-app-student-checklist.pdf)
+[VOC-P Student Checklist](/assets/documents/voc-p-app-student-checklist.pdf)
 
 ### English
-- [English VOC-P Brochure](/assets/documents/voc-p-brochure-english.pdf)
-- [English VOC-P Application](/assets/documents/voc-p-app-english.pdf)
+[English VOC-P Brochure](/assets/documents/voc-p-brochure-english.pdf) <br>
+[English VOC-P Application](/assets/documents/voc-p-app-english.pdf)
 
 ### Spanish
-- [Spanish VOC-P Brochure](/assets/documents/voc-p-brochure-spanish.pdf)
-- [Spanish VOC-P Application](/assets/documents/voc-p-app-spanish.pdf)
+[Spanish VOC-P Brochure](/assets/documents/voc-p-brochure-spanish.pdf) <br>
+[Spanish VOC-P Application](/assets/documents/voc-p-app-spanish.pdf)
 
 ### Nepali
-- [Nepali VOC-P Brochure](/assets/documents/voc-p-brochure-nepali.pdf)
-- [Nepali VOC-P Application](/assets/documents/voc-p-app-nepali.pdf)
+[Nepali VOC-P Brochure](/assets/documents/voc-p-brochure-nepali.pdf) <br>
+[Nepali VOC-P Application](/assets/documents/voc-p-app-nepali.pdf)
 
 ### Twi
-- [Twi VOC-P Brochure](/assets/documents/voc-p-brochure-twi.pdf)
-- [Twi VOC-P Application](/assets/documents/voc-p-app-twi.pdf)
+[Twi VOC-P Brochure](/assets/documents/voc-p-brochure-twi.pdf) <br>
+[Twi VOC-P Application](/assets/documents/voc-p-app-twi.pdf)
 
 ### Portuguese
-- [Portuguese VOC-P Brochure](/assets/documents/voc-p-brochure-portuguese.pdf)
-- [Portuguese VOC-P Application](/assets/documents/voc-p-app-portuguese.pdf)
+[Portuguese VOC-P Brochure](/assets/documents/voc-p-brochure-portuguese.pdf) <br>
+[Portuguese VOC-P Application](/assets/documents/voc-p-app-portuguese.pdf)
 
 ### Albanian
-- [Albanian VOC-P Brochure](/assets/documents/voc-p-brochure-albanian.pdf)
-- [Albanian VOC-P Application](/assets/documents/voc-p-app-albanian.pdf) 
+[Albanian VOC-P Brochure](/assets/documents/voc-p-brochure-albanian.pdf) <br>
+[Albanian VOC-P Application](/assets/documents/voc-p-app-albanian.pdf) 
 
 ### Vietnamese
-- [Vietnamese VOC-P Brochure](/assets/documents/voc-p-brochure-vietnamese.pdf)
-- [Vietnamese VOC-P Application](/assets/documents/voc-p-app-vietnamese.pdf)
+[Vietnamese VOC-P Brochure](/assets/documents/voc-p-brochure-vietnamese.pdf) <br>
+[Vietnamese VOC-P Application](/assets/documents/voc-p-app-vietnamese.pdf)
 
 
 # VOC-P Target Population
 
 The Vocational Opportunities and Career Pathways Program (VOC P) at Worcester Technical High School is designed for student with special needs who: 
-
-- Have been found eligible for special education services due to an intellectual disability and / or Autism Spectrum as their primary disability
-- Are determined by a Team to be in need of a substantially separate program and whose IEP can be implemented in the VOC P Program.
-- Participate in the MCAS Alternate Assessment
-- Can benefit from a program that is directly related to the preparation of students for career opportunities
-- Can safely and with decreasing supports, access an appropriate supported career based program that is offered at the Worcester Technical High School
-- Have needs an career goals that can be met through the Vocational Opportunities and Careers Pathways Program
-- Students will follow the policies and procedures outlined in the Worcester Public Schools Student Handbook as well as the supplemental handbook provided by Worcester Technical High School
+<ul>
+    <li>Have been found eligible for special education services due to an intellectual disability and / or Autism Spectrum as their primary disability</li>
+    <li>Are determined by a Team to be in need of a substantially separate program and whose IEP can be implemented in the VOC P Program.</li>
+    <li>Participate in the MCAS Alternate Assessment</li>
+    <li>Can benefit from a program that is directly related to the preparation of students for career opportunities</li>
+    <li>Can safely and with decreasing supports, access an appropriate supported career based program that is offered at the Worcester Technical High School</li>
+    <li>Have needs an career goals that can be met through the Vocational Opportunities and Careers Pathways Program</li>
+    <li>Students will follow the policies and procedures outlined in the Worcester Public Schools Student Handbook as well as the supplemental handbook provided by Worcester Technical High School</li>
+</ul>
 
 # VOC-P Program Overview
 
