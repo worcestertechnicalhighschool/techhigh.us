@@ -40,13 +40,15 @@
         max-width: 400px;
         margin: auto;
         margin-top:45px;
+        color: $primary;
+        font-size: large;
         p {
             font-family: $header-font;
             margin: 0;
             font-size: 1.5em;
         }
         >p {
-            padding: 30px;
+            padding-bottom: 15px;
         }
         img {
             border: $primary solid 2px;
@@ -65,6 +67,7 @@
             border-top: solid 2px $primary;
             font-weight: 500;
             font-size: larger;
+            color: $primary;
             p {
                 height: 75px;
                 line-height: 75px;
@@ -74,8 +77,22 @@
             p:first-child {
                 border-right: solid 2px $primary;
             }
+
+            a {
+                height: 75px;
+                line-height: 75px;
+                width: 100%;
+                text-align: center;
+                font-family: $header-font;
+                color: $primary;
+
+                :visited {
+                    color: $primary;
+                }
+            }
         }
-    }
+    } 
+
     .documents {
         ul {
             display: inline-block;
