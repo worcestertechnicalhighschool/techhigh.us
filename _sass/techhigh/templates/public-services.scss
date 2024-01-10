@@ -37,9 +37,10 @@
         }
 
         img {
-
+            display: none;
             @media (min-width:$breakpoint_standard) {
                 margin: 30px;
+                display: block;
             }
             
         }
