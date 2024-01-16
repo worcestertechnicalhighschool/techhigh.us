@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 date: 2022-10-26
+permalink: /privacy-policy/
 ---
 
 Effective date: October 16, 2018

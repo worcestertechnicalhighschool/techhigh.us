@@ -438,6 +438,7 @@
       p {
         margin: 0 20px;
         transition: ease 0.3s all;
+        transition-delay: 560ms;
       }
       .btn {
         display: block;
@@ -455,7 +456,7 @@
         background-color: #003865dd;
         
         p {
-          opacity:0;
+        //   opacity:0;
           font-size: 0;
           overflow: hidden;
         }
