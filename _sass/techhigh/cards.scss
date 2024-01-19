@@ -13,6 +13,50 @@
     flex-grow: 3;
 }
 
+@media screen and (min-width: $xl-bs-breakpoint) {
+    .cta-card {
+        position: relative;
+        .card-content {
+            p {
+            font-size: 1.1rem !important;
+            opacity: 0;
+            }
+            .card-description-wrapper {
+            transition: all ease 0.3s;
+            overflow: hidden;
+            transform: scaleY(0);
+            /*   height: 0; */
+            }
+            .card-title {
+            transition: all ease 0.3s;
+            position: absolute;
+            top: 125px;
+            }
+            .btn {
+            position: absolute;
+            top: 160px;
+            }
+        }
+
+        &:hover {
+            .card-content {
+                p {
+                    opacity: 1;
+                    transition-delay: 0.2s;
+                }
+                .card-description-wrapper {
+                    transform: scaleY(1);
+                }
+                .card-title {
+                    transform: translateY(-100px);
+                }
+                .btn {
+                    transform: translateY(100px);
+                }
+            }
+        }
+    }
+}
 .card{
     overflow: hidden;
     margin: 0 auto;
