@@ -5,8 +5,9 @@ date: 2022-10-26
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/drew-beamer-uVqyiiauv6Q-unsplash-1.jpg
 ---
 
-### &ensp; Open Tuesday - Friday Hours: 10:30 AM - 12:15 PM 
-### &ensp;&ensp; For Reservations, call after 9:30 AM (508) 799-1964
+Open Tuesday - Friday Hours: 10:30 AM - 12:15 PM
+
+For Reservations, call after 9:30 AM (508) 799-1964
 
 
 |<img class="img-fluid" src="https://wordpress.techhigh.us/wp-content/uploads/2023/03/Screenshot-2023-03-20-093154.png" alt="" width=400px>
