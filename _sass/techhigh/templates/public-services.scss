@@ -59,13 +59,12 @@
             display: flex;
         }
 
-        h2 {
+        > p {
+            font-size: x-large;
             text-align: center;
             padding: 20px;
-            color: #000000;
             margin: auto;
-            margin: auto;
-            margin-left: 18px;
+            // margin-left: 18px;
         }
 
         tbody {
