@@ -105,13 +105,18 @@ collections:
     output: true
     permalink: /news/:path/
 
-  pages:
-    output: true
-    permalink: :path/
+  # The link doesn't exist anymore.
+  # pages:
+  #   output: true
+  #   permalink: :path/
 
   summer_work:
     output: true
     permalink: /summer-work/:path/
+
+  civics:
+    output: true
+    permalink: /:path/
     
 
 # Exclude from processing.
