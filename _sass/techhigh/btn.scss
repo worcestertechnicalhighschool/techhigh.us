@@ -14,7 +14,7 @@ button:focus-visible,
     text-align: center;
     transition:$soft;
     &:visited{
-        color: $white;
+        color: white;
     }
 }
 
@@ -51,6 +51,10 @@ button:focus-visible,
     border: 2px solid $primary;
     background-color: $secondary;
     color: $white;
+
+    /* &:visited{
+        color: $primary;
+    } */
 
     &:hover{
         background: $primary;
