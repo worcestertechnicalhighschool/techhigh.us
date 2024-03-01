@@ -8,10 +8,10 @@ layout: default
   </section>
   <div class="meet-principal">
     <div class="principal">
-        <p>Meet Principal</p>
+        <p>Meet The Principal</p>
         <p class="principal-name">Drew Weymouth</p>
     </div>
-    <div class="principal-image">
+    <div class="principal-image img-fluid">
         {% for faculty in site.data.faculty %}
         {% assign staff = faculty.title | remove: '"' %}
         {%- if staff == page.title -%}

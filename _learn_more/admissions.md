@@ -5,9 +5,9 @@ date:   2022-10-26
 featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/sigmund-HsTnjCVQ798-unsplash-1.jpg
 ---
 
-8th grade students residing in Worcester, MA are welcome to apply to Worcester Technical High School.
+Worcester Tech's 9th-grade admission lottery will run and be posted online, stay tuned for more information. Log into your Go2CTE application to see your "conditional acceptance" or "waitlist" status after applying. Admissions for WTHS Class of 2028 close on March 28th, 2024.
 
-## Application Process For The 2023-2024 School Year Is Now Closed.
+<!-- ## Application Process For The 2023-2024 School Year Is Now Closed. -->
 
 <!---<div class="container" markdown="1">
 

@@ -12,7 +12,8 @@ tags: [calculating, numbers, relationships, summer+work]
 2. Click the Tools and then click on Manage login and Courses
 3. Add the following teacher code: 431665
 4. Select the courses you will be taking next year and you should be all set to start working on completing your summer math work. If your not sure what class to pick, check your student portal and look at next years schedule
-5. ALL incoming 9th grade students will all select the class "Entering 9th Grade 2023 - 24" regardless if they are taking Algebra 1 or Geometry.</div>
+5. ALL incoming 9th grade students will all select the class "Entering 9th Grade 2023 - 24" regardless if they are taking Algebra 1 or Geometry.
+</div>
 
 <div class="sophonmores" markdown="1">
 ### Grade 10
@@ -46,5 +47,6 @@ Upon returning to Worcester Tech after the summer, your results from your Summer
 ALL students will redcieve a TEST grade in their MATH class upon return to school in the fall based on the completion of the Summer Math.
 
 Any questions regarding Summer MAth can be directed to Mr. Lynch. His email is: lynchse@worcesterschools.net
+</div>
 
 <br>

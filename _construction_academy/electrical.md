@@ -2,7 +2,7 @@
 layout: shop-pages
 title: Electrical
 date: 2022-10-25
-featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/troy-bridges-kXC6XhVL1e4-unsplash-1.jpg
+# featured_image: https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWxlY3RyaWNhbCUyMGVuZ2luZWVyaW5nfGVufDB8fDB8fHww
 tags: [electric, wiring, electricity, maintenance]
 
 redirect_from:

@@ -57,7 +57,9 @@ layout: default
         <img src="https://wordpress.techhigh.us/wp-content/uploads/2022/03/about-picture-2.jpg" alt="Admissions">
         <div class="card-content">
           <h2 class="card-title">Admissions</h2>
-          <p class="card-description">8th grade students residing in Worcester, MA are welcome to apply to Worcester Technical High School. Application information for the Class of 2027 is now available.</p>
+          <div class="card-description-wrapper">
+            <p class="card-description">8th grade students residing in Worcester, MA are welcome to apply to Worcester Technical High School. Application information for the Class of 2027 is now available.</p>
+          </div>
           <a class="btn btn--ghost" href="/learn-more/admissions/">Apply here!</a>
         </div>
       </div>
@@ -66,38 +68,26 @@ layout: default
         <img src="https://wordpress.techhigh.us/wp-content/uploads/2022/04/c88f76e0-1499-4954-920b-faac2e8cc48b-LOC_Tech_Principal.jpg.jpg" alt="Admissions">
         <div class="card-content">
           <h2 class="card-title">Faculty</h2>
-          <p class="card-description">Meet our faculty full of administrators, teachers, and professionals looking to make your high school experience a fun and fulfilling four years!</p>
+          <div class="card-description-wrapper">
+            <p class="card-description">Meet our faculty full of administrators, teachers, and professionals looking to make your high school experience a fun and fulfilling four years!</p>
+          </div>
           <a class="btn btn--ghost" href="/learn-more/faculty/">Meet our staff!</a>
         </div>
       </div>
 
       <div class="cta-card">
-        <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" alt="Contact Us">
+        <img src="https://wordpress.techhigh.us/wp-content/uploads/2022/03/Aerial-1-686x459-1.jpg" alt="Contact Us">
         <div class="card-content">
           <h2 class="card-title">Contact Us</h2>
-          <p class="card-description">Contact Us: Have any questions? Feel free to contact us for more information regarding your concerns.</p>
+          <div class="card-description-wrapper">
+            <p class="card-description">Contact Us: Have any questions? Feel free to contact us for more information regarding your concerns.</p>
+          </div>
           <a class="btn btn--ghost" href="/learn-more/contact-us/">Click here!</a>
         </div>
       </div>
 
     </section>
   </div>
-
-  <script>
-    document.querySelectorAll(".cta-card").forEach(card=> {
-  let p = card.querySelector('.card-description');
-  p.addEventListener("transitionend", (e) => {
-    let fontSize = window.getComputedStyle(p).getPropertyValue("font-size")
-    if (e.propertyName == 'font-size' && fontSize != '0px') {
-      p.classList.add('open');
-    }
-  })
-  
-  card.addEventListener('mouseleave', e => {
-    p.classList.remove('open');
-  })
-})
-  </script>
 
   <section class="academics">
     <h2>Academics</h2>
@@ -107,8 +97,8 @@ layout: default
   <section class="technical-academies">
     <h2>Technical Academies</h2>
     {%- include components/collection-carousel.html collection="technical_areas" -%}
-    
   </section>
+  
 </article><!-- /.landing 
 
 <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js"></script>

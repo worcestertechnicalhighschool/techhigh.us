@@ -23,7 +23,7 @@ email: info@techhigh.us
 description: >- # this means to ignore newlines until "baseurl:"
   Worcester Technical High School is a Chapter 74 Vocational School in Central Massachusetts.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://techhigh.us" # the base hostname & protocol for your site, e.g. http://example.com
 lang: "en"
 
 
@@ -54,31 +54,37 @@ collections:
     # Clubs, news, sports, etc
     output: true
     permalink: /student-life/:path/
+    sort_by: title
 
   parents_and_community:
     # Alumni, announcements, etc
     output: true
     permalink: /parents-and-community/:path/
+    sort_by: title
   
   public_services:
     # Bank, restaurant, etc
     output: true
     permalink: /public-services/:path/
+    sort_by: title
 
   technical_areas:
     # Academies: Allied, ITBS, etc
     output: true
     permalink: /technical-areas/:path/
+    sort_by: title
 
   academics:
     # Academic pages: ELA, Math, etc
     output: true
     permalink: /academics/:path/
+    sort_by: title
   
   learn_more:
     # Admin, admissions, etc
     output: true
     permalink: /learn-more/:path/
+    sort_by: title
   
   # Shops are in the academy collections
   alden_academy:

@@ -24,7 +24,12 @@
         box-shadow: 11px 11px $light_grey;
         p {
             margin: 0;
-        }        
+        }
+
+        ul, ol {
+            display: inline-block;
+            text-align: left;
+        }
     }
     #faculty {
         margin-bottom:0;

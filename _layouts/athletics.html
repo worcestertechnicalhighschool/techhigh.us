@@ -5,10 +5,10 @@ layout: default
 <article class="post {{ page.slug }} events">
   {%- include components/hero-entry.html -%}
   <div>
-    <div id='calendar' class="events_calendar" style="width: 65%;">
+    <div id='calendar' class="events_calendar">
     </div>
   </div>
-  <section class="post-content">
+  <section class="post-content news">
     <!--These lines are required to make the calendar work. It calls code from other Javascript libraries. Basically importing
       <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.0.3/locales-all.global.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.3/index.global.min.js"></script>
@@ -79,6 +79,23 @@ layout: default
           optionEl.selected = localeCode == initialLocaleCode;
           optionEl.innerText = localeCode;
         });
+
+        // If the user is on mobile, the view gets changed to an agenda view.
+        function mediaViewChange(x) {
+          if (x.matches) {
+            calendar.changeView('dayGridMonth');
+          } else {
+            calendar.changeView('listMonth');
+          }
+        }
+
+        var x = window.matchMedia("(min-width: 450px)")
+
+        mediaViewChange(x);
+
+        x.addEventListener("change", function () {
+          mediaViewChange(x);
+        })
 
 
       });
