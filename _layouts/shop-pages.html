@@ -37,7 +37,13 @@ layout: default
         <section class="shop-images">
           <div class="shop-img-grid">
             {% for image in page.shop_images %}
-              <img src="{{ image.src }}" alt="{{ image.description }}">
+            <style>
+              body {
+                background-image: "{{ image.src }}";
+                background-size: cover;
+              }
+            </style>
+            <!-- <img src="{{ image.src }}" alt="{{ image.description }}"> -->
             {% endfor %}
           </div>
         </section>
