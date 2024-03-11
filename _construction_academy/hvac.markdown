@@ -2,7 +2,7 @@
 layout: shop-pages
 title: HVAC/R
 date: 2022-10-25
-featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/troy-bridges-kXC6XhVL1e4-unsplash-1.jpg
+featured_image: https://wordpress.techhigh.us/wp-content/uploads/2024/03/dean-brierley-yTyXzvRJCUQ-unsplash.jpg
 tags: [ventilation, cooling, heating, maintenance]
 
 redirect_from:
