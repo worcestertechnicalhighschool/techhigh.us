@@ -115,7 +115,7 @@ collections:
 
   civics:
     output: true
-    permalink: /pages/:path/
+    permalink: /civics/:path
     
 
 # Exclude from processing.
