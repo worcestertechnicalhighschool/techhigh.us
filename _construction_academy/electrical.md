@@ -2,7 +2,7 @@
 layout: shop-pages
 title: Electrical
 date: 2022-10-25
-# featured_image: https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWxlY3RyaWNhbCUyMGVuZ2luZWVyaW5nfGVufDB8fDB8fHww
+featured_image: https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: [electric, wiring, electricity, maintenance]
 
 redirect_from:
@@ -18,9 +18,9 @@ shop_images:
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_9814.JPG.jpg
       description: "A group of student figuring out the wiring to a solar panel"
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_2667.HEIC.jpg
-      description: "One student being trained to stablized the wiring"
+      description: "One student being trained to stabilize the wiring"
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG_5545.JPG.jpg
-      description: "A student workng on a light switch"
+      description: "A student working on a light switch"
     - src: https://wordpress.techhigh.us/wp-content/uploads/2023/06/IMG-0845.jpg
       description: "Two student testing out a light bulb ability to turn on bright"
     - src: https://wordpress.techhigh.us/wp-content/uploads/2022/05/FDC66482-DC22-451F-B3AD-B6921EF997D9-scaled.jpg
