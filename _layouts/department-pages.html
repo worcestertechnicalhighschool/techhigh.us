@@ -7,10 +7,13 @@ layout: default
   {%- include components/hero-entry.html -%}
 
   <article class="post">
-    <section class="post-content">
+    {% if page.title == "History" %}
+      {% include civics_link.html %}
+    {% endif %}
+    <!-- <section class="post-content">
       <div class="shop-page-border">
         {{ content }}
-      </div>  
+      </div>   -->
     </section>
 
     <!-- Renders alumni data (in page front matter) but splits them into img, and content for easier styling-->
