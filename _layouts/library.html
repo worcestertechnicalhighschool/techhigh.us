@@ -8,25 +8,21 @@ layout: default
   <section class="post-content">
     {{ content }}
   </section>
-  <section>
-
-    <!-- [if IE]>
-<!DOCTYPE html>
-<![endif]-->
-
-    <!-- BEGIN: Carousel Profile: s4951594.main.carousel.ebs2361 AuthType: ip,uid QueryValue: LO system.nl-s4951594 -->
-
-    <style>
-      .flipstercarouselheader,
-      .scrollfix {
-        width: 100%;
-      }
-
-      .EBSCOcarouselContainer {
-        width: 1px;
-        min-width: 100%;
-      }
+  <!-- BEGIN: Carousel Profile: s4951594.main.carousel.ebs2361 AuthType: ip,uid QueryValue: LO system.nl-s4951594 -->
+  
+  <style>
+    .flipstercarouselheader,
+    .scrollfix {
+      width: 100%;
+    }
+    
+    .EBSCOcarouselContainer {
+      width: 1px;
+      min-width: 100%;
+    }
     </style>
+    
+    <section>
     <div class="flipstercarouselheader" style="overflow: hidden !important;">
       <div style="width: 100%; height: 45px;">
         <div style="float: left; width: 150px; text-align: left; padding-top: 5px;"><a style="cursor: pointer;"
@@ -43,9 +39,19 @@ layout: default
         class="EBSCOcarouselContainer" style="height: 300px;"
         src="https://widgets.ebscohost.com/prod/encryptedkey/eit/eit.php?t=themes%2Fflipster_carousel_slick%2Fxsl_auth_id.php%3Fcss%3D%2F%2Fimageserver.ebscohost.com%2Fbranding%2FFlipsterCarousel%2Fcss%2Fslick-app-theme.css&amp;q=https%3A%2F%2Fwidgets.ebscohost.com%2Fprod%2Fencryptedkey%2Fehis%2Fwidget.php%3Fprof%3Ds4951594.main.carousel%26pwd%3Debs2361%26sort%3Decmtitle%26query%3DLO%252Bsystem.nl-s4951594%26db%3Deon%26numrec%3D50%26format%3Dxml%26protect%3Dno%26removeehis%3D1%26pl%3D1%26smode%3D%26forcehttp%3Dhttp%26proxy%3D%26rcounturl%3D&amp;h=&amp;custid=s4951594&amp;authtype=ip,uid&amp;groupid=main"
         frameborder="0">You need a Frame Capable browser to view this content.</iframe>
-      <script>
-        //<![CDATA[ function carouselfixes() { var carouselcontainer = document.getElementsByClassName("EBSCOcarouselContainer"); if (carouselcontainer.length > 0) {
-        for (var ebsco = 0; ebsco < carouselcontainer.length; ebsco++) { carouselcontainer[ebsco].style.display = "none" }; // For Chrome v44 xsl iframe bug. carouselcontainer[ebsco].style.display = "block"; // For Chrome v44 xsl iframe bug. if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) { //check if using iOS mobile carouselcontainer[ebsco].scrolling = "no"; } } } } window.addEventListener("load", carouselfixes(), false); //]]>
+        <!-- Shrinks the pages on mobile.-->
+      <script type="text/javascript">
+        //<![CDATA[ 
+        function carouselfixes() {
+          var carouselcontainer = document.getElementsByClassName("EBSCOcarouselContainer");
+          if (carouselcontainer.length > 0) {
+            for (var ebsco = 0; ebsco < carouselcontainer.length; ebsco++) {
+              carouselcontainer[ebsco].style.display = "none";
+            };
+          };
+        };
+      //]]>
+      // For Chrome v44 xsl iframe bug. carouselcontainer[ebsco].style.display = "block"; // For Chrome v44 xsl iframe bug. if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) { //check if using iOS mobile carouselcontainer[ebsco].scrolling = "no"; } } } } window.addEventListener("load", carouselfixes(), false); //]]>
       </script>
 
     </div>
