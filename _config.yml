@@ -107,11 +107,15 @@ collections:
 
   pages:
     output: true
-    permalink: :path/
+    permalink: /:path/
 
   summer_work:
     output: true
     permalink: /summer-work/:path/
+
+  civics:
+    output: true
+    permalink: /civics/:path
     
 
 # Exclude from processing.
