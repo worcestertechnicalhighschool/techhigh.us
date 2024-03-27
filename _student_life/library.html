@@ -1,28 +1,27 @@
 ---
 layout: default
 ---
-<article class="post {{ page-slug }}">
-
+<article class="post {{ page.slug }}">
   {%- include components/hero-entry.html -%}
 
   <section class="post-content">
-    {{ content }}
+    <div class="fs-3">
+      <p>Mike Garvey, Librarian. Welcome to the Library Media Center. Please use the links to the right to access Media
+        Center resources. For more information about this department, contact Mr. Garvey. </p>
+      <p>
+        <strong>Databases & Websites:</strong>
+        <br>
+        What are databases?
+      </p>
+      <p>A library database is an online resource (it is not a website) that we subscribe to/pay for. That contains
+        articles and information from print sources such as magazines, newspapers, journals and reference books. An
+        article database enables you to search through thousands (sometimes millions) of different magazines, journals
+        and newspapers to find articles on a particular topic. Some of the articles you will find are Full Text.</p>
+    </div>
   </section>
   <!-- BEGIN: Carousel Profile: s4951594.main.carousel.ebs2361 AuthType: ip,uid QueryValue: LO system.nl-s4951594 -->
-  
-  <style>
-    .flipstercarouselheader,
-    .scrollfix {
-      width: 100%;
-    }
-    
-    .EBSCOcarouselContainer {
-      width: 1px;
-      min-width: 100%;
-    }
-    </style>
-    
-    <section>
+
+   <section>
     <div class="flipstercarouselheader" style="overflow: hidden !important;">
       <div style="width: 100%; height: 45px;">
         <div style="float: left; width: 150px; text-align: left; padding-top: 5px;"><a style="cursor: pointer;"
@@ -35,11 +34,11 @@ layout: default
           src="https://imageserver.ebscohost.com/branding/FlipsterCarousel/image/catbrowsehdr.png" width="100%"
           height="6px" border="0" /></div>
     </div>
-    <div class="scrollfix" style="height: 280px; margin-top: -10px; overflow: hidden !important;"><iframe
+    <div class="scrollfix" style="height: 200px; margin-top: -10px; overflow: hidden !important;"><iframe
         class="EBSCOcarouselContainer" style="height: 300px;"
         src="https://widgets.ebscohost.com/prod/encryptedkey/eit/eit.php?t=themes%2Fflipster_carousel_slick%2Fxsl_auth_id.php%3Fcss%3D%2F%2Fimageserver.ebscohost.com%2Fbranding%2FFlipsterCarousel%2Fcss%2Fslick-app-theme.css&amp;q=https%3A%2F%2Fwidgets.ebscohost.com%2Fprod%2Fencryptedkey%2Fehis%2Fwidget.php%3Fprof%3Ds4951594.main.carousel%26pwd%3Debs2361%26sort%3Decmtitle%26query%3DLO%252Bsystem.nl-s4951594%26db%3Deon%26numrec%3D50%26format%3Dxml%26protect%3Dno%26removeehis%3D1%26pl%3D1%26smode%3D%26forcehttp%3Dhttp%26proxy%3D%26rcounturl%3D&amp;h=&amp;custid=s4951594&amp;authtype=ip,uid&amp;groupid=main"
         frameborder="0">You need a Frame Capable browser to view this content.</iframe>
-        <!-- Shrinks the pages on mobile.-->
+      <!-- Shrinks the pages on mobile. -->
       <script type="text/javascript">
         //<![CDATA[ 
         function carouselfixes() {
@@ -50,20 +49,19 @@ layout: default
             };
           };
         };
-      //]]>
-      // For Chrome v44 xsl iframe bug. carouselcontainer[ebsco].style.display = "block"; // For Chrome v44 xsl iframe bug. if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) { //check if using iOS mobile carouselcontainer[ebsco].scrolling = "no"; } } } } window.addEventListener("load", carouselfixes(), false); //]]>
+        //]]>
+        // For Chrome v44 xsl iframe bug. carouselcontainer[ebsco].style.display = "block"; // For Chrome v44 xsl iframe bug. if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) { //check if using iOS mobile carouselcontainer[ebsco].scrolling = "no"; } } } } window.addEventListener("load", carouselfixes(), false); //]]>
       </script>
-
     </div>
-    <div id="s-lg-content-36726931" class=" clearfix">
 
-      Read our magazines from your mobile device:
-      <ol>
-        <li>Download the Flipster app from your mobile device’s app store</li>
-        <li>Select your school “WORCESTER TECHNICAL HIGH SCHOOL”</li>
-        <li>Enter our EBSCO user id and password</li>
+    <div id="s-lg-content-36726931" class="magazine_steps_contianer">
+      <p class="magazine_steps_header">Read our magazines from your mobile device:</p>
+      <ol style="font-family: 'Oswald', sans-serif;">
+        <li>Download the Flipster app from your mobile device's app store.</li>
+        <li>Select your school “WORCESTER TECHNICAL HIGH SCHOOL”.</li>
+        <li>Enter our EBSCO user id and password.</li>
         <li>These instructions only need to be done the first time. After that opening the app will bring you to the
-          magazines</li>
+          magazines.</li>
       </ol>
     </div>
     <h3>Library Online Resources</h3>
@@ -119,18 +117,16 @@ layout: default
         <li><a title="Worcester Public Library" href="http://www.worcpublib.org/" target="_blank"
             rel="noopener">Worcester Public Library</a></li>
         <li><a title="Alexandria Researcher" href="https://randolph.goalexandria.com/researcher" target="_blank"
-            rel="noopener">ALEXANDRIA RESEACHER</a> Automation card catalog</li>
+            rel="noopener">ALEXANDRIA RESEACHER  Automation card catalog</a></li>
       </ul>
     </div>
     <blockquote><q>The man who does not read good books has no advantage over the man who can't read them.</q>
-
       <footer><cite>Mark Twain</cite></footer>
     </blockquote>
-
   </section>
 
   <section class="contact-us">
-    <h2 id="faculty">Faculty</h2>
+    <h2 id="faculty" style="text-align:center">Faculty</h2>
     <div class="faculty-list card-container">
       {% for faculty in site.data.faculty %}
       {% assign staff = faculty.department | remove: '"' %}
@@ -156,3 +152,44 @@ layout: default
   </section>
 
 </article>
+
+<style>
+  .hero-entry {
+    background-image: url(https://wordpress.techhigh.us/wp-content/uploads/2022/04/clay-banks-OcnokxBmwQg-unsplash-1.jpg);
+  }
+
+  p, strong, dt, dl, dd, a{
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .flipstercarouselheader,
+  .scrollfix {
+    width: 100%;
+  }
+
+  .EBSCOcarouselContainer {
+    width: 1px;
+    min-width: 100%;
+  }
+
+  .magazine_steps_contianer{
+    margin:auto;
+    width:50%;
+    padding: 50px;
+  }
+
+  .magazine_steps_header{
+    border: 3px solid #5E819D;
+    background-color: #5E819D;
+    text-align: center;
+    color: white;
+    margin: auto;
+    border-radius: 50px;
+    /* font-size: medium; */
+  }
+
+  ol {
+    text-align: left;
+    font-size: small;
+  }
+</style>
