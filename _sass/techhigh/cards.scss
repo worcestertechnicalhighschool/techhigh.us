@@ -145,8 +145,9 @@
         
         text-align: center;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        /* They don't do anything. */
+        /* flex-direction: column;
+        justify-content: space-between; */
         height: 550px;
         padding: 10px 0;
         img{

@@ -26,4 +26,11 @@ courses:
 
 description: Students explore the past in order to guide us in the present by studying our rich history.
 ---
+<section>
+    <div>
+      <p>The civics project is made by the history department. Here's the link to it.</p>
+      <a href="/civics/">The Civics Project.</a>
+    </div>  
+</section>
+
 

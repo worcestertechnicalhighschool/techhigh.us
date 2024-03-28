@@ -107,7 +107,7 @@ collections:
 
   pages:
     output: true
-    permalink: :path/
+    permalink: /:path/
 
   summer_work:
     output: true
