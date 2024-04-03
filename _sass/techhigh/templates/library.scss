@@ -1,0 +1,51 @@
+dt, dd {
+    padding-left: 30px;
+}
+
+.libraryLinks {
+    padding-left: 40px;
+}
+
+#libraryFaculty {
+    text-align: center;
+    font-size: 3em;
+    border-bottom: solid 2px $primary;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.firstLibr {
+    padding-top: 10px;
+}
+
+.libraryHeader2 {
+    text-align: left !important;
+    padding-left: 15px;
+}
+
+.soraCaption {
+    color: $secondary;
+}
+
+.libraryHeader1 {
+    color: $secondary;
+}
+
+.libraryHeader3 {
+    color: $primary;
+    padding-left: 15px;
+}
+
+.libraryOrdered {
+    padding-left: 50px;
+}
+
+#faculty {
+    text-align: center !important;
+    padding-left: 0px !important;
+}
+
+blockquote {
+    text-align: center;
+}
