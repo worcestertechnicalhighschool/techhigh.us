@@ -114,10 +114,14 @@
 
     .courses{
         .summer-work{
+            color: white;
+            background-color: $primary;
+            padding: 20px;
             border-radius: 10px;
-            margin-top: 0;
-            background-color: $light-grey;
-            color: black;
+        ul {
+            padding: 0;
+            margin-left: 20px;
+        }
         }
     }
 
