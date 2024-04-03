@@ -2,27 +2,25 @@
 layout: default
 ---
 <article class="post {{ page.slug }}">
+
   {%- include components/hero-entry.html -%}
 
   <section class="post-content">
-    <div>
-      <p>Mike Garvey, Librarian. Welcome to the Library Media Center. Please use the links to the right to access Media
-        Center resources. For more information about this department, contact Mr. Garvey. </p>
-      <p>
-        <strong>Databases & Websites:</strong>
-        <br>
-        What are databases?
-      </p>
-      <p>A library database is an online resource (it is not a website) that we subscribe to/pay for. That contains
+    <p>
+      <p class="firstLibr">Welcome to the Library Media Center. Please use the links to the right to access Media
+        Center resources. For more information about this department, contact Mr. Garvey.</p>
+      <h1 class="libraryHeader1">Databases & Websites</h1>
+
+      <p>A library database is an online resource (not a website) that we subscribe to/pay for. That contains
         articles and information from print sources such as magazines, newspapers, journals and reference books. An
-        article database enables you to search through thousands (sometimes millions) of different magazines, journals
+        article database enables you to search through thousands, sometimes millions, of different magazines, journals
         and newspapers to find articles on a particular topic. Some of the articles you will find are Full Text.</p>
     </div>
   </section>
   <!-- BEGIN: Carousel Profile: s4951594.main.carousel.ebs2361 AuthType: ip,uid QueryValue: LO system.nl-s4951594 -->
 
-   <section>
-    <div class="flipstercarouselheader" style="overflow: hidden !important;">
+  <section>
+    <div class="flipsterCarouselHeader" style="overflow: hidden !important;">
       <div style="width: 100%; height: 45px;">
         <div style="float: left; width: 150px; text-align: left; padding-top: 5px;"><a style="cursor: pointer;"
             href="https://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;custid=s4951594&amp;db=eon&amp;profile=eon"
@@ -56,7 +54,7 @@ layout: default
 
     <div id="s-lg-content-36726931" class="magazine_steps_contianer">
       <p class="magazine_steps_header">Read our magazines from your mobile device:</p>
-      <ol style="font-family: 'Oswald', sans-serif;">
+      <ol class="libraryOrdered">
         <li>Download the Flipster app from your mobile device's app store.</li>
         <li>Select your school “WORCESTER TECHNICAL HIGH SCHOOL”.</li>
         <li>Enter our EBSCO user id and password.</li>
@@ -64,7 +62,7 @@ layout: default
           magazines.</li>
       </ol>
     </div>
-    <h3>Library Online Resources</h3>
+    <h3 class="libraryHeader3">Library Online Resources</h3>
     <dl>
       <dt><a href="http://www.citationmachine.net/">Citation Machine</a></dt>
       <dd>MLA APA TURABIAN CHICAGO Click the citation format you need and then the type of resource you wish to cite.
@@ -86,33 +84,32 @@ layout: default
       <dd>Here you will find maps, games and activities, teaching resources, and geographic reference information.</dd>
     </dl>
 
-    <div id="sora" class="sora_image">
-      <img src="../../assets/images/logos/sora_logo.png" alt="" style="width:100px; height:100px;">
-      <h1>MAGAZINES NOW AVAILABLE ON SORA!</h1>
+    <div>
+      <h1 class="soraCaption">MAGAZINES NOW AVAILABLE ON SORA!</h1>
     </div>
-      <h2>Finding the Titles</h2>
-      <ul>
+      <h2 class="libraryHeader2">Finding the Titles</h2>
+      <ul class="libraryLinks">
         <li>You should see the collection called “Always Available Magazines” as the second curation on the Sora Explore page. If you’re NOT seeing this, it means that you and/or someone has done some custom curations on your page. You can either revert your page back to the shared collection OR create your own curation of the magazines. </li>
         <li>Regardless of custom curation status, you can now click on the “Magazines” button toward the top left-hand side of the page to view all titles (“Magazines in Sora” screenshot). </li>
         <li>You can also use Sora Filters > Format > Magazines to view the titles. </li>
       </ul>
-      <h2>Borrowing the Tiles</h2>
-      <ul>
+      <h2 class="libraryHeader2">Borrowing the Tiles</h2>
+      <ul class="libraryLinks">
         <li>Borrow a magazine title like you would any other title in Sora. Click the “Select Another Issue” button to see what other issues are available. </li>
         <li>All magazine titles have the “always available” label which means that they’re available in unlimited simultaneous use for everyone and there are no limits on the number of individuals that can have an issue checked out at any time.</li>
         <li>Unlike shared collection eBook and audiobooks, magazines do NOT count toward the total number of items that can be checked out at a time (5). It is possible to have 5 eBooks/audiobooks checked out and then a large number of magazine checkouts simultaneously.</li>
         <li>Because magazine titles have the “always available” label, they are able to be assigned to students, if desired.</li>
       </ul>
-      <h2>Reading the Titles</h2>
-      <ul>
+      <h2 class="libraryHeader2">Reading the Titles</h2>
+      <ul class="libraryLinks">
         <li>There are about 284 unique titles in the magazine collection with titles in English, Spanish, French, Portuguese, and a few others. I have attached a current list of titles. I will also be updating the standing curation as new titles are added.</li>
         <li>If there are any new titles to add, they are added quarterly. I believe new issues are loaded according to the interval of the individual title.</li>
       </ul>
     </div>
 
-    <div class="liblinks">
-      <h3>More Links</h3>
-      <ul>
+    <div>
+      <h3 class="libraryHeader3">More Links</h3>
+      <ul class="libraryLinks">
         <li><a href="http://libraries.state.ma.us/login?db=AONE&amp;locid=mlin_c_wvths">Academic OneFile</a></li>
         <li><a href="http://infotrac.galegroup.com/itw/infomark/0/1/1/purl=rc6_CLC?sw_aep=mlin_c_wvths">Contemporary
             Literary Criticism Select</a></li>
@@ -150,8 +147,8 @@ layout: default
     </blockquote>
   </section>
 
-  <section class="contact-us">
-    <h2 id="faculty" style="text-align:center">Faculty</h2>
+  <section class="staff-members">
+    <h2 id="libraryFaculty">Faculty</h2>
     <div class="faculty-list card-container">
       {% for faculty in site.data.faculty %}
       {% assign staff = faculty.department | remove: '"' %}
@@ -177,55 +174,3 @@ layout: default
   </section>
 
 </article>
-
-<style>
-  .hero-entry {
-    background-image: url(https://wordpress.techhigh.us/wp-content/uploads/2022/04/clay-banks-OcnokxBmwQg-unsplash-1.jpg);
-  }
-
-  p, strong, dt, dl, dd, a{
-    font-family: 'Oswald', sans-serif;
-  }
-
-  .flipstercarouselheader,
-  .scrollfix {
-    width: 100%;
-  }
-
-  .EBSCOcarouselContainer {
-    width: 1px;
-    min-width: 100%;
-  }
-
-  .magazine_steps_contianer{
-    margin:auto;
-    width:50%;
-    padding: 50px;
-  }
-
-  .magazine_steps_header{
-    border: 3px solid #5E819D;
-    background-color: #5E819D;
-    text-align: center;
-    color: white;
-    margin: auto;
-    border-radius: 50px;
-    font-size: xx-large;
-  }
-
-  ol {
-    text-align: left;
-    font-size: large;
-  }
-
-  .sora_image {
-    display: flex;
-    align-items: center;
-  }
-
-  .sora_image img {
-    margin-right: 10px;
-    width: 100px;
-    height: auto;
-  }
-</style>
