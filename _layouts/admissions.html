@@ -46,7 +46,7 @@ layout: default
           </div>
 
         </div>
-        <div class="documents" id="documents">
+        <div class="documents" id="documents"> <!-- Here's what I'm talking about, this div has a class name of documents. Check this out.-->
         </div></div>
       </class>
       </section>
@@ -102,32 +102,32 @@ layout: default
 </div>
 
 <script>
+  // You should only use console.log when debugging. 
   const video = document.querySelector("iframe");
   const placeholder = document.querySelector("#placeholder");
   const docs = document.querySelector('#documents');
 
   let premier = new Date('12 April 2024 17:00') 
   let now = Date.now();
-
+  // If the current date is greater then the premier date, playVideo is called. Else, waitForVideo is ran.
   if (now >= premier) {
     playVideo();
   } else {
     waitForVideo();
   }
-  
+  // Displays the Video.
   function playVideo() {
     placeholder.style.display = "none";
     docs.style.display = "block";
-    console.log('playing')
   };
-  
+  // Hides the Video.
   function waitForVideo(s) {
-    console.log("this page will reload in 10 mins ... ");
     video.style.display = "none";
     docs.style.display = "none";
     placeholder.style.display = "block";
     //         ms     s    min
     let time = 1000 * 60 * 10;
+    // Clears the previous timeout, reloads the page and sets a new timeout on a 10 minute interval.
     const t = setTimeout(() => {
       clearTimeout(t);
       location.reload();
