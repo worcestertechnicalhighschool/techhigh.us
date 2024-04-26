@@ -44,5 +44,43 @@ layout: default
 
       </section> <!--closses the last department section-->
     </div><!--This div connects to "faculty-list"-->
-  
+
+    <textarea></textarea>
+
+  <script>
+    const facultyList = document.querySelector('.faculty-list');
+    const facultyChildren = facultyList.children;
+    let filteredList = [];
+    let dept;
+    let members;
+    let search = "leb";
+
+    for (let i = 0; i < facultyChildren.length; i++) {
+      if (i % 2 == 0) {
+        dept = facultyChildren[i];
+      }
+      else {
+        let section = facultyChildren[i];
+        let names = facultyChildren[i].querySelectorAll('.name');
+        let staffMembers = []
+        members = [];
+        for (let j=0; j<names.length;j++) {
+          // console.log(names[j].innerText.toLowerCase(), search, i,j, names[j].innerText.includes(search) )
+          if (names[j].innerText.toLowerCase().closest(search)) {
+            members.push(names[j]);
+          }
+        }
+        if (members.length > 0) {
+          section.children = members.join('');
+          console.log(dept, section)
+          filteredList.push(dept);
+          filteredList.push(section);
+        }
+      }
+    }
+
+    // console.table(filteredList);
+    facultyList.children = filteredList;
+  </script>
+
   </article>
