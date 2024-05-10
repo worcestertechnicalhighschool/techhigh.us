@@ -3,6 +3,11 @@ layout: default
 ---
 <article class="post faculty">
 
+  <div class="search-container">
+    <input type="text" placeholder="Search..." id="search_bar">
+    <button>Search</button>
+  </div>
+
     <header class="post-header">
       <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
@@ -45,42 +50,35 @@ layout: default
       </section> <!--closses the last department section-->
     </div><!--This div connects to "faculty-list"-->
 
-    <textarea></textarea>
-
   <script>
-    const facultyList = document.querySelector('.faculty-list');
-    const facultyChildren = facultyList.children;
-    let filteredList = [];
-    let dept;
-    let members;
-    let search = "leb";
-
-    for (let i = 0; i < facultyChildren.length; i++) {
-      if (i % 2 == 0) {
-        dept = facultyChildren[i];
-      }
-      else {
-        let section = facultyChildren[i];
-        let names = facultyChildren[i].querySelectorAll('.name');
-        let staffMembers = []
-        members = [];
-        for (let j=0; j<names.length;j++) {
-          // console.log(names[j].innerText.toLowerCase(), search, i,j, names[j].innerText.includes(search) )
-          if (names[j].innerText.toLowerCase().closest(search)) {
-            members.push(names[j]);
-          }
-        }
-        if (members.length > 0) {
-          section.children = members.join('');
-          console.log(dept, section)
-          filteredList.push(dept);
-          filteredList.push(section);
-        }
-      }
-    }
-
-    // console.table(filteredList);
-    facultyList.children = filteredList;
+    function filterList() {
+    const searchTerm = document.getElementById('search_bar').value.toLowerCase();
+    
+    const last_hope = document.querySelectorAll('.faculty-list h2');
+    
+    last_hope.forEach(item => {
+      const text = item.textContent.toLowerCase();
+      const next = item.nextElementSibling;
+      if(text.includes(searchTerm)) {
+        item.style.display = 'block';
+        next.style.display = 'flex';
+      } else {
+        // const ptags = document.querySelectorAll('div.staff p');
+        // ptags.forEach(item2 => {
+        //   const text2 = item2.textContent.toLowerCase();
+        //   if(text2.includes(searchTerm)) {
+        //     item2.style.display = 'block';
+        //   } else {
+        //     item2.style.display = 'none';
+        //   }
+        // });
+        item.style.display = 'none';
+        next.style.display = 'none';
+      };
+    })
+  };
+  
+  document.getElementById('search_bar').addEventListener('input', filterList);
   </script>
 
   </article>
