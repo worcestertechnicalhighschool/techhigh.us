@@ -65,7 +65,7 @@ layout: default
       if (dept.innerText.toLowerCase().includes(searchTerm)) {
         console.log(dept);
         dept.style.display = "block";
-        members.style.display = "block";
+        members.style.display = "flex";
       } else {
         dept.style.display = "none";
         const cards = members.querySelectorAll('.card');
