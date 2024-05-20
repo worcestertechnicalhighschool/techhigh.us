@@ -2,7 +2,7 @@
 layout: page
 title: General Advisory Board
 date: 2022-10-26
-featured_image: https://wordpress.techhigh.us/wp-content/uploads/2022/04/jo-szczepanska-5aiRb
+featured_image:
 ---
 
 Pursuant to Massachusetts General Law Chapter 74, Section 2, and The Vocational Technical Education Regulation 603 CMR 4.00, Worcester Technical High School appoints Program Advisory Committees for each program area under its control in addition to a General Advisory Committee.
@@ -33,6 +33,8 @@ Regular Agenda Items:
         </ul>
 </ul>
 
-The Chairperson from each Program Advisory Committee serves on the **General Advisory Board**.  The General Advisory Board meets twice per year.  All  Program members are welcome to attend. 
-* &nbsp;&nbsp;The first meeting is in the Fall
-* &nbsp;&nbsp;The second meeting is in the Spring
+The Chairperson from each Program Advisory Committee serves on the **General Advisory Board**.  The General Advisory Board meets twice per year.  All  Program members are welcome to attend.
+<ul style="padding-left: 30px">
+    <li>The first meeting is in the Fall.</li>
+    <li>The second meeting is in the Spring.</li>
+</ul>
