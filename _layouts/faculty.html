@@ -6,11 +6,17 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
+<div class="container-fluid">
 
-  <div class="search-container">
-    <input type="text" placeholder="Search..." id="search_bar">
-    <button>Search</button>
+  <div class="row justify-content-lg-center">
+    <div class="col-lg-5">
+      <div class="filter-container input-group mb-3">
+        <input class="form-control" type="text" placeholder="Type Here to filter list" id="filter">
+        <button class="btn btn-secondary" id="clear">Clear Filter</button>
+      </div>
+    </div>
   </div>
+</div>
 
   <section class="post-content">
     {{ content }}
@@ -56,19 +62,25 @@ layout: default
 
 <script>
   const facultyList = document.querySelector(".faculty-list").children;
+  const filterEl = document.getElementById("filter");
   function filterList() {
-    const searchTerm = document.getElementById("search_bar").value.toLowerCase();
+
+    const searchTerm = filterEl.value.toLowerCase();
 
     for (let i = 0; i < facultyList.length; i += 2) {
       const dept = facultyList[i];
       const members = facultyList[i + 1];
-      if (dept.innerText.toLowerCase().includes(searchTerm)) {
-        console.log(dept);
+      const cards = members.querySelectorAll('.card');
+      if (dept.innerText.toLowerCase().includes(searchTerm) || searchTerm.trim().length < 1) {
+        console.log(dept.innerHTML);
+        console.log(members);
         dept.style.display = "block";
-        members.style.display = "flex";
+        // members.style.display = "flex";
+        cards.forEach(card => {
+          card.style.display = "flex";
+        });
       } else {
         dept.style.display = "none";
-        const cards = members.querySelectorAll('.card');
         cards.forEach(card => {
           const facName = card.querySelector('.card-title').innerText.toLowerCase();
           const facTitle = card.querySelector('.card-description').innerText.toLowerCase();
@@ -82,3 +94,10 @@ layout: default
       }
     }
   }
+  function clearFilter() {
+    filterEl.value = "";
+    filterList();
+  }
+  document.getElementById("filter").addEventListener("input", filterList);
+  document.getElementById("clear").addEventListener("click", clearFilter);
+</script>
