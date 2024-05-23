@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 ---
 [
   {% for c in site.collections %}

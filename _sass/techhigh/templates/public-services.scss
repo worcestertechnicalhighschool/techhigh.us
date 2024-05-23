@@ -145,6 +145,12 @@
             background-color: $secondary;
             max-width: 525px;
             margin-top: 20px;
+            @media (max-width:$breakpoint_standard) {
+                table {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
             @media (min-width:$breakpoint_standard) {
                 margin-bottom: 20px;
             }
@@ -162,6 +168,10 @@
             text-decoration: underline;
             text-align: center;
         }
+        table {
+            width: 100%;
+        }
+
         td {
             color: white;
             padding: 3px;
@@ -170,8 +180,10 @@
             width: 100%;
             height: 75%;
             left: 0;
-            top: 0; 
-              border-bottom: 3px white dotted; 
+            top: 0;
+            @media (min-width:$breakpoint_standard) {
+                border-bottom: 3px white dotted; 
+            }
         }
         em {
             color: white;

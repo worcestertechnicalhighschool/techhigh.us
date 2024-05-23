@@ -23,11 +23,9 @@ In 2014, We launched the new techhigh.us WordPress site. This site was built fro
 <!-- ![Screenshot of the first techhigh.us WordPress site](https://wordpress.techhigh.us/wp-content/uploads/2023/01/techhigh-wp.png) -->
 <img class="img-fluid" src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/techhigh-wp.png" alt="Screenshot of the first techhigh.us WordPress site">
 
-In September of 2017-2018 school year, Anthony Le, Jeffery Neal, and Mariah Donahue began work on the new site you see today. Their combined effort took an entire school-year to accomplish. The final result was over 2000 lines of code, spanning 30 files.
+In September of 2017-2018 school year, Anthony Le, Jeffery Neal, and Mariah Donahue reworked the Wordpress site with a new theme. It used Bootstrap to give the website the look and feel of an professional website. This allowed for the website to have accessability for mobile users. It took an entire school-year to accomplish. The final result was over 2000 lines of code, spanning 30 files.
 
 <img class="img-fluid" src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/techhigh-2018-scaled.jpg" alt="2018 Custom Techhigh Theme">
 
-This Wordpress theme is built with the mobile-first Bootstrap CSS framework and customized to look and feel like a modern, professional website. The information hierarchy utilizes categories to present the most relevant information to our visitors.
-
 ## Latest Version
-In 2022 we created a collaborative partnership between students in Programming and Web Development and Finance and Marketing. Through this partnership we rebuilt techhigh.us with all new content, code, and workflow processes. This site is now built using Jekyll and is hosted on GitHub Pages. Students meet on Monday for our weekly production meeting. Features and content are discussed and assigned to students. Thursday is our regular build day where we push new versions of our code. Check back often to see our changes!
+In 2022 we created a collaborative partnership between students in Programming and Web Development and Finance and Marketing. Through this partnership we rebuilt techhigh.us with all new content, code, and workflow processes. This site is now built using Jekyll, a static site generator, which uses HTML and Markdown for the pages themselves. We use CSS and Bootstrap for styling. We do builds of this site on Thursday, this's where we push new code to. Check back often to see what's new!

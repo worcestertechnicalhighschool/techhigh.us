@@ -35,8 +35,11 @@ layout: default
       <div class="outer"><div class="background">
         <h3 id="inner">Worcester Tech's lottery will be run and posted online.</h3>
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/eqtWI4g0EQw " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        
+        <!-- You tube premier video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CmsJwFdOqbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- link to results -->
+        <p>View the official results on the <a href="https://worcesterschools.org/school-subpage/admission-lottery-results/" target="_Blank">WPS Lottery Results Page <i class="fa-solid fa-arrow-up-right-from-square"></i></a>.</p>
+
         <div id="placeholder" class="video-placeholder">
           <img src="https://wordpress.techhigh.us/wp-content/uploads/2023/01/worcester-tech-eagles.svg" alt="WTHS" width="100" height="100">
           <p>Worcester Tech's admission lottery will be run and posted online.<br>Applications open:</p>
@@ -46,7 +49,7 @@ layout: default
           </div>
 
         </div>
-        <div class="documents" id="documents">
+        <div class="documents" id="documents"> <!-- Here's what I'm talking about, this div has a class name of documents. Check this out.-->
         </div></div>
       </class>
       </section>
@@ -102,32 +105,32 @@ layout: default
 </div>
 
 <script>
+  // You should only use console.log when debugging. 
   const video = document.querySelector("iframe");
   const placeholder = document.querySelector("#placeholder");
   const docs = document.querySelector('#documents');
 
-  let premier = new Date('12 April 2024 17:00') 
+  let premier = new Date('10 April 2024 17:00') 
   let now = Date.now();
-
+  // If the current date is greater then the premier date, playVideo is called. Else, waitForVideo is ran.
   if (now >= premier) {
     playVideo();
   } else {
     waitForVideo();
   }
-  
+  // Displays the Video.
   function playVideo() {
     placeholder.style.display = "none";
     docs.style.display = "block";
-    console.log('playing')
   };
-  
+  // Hides the Video.
   function waitForVideo(s) {
-    console.log("this page will reload in 10 mins ... ");
     video.style.display = "none";
     docs.style.display = "none";
     placeholder.style.display = "block";
     //         ms     s    min
     let time = 1000 * 60 * 10;
+    // Clears the previous timeout, reloads the page and sets a new timeout on a 10 minute interval.
     const t = setTimeout(() => {
       clearTimeout(t);
       location.reload();
