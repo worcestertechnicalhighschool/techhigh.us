@@ -2,7 +2,7 @@
 # To run this script you must create a Github access token 
 #  -> Github >> Settings >> Developer Settings >> Tokens (Classic)
 #  -> Grant public repo access
-# Delete the contributors.sh file, the command will recreate it.
+# Delete the contributors.json file, the command will recreate it.
 # Run in terminal (mac/linux) or Git Bash (win):
 # sh ./contributors.sh YOUR_TOKEN
 # KEEP YOUR TOKEN SECRET!
