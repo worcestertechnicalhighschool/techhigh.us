@@ -22,7 +22,7 @@ title: Worcester Technical High School
 email: info@techhigh.us
 description: >- # this means to ignore newlines until "baseurl:"
   Worcester Technical High School is a Chapter 74 Vocational School in Central Massachusetts.
-baseurl: "/techhigh.us" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://techhigh.us" # the base hostname & protocol for your site, e.g. http://example.com
 lang: "en"
 
